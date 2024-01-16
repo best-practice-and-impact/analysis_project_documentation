@@ -8,7 +8,7 @@ The repository contains these folders:
 1) **commissioning**: Contains Excel template on commissioning where teams can document the scope, limitations and risks around the analysis as well as providing information on specific roles and responsibilties.
 2) **assumptions**: Contains a standard template to record the assumptions made about the analysis, justify their suitability given the modelling scenario, proof of internal and external verification and the quality rating of each assumption. The folder also contains a markdown document and a package that will search the current directory for assumptions and write the log to the same directory.
 3) **qa_report**: Contains an automated template which include some generic functions on data quality checks, for example, checking for any logical or arithmetic relationships in the data and check if values fall inside an acceptable/expected range. The idea is to produce a summary of the results of tests performed on the most recent data run.  
-4) **guidance_on_quality_questions**: The folder provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the analytical cycle. The tool is in the form of an interactive website which can be found in the site folder.  
+4) **website_quality_questions**: The folder provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the analytical cycle. The tool is in the form of an interactive website which can be found in the site folder.  
 5) Data: Example datasets on house prices and university dropouts.
 
 # Software requirements  
