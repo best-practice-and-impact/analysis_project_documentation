@@ -1,0 +1,100 @@
+---
+title: "Qualitative Assumptions log"
+date: now
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-title: "Contents"
+    toc-location: left
+    html-math-method: katex
+---
+```{python}
+import numpy as np
+import pandas as pd
+from IPython.display import display, Markdown
+
+assumptions = pd.read_excel("D:\\git_demo\\Assumptions/Qualitative_assumptions/assumptions_and_decision_log_template.xlsx", sheet_name="assumptions")
+```
+
+
+This log contains a list of assumptions used in this analysis.
+
+## Definitions
+
+Assumptions are red, amber or green (RAG) rated according to the following definitions for quality. The quality of an assumption measures both how certain and robust an assumption is and how appropriate it is for its intended use.
+We would consider a published data source data as very robust,  but if it needs to be transformed significantly to fit the model, the quality rating would be downgraded. You may want to lower the quality rating if it is not possible to get technical sign-off for the assumptions (e.g. lack of technical knowledge). You will also want to lower the quality if the confidence interval is likely to be wide (i.e. you wouldn't be surprised if the value was 50% different) - in this case, you should rank it as amber/red.:
+
+| RAG rating | Assumption quality |
+|------------|--------------------|
+| GREEN | Based on validated ‘actual’ data; Methodology is robust; There are no or few transformations, or transformation methodology is also fully verified and robust; Data is current, and signed off by experts; Small confidence interval. | 
+| AMBER | The methodology  is robust but based on limited data; Data required significant transformation to fit the model; Confidence interval is quite wide; Data has not been reviewed recently. | 
+| RED   | Unclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval wide/unknown. |
+
+## Assumptions
+
+This analysis contains the following assumptions:
+
+```{python}
+display(Markdown(f"""  
+**Assumption 1**: {assumptions.at[0, 'Plain English description of assumption']}  
+Quality: {assumptions.at[0, 'Quality Rating']}  
+  """))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 2**: {assumptions.at[1, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[1, 'Quality Rating']}  
+  """))
+``` 
+
+```{python}
+display(Markdown(f"""    
+**Assumption 3**: {assumptions.at[2, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[2, 'Quality Rating']}  
+ """))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 4**: {assumptions.at[3, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[3, 'Quality Rating']}  
+ """))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 5**: {assumptions.at[4, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[4, 'Quality Rating']}  
+"""))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 6**: {assumptions.at[5, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[5, 'Quality Rating']}  
+  """))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 7**: {assumptions.at[6, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[6, 'Quality Rating']}  
+"""))
+``` 
+
+
+```{python}
+display(Markdown(f"""   
+**Assumption 8**: {assumptions.at[7, 'Plain English description of assumption']}  
+* **Quality**: {assumptions.at[7, 'Quality Rating']}  
+ """))
+``` 

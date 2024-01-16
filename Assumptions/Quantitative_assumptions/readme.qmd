@@ -1,0 +1,56 @@
+---
+title: "README"
+author: "Shazmeen Maroof"
+date: now
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-title: "Contents"
+    toc-location: left
+    html-math-method: katex
+---
+
+<div style="text-align: justify"> 
+
+
+## Assumptions' package by David Foster
+Assumptions package search for assumptions written in the code[^1]  and publish a report on it by listing all assumptions, their quality rating, location, and description. Once installed, it is as easy as passing the code *assumptions* and it will produce a markdown file on assumptions’ log within a minute. Another benefit is how it avoids manually changing the assumptions’ log. For example, every time a new assumption is entered into the code or any of the old one gets changed or deleted, there is no need of manually changing the assumptions’ log. Passing the code *assumptions* will wither update the log (if an assumption has been added or changed since the last time the log was created) or return with the message *'no change to log items, log not updated'* if nothing has changed since the last log. Moreover, no further proof of sign-off is needed as these assumptions will be pushed to Github. 
+Link to the package: <https://assumptions.readthedocs.io/en/latest/usage.html>
+
+Note: User guide included in the package well explains the installation steps for downloading assumptions’ package. The instructions are easy to understand for those who have already installed Python and writing their analysis in code. Non-RAP users with little or no coding experience can follow the instructions below to download the relevant software/packages and produce an example log of assumptions.
+
+## Installation steps
+
+1.	Download VSCode or any code interpreter. Link to VSCode installation guide:<https://gitlab-app-l-01/ASAP/coding-getting-started-guide/-/wikis/code-editors>
+2.	Install python installer package ‘pip’. Link to pip installation:<https://gitlab-app-l-01/ASAP/coding-getting-started-guide/-/wikis/python>
+3.	Open VSCode and launch the *Command Prompt*. It will open cmd terminal in the panel view.
+4.	On your PC, locate the path where the file ‘activate’ is installed within the folder *Anaconda3*. Copy the file path, for example,  C:/Users/username/Anaconda3/Scripts/activate
+5.	Paste the path in cmd terminal of VSCode and hit enter. You will now be able to run Python files. 
+6.	Next, you can install assumptions’ package by *pip install assumptions*. 
+7.	After installing the assumptions’ package, create a YAML file[^2]  and include pre-commit hooks within it by typing the following:
+
+````
+repos:
+-   repo: https://github.com/ShazmeenM/Project_documentation/tree/master/Assumptions
+    rev: 1.1.0
+    hooks:
+    -   id: assumptions
+
+````
+
+
+
+8.	Save and close the YAML file. 
+9.	Now you are ready to run the assumptions’ package. Go in VSCode and write *assumptions* in cmd terminal and press enter. It will produce a markdown file on assumptions’ log.
+Note that passing the assumptions’ command will list the assumptions in my repo within the example code. When you want to log your model-specific assumptions, just make sure that you have changed the YAML file and assumptions are written within your code in the specific format below[^3]: 
+
+![](D:\Picture2.png)
+
+[^1]: The assumptions’ package will look for assumptions within a Github repository. So, you must have your code in Github for this package to run.
+[^2]: Note that I’ve included the link to my Github repo in the pre-commits. You may want to replace it with the link to your repo when you are ready to log your model-specific assumptions. 
+[^3]: Assumptions will only be detected if they are written as hashed comments along with Quality, Impact and Detailed description.
+
+</div>

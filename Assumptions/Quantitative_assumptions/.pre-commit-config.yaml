@@ -1,0 +1,6 @@
+repos:
+-   repo: https://github.com/ShazmeenM/Project_documentation/tree/master/Assumptions_and_decisions/Quantitative_assumptions
+    rev: 1.1.0
+    hooks:
+    -   id: assumptions  
+    

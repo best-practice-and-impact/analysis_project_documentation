@@ -1,0 +1,97 @@
+---
+title: "Example Model"
+author: "Shazmeen Maroof"
+date: now
+output:
+    html_document
+format: 
+    html:
+        embed-resources: true
+        theme: cosmo
+        code-fold: true
+        code-summary: "Show code"
+        code-overflow: wrap
+editor: visual
+---
+
+<div style="text-align: justify"> 
+
+
+## Introduction
+This is a hypothetical model predicting house prices. The aim is to show users of the assumptions package and how it can be applied in their model.
+
+
+## Inputs
+We are using data on *'House Price Statistics for Small Areas'* as an example. This example dataset is stored in the data folder with the file name: *Housing_data.xlsx*. The data shows house prices by property type for all local authorities and regions within England, as well as the number of property transactions. The data has been modified with the aim of testing some assumptions and producing a log using assumptions' package. 
+
+Below is a screenshot of what the data looks like:  
+
+![](D:\Picture1.png)
+
+## Assumptions  
+The model has three assumptions:  
+
+1. House price should always be a positive number.
+2. Current trends in price will continue.
+3. There is regional variation in house prices. 
+
+## Assumption recording
+
+This section shows how each assumption should be stored in code.  
+
+1) House price should always be a positive number.
+
+```{python}
+# Assumption: House price should always be a positive number.
+# Quality: RED
+# Impact: AMBER
+# Detailed description: We assume that no house is sold for a negative amount or for no value.
+```
+
+  2) Current trends in price will continue.
+
+```{python}
+# Assumption: Current trends in price will continue.
+# Quality: RED
+# Impact: AMBER
+# Detailed description: We assume that the median sale price of each dwelling type in a local authority in time 't' should be less than time 't+1'.
+```
+
+3) There is regional variation in house prices.  
+
+```{python}
+# Assumption: There is regional variation in house prices.
+# Quality: RED
+# Impact: AMBER
+# Detailed description: Median house prices of all dwelling types in London exceeds median house prices for every other region in England and Wales each year. 
+```
+
+## Assumption Documentation 
+
+After installing the assumptions' package and passing the code *'assumptions'*, an example assumptions' log will be created within the same folder. Open the newly created file on *'assumptions_caveats_log.md'* to see the example output on assumptions' log.
+
+The readme file explains the installation steps and the step-by-step process on how to go from this code to the output document on assumptions' log.
+
+## Assumption Sign-off  
+
+Since the file storing these assumptions i.e., example_code.py gets pushed to Github, there will be a review every time a new assumption is added and tested. As such, sign off is built into the process.
+
+## Conclusion  
+
+Assumptions’ package will produce a markdown document on assumptions’ log. Once properly setup, its quick and easy to use. The log will show the location of stored assumptions, their quality rating and description. The package will take care of automatically updating the assumptions during the project lifecycle and Github will track the sign-offs of assumptions. 
+
+## Software requirements  
+
+Python, VSCode, Github
+
+## Useful links  
+
+Link to the package: <https://assumptions.readthedocs.io/en/latest/usage.html>  
+Github set up guidance: <https://docs.github.com/en/get-started/quickstart/set-up-git>  
+Link to VSCode installation guide: <https://gitlab-app-l-01/ASAP/coding-getting-started-guide/-/wikis/code-editors>  
+Link to pip installation: <https://gitlab-app-l-01/ASAP/coding-getting-started-guide/-/wikis/python>  
+
+## Places to get help
+ASAP@ons.gov.uk
+
+</div>

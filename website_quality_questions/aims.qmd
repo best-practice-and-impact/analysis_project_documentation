@@ -1,0 +1,86 @@
+---
+title: ""
+format:
+  html:
+    embed-resources: true
+---
+
+## Aims
+
+This guidance provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the production cycle. We hope that this guidance would help in meeting the Office for National Statistics's (ONS) strategic objectives for improving statistical quality.^[See ONS Statistical Quality Improvement Strategy: https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/qualityinofficialstatistics/onsstatisticalqualityimprovementstrategy]
+
+The aim of producing this guidance is:  
+
+1. To ensure there is a consistent end-to-end QA approach across divisions/departments.  
+2. To make it easier to comply with the good practice guidance i.e., <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/416478/aqua_book_final_web.pdf">The Aqua Book</a> guidance and <a href="https://code.statisticsauthority.gov.uk/">Code of Practice for Statistics</a>.  
+3. To ensure there is a consistent understanding of roles and responsibilities towards producing high quality analysis and statistics.  
+4. To make it easier to produce important project documentation i.e., <a href="https://officenationalstatistics.sharepoint.com/:x:/r/sites/anstanpi/_layouts/15/Doc.aspx?sourcedoc=%7BDFC9CDC6-4358-4EDC-A831-7E49AFF8E67B%7D&file=assumptions_and_decision_log_template.xlsx&action=default&mobileredirect=true">assumptions and decisions log</a> , Quality Improvement Plan (QIP) and risk and issue register etc.  
+
+This guidance sits alongside a) Aqua book^[It is a good practice guide to those working with analysis and analytical models. It draws together existing practice from departments and analysts across a variety of analytical professions within government. The principles identified in the Aqua book will help ensure that our work can be trusted to inform good decision making.] , which provides good practice advice on how to quality assure analysis in government and b) Code of Practice for Statistics, which sets the standards that producers of official statistics should commit to. Two other guidance have motivated us to produce this. One is Analysis Function guidance on <a href="https://analysisfunction.civilservice.gov.uk/policy-store/quality-questions-and-red-flags/#:~:text=The%20%27Quality%20Questions%20and%20Red,for%20National%20Statistics%20(ONS).">Quality questions and red flags</a>  and the other is Office for Statistics Regulation (OSR) guidance on <a href="https://osr.statisticsauthority.gov.uk/publication/regulatory-guidance-thinking-about-quality-when-producing-statistics/">Thinking about quality when producing statistics</a>. Both of these guidance provide a set of questions that analysts producing statistics can use to interrogate their work and assure its quality. 
+
+Building on these cross-government resources on good practice, this guidance separates quality questions relevant for each stage of analytical cycle. The quality questions will only be fit for purpose if they are asked at the right stage, once that stage is passed, it will be difficult going back and address the risks.  
+
+Each question is linked with the Code of Practice for Statistics which is based on three pillars - trustworthiness, quality and value. The idea is to emphasize on the importance and relevance of each question in light of the three pillars. It would also help the analytical/statistical teams better understand and apply these principles through out the project life cycle.  
+
+Quality questions are also separated as per the responsible individuals required for answering them. The idea is to highlight a clear line of accountability as per the Aqua book guidance in an easy-to-understand manner. The hope is to make it easier for the teams to clearly see the Aqua roles.  
+
+
+## Structure of the guidance
+
+There are 60 questions in total covering all stages of analytical cycle. Answering 60 questions may seem a daunting task but this log of answers would later help you in fully understanding the Aqua book and in ensuring your analysis/statistics complies with Code of Practice. It would also help you in writing the analysis/output report along the way. Moreover, most of the answers would help in producing other important documents, for example, assumptions’ log, decision log, technical guide for users, QIP etc. 
+
+The Aqua book has divided the stages of analytical cycle into:  
+
+I) Scoping  
+II) Design  
+III) Conducting and checking analysis  
+IV) Delivery   
+
+Each stage is further sub-divided into the following tabs:
+
+### a) Quality Questions 
+
+This tab lists the quality questions relevant for each stage of analytical cycle and it provides space in the form of editable text boxes (with no word limit) to write the answers. We encourage commissioner, analyst and analytical assurer to answer all questions as per their responsibilities identified in the introduction.
+
+As user needs or project aims may change over time, the template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due on. 
+
+
+Senior responsible owner (SRO) needs to sign-off all the answers. Its best to complete and save log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl+S. To undo a action press Ctrl+Z. Pressing Ctrl+S will automatically download a copy of the page on your machine. 
+
+
+### b) Importance
+
+It emphasizes on the importance of understanding each quality question and explains the potential risks and benefits around it.
+
+### c) Code of Practice for Statistics
+
+It shows the pillars and principles of Code of Practice for Statistics a quality questions relates to. The text in this column is copied from Code of Practice for Statistics. The Code is not concerned only with official statistics. It provides producers of non-official statistics with a framework they can voluntarily comply with.
+
+### d) Aqua roles  and responsibilities
+
+It explains the responsibilities required to deliver analysis that is fit-for-purpose. It links the quality questions with relevant responsibilities at each stage of analytical cycle  as identified in the Aqua book. The roles and responsibilities in this tab are copied as is from AQUA book. 
+
+The Aqua book recommends the creation of four identifiable roles to cover different areas of responsibility- SRO, commissioner, analyst and analytical assurer. 
+
+**Responsibilities of SRO**  
+- A Single Responsible Owner for each model throughout its lifecycle.  
+- Sign-off all important decisions made about a model to ensure that it is fit-for-purpose, prior to its use.
+
+**Responsibilities of Commissioner**  
+- Ensures that context is understood so QA is appropriate and proportionate.  
+- Ensures that there is enough time and resource for required assurance and account for risk.  
+- Must understand strengths and limitations including uncertainty so results are interpreted correctly.  
+- Delivers QUALITY OF OUTCOME.
+
+**Responsibilities of Analyst**  
+- Assist the commissioner in framing the question to ensure the right analysis is done.  
+- Manage external specialists.  
+- Design, build, document and run the analysis.  
+- Delivers QUALITY OF CONTENT.
+
+**Responsibilities of Analytical Assurer**  
+- Ensures that the evidence is there to demonstrate that appropriate QA has happened and uncertainty is communicated appropriately.  
+- Advises the commissioner on whether appropriate QA has happened and about any outstanding risks.  
+- Involved throughout from design through to use.  
+- Delivers QUALITY OF PROCESS.
+
