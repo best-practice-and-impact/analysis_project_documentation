@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Guidance on Quality Questions"
+  navbar:
+    left:
+      - text: "Introduction"
+        href: aims.qmd
+      - text: "Quality Questions"
+        href: quality_questions.qmd
+      - text: "FAQs"
+        href: faqs.qmd
+      - text: "Feedback"
+        href: feedback.qmd
+
+format:
+  html:
+    page-layout: full
+    theme: cosmo
+    toc: true
+    embed-resources: true
+    

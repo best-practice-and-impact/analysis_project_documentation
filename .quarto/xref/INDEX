@@ -1,0 +1,26 @@
+{
+  "src/quality_questions/aims.qmd": {
+    "aims.html": "5537d40e"
+  },
+  "src/quality_questions/faqs.qmd": {
+    "faqs.html": "f4cae439"
+  },
+  "src/quality_questions/feedback.qmd": {
+    "feedback.html": "61bd9570"
+  },
+  "src/quality_questions/quality_questions.qmd": {
+    "quality_questions.html": "81bb8ad7"
+  },
+  "quality_questions.qmd": {
+    "quality_questions.html": "4cccc26f"
+  },
+  "aims.qmd": {
+    "aims.html": "93fd3229"
+  },
+  "faqs.qmd": {
+    "faqs.html": "003afbbc"
+  },
+  "feedback.qmd": {
+    "feedback.html": "ed3169ed"
+  }
+}

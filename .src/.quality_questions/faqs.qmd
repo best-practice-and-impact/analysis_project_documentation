@@ -1,0 +1,30 @@
+---
+title: ""
+format:
+  html:
+    embed-resources: true
+---
+
+## When to use this guidance?
+
+We encourage all teams starting to work on a new project to use this guidance right from the scoping stage. For teams, who are in the middle of an analysis, they can still use this guidance to reflect on the quality questions at the scoping and design stage and continue recording the answers up until the delivery stage. 
+
+## Which outputs this guidance apply to?
+
+The guidance applies to both ad-hoc releases and more regular outputs.  
+
+Regular outputs often fulfil at least one of the criteria of "business critical model" (i. drives essential financial and funding decisions; ii. essential to the achievement of business plan actions and priorities; iii. must be error free or else risk serious financial, legal, reputational damages or penalties). They require the highest level of scrutiny and the governance arrangements must be appropriate for the level of risk.  
+
+Ad-hoc outputs with quick turnarounds and limited time and resources, the analysis still requires good quality assurance to avoid costly mistakes. Ad-hoc outputs are often used as an evidence to make important policy decisions.  
+
+We strongly encourage the responsible owners of both regular and ad-hoc outputs to answer all questions relevant to their role. Completing the log of answers will only require a few hours of their time and it will make the team more confident to raise quality and resourcing issues, push back against unreasonable demands and to understand and communicate the potential risks right at the scoping stage.
+
+## How to identify SRO, commissioner, analyst and analytical assurer?
+
+Whilst the Aqua Book refers to commissioners, SRO, analysts and analytical assurers, it is the responsibilities identified that are important, not the name of the role. The Aqua Book makes no statement of the particular level of seniority or grade of each of the occupiers of the roles — this will vary from project to project. 
+
+We suggest an SRO and commissioner to be at Grade 7 or above. If you are still unsure of deciding the roles among your team, please email ASAP@ons.gov.uk with "modelling" in the subject header and we will help you in making this decision. 
+
+## What help is available to answer the quality questions?
+
+The Data Quality Hub (DQHub) has a Wiki page full of resources on quality –  <a href="https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Central.aspx">Quality Central</a>. It includes lots of useful resources and mandatory training to help you guide and answer the quality questions. 
