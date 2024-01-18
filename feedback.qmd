@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Feedback"
 format:
   html:
     embed-resources: true
@@ -7,10 +7,8 @@ format:
 
 # Feedback 
 
-We are keen to understand the challenges faced by analytical and statistical teams within ONS in complying with good practice. To evaluate the effectiveness of this guidance in understanding the Aqua roles and Code of Practice for Statistics, we have designed a short survey.  
-
-Please click on the following link to access the survey: <https://forms.office.com/e/ya2ZzRbGHM>
+We are keen to understand the challenges faced by analytical teams in ONS when complying with good practice. To evaluate the effectiveness of this guidance, we would be grateful if you could fill in [a short survey](https://forms.office.com/e/ya2ZzRbGHM).  
 
 Your feedback is highly appreciated and will help us in creating additional tools and resources on good practice for producing quality analysis.
 
-If you have any further questions about this guidance or survey please email ASAP@ons.gov.uk with "modelling" in the subject header.
+If you have other questions about this guidance or the survey please email ASAP@ons.gov.uk with "analytical QA" in the subject header.
