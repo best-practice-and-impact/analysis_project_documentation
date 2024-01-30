@@ -219,8 +219,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q12</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What tools and resources will you use during the production
-  process? Are they the best for the job?</td>
+  width:241pt'>What tools and resources will you use during production? Are they the best for the job?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -250,7 +249,7 @@ table, th, td {
   width:24pt'>Q14</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>What are the anticipated risks of the analysis? Have you
-  discussed these risks with the customers?<span
+  discussed these risks with the customer?<span
   style='mso-spacerun:yes'> </span></td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -361,14 +360,14 @@ table, th, td {
   width:297pt'>A clear understanding of the question is critical. It enables
   your team to scope out requirements, understand the strengths and limitations
   of the analysis and ensure that it is fit for purpose.<br>
-    If the question is unclear you risk designing and delivering analysis which
+    If the question is not clear you risk designing and delivering analysis which
   does not meet user needs.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
   <td height=100 class=xl6611297 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q2</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Why do we need to answer this analysis question?</td>
+  width:240pt'>Why do you need to answer this analysis question?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Exploring and understanding why you need the analysis, what it is for
   and how it will be used will help you to understand the importance and impact of your
@@ -381,7 +380,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q3</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Which organisational priorities does this work address?</td>
+  width:240pt'>Which organisational priorities does the work address?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Knowing how the work aligns with organisational priorities
   helps you to understand how it fits with wider strategic objectives and
@@ -403,24 +402,24 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>Who needs to know the answer?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>If you don’t know what your outputs will be used for, you cannot
-  be sure they meet user needs. A good understanding of likely use
-  cases and how you prioritise them is an essential part of making sure that
+  width:297pt'>If you do not know what your outputs will be used for, you cannot
+  be sure they meet user needs. A good understanding of use
+  cases and how you prioritise them is essential for making sure that
   all parts of your analysis are fit for purpose.</td>
  </tr>
  <tr height=167 style='height:125.0pt'>
   <td height=167 class=xl6611297 width=31 style='height:125.0pt;border-top:
   none;width:24pt'>Q6</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Who do we need to consult to make sure we meet the right user
+  width:240pt'>Who do you need to consult to make sure you meet the right user
   needs?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Analysis must be well understood by relevant users, or else
-  risks scope creep and misspecification. Identify stakeholders and
-  users who should be consulted before designing an analysis and take account
+  risks scope creep and misspecification. Identify relevant stakeholders and
+  users, consult them before designing the analysis, and take account
   of their views and considerations<span style='mso-spacerun:yes'> 
   </span>wherever relevant. Consulting the right stakeholders makes sure that
-  your team and your users have a shared understanding and vision of 
+  you and your users have a shared understanding and vision of 
   the best way to approach answering the question, what the output should look
   like, how well the users understand the process, its quality and limitations,
   and how to tailor the final ouput to best meet user needs.</td>
@@ -431,7 +430,7 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>How will you know you have answered this question correctly?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Being clear about the outputs required and the level of error
+  width:297pt'>Being clear about the outputs required and the amount of uncertainty
   that is acceptable is essential for ensuring that the final output is
   accurate and reliable and that users and your team have a good understanding
   of limitations and uncertainty. It is also essential when designing
