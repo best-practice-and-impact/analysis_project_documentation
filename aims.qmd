@@ -28,7 +28,11 @@ Quality questions are also categorised by the responsible individuals required t
 
 ## Structure of the guidance
 
-There are 60 questions in total. They cover all the stages of the analytical cycle. Answering 60 questions may seem a daunting task at first but the questions are designed to help you as you work your way through the analytical process. Creating a log of answers as you move through the stages of the workflow will help you ensure that your work meets analytical standards, follows good practice and complies with the Code of Practice for Statistics. It will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and for your users. 
+There are 60 questions in total. They cover all the stages of the analytical cycle. 
+
+Answering 60 questions may seem a daunting task at first but the questions are designed to help you as you work your way through the analytical process. Creating a log of answers as you move through the stages of the workflow will help you ensure that your work meets analytical standards, follows good practice and complies with the Code of Practice for Statistics. 
+
+It will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and for your users. 
 
 The Aqua book divides the stages of the analytical cycle into:  
 
@@ -55,17 +59,22 @@ This tab explains why understanding each quality question matters and explains t
 
 This tab shows the pillars and principles of Code of Practice for Statistics each quality question relates to. The text in this column is copied from Code of Practice for Statistics. Even if your work does not directly feed into the production of official statistics, compliance with the principles and practices of the Code is a good way to strengthen the resilience of your work, increase transparency and clarity and reduce risk.
 
-### d) Aqua roles  and responsibilities
+### d) AQuA roles  and responsibilities
 
-This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are copied as is from AQUA book. The tab links the quality questions with the relevant responsibilities at each stage of analytical cycle.  
+This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.  
 
-The Aqua book recommends the creation of four identifiable roles to cover different areas of responsibility- SRO, commissioner, analyst and analytical assurer. 
+The AQuA book recommends the creation of four identifiable roles to cover different areas of responsibility:
+* Commissioner
+* Senior Responsible Owner
+* Analyst
+* Analytical assurer 
 
-**Responsibilities of SRO**  
-- A Single Responsible Owner for each analytical workflow throughout its lifecycle. The SRO is often a senior member of the analytical team or a divisional director or other senior leader.
+**Responsibilities of the Senior Responsible Owner**  
+The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the Analyst role. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.
 - Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.
 
-**Responsibilities of Commissioner**  
+**Responsibilities of Commissioner**
+The Commissioner   
 - Ensures that context is understood so quality assurance is appropriate and proportionate.  
 - Ensures that there is enough time and resource for required assurance and account for risk.  
 - Must understand strengths and limitations including uncertainty so results are interpreted correctly.  

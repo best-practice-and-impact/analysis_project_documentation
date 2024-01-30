@@ -1,7 +1,7 @@
 # analysis_project_documentation
 Model documentation is crucial for the analytical lifecycle and a key element in enforcing good governance. Good quality documentation underpins effective  development and use of analytical workflows. It captures the key decisions that affect the design and use of the analysis and why they were made. It also sets out how the analysis will be assured and who is responsible for this assurance.
 
-This repository stores some templates for recording commissioning decisions and logging assumptions. It also includes an automated template for a quality assurance report. The idea is to make it easier for teams to publish their QA results, to think carefully about assumptions going into their analysis, how these assumptions would impact their output and to document everything in one place. Moreover, it will also demonstrate how the assumptions' package (developed by David Foster) can be used to log assumptions. 
+This repository stores some templates for recording commissioning decisions and logging assumptions. It also includes an automated template for a quality assurance report. The idea is to make it easier for teams to publish their QA results, to think carefully about assumptions going into their analysis, how these assumptions would impact their output and to document everything in one place. Moreover, it will also demonstrate how the [assumptions](https://github.com/best-practice-and-impact/assumptions) package can be used to log assumptions. 
 
 The repository contains these folders:  
 
