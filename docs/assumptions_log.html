@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Guidance on Quality Questions -</title>
+<title>Guidance on Quality Questions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4637,7 +4637,7 @@ vertical-align: -.125em;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
@@ -4653,7 +4653,7 @@ vertical-align: -.125em;
 <span class="menu-text">Feedback</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assumptions_log.html"> 
+    <a class="nav-link active" href="./assumptions_log.html" aria-current="page"> 
 <span class="menu-text">Assumptions log guide</span></a>
   </li>  
   <li class="nav-item">
@@ -4680,13 +4680,9 @@ vertical-align: -.125em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aims" id="toc-aims" class="nav-link active" data-scroll-target="#aims">Aims</a></li>
-  <li><a href="#structure-of-the-guidance" id="toc-structure-of-the-guidance" class="nav-link" data-scroll-target="#structure-of-the-guidance">Structure of the guidance</a>
+  <li><a href="#assumptions-log" id="toc-assumptions-log" class="nav-link active" data-scroll-target="#assumptions-log">Assumptions Log</a>
   <ul class="collapse">
-  <li><a href="#a-quality-questions" id="toc-a-quality-questions" class="nav-link" data-scroll-target="#a-quality-questions">a) Quality Questions</a></li>
-  <li><a href="#b-importance" id="toc-b-importance" class="nav-link" data-scroll-target="#b-importance">b) Importance</a></li>
-  <li><a href="#c-code-of-practice-for-statistics" id="toc-c-code-of-practice-for-statistics" class="nav-link" data-scroll-target="#c-code-of-practice-for-statistics">c) Code of Practice for Statistics</a></li>
-  <li><a href="#d-aqua-roles-and-responsibilities" id="toc-d-aqua-roles-and-responsibilities" class="nav-link" data-scroll-target="#d-aqua-roles-and-responsibilities">d) AQuA roles and responsibilities</a></li>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -4697,76 +4693,31 @@ vertical-align: -.125em;
 
 
 
-<section id="aims" class="level2">
-<h2 class="anchored" data-anchor-id="aims">Aims</h2>
-<p>This guidance provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the production cycle. The guidance is here to support teams in meeting the Office for National Statistics’s (ONS) strategic objectives for improving statistical quality. You can find more information about our strategic objectives on statistical quality in the <a href="https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/qualityinofficialstatistics/onsstatisticalqualityimprovementstrategy">ONS Statistical Quality Improvement Strategy</a>. ONS manages quality through a <a href="https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/ONS_quality_management.aspx?csf=1&amp;web=1&amp;e=xyAJcG&amp;cid=3da18120-8bb7-4e1f-ad34-e2793e555231">strategic risk approach</a>.</p>
-<p>The aim of this guidance is:</p>
-<ol type="1">
-<li>To help teams understand the level of risk they are carrying in their analytical workflows. Reflecting on the points raised in this template, documenting what mitigation is planned or in place or that your project is accepting the risk and why will enable you to identify potential quality issues and decide how to prioritise them. It also provides a sound basis for regular reviews of the risks associated with the workflow, in line with recommended good practice.</li>
-<li>To ensure there is a consistent end-to-end QA approach across divisions and teams in ONS.<br>
-</li>
-<li>To make it easier to comply with good practice guidance and standards including the <a href="https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Principles.aspx?csf=1&amp;web=1&amp;e=FB4Q14&amp;cid=3cc849ba-f68b-4fc2-af5c-935b82703414">ONS Quality Practices</a>, <a href="https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx">ONS Quality Standard for Analysis</a>, the government <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/416478/aqua_book_final_web.pdf">AQUA Book</a> and the <a href="https://code.statisticsauthority.gov.uk/">Code of Practice for Statistics</a>, the <a href="https://analysisfunction.civilservice.gov.uk/">Analysis Function</a>’s <a href="https://www.gov.uk/government/publications/government-analysis-functional-standard--2">Functional Standard for Analysis</a> and the <a href="https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs">Service Manual</a> which explains how to research, document and validate user needs.<br>
-</li>
-<li>To ensure there is a consistent understanding of roles and responsibilities when producing high quality analysis and statistics.<br>
-</li>
-<li>To make it easier to create critical project documentation including an <a href="https://officenationalstatistics.sharepoint.com/:x:/r/sites/anstanpi/Modelling_Best_Practice/Resources/quality_assurance_templates/assumptions_and_decision_log_template.xlsx?d=wdfc9cdc643584edca8317e49aff8e67b&amp;csf=1&amp;web=1&amp;e=4MSSwy">assumptions and decisions log</a>, a risk and issue register and divisional <a href="https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Managing_Quality_Mechanisms.aspx">Quality Improvement Plan</a>.</li>
-</ol>
-<p>The AQuA book sets out a standard framework for managing analytical quality in government. helps to make sure that our work can be trusted to inform good decision making, while the Code of Practice for Statistics sets out the principles and practices that producers of official statistics should commit to. Two other pieces of guidance have motivated us to produce this template. One is the <a href="https://analysisfunction.civilservice.gov.uk/policy-store/quality-questions-and-red-flags/#:~:text=The%20%27Quality%20Questions%20and%20Red,for%20National%20Statistics%20">Analysis Function guidance on Quality Questions and Red Flags</a>. The other is the Office for Statistics Regulation (OSR) guidance on <a href="https://osr.statisticsauthority.gov.uk/publication/regulatory-guidance-thinking-about-quality-when-producing-statistics/">Thinking about quality when producing statistics</a>. Both of these provide sets of questions that analysts can use to interrogate their work and assure its quality.</p>
-<p>Building on these cross-government resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The quality questions are at their most effective if they are asked at the right stage. Once that stage is passed, experience suggests that it is normally difficult to go back and address the points the questions ask through retrofitting at a later stage of the analysis.</p>
-<p>Each question is linked with the Code of Practice for Statistics pillars of <a href="https://code.statisticsauthority.gov.uk/the-code/trustworthiness/">Trustworthiness</a>, <a href="https://code.statisticsauthority.gov.uk/the-code/quality/">Quality</a> and <a href="https://code.statisticsauthority.gov.uk/the-code/value/">Value</a>. We explain the importance and relevance of each question in light of the three pillars so teams can better understand and apply these principles through out the project life cycle.</p>
-<p>Quality questions are also categorised by the responsible individuals required to answer them. The idea is to highlight a clear line of accountability set out in the Aqua book in an easy-to-understand manner. We want to make it easier for teams to see how the three key Aqua roles of commissioner, analytical lead (and their team) and analytical assurer are covered in their own workflows.</p>
-</section>
-<section id="structure-of-the-guidance" class="level2">
-<h2 class="anchored" data-anchor-id="structure-of-the-guidance">Structure of the guidance</h2>
-<p>There are 60 questions in total. They cover all the stages of the analytical cycle.</p>
-<p>Answering 60 questions may seem a daunting task at first but the questions are designed to help you as you work your way through the analytical process. Creating a log of answers as you move through the stages of the workflow will help you ensure that your work meets analytical standards, follows good practice and complies with the Code of Practice for Statistics.</p>
-<p>It will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and for your users.</p>
-<p>The Aqua book divides the stages of the analytical cycle into:</p>
-<ol type="1">
-<li>Scoping<br>
-</li>
-<li>Design<br>
-</li>
-<li>Conducting and checking analysis<br>
-</li>
-<li>Delivery</li>
-</ol>
-<p>Each stage is covered by the following tabs in the HTML document:</p>
-<section id="a-quality-questions" class="level3">
-<h3 class="anchored" data-anchor-id="a-quality-questions">a) Quality Questions</h3>
-<p>This tab lists the quality questions that are relevant for each stage of analytical cycle. It provides space in the form of editable text boxes (with no word limit) to write the answers. We encourage commissioner, analyst team and analytical assurer to answer all the questions given their responsibilities.</p>
-<p>User needs or project aims often change over time, so the template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due.</p>
-<p>The Senior responsible owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO needs to sign-off all the answers. It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl+S. To undo a action press Ctrl+Z. Pressing Ctrl+S will automatically download a copy of the HTML page on your machine.</p>
-</section>
-<section id="b-importance" class="level3">
-<h3 class="anchored" data-anchor-id="b-importance">b) Importance</h3>
-<p>This tab explains why understanding each quality question matters and explains the potential risks and benefits around it. It tries to address the valid question of “why should I care about this?”.</p>
-</section>
-<section id="c-code-of-practice-for-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="c-code-of-practice-for-statistics">c) Code of Practice for Statistics</h3>
-<p>This tab shows the pillars and principles of Code of Practice for Statistics each quality question relates to. The text in this column is copied from Code of Practice for Statistics. Even if your work does not directly feed into the production of official statistics, compliance with the principles and practices of the Code is a good way to strengthen the resilience of your work, increase transparency and clarity and reduce risk.</p>
-</section>
-<section id="d-aqua-roles-and-responsibilities" class="level3">
-<h3 class="anchored" data-anchor-id="d-aqua-roles-and-responsibilities">d) AQuA roles and responsibilities</h3>
-<p>This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.</p>
-<p>The AQuA book recommends the creation of four identifiable roles to cover different areas of responsibility: * Commissioner * Senior Responsible Owner * Analyst * Analytical assurer</p>
-<p><strong>Responsibilities of the Senior Responsible Owner</strong><br>
-The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the Analyst role. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose. - Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.</p>
-<p><strong>Responsibilities of Commissioner</strong> The Commissioner<br>
-- Ensures that context is understood so quality assurance is appropriate and proportionate.<br>
-- Ensures that there is enough time and resource for required assurance and account for risk.<br>
-- Must understand strengths and limitations including uncertainty so results are interpreted correctly.<br>
-- Delivers QUALITY OF OUTCOME (“The analysis meets user needs and we understand its limitations”).</p>
-<p><strong>Responsibilities of Analyst</strong><br>
-- Assist the Commissioner in framing the question to ensure the right analysis is done.<br>
-- Manage external specialists.<br>
-- Design, build, document and run the analysis.<br>
-- Delivers QUALITY OF CONTENT (“The analysis is well-designed and users the right tools and methods to meet user needs”).</p>
-<p><strong>Responsibilities of Analytical Assurer</strong><br>
-- Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.<br>
-- Advises the Commissioner on whether appropriate QA has happened and about any outstanding risks.<br>
-- Involved throughout from design through to use.<br>
-- Delivers QUALITY OF PROCESS (“The analysis does what it is supposed to do and we can prove it”).</p>
+<section id="assumptions-log" class="level1">
+<h1>Assumptions Log</h1>
+<p>The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit better understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs. It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use. Some examples of assumptions are as follows:</p>
+<ul>
+<li>Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.</li>
+<li>Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.</li>
+<li>Data missingness: It is assumed that there is complete information for all the variables included in the analysis.</li>
+<li>Changes in input data: It is assumed that data collection process has not been changed over time.</li>
+<li>Sampling: It is assumed that data is representative for the population.</li>
+</ul>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<p>Start filling the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.</p>
+<p><strong>Assumption ID:</strong> Give each assumption a unique ID so that it can be tracked easily and cross referenced.<br>
+<strong>Location in code/publication:</strong> Write the name of the output report/methodology paper or the published document in which the assumption has been mentioned. If the assumption is related to code, identify where the assumption applies within the code by mentioning the line number.<br>
+<strong>Plain English description of assumption:</strong> Write a clear description of the assumption in plain English. For example, ‘it is assumed that data is representative for the population’.<br>
+<strong>Basis for assumption:</strong> Briefly summarise the basis of assumption to justify their suitability given the modelling scenario. For instance, the assumption could be based on historic data, theoretical literature, empirical evidence, quality assurance reports, data testing or robustness checks performed by the team. Links to supporting analysis: Attach a link of the source where the assumption has been taken from or from where it can be verified.<br>
+<strong>Documentation dependencies:</strong> List down the name of project documents dealing with this assumption. Assumptions can have an impact on different stages of the modelling cycle. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.<br>
+<strong>Internally reviewed by:</strong> Enter the full name of individual within the analysis team responsible for ensuring that the assumption is validated appropriately.<br>
+<strong>Date of last review/update:</strong> Enter the date the assumption was last reviewed or validated.<br>
+<strong>Externally reviewed by:</strong> Enter the name of organisation and the position of expert who has validated the assumption. It is not necessary to mention the individual’s name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).<br>
+<strong>Date of external review:</strong> Enter the date the assumption was reviewed by the external expert.<br>
+<strong>Next review/update due on:</strong> Enter the date the assumption needs to be reviewed or updated.<br>
+<strong>Quality Rating:</strong> See the Quality Rating Key and fill it accordingly.<br>
+<strong>Risk Score:</strong> See the Risk Score and fill it accordingly.</p>
 
 
 </section>

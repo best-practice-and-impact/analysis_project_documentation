@@ -1,0 +1,28 @@
+# Assumptions Log
+
+The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit better understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs. It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.
+Some examples of assumptions are as follows: 
+
+* Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.
+* Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.
+* Data missingness: It is assumed that there is complete information for all the variables included in the analysis.
+* Changes in input data: It is assumed that data collection process has not been changed over time.
+* Sampling: It is assumed that data is representative for the population.
+
+## Definitions
+
+Start filling the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.
+
+**Assumption ID:** Give each assumption a unique ID so that it can be tracked easily and cross referenced.  
+**Location in code/publication:** Write the name of the output report/methodology paper or the published document in which the assumption has been mentioned. If the assumption is related to code, identify where the assumption applies within the code by mentioning the line number.  
+**Plain English description of assumption:** Write a clear description of the assumption in plain English. For example, ‘it is assumed that data is representative for the population'.  
+**Basis for assumption:** Briefly summarise the basis of assumption to justify their suitability given the modelling scenario. For instance, the assumption could be based on historic data, theoretical literature, empirical evidence, quality assurance reports, data testing or robustness checks performed by the team. 
+Links to supporting analysis: Attach a link of the source where the assumption has been taken from or from where it can be verified.  
+**Documentation dependencies:** List down the name of project documents dealing with this assumption. Assumptions can have an impact on different stages of the modelling cycle. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.  
+**Internally reviewed by:** Enter the full name of individual within the analysis team responsible for ensuring that the assumption is validated appropriately.  
+**Date of last review/update:** Enter the date the assumption was last reviewed or validated.   
+**Externally reviewed by:** Enter the name of organisation and the position of expert who has validated the assumption. It is not necessary to mention the individual's name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).     
+**Date of external review:**	Enter the date the assumption was reviewed by the external expert.  
+**Next review/update due on:** Enter the date the assumption needs to be reviewed or updated.  
+**Quality Rating:** See the Quality Rating Key and fill it accordingly.   
+**Risk Score:**	See the Risk Score and fill it accordingly.  

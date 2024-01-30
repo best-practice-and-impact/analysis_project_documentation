@@ -22,5 +22,17 @@
   },
   "feedback.qmd": {
     "feedback.html": "ed3169ed"
+  },
+  "sample_assumptions_log.qmd": {
+    "sample_assumptions_log.html": "74ef8d54"
+  },
+  "assumptions_log.qmd": {
+    "assumptions_log.html": "b3222e84"
+  },
+  "issues_log.qmd": {
+    "issues_log.html": "f34d228d"
+  },
+  "index.qmd": {
+    "index.html": "fddb0ce2"
   }
 }
