@@ -26,7 +26,7 @@ We strongly encourage responsible owners of both regular and ad-hoc analysis to 
 
 ## How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?
 
-The Aqua Book refers to four groups responsible for the assurance of analysis: commissioners, senior responsible owners (SROs), analyst teams (who usually report to the SRO) and analytical assurers. It is the responsibilities that each role carries that matters, not the name of the role.    
+The Aqua Book sets out four roles responsible for the assurance of analysis: commissioners, senior responsible owners (SROs), analyst teams (who usually report to the SRO) and analytical assurers. What matters is making sure that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.    
 
 As a project team, you should make sure that each role is in place and you understand how it will operate so that you have the right assurance. The Aqua Book makes no expectations about levels of seniority or grade of each of the occupiers of the roles. It does not specify whether roles should be held by a person or could be held by a committee or other governance group (such as a Senior Leadership Team). The key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in a particular analysis workflow will vary from project to project, depending on how the work is planned and assured. 
 

@@ -346,7 +346,7 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Quality Questions</th>
+    <th> Quality Question</th>
     <th> Why do I need to know the answer to this?</th>
 
 </tr>
@@ -604,7 +604,7 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Quality Questions</th>
+    <th> Quality Question</th>
     <th> Which pillar and principle of Code of Practice are relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 
@@ -871,9 +871,9 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Quality Questions</th>
-    <th> Who is responsible for answering this in light of AQUA book?</th>
-    <th> Which AQUA book responsibilities have a role?</th>
+    <th> Quality Question</th>
+    <th> Which AQuA book role(s) would normally answer this?</th>
+    <th> Why are these AQuA roles involved here?</th>
 
 </tr>
  <tr height=83 style='height:62.5pt'>
