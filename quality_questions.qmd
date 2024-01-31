@@ -5,7 +5,7 @@ format:
     embed-resources: true
 ---
 
-To make the most out of this guidance, we strongly recommend that all teams identify the responsible individuals at the start of the analytical cycle. This is crucial as each of these individuals has a role in ensuring that the analysis you do is fit-for-purpose.
+To make the most out of this guidance, we strongly recommend that teams identify who will take the three key quality assurance roles of Commissioner, Senior Responsible Owner and Analytical Assurer at the start of the analytical cycle. This is crucial as each of these individuals has a role in ensuring that the analysis you do is fit-for-purpose. You should also identify the analytical team.
 
 
 <style>
