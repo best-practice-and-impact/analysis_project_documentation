@@ -1,11 +1,14 @@
 project:
   type: website
   output-dir: docs
+  resources: assumptions_and_decision_log_template.xlsx
+             commissioning_template.xlsx
 
 website:
-  title: "Guidance on Quality Questions"
-  navbar:
-    left:
+  title: "Quality Questions"
+  sidebar:
+    style: docked
+    contents:
       - text: "Introduction"
         href: index.qmd
       - text: "Quality Questions"
@@ -14,12 +17,16 @@ website:
         href: faqs.qmd
       - text: "Feedback"
         href: feedback.qmd
+      - text: Assumptions log template
+        href: assumptions_and_decision_log_template.xlsx
       - text: "Assumptions log guide"
         href: assumptions_log.qmd
       - text: "Issues log guide"
         href: issues_log.qmd
       - text: "Sample assumptions log"
         href: sample_assumptions_log.qmd
+      - text: "Commissioning template"
+        href: commissioning_template.xlsx
 
 format:
   html:

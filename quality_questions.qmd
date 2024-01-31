@@ -48,13 +48,13 @@ table, th, td {
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
     <th> </th>
-    <th style="width:50%; text-align: center;"> Quality Questions</th>
-    <th style="width:50%; text-align: center;">Answers</th>
+    <th style="width:50%; text-align: center;"> Quality Question</th>
+    <th style="width:50%; text-align: center;">Answer</th>
     <th style="text-align: center"> Answer added by</th>
     <th style="text-align: center"> Date answer added</th>
     <th style="text-align: center"> Is SRO satisfied with the answer?</th>
     <th style="text-align: center"> Next review due on</th>
-    <th style="text-align: center"> Has anything changed from last review?</th>
+    <th style="text-align: center"> Any change since last review?</th>
 
 
 </tr>
@@ -75,7 +75,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q2</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Why do we need to answer this question?</td>
+  width:241pt'>Why do you need to answer this analysis question?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -89,7 +89,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q3</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Which organisational priorities does this work address?</td>
+  width:241pt'>Which organisational priorities does this analysis address?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -103,7 +103,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q4</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is the model business critical?</td>
+  width:241pt'>If you use a model, is it business critical?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -117,7 +117,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q5</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Who needs to know the answer?</td>
+  width:241pt'>Who needs the answer to the analysis question?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -131,7 +131,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q6</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Who do we need to consult to make sure we meet the right user
+  width:241pt'>Who do you need to consult to make sure you meet the right user
   needs?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -146,7 +146,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q7</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How will you know you have answered this question correctly?</td>
+  width:241pt'>How will you know you have answered the analysis question correctly?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -160,8 +160,8 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q8</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What is the estimated time and resource required to answer this
-  question (in months)?</td>
+  width:241pt'>What is the estimated time and resource required to answer the analysis
+  question (in months and FTE)?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -175,7 +175,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q9</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What are the consequences if the work is not carried out now?</td>
+  width:241pt'>What is the impact if the analysis is not done now?</td>
   
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -189,8 +189,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q10</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What are the consequences if the work is not carried out
-  correctly?</td>
+  width:241pt'>What is the impact if the work is not done correctly?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -204,7 +203,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q11</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Who is the commissioner, SRO and analytical assurer of this
+  width:241pt'>Name the commissioner, senior responsible owner and analytical assurer of this
   analysis?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -219,7 +218,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q12</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What tools and resources will you use during production? Are they the best for the job?</td>
+  width:241pt'>What tools and resources will you use in production? Are they the best for the job?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -249,7 +248,7 @@ table, th, td {
   width:24pt'>Q14</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>What are the anticipated risks of the analysis? Have you
-  discussed these risks with the customer?<span
+  discussed these risks with customers and stakeholders?<span
   style='mso-spacerun:yes'> </span></td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -264,8 +263,8 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q15</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is there a contingency plan to put in place if the
-  mitigation plan fails?</td>
+  width:241pt'>Is there a contingency plan prepared if your
+  mitigation plans fail?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -294,7 +293,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q17</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What questions are outside the scope of the analysis?</td>
+  width:241pt'>What relevant questions are outside the scope of the analysis?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -308,7 +307,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q18</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Will internal auditing and peer review be performed?</td>
+  width:241pt'>How will you peer review and assure the work?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -322,7 +321,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q19</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Will external experts be involved in development and scruitny of
+  width:241pt'>Will external experts be involved in development and scrutiny of
   analysis?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -391,16 +390,16 @@ table, th, td {
   <td height=33 class=xl6611297 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q4</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Is the model business critical?</td>
+  width:240pt'>If you use a model, is it business critical?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Identifying if the model is business critical helps to define
+  width:297pt'>Identifying if the analysis model is business critical helps to define
   the level of assurance needed to ensure it is fit for purpose.</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl6611297 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q5</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Who needs to know the answer?</td>
+  width:240pt'>Who needs to know the answer to the analysis question?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>If you do not know what your outputs will be used for, you cannot
   be sure they meet user needs. A good understanding of use
@@ -428,7 +427,7 @@ table, th, td {
   <td height=117 class=xl6611297 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q7</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>How will you know you have answered this question correctly?</td>
+  width:240pt'>How will you know you have answered the analysis question correctly?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Being clear about the outputs required and the amount of uncertainty
   that is acceptable is essential for ensuring that the final output is
@@ -442,8 +441,8 @@ table, th, td {
   <td height=133 class=xl6611297 width=31 style='height:100.0pt;border-top:
   none;width:24pt'>Q8</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What is the estimated time and resource required to answer this
-  question (in months)?</td>
+  width:240pt'>What is the estimated time and resource required to answer the analysis
+  question (in months and FTE)?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Without a clear understanding of time and resource constraints,
   you may overcommit. It is important to push back against unrealistic demands
@@ -457,7 +456,7 @@ table, th, td {
   <td height=50 class=xl6611297 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q9</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What are the consequences if the work is not carried out now?</td>
+  width:240pt'>What is the impact if the analysis is not done now?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding why the work needs to happen now will help you to
   prioritise and make sure that limited resources are targeted to the right
@@ -467,8 +466,7 @@ table, th, td {
   <td height=100 class=xl6611297 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q10</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What are the consequences if the work is not carried out
-  correctly?</td>
+  width:240pt'>What is the impact if the work is not done correctly?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>It is important to understand potential legal, financial or
   reputational consequences if the work is not carried out correctly so that
