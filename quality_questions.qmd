@@ -5,6 +5,12 @@ format:
     embed-resources: true
 ---
 
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
 To make the most out of this guidance, we strongly recommend that teams identify who will take the three key quality assurance roles of Commissioner, Senior Responsible Owner and Analytical Assurer at the start of the analytical cycle. This is crucial as each of these individuals has a role in ensuring that the analysis you do is fit-for-purpose. You should also identify the analytical team.
 
 

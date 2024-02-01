@@ -1,3 +1,9 @@
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
 # Assumptions Log
 
 The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit better understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs. It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.

@@ -5,6 +5,12 @@ format:
     embed-resources: true
 ---
 
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
 ## When should I use this guidance?
 
 We encourage all teams starting work on a new analysis project to use this guidance right from the scoping stage. For teams who are in the middle of an analysis, you can still use the guidance and templates to reflect on the quality questions from the scoping and design stages and continue recording the answers up until the delivery stage. 

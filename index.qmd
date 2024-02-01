@@ -5,6 +5,12 @@ format:
     embed-resources: true
 ---
 
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
 ## Aims
 
 This guidance provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the production cycle. The guidance is here to support teams in meeting the Office for National Statistics's (ONS) strategic objectives for improving statistical quality. You can find more information about our strategic objectives on statistical quality in the [ONS Statistical Quality Improvement Strategy](https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/qualityinofficialstatistics/onsstatisticalqualityimprovementstrategy). ONS manages quality through a [strategic risk approach](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/ONS_quality_management.aspx?csf=1&web=1&e=xyAJcG&cid=3da18120-8bb7-4e1f-ad34-e2793e555231).
