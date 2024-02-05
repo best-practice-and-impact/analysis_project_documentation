@@ -46,7 +46,9 @@ We suggest that the SRO and commissioner should usually be at Grade 7 or above. 
 
 ## What help is available to answer the quality questions?
 
-The [ONS Quality Central wiki](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Central.aspx) contains lots of useful guidance, templates and mandatory training to help you work through and answer the quality questions. It includes the [ONS Quality Standard for Analysis](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx). These resources are also likely to be useful:
+The [ONS Quality Central wiki](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Central.aspx) contains lots of useful guidance, templates and mandatory training to help you work through and answer the quality questions. It inclu
+des the [ONS Quality Standard for Analysis](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx).    
 
-* [Government Data Quality Hub](https://www.gov.uk/government/organisations/government-data-quality-hub) [Quality Questions and Red Flags](https://dataqualityhub.github.io/resources-for-quality-analysis-external/)    
+These resources are also likely to be useful:    
+* [Government Data Quality Hub](https://www.gov.uk/government/organisations/government-data-quality-hub) [Quality Questions and Red Flags](https://dataqualityhub.github.io/resources-for-quality-analysis-external/) and [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework)
 * [Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/) [Quality Assurance of Administrative Data toolkit](https://osr.statisticsauthority.gov.uk/publication/administrative-data-quality-assurance-toolkit/)

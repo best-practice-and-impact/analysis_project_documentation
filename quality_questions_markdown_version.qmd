@@ -1,0 +1,93 @@
+---
+title: "Quality Questions"
+format: html
+---
+
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
+To make the most out of this template, we strongly recommend that you identify who will take the three key quality assurance roles of Commissioner, Senior Responsible Owner and Analytical Assurer at the start of the analytical cycle. This is crucial as each of these individuals has a role in ensuring that the analysis you do is fit-for-purpose. You should also identify the members of the analytical team. If team members have specific roles, record them here and update them when they change.
+
+## Lead analytical roles
+
+| Name of Senior Responsible Owner (SRO) | Name of Commissioner | Name of Analyst(s) | Name of Analytical Assurer(s) |
+|----------------------------------------|----------------------|--------------------|-------------------------------|
+| Enter name here | Enter name here | Enter name here | Enter name here |
+
+## Quality Questions
+
+| **Scoping** | Quality question | Answer | Answer added by | Date of answer | Answer signed off by SRO? | Next review due date | Changes since last review |
+|-------------|------------------|--------|-----------------|----------------|---------------------------|----------------------|---------------------------|
+| Q1 | What question is the analysis trying to answer? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q2 | Why do you need to answer this analysis question? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q3 | Which organisational priorities does this analysis address? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q4 | If you use a model, is it business critical? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q5 | Who needs the answer to the analysis question? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q6 | Who do you need to consult to make sure you meet the right user needs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | 
+| Q7 | How will you know you have answered the analysis question correctly? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | 
+| Q8 | What is the estimated time and resource required to answer the analysis question (in months and FTE)? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q9 | What is the impact if the analysis is not done now? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q10 | What is the impact if the work is not done correctly? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q11 | Name the commissioner, senior responsible owner and analytical assurer of this analysis? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q12 | What tools and resources will you use in production? Are they the best for the job? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q13 | Do you have the right internal and external resources and capability to deliver the analysis? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q14 | What are the anticipated risks of the analysis? Have you discussed these risks with customers and stakeholders? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q15 | Is there a contingency plan prepared if your mitigation plans fail? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q16 | Do the data and analysis comply with ethical requirements? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q17 | What relevant questions are outside the scope of the analysis? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q18 | How will you peer review and assure the work? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q19 | Will external experts be involved in development and scrutiny of analysis? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+
+| **Design** | Quality question | Answer | Answer added by | Date of answer | Answer signed off by SRO? | Next review due date | Changes since last review |
+|------------|------------------|--------|-----------------|----------------|---------------------------|----------------------|---------------------------|
+| Q20 | Is there a simple description in plain English of what the analysis is for and what it does? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q21 | Does the analysis have a logic flowchart which explains the end-to-end conceptual steps in the work flow? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q22 | When do you expect to start and finish each stage of analysis i.e., data collection, processing, quality assuarnce, analaysis and dissemination? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q23 | Does any part of the analysis rely on manual processing? Have you considered the cost and benefits of fully automating the process? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q24 | What happens if any of your team members, reviewers or users find a mistake in your analysis? Do you have a clear and efficient process for addressing the concern and preventing it from happening again? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q25 | Have you assessed uncertainty? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+
+| **Doing and checking the analysis** | Quality question | Answer | Answer added by | Date of answer | Answer signed off by SRO? | Next review due date | Changes since last review |
+|-------------------------------------|------------------|--------|-----------------|----------------|---------------------------|----------------------|---------------------------|
+| Q26 | How the data used in the analysis will be processed prior to and during use? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q27 | Is the data appropriate given the methods selected? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q28 | What are the strengths and limitations of the data that you use? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q29 | Is there a robust relationship between your team and data providers? Does your data provider have a good understanding of how and why you are using their data? Do you have a good understanding of how the data provider collects, processes and quality assures the data? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text | 	
+| Q30 | Is there a formal agreement in place that specifies when, what and how the data will be received? If not, would this be helpful? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |	
+| Q31 | Do you know what quality checks are carried out on the data before you receive them? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q32 | How will you work with your data provider when your data requirements change? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q33 | How do you know if your data provider makes a change to their systems or processes, which could impact the data you receive and/or the statistics you produce? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q34 | How did you choose the methods for the analysis? How do you know the method you are using is appropriate? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q35 | Have reasonable alternative methods been explored and rejected for good reasons? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q36 | How do you know that your analysis works correctly? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q37 | Can you describe the assumptions of your analysis, when they were made and who made them and signed them off? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q38 | How are your assumptions validated and assured prior to use? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q39 | How do you measure and report uncertainty in your analysis? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text | 	
+| Q40 | Have you thought about the implications of any unquantified uncertainties? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q41 | Can you explain how your analysis feeds into downstream processes? Are there any risks around these dependencies? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q42 | Is all or part of the analysis reliant on a single person? If yes, how are you mitigating this risk? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q43 | Is it clear why important decisions were made and who made them? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q44 | If changes are made to code or datasets, can you easily track who made the changes and why the changes were made? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q45 | Could another analyst carry out the analysis and make the outputs just by reading documentation and desk instructions without needing to consult with anybody else? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q46 | Do you use peer review to check scripts and code, documentation, implementation of methods, processes and outputs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q47 | Is your code and analysis ever peer reviewed by someone outside your team or organisation? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q48 | What is your assessment of the quality of your analytical outputs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q49 | How do you assure yourselves that analysis carried out is correct? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q50 | Do the outputs of your analysis match reported content? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q51 | If you find outliers or unusual trends in the data, what steps are taken to investigate them? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+
+| **Delivery** | Quality question | Answer | Answer added by | Date of answer | Answer signed off by SRO? | Next review due date | Changes since last review |
+|--------------|------------------|--------|-----------------|----------------|---------------------------|----------------------|---------------------------|
+| Q52 | Can you give a clear account of what can and cannot be inferred from your final output? Q52	Could you give a clear account of what can and cannot be inferred from your final output? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q53 | Have you assessed the impact of the data and analysis limitations and set out how they will affect the quality and use of the outputs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q54 | Have you sense checked outputs with user groups and stakeholders? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q55 | Is uncertainty about data quality, assumptions and methodology clearly communicated to users? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q56 | Are the implications of unquantified uncertainties communicated to users? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q57 | Is analysis documentation, including technical guides and code, publicly available? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q58 | Does the technical guide explain how to use the analysis to obtain valid outputs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q59 | Have you fully documented the analysis code? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+| Q60 | Are users able to feed back on the suitability of outputs? | Enter your answer here... | Enter name | Enter date | Yes/No | Enter next review date | Enter text |
+

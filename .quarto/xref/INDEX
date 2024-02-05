@@ -37,5 +37,11 @@
   },
   "templates_list.qmd": {
     "templates_list.html": "0a7ee049"
+  },
+  "quality_questions_markdown_version.qmd": {
+    "quality_questions_markdown_version.html": "ccca4bbf"
+  },
+  "test_quality_questions_embedded_html.qmd": {
+    "test_quality_questions_embedded_html.html": "b931ffa7"
   }
 }
