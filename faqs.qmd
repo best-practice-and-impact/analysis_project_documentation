@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Frequently Asked Questions"
 format:
   html:
     embed-resources: true
@@ -17,7 +17,7 @@ We encourage all teams starting work on a new analysis project to use this guida
 
 ## Which analysis is in scope of the guidance?
 
-The guidance applies to all analysis workflows, including analysis to support research, advice for other departments, ad-hoc releases and regular outputs.  
+The guidance applies to all analysis workflows, including analysis to support research, advice for other departments, ad-hoc and one-off outputs and regular outputs.  
 
 Regular outputs often fulfil at least one of the criteria for what makes a business critical model:
 1. Drives essential financial and funding decisions;
@@ -26,18 +26,27 @@ Regular outputs often fulfil at least one of the criteria for what makes a busin
     
 Business critical analysis requires the highest level of scrutiny and the governance arrangements must be appropriate for the level of risk.  
 
-For ad-hoc outputs with quick turnarounds and limited time and resources, analysis still needs sufficient quality assurance to ensure it is fit for purpose and avoids costly mistakes. Ad-hoc outputs are often used as part of the evidence when making important policy decisions.  
+For ad-hoc outputs with quick turnarounds and limited time and resources, analysis still needs sufficient quality assurance to ensure it is fit for purpose. Ad-hoc outputs are often used as part of the evidence when making important policy decisions, so getting them right is very important.  
 
-We strongly encourage responsible owners of both regular and ad-hoc analysis to answer all questions relevant to their role. Completing the logs will make it much easier to understand the risks that the analysis carries and plan to mitigate them. It will help when you need to explain why the analysis works as it does, to raise quality and resourcing issues, push back against demands that are unrealistic or unachievable and to understand and communicate potential risks right from the scoping stage.
+We strongly encourage senior responsible owners of both regular and ad-hoc analysis to answer all questions relevant to their role. Completing the logs will make it much easier to understand the risks that the analysis carries and help you plan to mitigate them. It will also be useful when you need to explain why the analysis works as it does, to raise quality and resourcing issues, push back against demands that are unrealistic or unachievable and to understand and communicate potential risks right from the scoping stage.
 
 ## How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?
 
-The Aqua Book sets out four roles responsible for the assurance of analysis: commissioners, senior responsible owners (SROs), analyst teams (who usually report to the SRO) and analytical assurers. What matters is making sure that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.    
+The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out four roles responsible for the assurance of analysis:   
+* Commissioner
+* Senior Responsible Owner (SROs)    
+* Analyst teams (who usually report to the SRO) and    
+* Analytical Assurer.    
 
-As a project team, you should make sure that each role is in place and you understand how it will operate so that you have the right assurance. The Aqua Book makes no expectations about levels of seniority or grade of each of the occupiers of the roles. It does not specify whether roles should be held by a person or could be held by a committee or other governance group (such as a Senior Leadership Team). The key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in a particular analysis workflow will vary from project to project, depending on how the work is planned and assured. 
+What matters here is making sure that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.    
 
-We suggest an SRO and commissioner to be at Grade 7 or above. If you are still unsure of deciding the roles among your team, please email ASAP@ons.gov.uk with "modelling" in the subject header and we will help you in making this decision. 
+As a project team, you should make sure that each role is in place and you understand how it will operate so that you have the right assurance. The AQuA Book makes no expectations about levels of seniority or grade of each of the occupiers of the roles. It does not specify whether roles should be held by a person or could be held by a committee or other governance group (such as a senior leadership team). The key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in a particular analysis workflow will vary from project to project, depending on how the work is planned and assured. 
+
+We suggest that the SRO and commissioner should usually be at Grade 7 or above. If you are still unsure about how to allocate the roles among your team and governance groups, please [email us](mailto:ASAP@ons.gov.uk) with "analysis assurance" in the subject header and we will help you to make the decision. 
 
 ## What help is available to answer the quality questions?
 
-The [ONS Quality Central wiki](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Central.aspx) contains lots of useful guidance, templates and mandatory training to help you work through and answer the quality questions. It includes the [ONS Quality Standard for Analysis](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx).
+The [ONS Quality Central wiki](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Central.aspx) contains lots of useful guidance, templates and mandatory training to help you work through and answer the quality questions. It includes the [ONS Quality Standard for Analysis](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx). These resources are also likely to be useful:
+
+* [Government Data Quality Hub](https://www.gov.uk/government/organisations/government-data-quality-hub) [Quality Questions and Red Flags](https://dataqualityhub.github.io/resources-for-quality-analysis-external/)    
+* [Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/) [Quality Assurance of Administrative Data toolkit](https://osr.statisticsauthority.gov.uk/publication/administrative-data-quality-assurance-toolkit/)

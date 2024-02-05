@@ -34,7 +34,6 @@ table, th, td {
   <td> <p id="content" contenteditable>Enter name here...                         </p></td>
   <td> <p id="content" contenteditable>Enter name here...                         </p></td>
   <td> <p id="content" contenteditable>Enter name here...                         </p></td>
-
   </tr>
 </table>
 
@@ -57,8 +56,8 @@ table, th, td {
     <th style="width:50%; text-align: center;"> Quality Question</th>
     <th style="width:50%; text-align: center;">Answer</th>
     <th style="text-align: center"> Answer added by</th>
-    <th style="text-align: center"> Date answer added</th>
-    <th style="text-align: center"> Is SRO satisfied with the answer?</th>
+    <th style="text-align: center"> Date of answer</th>
+    <th style="text-align: center"> Answer signed off by SRO?</th>
     <th style="text-align: center"> Next review due on</th>
     <th style="text-align: center"> Any change since last review?</th>
 

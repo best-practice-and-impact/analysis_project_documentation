@@ -17,7 +17,7 @@ website:
         href: faqs.qmd
       - text: "Feedback"
         href: feedback.qmd
-      - text: "Get the assumptions and decision log template"
+      - text: "Download assumptions and decision log Excel template"
         href: "assumptions_and_decision_log_template.xlsx"
       - text: "Assumptions log guide"
         href: assumptions_log.qmd
@@ -25,7 +25,7 @@ website:
         href: issues_log.qmd
       - text: "Sample assumptions log"
         href: sample_assumptions_log.qmd
-      - text: "Get the commissioning log template"
+      - text: "Download commissioning log Excel template"
         href: "commissioning_template.xlsx"
 
 format:
