@@ -2103,9 +2103,9 @@ table, th, td {
   width:240pt'>Can you describe the assumptions of your analysis, when they
   were made and who made them and signed them off?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>A clear understanding of assumptions is critical. It explains
-  how the analysis simplifies the world and mitigates the uncertainties present.
-  If assumptions are inadequately set out or absent, assumed characteristics about the analysis and its inputs will
+  width:297pt'>You must understand the assumptions your analysis makes.
+  Assumptions set out how the analysis simplifies the world and mitigates uncertainty.
+  If assumptions are inadequately set out or absent, important characteristics of the analysis and its inputs will
   be opaque, greatly increasing risk. Without a comprehensive log of all
   assumptions made by the analysis, an audit trail back to sources signed off by
   assumption owners, a version control log reflecting when assumptions were last
