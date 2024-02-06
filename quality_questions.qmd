@@ -65,7 +65,7 @@ table, th, td {
  <tr height=83 style='height:62.5pt'>
 <td height=21 class=xl657005 width=31 style='height:15.5pt;width:24pt'>Q1</td>
   <td class=xl657005 width=321 style='border-left:none;width:241pt'>What
-  question is the analysis trying to answer?</td>
+  question does the analysis try to answer?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -193,7 +193,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q10</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What is the impact if the work is not done correctly?</td>
+  width:241pt'>What is the impact if the analysis is not done correctly?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -311,7 +311,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q18</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How will you peer review and assure the work?</td>
+  width:241pt'>How will you peer review and assure the analysis?</td>
   <td><p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td><p id="content" contenteditable> Enter full name</p></td>
   <td><p id="content" contenteditable> Enter date </p></td>
@@ -380,7 +380,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q3</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Which organisational priorities does the work address?</td>
+  width:240pt'>Which organisational priorities does this analysis address?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Knowing how the work aligns with organisational priorities
   helps you to understand how it fits with wider strategic objectives and
@@ -400,7 +400,7 @@ table, th, td {
   <td height=67 class=xl6611297 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q5</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Who needs to know the answer to the analysis question?</td>
+  width:240pt'>Who needs the answer to the analysis question?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>If you do not know what your outputs will be used for, you cannot
   be sure they meet user needs. A good understanding of use
@@ -467,7 +467,7 @@ table, th, td {
   <td height=100 class=xl6611297 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q10</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What is the impact if the work is not done correctly?</td>
+  width:240pt'>What is the impact if the analysis is not done correctly?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding the possible legal, financial or
   reputational consequences if the analysis is not carried out correctly helps you
@@ -479,7 +479,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q11</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Who is the commissioner, SRO and analytical assurer of this
+  width:240pt'>Name the commissioner, senior responsible owner and analytical assurer of this
   analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Clear lines of accountability strengthen assurance processes and
@@ -492,8 +492,7 @@ table, th, td {
   <td height=117 class=xl6611297 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q12</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What tools and resources will you use during the production
-  process? Are they the best for the job?</td>
+  width:240pt'>What tools and resources will you use in production? Are they the best for the job?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Before starting an analysis, identify all the skills and
   resources needed to produce the final output in a sustainable and
@@ -519,7 +518,7 @@ table, th, td {
   width:24pt'>Q14</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>What are the anticipated risks of the analysis? Have you
-  discussed this risk with the customers?<span
+  discussed these risks with customers and stakeholders?<span
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>You must identify potential risks and their impact well in
@@ -532,8 +531,7 @@ table, th, td {
   <td height=67 class=xl6611297 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q15</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Have you developed a contingency plan to put in place if the
-  mitigation plan fails?</td>
+  width:240pt'>Is there a contingency plan prepared if your mitigation plans fail?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Risks that would have a high impact on the analysis but a low
   probability of occurring should still be accounted for, or else risk serious
@@ -544,7 +542,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q16</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Does the data and model comply with ethical requirements?<span
+  width:240pt'>Do the data and analysis comply with ethical requirements?<span
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Analysis must comply with ethics standards to ensure public
@@ -557,7 +555,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q17</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What questions are outside the scope of the analysis?</td>
+  width:240pt'>What relevant questions are outside the scope of the analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Limitations affect the workings of the analysis and the quality
   of outputs and what can be done with them. By being clear about the
@@ -569,7 +567,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q18</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Will internal auditing and peer review be performed?</td>
+  width:240pt'>How will you peer review and assure the analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Internal audit and peer review are critical for monitoring and
   assuring that the analysis is performed appropriately and its meeting the
@@ -581,7 +579,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q19</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Will external experts be involved in development and scruitny of
+  width:240pt'>Will external experts be involved in development and scrutiny of
   analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Your team should commission external specialists to peer review
@@ -613,7 +611,7 @@ table, th, td {
 
 <td height=83 class=xl656766 width=31 style='height:62.5pt;width:24pt'>Q1</td>
   <td class=xl656766 width=321 style='border-left:none;width:241pt'>What
-  question is the analysis trying to answer?</td>
+  question does the analysis try to answer?</td>
   <td class=xl656766 width=368 style='border-left:none;width:276pt'>V1.1
   Statistics producers should maintain and refresh their understanding of the
   use and potential use of the statistics and data. They should consider the
@@ -737,7 +735,7 @@ table, th, td {
   <td height=67 class=xl656766 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q11</td>
   <td class=xl656766 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Who are the commissioner, SRO and analytical assurer of the
+  width:241pt'>Name the commissioner, senior responsible owner and analytical assurer of the
   analysis?</td>
   <td class=xl656766 width=368 style='border-top:none;border-left:none;
   width:276pt'>T5.2 The roles and responsibilities of those involved in the
@@ -850,7 +848,7 @@ table, th, td {
   <td height=133 class=xl656766 width=31 style='height:100.0pt;border-top:none;
   width:24pt'>Q19</td>
   <td class=xl656766 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Will external experts be involved in development and scruitny of
+  width:241pt'>Will external experts be involved in development and scrutiny of
   analysis?</td>
   <td class=xl676766 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3 Assured quality Producers of statistics and data should
@@ -884,7 +882,7 @@ table, th, td {
 
 <td height=67 class=xl6521709 width=31 style='height:50.0pt;width:24pt'>Q1</td>
   <td class=xl6521709 width=321 style='border-left:none;width:241pt'>What
-  question is the analysis trying to answer?</td>
+  question does the analysis try to answer?</td>
   <td class=xl6521709 width=182 style='border-left:none;width:137pt'>Commissioner,
   analyst</td>
   <td class=xl6521709 width=299 style='border-left:none;width:225pt'>The
@@ -1186,7 +1184,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q21</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Does the analysis have a logic flowchart which explains the end-to-end steps in the work flow?</td>
+  width:241pt'>Does the analysis have a logic flowchart which explains the end-to-end steps in the workflow?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -1224,7 +1222,7 @@ table, th, td {
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q24</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What happens if any of your team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing the concern and preventing it from happening again?</td>
+  width:241pt'>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1267,7 +1265,7 @@ table, th, td {
 
 <td height=67 class=xl666956 width=31 style='height:50.0pt;width:24pt'>Q20</td>
   <td class=xl666956 width=319 style='border-left:none;width:240pt'>Is there a
-  simple description in plain English of what the analysis is for and what it
+  simple, plain English description of what the analysis is for and what it
   does?</td>
   <td class=xl666956 width=396 style='border-left:none;width:297pt'>Writing a
   plain English description of what the analysis is for and how it works helps
@@ -1279,7 +1277,7 @@ table, th, td {
   width:24pt'>Q21</td>
   <td class=xl666956 width=319 style='border-top:none;border-left:none;
   width:240pt'>Does the analysis have a logic flowchart which explains the
-  end-to-end conceptual steps in the work flow?</td>
+  end-to-end steps in the workflow?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
   width:297pt'>Setting out a clear summary of the analysis process in a diagram
   helps the team, users and customers to understand at a glance what the
@@ -1291,7 +1289,7 @@ table, th, td {
   width:24pt'>Q22</td>
   <td class=xl666956 width=319 style='border-top:none;border-left:none;
   width:240pt'>When do you expect to start and finish each stage of analysis
-  : data collection, processing, quality assuarnce, analaysis and
+  : data collection, processing, quality assuarnce, analysis and
   dissemination?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
   width:297pt'>You should clearly set out the time you need to perform
@@ -1317,9 +1315,7 @@ table, th, td {
   <td height=167 class=xl666956 width=31 style='height:125.0pt;border-top:none;
   width:24pt'>Q24</td>
   <td class=xl666956 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What happens if the team, reviewers or users
-  find a mistake in the analysis? Do you have a clear and efficient process
-  for addressing issues and stopping them from happening again?</td>
+  width:240pt'>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
   width:297pt'>Mistakes happen in analysis. You should have a clear and
   efficient process for reporting, documenting and addressing errors.
@@ -1419,9 +1415,7 @@ table, th, td {
   <td height=117 class=xl656956 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q24</td>
   <td class=xl656956 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What happens if any of your team members, reviewers or users
-  find a mistake in your analysis? Do you have a clear and efficient process
-  for addressing the concern and preventing it from happening again?</td>
+  width:241pt'>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td class=xl656956 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3.4 Scheduled revisions, or unscheduled corrections that result
   from errors, should be explained alongside the statistics, being clear on
@@ -1464,7 +1458,7 @@ table, th, td {
 
  <td height=100 class=xl6511553 width=31 style='height:75.0pt;width:24pt'>Q20</td>
   <td class=xl6511553 width=321 style='border-left:none;width:241pt'>Is there a
-  simple description in plain English of what the analysis is for and what it
+  simple, plain English description of what the analysis is for and what it
   does?</td>
   <td class=xl6511553 width=182 style='border-left:none;width:137pt'>Analyst,
   analytical assurer</td>
@@ -1479,7 +1473,7 @@ table, th, td {
   width:24pt'>Q21</td>
   <td class=xl6511553 width=321 style='border-top:none;border-left:none;
   width:241pt'>Does the analysis have a logic flowchart which explains the
-  end-to-end steps in the work flow?</td>
+  end-to-end steps in the workflow?</td>
   <td class=xl6511553 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6511553 width=299 style='border-top:none;border-left:none;
@@ -1521,9 +1515,7 @@ table, th, td {
   <td height=83 class=xl6511553 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q24</td>
   <td class=xl6511553 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What happens if the team, reviewers or users
-  find a mistake in the analysis? Do you have a clear and efficient process
-  for addressing the concern and preventing it from happening again?</td>
+  width:241pt'>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td class=xl6511553 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6711553 width=299 style='border-top:none;border-left:none;
@@ -1605,7 +1597,7 @@ table, th, td {
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q28</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What are the strengths and limitations of the data that you use?</td>
+  width:241pt'>What are the strengths and limitations of the data you use?</td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
@@ -1632,15 +1624,15 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q30</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is there a formal agreement to set out when, what and how you will get the data? If not, would this be helpful?</td>
-
+  width:241pt'>Is there a formal agreement to set out data content, when
+  and how you will get the data? If not, do you think this would be
+  helpful?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
@@ -1661,21 +1653,18 @@ Do you understand how data providers collect, process and quality assure the dat
   width:24pt'>Q32</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>How will you work with your data provider when your data requirements change?</td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q33</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	How do you know if your data provider makes a change to their systems or processes, which could impact the data you receive and/or the statistics you produce?</td>
-
+  width:241pt'>	How do you know if your data provider makes a change to their systems or processes which could impact the data you receive or the analysis you produce?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1688,8 +1677,7 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q34</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How did you choose the methods for the analysis? How do you know the method you are using is appropriate? </td>
-  
+  width:241pt'>How did you choose the methods for the analysis? How do you know the methods you use are appropriate? </td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1701,22 +1689,19 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q35</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Are reasonable alternative methods have been explored and rejected for good reasons?</td>
-
+  width:241pt'>Have reasonable alternative methods been explored and rejected for good reasons?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q36</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How do you know that your analysis or statistical process is working correctly?</td>
-
+  width:241pt'>How do you know that your analysis is working correctly?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1730,7 +1715,6 @@ Do you understand how data providers collect, process and quality assure the dat
   width:24pt'>Q37</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>Can you describe the assumptions of your analysis, when they were made and who made them and signed them off?</td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1743,15 +1727,13 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q38</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How the assumptions are validated and assured prior to use?</td>
-
+  width:241pt'>How are assumptions validated and assured before you apply them?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
@@ -1759,34 +1741,30 @@ Do you understand how data providers collect, process and quality assure the dat
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>	How do you measure and report uncertainty in your analysis?<span
   style='mso-spacerun:yes'> </span></td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q40</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>	Have you considered the implications of any unquantified uncertainties?</td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q41</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Can you explain the impact of your work/output on downstream processes? Are there any risks around these dependencies?<span
+  width:241pt'>Can you explain the impact of your analysis on downstream processes? Are there risks around these dependencies?<span
   style='mso-spacerun:yes'> </span></td>
 
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
@@ -1801,71 +1779,61 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q42</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>All or part of the analysis is reliant on a single person?</td>
-
+  width:241pt'>Is all or part of the analysis reliant on a single person?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=21 style='height:15.5pt'>
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q43</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	Is it clear why important decisions were made and who made them?</td>
-
+  width:241pt'>	Is it clear why important decisions about the analysis were made, who made them and when?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q44</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	If changes need to be made to any code or datasets, is it difficult to track who made these changes and why those changes were made? </td>
-
+  width:241pt'>	If changes need to be made to code or datasets, is it easy to track who made the changes and when and why they were made? </td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q45</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	Would another analyst be able to reproduce your model output or continue the work (without talking to you first)? </td>
-
+  width:241pt'>Would another analyst be able to reproduce your analysis output or continue the work (without talking to you first)?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
   </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q46</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>	Do you use internal peer review to check scripts and code, documentation, implementation of methods, processes and outputs? </td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-  
   </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
@@ -1873,21 +1841,18 @@ Do you understand how data providers collect, process and quality assure the dat
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>	Is your code and analysis ever peer reviewed by someone outside your team or organisation?<span
   style='mso-spacerun:yes'> </span></td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q48</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	What is the assessment of the quality of your analytical outputs?</td>
-
+  width:241pt'>What is your assessment of the quality of your analytical outputs?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1899,36 +1864,31 @@ Do you understand how data providers collect, process and quality assure the dat
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q49</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	How do you assure yourselves that analysis carried out is correct?</td>
-
+  width:241pt'>	How do you assure yourself that the analysis you do is correct?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q50</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>		Do the outputs of your analysis match reported content? </td>
-
+  width:241pt'>Do the outputs of your analysis align with similar findings from elsewhere? If not can you explain why?</td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
   width:24pt'>Q51</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
-  width:241pt'>	If you find outliers or unusual trends in the data, what steps are taken to investigate them? </td>
-
+  width:241pt'>	If you find outliers or unusual trends in the data, what steps do you take to investigate them? </td>
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
@@ -1959,7 +1919,7 @@ table, th, td {
 
 <td height=67 class=xl6619059 width=31 style='height:50.0pt;width:24pt'>Q26</td>
   <td class=xl6619059 width=319 style='border-left:none;width:240pt'>How will the
-  data in the analysis be processed prior to and during use?</td>
+  data in the analysis be processed before and during use?</td>
   <td class=xl6619059 width=396 style='border-left:none;width:297pt'>Operations
   on the data inputs will have wide-ranging effects on processes and outputs. A
   clear understanding of how these processes affect the workflow is essential
@@ -1978,7 +1938,7 @@ table, th, td {
   <td height=133 class=xl6619059 width=31 style='height:100.0pt;border-top:
   none;width:24pt'>Q28</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What are the strengths and limitations of the data that you
+  width:240pt'>What are the strengths and limitations of the datayou
   use?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Not all data can be used to answer particular research questions.
@@ -1994,10 +1954,9 @@ table, th, td {
   none;width:24pt'>Q29</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
   width:240pt'>Is there a robust relationship between your team and data
-  providers? Does your data provider have a good understanding of how and why
-  you are using their data?<br>
-    Do you have a good understanding of how the data provider collects,
-  processes and quality assures the data?</td>
+  providers? Do data providers understand how and why you use their data?<br>
+    Do you understand how data providers collect,
+  process and quality assure the data you use?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>A good relationship with data suppliers helps to make sure that
   the data they supply meet your requirements. Lack of communication can mean
@@ -2012,7 +1971,9 @@ table, th, td {
   <td height=100 class=xl6619059 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q30</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Is there a formal agreement to set out when, what and how you will get the data? If not, would this be helpful?</td>
+  width:240pt'>Is there a formal agreement to set out data content, when
+  and how you will get the data? If not, do you think this would be
+  helpful?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>A formal service level agreement with data providers makes sure that everybody
   understands what will be delivered, when and how. This is useful for setting
@@ -2037,7 +1998,7 @@ table, th, td {
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q32</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>How do you work with your data provider when your data
+  width:240pt'>How will you work with your data provider when your data
   requirements change?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Review your data requirements regularly to ensure
@@ -2051,8 +2012,8 @@ table, th, td {
   width:24pt'>Q33</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
   width:240pt'>How do you know if your data provider makes a change to their
-  systems or processes, which could impact the data you receive and/or the
-  statistics you produce?</td>
+  systems or processes which could impact the data you receive or the
+  analysis you produce?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Data suppliers make changes to their definitions, methods and
   systems. This may not affect the quality of their data but can
@@ -2066,7 +2027,7 @@ table, th, td {
   width:24pt'>Q34</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
   width:240pt'>How did you choose the methods for the analysis? How do you know
-  the methods you use are appropriate and sufficient?<span
+  the methods you use are appropriate?<span
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>You should be able to explain why you chose your methods. For each method,
@@ -2077,7 +2038,7 @@ table, th, td {
   <td height=133 class=xl6619059 width=31 style='height:100.0pt;border-top:
   none;width:24pt'>Q35</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Are reasonable alternative methods have been explored and
+  width:240pt'>Have reasonable alternative methods been explored and
   rejected for good reasons?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>There is often more than one way to meet the objectives of analysis.
@@ -2089,7 +2050,7 @@ table, th, td {
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q36</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>How do you know that your analysis works correctly?</td>
+  width:240pt'>How do you know that your analysis is working correctly?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>You need to be sure that your analysis produces the outputs that
   you think it should and that the processes you run work as expected. If you
@@ -2117,7 +2078,7 @@ table, th, td {
   <td height=50 class=xl6619059 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q38</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>How the assumptions are validated and assured prior to use?</td>
+  width:240pt'>How are assumptions validated and assured before you apply them?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>A clear understanding of how assumptions have been externall and
   internally validated and signed off gives us confidence that they are
@@ -2157,7 +2118,7 @@ table, th, td {
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q41</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Can you explain the impact of your work/output on downstream
+  width:240pt'>Can you explain the impact of your analysis on downstream
   processes? Are there any risks around these dependencies?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding how your analysis would be used by the primary and
@@ -2170,7 +2131,7 @@ table, th, td {
   <td height=50 class=xl6619059 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q42</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>All or part of the analysis is reliant on a single person?</td>
+  width:240pt'>Is all or part of the analysis reliant on a single person?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Single points of failure carry significant business risk. If
   there is only one person who understands how to carry out all or part of the
@@ -2180,7 +2141,7 @@ table, th, td {
   <td height=67 class=xl6619059 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q43</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Is it clear why important decisions were made and who made them?</td>
+  width:240pt'>Is it clear why important decisions about the analysis were made, who made them and when?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>All analysis involves decisions. A comprehensive record of the
   decisions made in specifying and conducting the analysis ensures that we have
@@ -2191,8 +2152,8 @@ table, th, td {
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q44</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>If changes need to be made to any code or datasets, is it
-  difficult to track who made these changes and why those changes were
+  width:240pt'>If changes need to be made to code or datasets, is it
+  easy to track who made the changes and when and why they were
   made?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Good version control ensures that you have a full understanding
@@ -2204,8 +2165,8 @@ table, th, td {
   <td height=117 class=xl6619059 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q45</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Would another analyst be able to reproduce your model output or
-  continue the work (without talking to you first)?</td>
+  width:240pt'>Would another analyst be able to reproduce your analysis output or
+  continue the work without talking to you first?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Your analysis must be well documented and repeatable so that
   somebody new can understand it, pick it up and produce the same output using
@@ -2245,7 +2206,7 @@ table, th, td {
   <td height=100 class=xl6619059 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q48</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What is the assessment of the quality of your analytical
+  width:240pt'>What is your assessment of the quality of your analytical
   outputs?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding and reporting on the quality of your analytical
@@ -2259,7 +2220,7 @@ table, th, td {
   <td height=150 class=xl6619059 width=31 style='height:112.5pt;border-top:
   none;width:24pt'>Q49</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>How do you assure yourselves that analysis carried out is
+  width:240pt'>How do you assure yourselves that analysis you do is
   correct?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>It is important to aasure the results fit with your expectations
@@ -2275,27 +2236,26 @@ table, th, td {
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q50</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Do the outputs of your analysis match reported content?</td>
+  width:240pt'>Do the outputs of your analysis align with similar findings from elsewhere? If not can you explain why?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Where possible, you should check that your outputs align with
-  expectation from alternate data sources, previous methods and comparable
-  studies. It would gives you confidence that the analysis is performing as
-  expected. Your team should be able to explain any inconsistencies.</td>
+  width:297pt'>When you can, check that your outputs align with
+  findings from alternate data sources, previous methods and comparable
+  studies. This gives you confidence that the analysis is performing as
+  expected. You should be able to explain any inconsistencies that you see.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
   <td height=100 class=xl6619059 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q51</td>
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
   width:240pt'>If you find outliers or unusual trends in the data, what steps
-  are taken to investigate them?</td>
+  do you take to investigate them?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>It is crucial to identify unusual trends in the data and
-  understand why you had them there in the first place. Not all outliers are
+  understand why they are there. Not all outliers are
   the same. Some have a strong influence, some not at all. Some are valid and
-  important data values and some are simply errors. Outliers should be
-  thoroughly investigated and reasonable steps should be taken to analyse their
-  impact on your final output.</td>
-
+  important data values and some might be errors. Investigate outliers 
+  thoroughly and take reasonable steps to check their
+  impact on your final output. If you choose to exclude unusual values you should explain why this is acceptable.</td>
   </tr>
 </table>
 
@@ -2318,8 +2278,8 @@ table, th, td {
  <tr height=83 style='height:62.5pt'>
 
 <td height=50 class=xl6519059 width=31 style='height:37.5pt;width:24pt'>Q26</td>
-  <td class=xl6519059 width=321 style='border-left:none;width:241pt'>How the
-  data used in the analysis will be processed prior to and during use?</td>
+  <td class=xl6519059 width=321 style='border-left:none;width:241pt'>How will the
+  data used in the analysis be processed before and during use?</td>
   <td class=xl6519059 width=368 style='border-left:none;width:276pt'>Q1
   Statistics should be based on the most appropriate data to meet intended
   uses. The impact of any data limitations for use should be assessed,
@@ -2339,7 +2299,7 @@ table, th, td {
   <td height=100 class=xl6519059 width=31 style='height:75.0pt;border-top:none;
   width:24pt'>Q28</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What are the strengths and limitations of the data that you
+  width:241pt'>What are the strengths and limitations of the data you
   use?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6719059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q1 Statistics should be based on the most appropriate data to
@@ -2353,10 +2313,10 @@ table, th, td {
   width:24pt'>Q29</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
   width:241pt'>Is there a robust relationship between your team and data
-  providers? Does your data provider have a good understanding of how and why
-  you are using their data?<br>
-    Do you have a good understanding of how the data provider collects,
-  processes and quality assures the data?</td>
+  providers? Do data providers understand how and why
+  you use their data?<br>
+    Do you understand how data providers collect,
+  process and quality assure the data you use?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q1.2 Statistics producers should establish and maintain
   constructive relationships with those involved in the collection, recording,
@@ -2366,8 +2326,8 @@ table, th, td {
   <td height=67 class=xl6519059 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q30</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is there a formal agreement in place that specifies when, what
-  and how the data will be received? If not, do you think this would be
+  width:241pt'>Is there a formal agreement to set out data content, when
+  and how you will get the data? If not, do you think this would be
   helpful?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q1.3 A clear statement of data requirements should be shared
@@ -2543,8 +2503,8 @@ table, th, td {
   <td height=67 class=xl6519059 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q44</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>If changes need to be made to any code or datasets, is it
-  difficult to track who made these changes and why those changes were
+  width:241pt'>If changes need to be made to code or datasets, is it
+  easy to track who made the changes and when and why they were
   made?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>V4 Statistics producers should be creative and motivated to
@@ -2556,8 +2516,8 @@ table, th, td {
   <td height=50 class=xl6519059 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q45</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Would another analyst be able to reproduce your model output or
-  continue the work (without talking to you first)?</td>
+  width:241pt'>Would another analyst be able to reproduce your analysis output or
+  continue the work without talking to you first?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>V5 Statistics and data should be published in forms that enable
   their reuse. Producers should use existing data wherever possible and only
@@ -2595,7 +2555,7 @@ table, th, td {
   <td height=167 class=xl6519059 width=31 style='height:125.0pt;border-top:
   none;width:24pt'>Q48</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What is the assessment of the quality of your analytical
+  width:241pt'>What is your assessment of the quality of your analytical
   outputs?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3 Producers of statistics and data should explain clearly how
@@ -2612,7 +2572,7 @@ table, th, td {
   <td height=167 class=xl6519059 width=31 style='height:125.0pt;border-top:
   none;width:24pt'>Q49</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How do you assure yourselves that analysis carried out is
+  width:241pt'>How do you assure yourself that the analysis you do is
   correct?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3 Producers of statistics and data should explain clearly how
@@ -2629,7 +2589,7 @@ table, th, td {
   <td height=50 class=xl6519059 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q50</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Do the outputs of your analysis match reported content?</td>
+  width:241pt'>Do the outputs of your analysis align with similar findings from elsewhere? If not, can you explain why?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3 Producers of statistics and data should explain clearly how
   they assure themselves that statistics and data are accurate, reliable,
@@ -2640,7 +2600,7 @@ table, th, td {
   none;width:24pt'>Q51</td>
   <td class=xl6519059 width=321 style='border-top:none;border-left:none;
   width:241pt'>If you find outliers or unusual trends in the data, what steps
-  are taken to investigate them?</td>
+  do you take to investigate them?</td>
   <td class=xl6519059 width=368 style='border-top:none;border-left:none;
   width:276pt'>Q3 Producers of statistics and data should explain clearly how
   they assure themselves that statistics and data are accurate, reliable,
@@ -2672,8 +2632,8 @@ table, th, td {
  <tr height=83 style='height:62.5pt'>
 
  <td height=83 class=xl6530071 width=31 style='height:62.5pt;width:24pt'>Q26</td>
-  <td class=xl6530071 width=321 style='border-left:none;width:241pt'>How the
-  data used in the analysis will be processed prior to and during use?</td>
+  <td class=xl6530071 width=321 style='border-left:none;width:241pt'>How will the
+  data used in the analysis be processed before and during use?</td>
   <td class=xl6530071 width=182 style='border-left:none;width:137pt'>Analyst,
   analytical assurer</td>
   <td class=xl6530071 width=299 style='border-left:none;width:225pt'>Analyst
@@ -2699,7 +2659,7 @@ table, th, td {
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q28</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What are the strengths and limitations of the data that you
+  width:241pt'>What are the strengths and limitations of the data you
   use?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
@@ -2712,11 +2672,10 @@ table, th, td {
   <td height=117 class=xl6530071 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q29</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is there a robust relationship between your team and data
-  providers? Does your data provider have a good understanding of how and why
-  you are using their data?<br>
-    Do you have a good understanding of how the data provider collects,
-  processes and quality assures the data?</td>
+  width:241pt'>Is there a robust relationship between your team and data providers? 
+  Do data providers understand how and why you use their data? 
+  Do you understand how data providers collect, process and quality assure the data you use?<br>
+  </td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
@@ -2728,8 +2687,8 @@ table, th, td {
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q30</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is there a formal agreement in place that specifies when, what
-  and how the data will be received? If not, do you think this would be
+  width:241pt'>Is there a formal agreement to set out data content, when
+  and how you will get the data? If not, do you think this would be
   helpful?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analyst, analytical assurer</td>
@@ -2756,7 +2715,7 @@ table, th, td {
   <td height=201 class=xl6530071 width=31 style='height:151.0pt;border-top:
   none;width:24pt'>Q32</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How will you work with your data provider when your data
+  width:241pt'>How will you work with your data providers when your data
   requirements change?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analyst, analytical assurer</td>
@@ -2775,18 +2734,17 @@ table, th, td {
   none;width:24pt'>Q33</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
   width:241pt'>How do you know if your data provider makes a change to their
-  systems or processes, which could impact the data you receive and/or the
-  statistics you produce?</td>
+  systems or processes which could impact the data you receive or the
+  analysis you produce?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analyst, analytical assurer</td>
   <td class=xl6930071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>During the design and conduct of analysis phases, the
-  commissioner may need to provide the analyst with important information for
-  the analysis to proceed or be asked for other essential input, i.e.,
-  agreement to the use of specific data and assumptions and provide agreement
-  and sign-off to any assumptions that are developed as part of the project.
+  width:225pt'>During the design and conduct of analysis, the
+  commissioner should provide the analyst with the information they need for
+  the analysis to proceed. This could include agreement to use datasets,
+  setting out of key assumptions and signing off assumptions developed during the project.
   Analyst should understand data accuracy and uncertainties and capture, manage
-  and understand implicit assumptions made. Analytical assurer should also be
+  and understand implicit assumptions made. The analytical assurer should be
   involved.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=117 style='height:87.5pt'>
@@ -2794,40 +2752,39 @@ table, th, td {
   width:24pt'>Q34</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
   width:241pt'>How did you choose the methods for the analysis? How do you know
-  the method you are using is appropriate?<span
+  the methods you use are appropriate?<span
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
   width:225pt'>During the design phase, the analyst will convert the commission
-  into an analytical plan and will consider the inputs, possible analytical
-  methods, and the expected outputs that will be produced. The analytical
-  assurer should at this stage check that the proposed design meets the
+  into an analytical plan and will consider inputs, analytical
+  methodsa and processes, and expected outputs. The analytical
+  assurer should check that the proposed design meets the
   commissioner’s requirements.</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl6530071 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q35</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Are reasonable alternative methods have been explored and
+  width:241pt'>Have reasonable alternative methods been explored and
   rejected for good reasons?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst</td>
   <td class=xl6730071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analyst should review the structure of the analysis as a whole
-  and consider carefully whether there are any other ways in which it could
-  have been approached.</td>
+  width:225pt'>The analyst should review the analysis as a whole
+  and consider carefully whether there are other, better ways in which it could
+  be approached.</td>
  </tr>
  <tr height=50 style='height:37.5pt'>
   <td height=50 class=xl6530071 width=31 style='height:37.5pt;border-top:none;
   width:24pt'>Q36</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How do you know that your analysis or statistical process is
-  working correctly?</td>
+  width:241pt'>How do you know that your analysis is working correctly?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analyst should validate that the analysis requested is actually
+  width:225pt'>The analyst should validate that the analysis as set up is 
   what the commissioner requires in order to answer the problem.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
@@ -2840,20 +2797,20 @@ table, th, td {
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analyst should capture, manage and understand implicit
-  assumptions made. Analytical assurer should be involved.<span
+  width:225pt'>The analyst should capture, manage and understand explicit and implicit
+  assumptions made. Analytical assurer should assess whether these are sufficient.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q38</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How the assumptions are validated and assured prior to use?</td>
+  width:241pt'>How are assumptions validated and assured before you apply them?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
   width:225pt'>If applicable, analyst should undertake parametric analysis to
-  understand the consequences of missing or uncertain assumptions, Analytical
+  understand the consequences of missing or uncertain assumptions. Analytical
   assurer should be involved.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=100 style='height:75.0pt'>
@@ -2878,7 +2835,7 @@ table, th, td {
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, commissioner</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>If the uncertainties are too complex for analysts to quantify,
+  width:225pt'>If uncertainties are too complex for analysts to quantify,
   even approximately, the analysts should say so in order that the commissioner
   can take this into account.<span style='mso-spacerun:yes'> </span></td>
  </tr>
@@ -2886,70 +2843,69 @@ table, th, td {
   <td height=67 class=xl6530071 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q41</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Can you explain the impact of your work/output on downstream
-  processes? Are there any risks around these dependencies?</td>
+  width:241pt'>Can you explain the impact of your analysis on downstream
+  processes? Are there risks around these dependencies?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analyst should ensure implications of any data dependencies or
-  relationships to other analysis or methods are understood. Analytical assurer
+  width:225pt'>Analyst should make sure that the implications of data dependencies or
+  relationships to other analysis and methods are understood. Analytical assurer
   should be involved.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q42</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>All or part of the analysis is reliant on a single person?</td>
+  width:241pt'>Is all or part of the analysis reliant on a single person?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analytical assurer, analyst, commissioner</td>
   <td class=xl6730071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>All analysis requires some checks, at some level, by another
-  competent person wherever and whenever practicable. Comissioner, analyst and
-  analytical assurer are all expected to be involved in each stage of
+  width:225pt'>Analysis should be peer reviewed at an appropriate and proportionate level by a
+  competent person when practicable. Comissioner, analyst and
+  analytical assurer should all be involved in each stage of the
   analytical cycle.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q43</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Is it clear why important decisions were made and who made them?</td>
+  width:241pt'>Is it clear why important decisions about the analysis were made, who made them and when?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analytical assurer, analyst</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analytical assurer should ensure that a suitable audit trail is
+  width:225pt'>The analytical assurer should make sure that a suitable audit trail is
   in place that clarifies the level of validation, scope, and risks associated
   with the analysis. Best practice includes the production of validation log
-  books. Analyst should be involved.<span style='mso-spacerun:yes'> </span></td>
+  books. Analyst should build this audit trail.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=150 style='height:112.5pt'>
   <td height=150 class=xl6530071 width=31 style='height:112.5pt;border-top:
   none;width:24pt'>Q44</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>If changes need to be made to any code or datasets, is it
-  difficult to track who made these changes and why those changes were
+  width:241pt'>If changes need to be made to code or datasets, is it
+  easy to track who made the changes and when and why they were
   made?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analytical assurer, analyst</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>To facilitate analytical audit, an appropriate version control
-  systemshould be established for both the analysis as a whole and for the
-  supporting data and assumptions. Analytical assurer should ensure a suitable
-  audit trail is in place that clarifies the level of validation, scope, and
+  width:225pt'>To make analytical audit easy, you should set up a version control
+  system for the analysis as a whole and for code, supporting data and assumptions.
+  The Analytical assurer should ensure there is a suitable audit trail that clarifies the level of validation, scope, and
   risks associated with the analysis. Best practice includes the production of
-  validation log books. Analyst should be involved.<span
+  validation log books. Analyst should build this audit trail.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q45</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Would another analyst be able to reproduce your model output or
-  continue the work (without talking to you first)?</td>
+  width:241pt'>Would another analyst be able to reproduce your analysis output or
+  continue the work without talking to you first?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Quality analysis needs to be repeatable. Analyst should check
-  that the entire analytical process reflects the principles of RIGOUR
+  width:225pt'>Good quality analysis is reproducible. Analyst should check
+  that the analytical process reflects the principles of RIGOUR
   (Repeatable, Independent, Grounded in reality, Objective,
   Uncertainty-managed, Robust)</td>
  </tr>
@@ -2960,14 +2916,13 @@ table, th, td {
   width:241pt'>Do you use internal peer review to check scripts and code,
   documentation, implementation of methods, processes and outputs?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
-  width:137pt'>Analyst</td>
+  width:137pt'>Analyst, analyical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>In addition to conducting the analysis, the analyst should also
-  provide proportionate documentation that outlines the verification and
-  validation activities that their analysis has been subjected to. When the
-  analyst is conducting their analysis, they will be performing their own tests
-  to check their analysis and they will commission other verification and
-  validation activities as required.</td>
+  width:225pt'>The analyst should provide proportionate documentation that
+  explains the verification and validation activities that the analysis is subjected to.
+  Analysts must perform appropriate test to check the analysis.
+  They should commission other verification and validation as required. Analytical assurer
+  should confirm that planned validation and verification are sufficient.</td>
  </tr>
  <tr height=233 style='height:175.0pt'>
   <td height=233 class=xl6530071 width=31 style='height:175.0pt;border-top:
@@ -2978,14 +2933,13 @@ table, th, td {
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>The people responsible for delivering the analysis frequently
-  assist the commissioner in structuring the question in order to ensure the
-  appropriate analysis is performed. Some analysis may require external
-  specialists and therefore analysts may also have responsibilities as part of
-  the procurement process. Analysts, including those 3rd parties providing
-  analysis, should also provide proportionate documentation that outlines the
-  verification and validation activities undertaken and the associated conclusion.
-  The analytical assurer is responsible for advising the commissioner on
+  width:225pt'>Analysts should work with the commissioner to set out the analysis question
+  so that appropriate analysis is done. Some analysis may require external
+  specialists, so analysts may have responsibilities as part of
+  the procurement process. Analysts, including 3rd parties providing
+  analysis, should provide proportionate documentatiob describing the
+  verification and validation activities undertaken and associated conclusions.
+  The analytical assurer advises the commissioner on
   whether appropriate analytical quality assurance has taken place.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
@@ -2993,15 +2947,15 @@ table, th, td {
   <td height=133 class=xl6530071 width=31 style='height:100.0pt;border-top:
   none;width:24pt'>Q48</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>What is the assessment of the quality of your analytical
+  width:241pt'>What is your assessment of the quality of your analytical
   outputs?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
   width:225pt'>As part of the delivery phase, the commissioner should ensure
-  that there is an assessment of the level of analytical quality assurance of
-  the analysis, making note of where there has been a trade-off between time,
-  resources and quality. The analytical assurer is responsible for advising the
+  there is an assessment of the level of analytical quality assurance of
+  the analysis, noting where there have been trade-offs between time,
+  resources and quality. The analytical assurer advises the
   commissioner on whether appropriate analytical quality assurance has taken
   place.<span style='mso-spacerun:yes'> </span></td>
  </tr>
@@ -3009,43 +2963,42 @@ table, th, td {
   <td height=200 class=xl6530071 width=31 style='height:150.0pt;border-top:
   none;width:24pt'>Q49</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>How do you assure yourselves that analysis carried out is
+  width:241pt'>How do you assure yourself that the analysis you do is
   correct?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analyst, analytical assurer</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
-  width:225pt'>Analyst testing covers those activities where the analyst builds
-  in checks and processes to ensure that their analysis is correct. During the
-  delivery phase, the commissioner has additional important roles, both in
-  providing feedback to assist in the correct interpretation of the results and
-  to determine whether the analysis has addressed their commission. When
-  analyst are conducting their analysis, the analytical assurer can then
-  comment on whether the analysis is still meeting the needs of the commission
+  width:225pt'>The analyst must build in checks and processes to ensure that the analysis is correct.
+  During the delivery phase, the commissioner should give feedback to assist in
+  the correct interpretation of results and determine if the analysis has addressed the commission.
+  The analyst should work with the analytical assurer while doing the analysis so that 
+  they can comment on whether the analysis meets the needs of the commission
   to ensure best use of the results</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl6530071 width=31 style='height:50.0pt;border-top:none;
   width:24pt'>Q50</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
-  width:241pt'>Do the outputs of your analysis match reported content?</td>
+  width:241pt'>Do the outputs of your analysis align with similar findings from elsewhere? If not, can you explain why?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Commissioner, analyst</td>
   <td class=xl6530071 width=299 style='border-top:none;border-left:none;
   width:225pt'>When interpreting the results of a piece of analysis, the
-  commissioner provides constructive challenge and, with the analyst, explores
-  whether further analysis is required.<span style='mso-spacerun:yes'> </span></td>
+  commissioner provides constructive challenge. They work with the analyst
+  to explore whether further analysis is needed.<span style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6530071 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q51</td>
   <td class=xl6530071 width=321 style='border-top:none;border-left:none;
   width:241pt'>If you find outliers or unusual trends in the data, what steps
-  are taken to investigate them?</td>
+  do you take to investigate them?</td>
   <td class=xl6530071 width=182 style='border-top:none;border-left:none;
   width:137pt'>Analyst, analytical assurer</td>
   <td class=xl6730071 width=299 style='border-top:none;border-left:none;
   width:225pt'>If applicable, analyst should undertake parametric analysis to
-  understand the consequences of missing or uncertain data and assumptions.
+  understand the consequences of missing or uncertain data and assumptions. 
+  The analysis plan should include treatment of unusual values and outliers.
   Analytical assurer should be involved.<span style='mso-spacerun:yes'> </span></td>
   </tr>
 </table>
