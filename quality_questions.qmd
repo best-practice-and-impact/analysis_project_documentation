@@ -36,7 +36,7 @@ table, th, td {
   </tr>
 </table>
 
-## I. Scoping
+# I. Scoping
 
 ::: {.panel-tabset}
 
@@ -1138,10 +1138,9 @@ table, th, td {
   </tr>
 </table>
 
-
 :::
 
-## II. Design
+# II. Design
 
 ::: {.panel-tabset}
 
@@ -1164,35 +1163,28 @@ table, th, td {
     <th style="text-align: center"> Is SRO satisfied with the answer?</th>
     <th style="text-align: center"> Next review due on</th>
     <th style="text-align: center"> Has anything changed from last review?</th>
-
-
-
 </tr>
  <tr height=83 style='height:62.5pt'>
 <td height=21 class=xl657005 width=31 style='height:15.5pt;width:24pt'>Q20</td>
   <td class=xl657005 width=321 style='border-left:none;width:241pt'>	Is there a simple, plain English description of what the analysis is for and what it does?</td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=21 style='height:15.5pt'>
   <td height=21 class=xl657005 width=31 style='height:15.5pt;border-top:none;
   width:24pt'>Q21</td>
   <td class=xl657005 width=321 style='border-top:none;border-left:none;
   width:241pt'>Does the analysis have a logic flowchart which explains the end-to-end steps in the workflow?</td>
-
   <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
   <td> <p id="content" contenteditable> Enter full name</p></td>
   <td> <p id="content" contenteditable> Enter date </p></td>
   <td> <p id="content" contenteditable> Yes/No </p></td>
   <td> <p id="content" contenteditable> Enter next review date </p></td>
   <td> <p id="content" contenteditable> Enter text </p></td>
-
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl657005 width=31 style='height:25.0pt;border-top:none;
@@ -1258,11 +1250,9 @@ table, th, td {
     <th> </th>
     <th> Question</th>
     <th> Why do I need to know the answer to this?</th>
-
 </tr>
- <tr height=83 style='height:62.5pt'>
-
-<td height=67 class=xl666956 width=31 style='height:50.0pt;width:24pt'>Q20</td>
+<tr height=83 style='height:62.5pt'>
+<td height=67 class=xl666956 width=31 style='height:50.0pt;width:24pt'> Q20 </td>
   <td class=xl666956 width=319 style='border-left:none;width:240pt'>Is there a
   simple, plain English description of what the analysis is for and what it
   does?</td>
@@ -1281,14 +1271,14 @@ table, th, td {
   width:297pt'>Setting out a clear summary of the analysis process in a diagram
   helps the team, users and customers to understand at a glance what the
   analysis does, where inputs come from, how they are processed and how it generates
-  outputs.<span style='mso-spacerun:yes'> </span></td>
+  outputs.<span style='mso-spacerun:yes'></span></td>
  </tr>
- <tr height=83 style='height:62.5pt'>
-  <td height=83 class=xl666956 width=31 style='height:62.5pt;border-top:none;
+<tr height=83 style='height:62.5pt'>
+<td height=83 class=xl666956 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q22</td>
-  <td class=xl666956 width=319 style='border-top:none;border-left:none;
-  width:240pt'>When do you expect to start and finish each stage of analysis
-  : data collection, processing, quality assuarnce, analysis and
+ <td class=xl666956 width=319 style='border-top:none;border-left:none;
+  width:240pt'> When do you expect to start and finish each stage of analysis:
+   data collection, processing, quality assurance, analysis and
   dissemination?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
   width:297pt'>You should clearly set out the time you need to perform
@@ -1296,8 +1286,8 @@ table, th, td {
   evaluate if the current balance of the time split across these stages looks
   effective and plan mitigation if the target looks too ambitious.<span
   style='mso-spacerun:yes'> </span></td>
- </tr>
- <tr height=117 style='height:87.5pt'>
+</tr>
+<tr height=117 style='height:87.5pt'>
   <td height=117 class=xl666956 width=31 style='height:87.5pt;border-top:none;
   width:24pt'>Q23</td>
   <td class=xl666956 width=319 style='border-top:none;border-left:none;
@@ -1325,8 +1315,7 @@ table, th, td {
   errors came about and mitigate the risk of them happening again. Your
   mitigation approach should be consistent with your department's revision
   policies.</td>
- </tr>
- <tr height=150 style='height:112.5pt'>
+  <tr height=150 style='height:112.5pt'>
   <td height=150 class=xl666956 width=31 style='height:112.5pt;border-top:none;
   width:24pt'>Q25</td>
   <td class=xl666956 width=319 style='border-top:none;border-left:none;
@@ -1341,6 +1330,8 @@ table, th, td {
   uncertainty is overlooked at the start, this can limit the usefulness and
   impact of the analysis.<span style='mso-spacerun:yes'> </span></td>
   </tr>
+ </tr>
+
 </table>
 
 ## The questions and the Code of Practice
@@ -1356,9 +1347,8 @@ table, th, td {
 <TR VALIGN=TOP>
     <th> </th>
     <th> Question</th>
-    <th> Which pillar and principle of the Code of Practice are relevant here?  
+    <th> Which pillar and principle of the Code of Practice are most relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
-
 </tr>
 <tr height=83 style='height:62.5pt'>
 <td height=50 class=xl656956 width=31 style='height:37.5pt;width:24pt'>Q20</td>
@@ -1383,7 +1373,7 @@ table, th, td {
   <td height=133 class=xl656956 width=31 style='height:100.0pt;border-top:none;
   width:24pt'>Q22</td>
   <td class=xl656956 width=321 style='border-top:none;border-left:none;
-  width:241pt'>When do you expect to start and finish each stage of analysis: 
+  width:241pt'>When do you expect to start and finish each stage of analysis:  
   data collection, processing, quality assurance, analysis and
   dissemination?</td>
   <td class=xl656956 width=368 style='border-top:none;border-left:none;
@@ -1449,12 +1439,11 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Questions</th>
+    <th> Question</th>
   <th> Which AQuA role(s) would normally answer this?</th>
     <th> Why are these AQuA roles involved?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
-
  <td height=100 class=xl6511553 width=31 style='height:75.0pt;width:24pt'>Q20</td>
   <td class=xl6511553 width=321 style='border-left:none;width:241pt'>Is there a
   simple, plain English description of what the analysis is for and what it
@@ -1540,9 +1529,10 @@ table, th, td {
   </tr>
 </table>
 
+
 :::
 
-## III. Doing and Checking Analysis
+# III. Doing and Checking Analysis
 
 ::: {.panel-tabset}
 
@@ -3001,6 +2991,7 @@ table, th, td {
   Analytical assurer should be involved.<span style='mso-spacerun:yes'> </span></td>
   </tr>
 </table>
+
 :::
 
 ## IV. Delivery
@@ -3410,7 +3401,6 @@ table, th, td {
 </table>
 
 ## Linking the questions to AQuA roles
-
 
 <style>
 table, th, td {
