@@ -23,10 +23,10 @@ table, th, td {
 
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
-    <th style="text-align: center"> Name of Senior Responsible Owner (SRO)</th>
-    <th style="text-align: center"> Name of Commissioner</th>
-    <th style="text-align: center"> Name of Analyst(s)</th>
-    <th style="text-align: center"> Name of Analytical Assurer(s)</th>
+    <th style="text-align: center" scope = "col"> Name of Senior Responsible Owner (SRO)</th>
+    <th style="text-align: center" scope = "col"> Name of Commissioner</th>
+    <th style="text-align: center" scope = "col"> Name of Analyst(s)</th>
+    <th style="text-align: center" scope = "col"> Name of Analytical Assurer(s)</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
   <td> <p id="content" contenteditable>Enter name here...                         </p></td>
@@ -52,13 +52,13 @@ table, th, td {
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
     <th> </th>
-    <th style="width:50%; text-align: center;"> Quality Question</th>
-    <th style="width:50%; text-align: center;">Answer</th>
-    <th style="text-align: center"> Answer added by</th>
-    <th style="text-align: center"> Date of answer</th>
-    <th style="text-align: center"> Answer signed off by SRO?</th>
-    <th style="text-align: center"> Next review due on</th>
-    <th style="text-align: center"> Any change since last review?</th>
+    <th style="width:50%; text-align: center;" scope = "col"> Quality Question</th>
+    <th style="width:50%; text-align: center;" scope = "col">Answer</th>
+    <th style="text-align: center" scope = "col"> Answer added by</th>
+    <th style="text-align: center" scope = "col"> Date of answer</th>
+    <th style="text-align: center" scope = "col"> Answer signed off by SRO?</th>
+    <th style="text-align: center" scope = "col"> Next review due on</th>
+    <th style="text-align: center" scope = "col"> Any change since last review?</th>
 
 
 </tr>
@@ -346,9 +346,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Quality Question</th>
-    <th> Why do I need to know the answer to this?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Quality Question</th>
+    <th scope = "col"> Why do I need to know the answer to this?</th>
 
 </tr>
  <tr height=83 style='height:62.5pt'>
@@ -599,9 +599,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Quality Question</th>
-    <th> Which Code pillar and practice are most relevant here?  
+    <th scope = "col"> </th>
+    <th scope = "col"> Quality Question</th>
+    <th scope = "col"> Which Code pillar and practice are most relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 
 </tr>
@@ -868,9 +868,9 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Quality Question</th>
-    <th> Which AQuA role(s) would normally answer this?</th>
-    <th> Why are these AQuA roles involved?</th>
+    <th scope = "col"> Quality Question</th>
+    <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
+    <th scope = "col"> Why are these AQuA roles involved?</th>
 
 </tr>
  <tr height=83 style='height:62.5pt'>
@@ -1151,13 +1151,13 @@ table, th, td {
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
     <th> </th>
-    <th style="width:50%; text-align: center;"> Questions</th>
-    <th style="width:50%; text-align: center;">Answers</th>
-    <th style="text-align: center"> Answer added by</th>
-    <th style="text-align: center"> Date answer added</th>
-    <th style="text-align: center"> Is SRO satisfied with the answer?</th>
-    <th style="text-align: center"> Next review due on</th>
-    <th style="text-align: center"> Has anything changed from last review?</th>
+    <th style="width:50%; text-align: center;" scope = "col"> Questions</th>
+    <th style="width:50%; text-align: center;" scope = "col">Answers</th>
+    <th style="text-align: center" scope = "col"> Answer added by</th>
+    <th style="text-align: center" scope = "col"> Date answer added</th>
+    <th style="text-align: center" scope = "col"> Is SRO satisfied with the answer?</th>
+    <th style="text-align: center" scope = "col"> Next review due on</th>
+    <th style="text-align: center" scope = "col"> Has anything changed from last review?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 <td height=21 class=xl657005 width=31 style='height:15.5pt;width:24pt'>Q20</td>
@@ -1242,9 +1242,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-    <th> Why do I need to know the answer to this?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+    <th scope = "col"> Why do I need to know the answer to this?</th>
 </tr>
 <tr height=83 style='height:62.5pt'>
 <td height=67 class=xl666956 width=31 style='height:50.0pt;width:24pt'> Q20 </td>
@@ -1340,9 +1340,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-    <th> Which pillar and principle of the Code of Practice are most relevant here?  
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+    <th scope = "col"> Which pillar and principle of the Code of Practice are most relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
 <tr height=83 style='height:62.5pt'>
@@ -1432,9 +1432,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-  <th> Which AQuA role(s) would normally answer this?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+  <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
     <th> Why are these AQuA roles involved?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
@@ -1542,13 +1542,13 @@ table, th, td {
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
     <th> </th>
-    <th style="width:50%; text-align: center;"> Questions</th>
-    <th style="width:50%; text-align: center;">Answers</th>
-    <th style="text-align: center"> Answer added by</th>
-    <th style="text-align: center"> Date answer added</th>
-    <th style="text-align: center"> Is SRO satisfied with the answer?</th>
-    <th style="text-align: center"> Next review due on</th>
-    <th style="text-align: center"> Has anything changed from last review?</th>
+    <th style="width:50%; text-align: center;" scope = "col"> Question</th>
+    <th style="width:50%; text-align: center;" scope = "col">Answers</th>
+    <th style="text-align: center" scope = "col"> Answer added by</th>
+    <th style="text-align: center" scope = "col"> Date answer added</th>
+    <th style="text-align: center" scope = "col"> Is SRO satisfied with the answer?</th>
+    <th style="text-align: center" scope = "col"> Next review due on</th>
+    <th style="text-align: center" scope = "col"> Has anything changed from last review?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 <td height=21 class=xl657005 width=31 style='height:15.5pt;width:24pt'>Q26</td>
@@ -1892,9 +1892,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-    <th> Why do I need to know the answer to this?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+    <th scope = "col"> Why do I need to know the answer to this?</th>
 
 </tr>
  <tr height=83 style='height:62.5pt'>
@@ -2250,9 +2250,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Questions</th>
-    <th> Which pillar and principle of Code of Practice are relevant here?  
+    <th scope = "col"> </th>
+    <th scope = "col"> Questions</th>
+    <th scope = "col"> Which pillar and principle of Code of Practice are relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 
 </tr>
@@ -2608,10 +2608,10 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-    <th> Which AQuA role(s) would normally answer this?</th>
-    <th> Why are these AQuA roles involved?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+    <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
+    <th scope = "col"> Why are these AQuA roles involved?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 
@@ -3139,9 +3139,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Question</th>
-    <th> Why do I need to know the answer to this?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Question</th>
+    <th scope = "col"> Why do I need to know the answer to this?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 
@@ -3264,9 +3264,9 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Questions</th>
-    <th> Which pillar and principle of Code of Practice matter here?  
+    <th scope = "col"> </th>
+    <th scope = "col"> Questions</th>
+    <th scope = "col"> Which pillar and principle of Code of Practice matter here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
@@ -3409,10 +3409,10 @@ table, th, td {
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
-    <th> </th>
-    <th> Quality Question</th>
-    <th> Which AQuA role(s) would normally answer this?</th>
-    <th> Why are these AQuA roles involved?</th>
+    <th scope = "col"> </th>
+    <th scope = "col"> Quality Question</th>
+    <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
+    <th scope = "col"> Why are these AQuA roles involved?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 <td height=67 class=xl6531542 width=31 style='height:50.0pt;width:24pt'>Q52</td>
