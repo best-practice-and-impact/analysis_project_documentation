@@ -23,7 +23,7 @@ The guidance has five main aims:
 4. To ensure there is a consistent understanding of roles and responsibilities when producing high quality analysis and statistics.  
 5. To make it easier to create critical project documentation including an [assumptions and decisions log](https://officenationalstatistics.sharepoint.com/:x:/r/sites/anstanpi/Modelling_Best_Practice/Resources/quality_assurance_templates/assumptions_and_decision_log_template.xlsx?d=wdfc9cdc643584edca8317e49aff8e67b&csf=1&web=1&e=4MSSwy), issue and decisions log, risk register and divisional [Quality Improvement Plan](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Managing_Quality_Mechanisms.aspx).  
 
-Reflecting on the questions asked in this template will help you to manage your analysis risks:
+Reflecting on the questions asked in the template will help you to manage your analysis risks:
 
 1. You will be able to document the mitigation that is in place or planned.    
 2. You will know that the project is prepared to accept issues or risks and why this is.    
@@ -40,7 +40,7 @@ Building on these cross-government resources, this guidance sets out quality que
 
 Each question is linked with the Code of Practice for Statistics pillars of [Trustworthiness](https://code.statisticsauthority.gov.uk/the-code/trustworthiness/), [Quality](https://code.statisticsauthority.gov.uk/the-code/quality/) and [Value](https://code.statisticsauthority.gov.uk/the-code/value/). We explain the importance and relevance of each question in light of the three pillars so teams can better understand and apply these principles through out the project life cycle.  
 
-Quality questions are also categorised by which responsible role from the AQuA book would usually answer them. The idea is to highlight the clear line of accountability set out in the Aqua book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key Aqua roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
+Quality questions are also categorised by which responsible role from the AQuA book would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
 
 ## Structure of the guidance
 
@@ -50,22 +50,24 @@ Answering 60 questions may seem a daunting task at first! The questions are desi
 
 Answering the questions will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce the critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and your users. 
 
-The AQuA book divides the stages of the analytical cycle into:  
+The AQuA book divides the analytical cycle into four stages:  
 
 1) Scoping  
 2) Design  
 3) Conducting and checking analysis  
 4) Delivery   
 
-The stages are covered by the following tabs on this website:
+The questions covered by the following tabs on this website:
 
 ### a) Quality Questions 
 
-This tab lists the quality questions that are relevant for each stage of analytical cycle. It provides space in the form of editable text boxes (with no word limit) to write the answers. We encourage commissioner, analyst team and analytical assurer to answer all the questions given their responsibilities.
+This tab lists the quality questions that are relevant for each stage of analytical cycle. It provides space in the form of editable text boxes (with no word limit) to write the answers. We encourage commissioner, analyst team and analytical assurer to answer all the questions that are relevant to their responsibilities.
 
-User needs or project aims often change over time, so the template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due. 
+User needs and project aims often change as things evolve, so the template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due. 
 
-The Senior responsible owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO needs to sign-off all the answers. It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl+S. To undo a action press Ctrl+Z. Pressing Ctrl+S will automatically download a copy of the HTML page on your machine. 
+The Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO needs to sign-off all the answers. 
+
+It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl + S. To undo an action press Ctrl + Z. Pressing Ctrl + S will let you save a copy of the HTML page on your device. 
 
 ### b) Importance
 
@@ -79,7 +81,7 @@ This tab shows the pillars and principles of Code of Practice for Statistics eac
 
 This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.  
 
-The AQuA book recommends the creation of four identifiable roles to cover different areas of responsibility:
+The AQuA book recommends the allocation of four roles to cover different areas of assurance responsibility:
 * Commissioner
 * Senior Responsible Owner
 * Analyst
@@ -88,9 +90,9 @@ The AQuA book recommends the creation of four identifiable roles to cover differ
 **Responsibilities of the Senior Responsible Owner**  
 The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the Analyst role. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.
 - Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.
+- Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the analyst team.
 
-**Responsibilities of Commissioner**
-The Commissioner   
+**Responsibilities of Commissioner**   
 - Ensures that context is understood so quality assurance is appropriate and proportionate.  
 - Ensures that there is enough time and resource for required assurance and account for risk.  
 - Must understand strengths and limitations including uncertainty so results are interpreted correctly.  
@@ -100,7 +102,7 @@ The Commissioner
 - Assist the Commissioner in framing the question to ensure the right analysis is done.  
 - Manage external specialists.  
 - Design, build, document and run the analysis.  
-- Delivers QUALITY OF CONTENT ("The analysis is well-designed and users the right tools and methods to meet user needs").
+- Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs").
 
 **Responsibilities of Analytical Assurer**  
 - Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.  
