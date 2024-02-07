@@ -32,5 +32,7 @@ Python 3.8 or later
 Visual Studio Code with the Quarto, Python and autopep8 extensions    
 Quarto
 
-# Useful links  
-UK Government Analytical Community. (2020). [Quality assurance of code for analysis and research](https://best-practice-and-impact.github.io/qa-of-code-guidance/ ). Office for National Statistics, Quality and Improvement division.  
+# Useful links
+HM Government [AQuA book analytical quality assurance manual](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government). HM Government.
+
+HM Government Analysis Function. (2020). [Quality assurance of code for analysis and research](https://best-practice-and-impact.github.io/qa-of-code-guidance/ ). Office for National Statistics, Quality and Improvement division.  
