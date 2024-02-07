@@ -28,8 +28,8 @@ The main folder contains the following key files:
 We recommend using Visual Studio Code to work with this project. Open the code workspace in VS Code to load the project. To render the website, open any of the .qmd documents and select the Preview button. Edits to qmd files will only be reflected in the project website after you have re-rendered using Preview.
 
 # Software requirements  
-Python 3.8 or later
-Visual Studio Code with the Quarto, Python and autopep8 extensions.
+Python 3.8 or later    
+Visual Studio Code with the Quarto, Python and autopep8 extensions    
 Quarto
 
 # Useful links  
