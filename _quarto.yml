@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
       - "*.xlsx"
+      - "*.html"
 
 website:
   title: "Quality Questions"
@@ -27,6 +28,8 @@ website:
         href: sample_assumptions_log.qmd
       - text: "Download commissioning log Excel template"
         href: "commissioning_template.xlsx"
+      - text: "Download the quality questions HTML template"
+        href: quality_questions_html_template.html
 
 format:
   html:
