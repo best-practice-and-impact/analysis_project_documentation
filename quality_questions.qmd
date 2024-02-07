@@ -355,7 +355,7 @@ table, th, td {
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q1</td>
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
-  width:240pt'>What question is the analysis trying to answer?</td>
+  width:240pt'>What question does the analysis try to answer?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>A clear understanding of the analysis question is critical. It enables
   your team to scope out requirements, understand the strengths and limitations
