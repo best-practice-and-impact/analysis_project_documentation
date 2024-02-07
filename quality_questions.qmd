@@ -2614,7 +2614,7 @@ table, th, td {
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <TR VALIGN=TOP>
     <th> </th>
-    <th> Questions</th>
+    <th> Question</th>
     <th> Which AQuA role(s) would normally answer this?</th>
     <th> Why are these AQuA roles involved?</th>
 </tr>
@@ -3010,13 +3010,13 @@ table, th, td {
 <table style="width:100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; font size="2" face="Courier New">
 <TR VALIGN=TOP>
     <th> </th>
-    <th style="width:50%; text-align: center;"> Question</th>
-    <th style="width:50%; text-align: center;">Answer</th>
-    <th style="text-align: center"> Answer added by</th>
-    <th style="text-align: center"> Date answer added</th>
-    <th style="text-align: center"> Is SRO satisfied with the answer?</th>
-    <th style="text-align: center"> Next review due on</th>
-    <th style="text-align: center"> Has anything changed from last review?</th>
+    <th style="width:50%; text-align: center;" scope="col"> Question</th>
+    <th style="width:50%; text-align: center;" scope="col">Answer</th>
+    <th style="text-align: center" scope="col"> Answer added by</th>
+    <th style="text-align: center" scope="col"> Date answer added</th>
+    <th style="text-align: center" scope="col"> Is SRO satisfied with the answer?</th>
+    <th style="text-align: center" scope="col"> Next review due on</th>
+    <th style="text-align: center" scope="col"> Has anything changed from last review?</th>
 </tr>
  <tr height=83 style='height:62.5pt'>
 <td height=21 class=xl657005 width=31 style='height:15.5pt;width:24pt'>Q52</td>
