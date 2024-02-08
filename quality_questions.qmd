@@ -540,10 +540,9 @@ table, th, td {
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Analysis must comply with ethics standards to ensure public
-  confidence. Data ethics are an essential part of any good analysis. You
-  should consider the ethical implications of the analysis and how they feed
-  through to use of analysis when you create the workflow and report your
-  findings.</td>
+  confidence. Data ethics are essential for good analysis. You
+  should consider the ethical implications of the analysis when you create the 
+  workflow and report your findings.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
@@ -551,11 +550,11 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>What relevant questions are outside the scope of the analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Limitations affect the workings of the analysis and the quality
-  of outputs and what can be done with them. By being clear about the
-  limitations of the analysis we ensure that we have mitigated or accepted
-  them. Limitations must be documented so everybody using the analysis has a
-  shared understanding of them.<span style='mso-spacerun:yes'>  </span></td>
+  width:297pt'>Limiting the scope of analysis shapes the quality  of outputs
+  and what can be done with them. By being clear about the limitations of the 
+  analysis we can mitigate or accept them. Limitations must be documented so 
+  everybody using the analysis is aware of them.<span style='mso-spacerun:yes'>
+   </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
@@ -564,7 +563,7 @@ table, th, td {
   width:240pt'>How will you peer review and assure the analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Internal audit and peer review are critical for monitoring and
-  assuring that the analysis is performed appropriately and its meeting the
+  assuring that the analysis is performed appropriately and meets the
   required aims and objectives. The outcomes of the peer review should be
   documented and any relevant actions and recommendations should be addressed
   and taken forward.</td>
@@ -576,9 +575,10 @@ table, th, td {
   width:240pt'>Will external experts be involved in development and scrutiny of
   analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You should commission external specialists to peer review
-  or audit the analysis in proportion to risks around  use. They should be able to draw on expertise and experience across
-  government and beyond to get feedback, exchange experience and suggest best practice to improve the analysis.</td>
+  width:297pt'>You should commission external specialists to peer review or 
+  audit the analysis in proportion to risks around use. They should be able 
+  to draw on expertise and experience across government and beyond to get 
+  feedback, exchange experience and suggest best practice to improve the analysis.</td>
   </tr>
 </table>
 
@@ -1246,9 +1246,9 @@ table, th, td {
   simple, plain English description of what the analysis is for and what it
   does?</td>
   <td class=xl666956 width=396 style='border-left:none;width:297pt'>Writing a
-  plain English description of what the analysis is for and how it works helps
-  you make sure that the team and others with no subject or technical expertise
-  can understand what the analysis is for and what it does.</td>
+  plain English description of what the analysis is for and how it works means 
+  that the team or others with no subject or technical expertise
+  can understand the purpose of the analysis and what it does.</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl666956 width=31 style='height:50.0pt;border-top:none;
@@ -1270,10 +1270,9 @@ table, th, td {
    data collection, processing, quality assurance, analysis and
   dissemination?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You should clearly set out the time you need to perform
-  each stage of analysis from start to finish. This helps you to
-  evaluate if the current balance of the time split across these stages looks
-  effective and plan mitigation if the target looks too ambitious.<span
+  width:297pt'> Clearly setting out the time you need to perform
+  each stage of analysis helps you to evaluate if the time allocated to each 
+  stage is appropriate and plan mitigation if the target looks too ambitious.<span
   style='mso-spacerun:yes'> </span></td>
 </tr>
 <tr height=117 style='height:87.5pt'>
@@ -1283,11 +1282,11 @@ table, th, td {
   width:240pt'>Does any part of the analysis rely on manual processing? Have
   you considered the cost and benefits of fully automating the process?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Manual processes are inefficient and vulnerable to manual error.
-  A manual process is inherently more risky than a well-designed automated one.
-  Analysis with manual steps like copying and pasting data between files,
-  manually updating cells in tables, or moving data between software packages
-   are hard to assure and carry extra quality risks.</td>
+  width:297pt'>Manual processes are inefficient and are inherently more risky 
+  than well-designed automated processed. Analysis with manual steps like 
+  copying and pasting data between files,  manually updating cells in tables, 
+  or moving data between software packages are hard to assure and carry extra 
+  quality risks.</td>
  </tr>
  <tr height=167 style='height:125.0pt'>
   <td height=167 class=xl666956 width=31 style='height:125.0pt;border-top:none;
@@ -1298,10 +1297,10 @@ table, th, td {
   width:297pt'>Mistakes happen in analysis. You should have a clear and
   efficient process for reporting, documenting and addressing errors.
    Being open and honest about problems and working together to solve them
-    in a supportive way creates an atmosphere of openness
-  in the team and is critical for upholding users' trust in your output.
+  in a supportive way creates an atmosphere of openness in the team and is 
+  critical for upholding users' trust in your output.
   Teams should take reasonable steps to understand and document how and why
-  errors came about and mitigate the risk of them happening again. Your
+  errors came about, and mitigate the risk of them happening again. Your
   mitigation approach should be consistent with your department's revision
   policies.</td>
   <tr height=150 style='height:112.5pt'>
@@ -1311,13 +1310,13 @@ table, th, td {
   width:240pt'>Have you assessed uncertainty?</td>
   <td class=xl666956 width=396 style='border-top:none;border-left:none;
   width:297pt'>Consider how uncertainty impacts on all stages of the analysis.
-  Think about quantifying and measuring uncertainty as early as possible in scoping.
+  Think about quantifying and measuring uncertainty as early as possible.
   Identify and review sources of uncertainty regularly.
-  If you delay the assessment of uncertainty until late in the process it is often difficult and
-  costly to mitigate the resulting risks. In some cases, you may need to revise the process or
-  alter commissioning decisions. If a potential source of
-  uncertainty is overlooked at the start, this can limit the usefulness and
-  impact of the analysis.<span style='mso-spacerun:yes'> </span></td>
+  If you delay the assessment of uncertainty until late in the process, it is 
+  often difficult and costly to mitigate risks. In some cases, you may need to 
+  revise methods or alter commissioning decisions. If a potential source of
+  uncertainty is overlooked, this can limit the usefulness and impact of the 
+  analysis.<span style='mso-spacerun:yes'> </span></td>
   </tr>
  </tr>
 
@@ -1896,10 +1895,9 @@ table, th, td {
 <td height=67 class=xl6619059 width=31 style='height:50.0pt;width:24pt'>Q26</td>
   <td class=xl6619059 width=319 style='border-left:none;width:240pt'>How will the
   data in the analysis be processed before and during use?</td>
-  <td class=xl6619059 width=396 style='border-left:none;width:297pt'>Operations
-  on the data inputs will have wide-ranging effects on processes and outputs. A
-  clear understanding of how these processes affect the workflow is essential
-  for understanding quality.</td>
+  <td class=xl6619059 width=396 style='border-left:none;width:297pt'>Processing
+  the data inputs will impact methods and outputs. A clear understanding of how 
+  these processes affect the workflow is essential for understanding quality.</td>
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl6619059 width=31 style='height:25.0pt;border-top:none;
@@ -1918,12 +1916,11 @@ table, th, td {
   use?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Not all data can be used to answer particular research questions.
-  The formatting, the time scale, the granularity must all be assessed and
-  found relevant to the research question. A comprehensive understanding of
-  data inputs is a prerequisite to meeting user needs. Without understanding
-  where data is strong and where it is weak, it is impossible to make
-  meaningful improvements to the analysis and/or the inputs to manage the
-  limitations.<span style='mso-spacerun:yes'>    </span></td>
+  The formatting, the time scale, the granularity must all be relevant to the 
+  research question. A comprehensive understanding of data inputs is necessary 
+  to meet user needs. Without understanding where data is strong and/or weak, 
+  it is impossible to make meaningful improvements to the analysis and/or the 
+  inputs to mitigate limitations.<span style='mso-spacerun:yes'>    </span></td>
  </tr>
  <tr height=167 style='height:125.0pt'>
   <td height=167 class=xl6619059 width=31 style='height:125.0pt;border-top:
@@ -1934,14 +1931,14 @@ table, th, td {
     Do you understand how data providers collect,
   process and quality assure the data you use?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>A good relationship with data suppliers helps to make sure that
+  width:297pt'>A good relationship with data suppliers helps to confirm that
   the data they supply meet your requirements. Lack of communication can mean
-  you are not aware of quality risks or changes in collection or processing
+  you are unaware of quality risks or changes in collection/processing
   steps that may affect your results. You should be able to communicate with
-  your suppliers as often as you need to to manage input quality. Data
-  providers should also have a good understanding of how and why you are using
-  their data. This can help them to improve data quality, value, and identify
-  and address any gaps or issues that are relevant for your analysis.</td>
+  your suppliers to to manage input quality. Data providers should also have a 
+  good understanding of how and why you are using their data. This can help them
+  improve data quality, value, and identify and address gaps or issues that 
+  are relevant for your analysis.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
   <td height=100 class=xl6619059 width=31 style='height:75.0pt;border-top:none;
@@ -1952,7 +1949,7 @@ table, th, td {
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>A formal service level agreement with data providers makes sure that everybody
   understands what will be delivered, when and how. This is useful for setting
-  out clearly the division of responsibilities between data providers and your
+  out the division of responsibilities between data providers and your
   team for getting and sharing the data. It might specify formats, delivery,
   timescale, legal framework, accompanying metadata and quality checks.<span
   style='mso-spacerun:yes'> </span></td>
@@ -1993,8 +1990,8 @@ table, th, td {
   width:297pt'>Data suppliers make changes to their definitions, methods and
   systems. This may not affect the quality of their data but can
   impact on how you process the data and what you can infer
-  from it. Tailor communication with data suppliers so it sufficiently
- frequent, effective and ongoing to get timely information about changes they make.<span
+  from it. Tailor communication with data suppliers so it is sufficiently
+ frequent, effective and ongoing to get timely information about changes.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
@@ -2005,9 +2002,10 @@ table, th, td {
   the methods you use are appropriate?<span
   style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You should be able to explain why you chose your methods. For each method,
-  document the underlying assumptions, why the method is suitable for answering the analysis question,
-  why it is applicable to the type and distribution of data you are using, and how these decisions were signed off.</td>
+  width:297pt'>You should be able to explain why you chose your methods. For
+  each method, document the underlying assumptions, why the method is suitable 
+  for answering the analysis question, why it is applicable to the type and 
+  distribution of data you are using, and how these decisions were signed off.</td>
  </tr>
  <tr height=133 style='height:100.0pt'>
   <td height=133 class=xl6619059 width=31 style='height:100.0pt;border-top:
@@ -2016,10 +2014,11 @@ table, th, td {
   width:240pt'>Have reasonable alternative methods been explored and
   rejected for good reasons?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>There is often more than one way to meet the objectives of analysis.
+  width:297pt'>There is often more than one way to answer a question with data.
   When you have made choices about methods and approaches, explain how and why
-  you considered and rejected other options. Unless there is evidence underpinning your choice, users cannot
-  be sure that you have considered and rejected reasonable alternatives for good reasons.</td>
+  you considered and rejected other options. Unless there is evidence 
+  underpinning your choice, users cannot be sure that you have chosen the most 
+  suitable methods.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
@@ -2027,10 +2026,10 @@ table, th, td {
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
   width:240pt'>How do you know that your analysis is working correctly?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You need to be sure that your analysis produces the outputs that
-  you think it should and that the processes you run work as expected. If you
-  cannot demonstrate that scripts and processes you have set up work
-  correctly, you cannot confirm the quality of the results.</td>
+  width:297pt'>You need to be sure that your analysis produces the outputs
+  you think it should and the processes run as expected. If you
+  cannot demonstrate that scripts and processes work correctly, you cannot 
+  confirm the quality of the results.</td>
  </tr>
  <tr height=183 style='height:137.5pt'>
   <td height=183 class=xl6619059 width=31 style='height:137.5pt;border-top:
@@ -2040,14 +2039,15 @@ table, th, td {
   were made and who made them and signed them off?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>You must understand the assumptions your analysis makes.
-  Assumptions set out how the analysis simplifies the world and mitigates uncertainty.
-  If assumptions are inadequately set out or absent, important characteristics of the analysis and its inputs will
-  be opaque, greatly increasing risk. Without a comprehensive log of all
-  assumptions made by the analysis, an audit trail back to sources signed off by
+  Assumptions set out how the analysis simplifies the world and mitigates 
+  uncertainty. If assumptions are inadequately set out or absent, important 
+  characteristics of the analysis and its inputs will
+  be unclear, greatly increasing risk. Without a comprehensive log of
+  assumptions made by the analysis, an audit trail signed off by
   assumption owners, a version control log reflecting when assumptions were last
-  updated and evidence reflecting internal and external validation of
-  assumptions, uncertainties may go unacknowledged and could drastically impact
-  the outputs.<span style='mso-spacerun:yes'>  </span></td>
+  updated, and evidence reflecting internal and external validation of
+  assumptions, uncertainties may go unacknowledged and drastically impact
+  outputs.<span style='mso-spacerun:yes'>  </span></td>
  </tr>
  <tr height=50 style='height:37.5pt'>
   <td height=50 class=xl6619059 width=31 style='height:37.5pt;border-top:none;
@@ -2065,8 +2065,8 @@ table, th, td {
   <td class=xl6719059 width=319 style='border-top:none;border-left:none;
   width:240pt'>How do you measure and report uncertainty in your analysis?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>All analysis contain some degree of uncertainty that may come
-  from a variety of sources. Reporting uncertainties is important to inform
+  width:297pt'>All analysis contain some degree of uncertainty from a variety 
+  of sources. Reporting uncertainties is important to inform
   users of how precisely we can give our reported values or how much confidence
   users can have in the analysis. It could also help your team to determine
   where an analysis can be improved. There are many ways to quantify
