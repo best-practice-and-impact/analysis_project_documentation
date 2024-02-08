@@ -357,9 +357,9 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>What question does the analysis try to answer?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>A clear understanding of the analysis question is critical. It enables
+  width:297pt'>A clear understanding of the analysis question is critical. It helps
   your team to scope out requirements, understand the strengths and limitations
-  of the analysis and make sure it is fit for purpose.<br>
+  of the analysis that is fit for purpose.<br>
     If the question is not clear, you risk designing and delivering analysis which
   does not meet user needs.</td>
  </tr>
@@ -369,11 +369,10 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>Why do you need to answer this analysis question?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Exploring and understanding why you need the analysis, what it is for
+  width:297pt'>Knowing why you need the analysis, what it is for
   and how it will be used will help you to understand the importance and impact of your
-  work, how it supports decision making and how others will use it. It will
-  also help you to make sure that all stages of analysis are fit for purpose
-  and that the final output correctly answers the question you began with.<span
+  work and how it supports decision making. It will also help ensure the analysis is fit for purpose
+  and correctly answers the question.<span
   style='mso-spacerun:yes'>  </span></td>
  </tr>
  <tr height=83 style='height:62.5pt'>
@@ -383,9 +382,9 @@ table, th, td {
   width:240pt'>Which organisational priorities does this analysis address?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Knowing how the work aligns with organisational priorities
-  helps you to understand how it fits with wider strategic objectives and
-  why you need to do the analysis now. It informs the level of
-  assurance needed to make sure the work is fit for purpose.</td>
+  shows how it will fit with strategic objectives and
+  why you should do the analysis now. It informs the level of
+  assurance needed to confirm the work is fit for purpose.</td>
  </tr>
  <tr height=33 style='height:25.0pt'>
   <td height=33 class=xl6611297 width=31 style='height:25.0pt;border-top:none;
@@ -393,8 +392,8 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>If you use a model, is it business critical?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Identifying if the analysis model is business critical helps to define
-  the level of assurance needed to ensure it is fit for purpose.</td>
+  width:297pt'>Identifying if the work is business critical determines
+  the assurance needed to ensure it is fit for purpose.</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl6611297 width=31 style='height:50.0pt;border-top:none;
@@ -402,10 +401,9 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>Who needs the answer to the analysis question?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>If you do not know what your outputs will be used for, you cannot
-  be sure they meet user needs. A good understanding of use
-  cases and how you prioritise them is essential for making sure that
-  all parts of your analysis are fit for purpose.</td>
+  width:297pt'>Knowing what your outputs will be used for can ensure they meet 
+  user needs. A good understanding of uses is essential for making sure that
+  your analysis is fit for purpose.</td>
  </tr>
  <tr height=167 style='height:125.0pt'>
   <td height=167 class=xl6611297 width=31 style='height:125.0pt;border-top:
@@ -416,13 +414,13 @@ table, th, td {
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Analysis must be well understood by relevant users, or else
   risks scope creep and misspecification. Identify relevant stakeholders and
-  users, consult them before designing the analysis, and take account
-  of their views and considerations<span style='mso-spacerun:yes'> 
-  </span>wherever relevant. Consulting the right stakeholders makes sure that
-  you and your users have a shared understanding and vision of 
-  the best way to approach answering the question, what the output should look
-  like, how well the users understand the process, its quality and limitations,
-  and how to tailor the final ouput to best meet user needs.</td>
+  users, consult them before designing the analysis, and consider their views.
+  <span style='mso-spacerun:yes'> 
+  </span> Consulting the right stakeholders helps
+  you and your users agree on how to answer the question and
+   what the output should look like. This means you can check the users' 
+   understanding of the process and its quality, and that the final ouput meets
+    user needs.</td>
  </tr>
  <tr height=117 style='height:87.5pt'>
   <td height=117 class=xl6611297 width=31 style='height:87.5pt;border-top:none;
@@ -430,13 +428,11 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>How will you know you have answered the analysis question correctly?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Being clear about the outputs required and the amount of uncertainty
-  that is acceptable is essential for ensuring that the final output is
-  accurate and reliable and that users and your team have a good understanding
-  of limitations and uncertainty. It is also essential when designing
-  verification and validation activities that will help you to check the
-  robustness of results under a range of plausible assumptions about methods
-  and data.</td>
+  width:297pt'>Being clear about the outputs required and acceptable uncertainty
+ is essential for producing accurate and reliable outputs where users understand
+  the work's limitations and uncertainty. It is also essential when designing
+  verification and validation activities to check the robustness of results 
+  under a range of plausible assumptions about methods and data.</td>
  </tr>
  <tr height=133 style='height:100.0pt'>
   <td height=133 class=xl6611297 width=31 style='height:100.0pt;border-top:
@@ -445,12 +441,11 @@ table, th, td {
   width:240pt'>What is the estimated time and resource required to answer the analysis
   question (in months and FTE)?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Without a clear understanding of time and resource constraints,
+  width:297pt'>Without a clear understanding of time and resources available,
   you may overcommit. It is important to push back against unrealistic demands
-  if the team is not able to set aside sufficent time to effectively quality
-  assure the analysis. The users and commissioner should fully understand and
-  accept the associated risks to quality when time and resource pressures are
-  unavoidable and will mean that there are unavoidable risks to quality.<span
+  if there is not enough time to effectively quality assure the analysis. 
+  The users and commissioner should fully understand and accept increased risks 
+  to quality when time and resource pressures are unavoidable.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=50 style='height:37.5pt'>
@@ -460,8 +455,7 @@ table, th, td {
   width:240pt'>What is the impact if the analysis is not done now?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding why the work needs to happen now will help you to
-  prioritise and make sure that limited resources are used for the right
-  activities.</td>
+  prioritise and use limited resources for the right activities.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
   <td height=100 class=xl6611297 width=31 style='height:75.0pt;border-top:none;
@@ -471,9 +465,9 @@ table, th, td {
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>Understanding the possible legal, financial or
   reputational consequences if the analysis is not carried out correctly helps you
-   to design a proportionate set of assurance activities. You should also think about
-    how these consequences line up with the risk appetite of your organisation and
-     consider this when you design your mitigation.</td>
+  to design proportionate assurance activities. You should consider how these 
+  consequences line up with the risk appetite of your organisation when you 
+  design your mitigation.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6611297 width=31 style='height:62.5pt;border-top:none;
@@ -482,10 +476,10 @@ table, th, td {
   width:240pt'>Name the commissioner, senior responsible owner and analytical assurer of this
   analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Clear lines of accountability strengthen assurance processes and
-  make sure that important decisions are signed off by the right people. There
-  should be a clear understanding of who is responsible for managing, producing
-  and quality assuring the analysis in the team.<span
+  width:297pt'>Clear accountability makes sure that important decisions are 
+  signed off by the right people. There should be a clear understanding of who 
+  is responsible for managing, producing and quality assuring the analysis in 
+  the team.<span
   style='mso-spacerun:yes'> </span></td>
  </tr>
  <tr height=117 style='height:87.5pt'>
@@ -494,11 +488,11 @@ table, th, td {
   <td class=xl6611297 width=319 style='border-top:none;border-left:none;
   width:240pt'>What tools and resources will you use in production? Are they the best for the job?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Before starting an analysis, identify all the skills and
+  width:297pt'>Before starting, identify all the skills and
   resources needed to produce the final output in a sustainable and
-  reproducible way and to quality assure it at every step. The platform used to
+  reproducible way and quality assure it at every step. The platform used to
   host the analysis and the software to build and run the analysis should be
-  appropriate given uses and risks. For example, producing critical outputs in
+  appropriate and risks considered. For example, producing critical outputs in
   Excel does not comply with best practice and is unlikely to be robust or
   verifiable.</td>
  </tr>
@@ -509,7 +503,7 @@ table, th, td {
   width:240pt'>Do you have the right internal and external resources and
   capability to deliver the analysis?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
-  width:297pt'>If the team lacks capability, sufficient resource or time, this
+  width:297pt'>If the team lacks capability, resource, or time, this
   increases the risk that the analysis will not be fit for purpose or
   sufficiently assured.<span style='mso-spacerun:yes'> </span></td>
  </tr>
@@ -523,7 +517,7 @@ table, th, td {
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>You must identify potential risks and their impact well in
   advance to enable effective mitigation and quicker, confident
-  decision-making. It is also important that users understand risks to ensure
+  decision-making. It is important that users understand risks to ensure
   that their expectations and requirements are met. You should document how you
   have identified and are monitoring and mitigating risks.</td>
  </tr>
@@ -534,8 +528,8 @@ table, th, td {
   width:240pt'>Is there a contingency plan prepared if your mitigation plans fail?</td>
   <td class=xl6611297 width=396 style='border-top:none;border-left:none;
   width:297pt'>You should account for risks that you can mitigate. 
-  Include risks that would have a high impact on the analysis but have a low
-  probability of happening. Without well designed contingencies we put quality at
+  Include risks that have a high impact on the analysis but a low
+  probability of happening. Without well designed contingencies, we put quality at
   risk.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
