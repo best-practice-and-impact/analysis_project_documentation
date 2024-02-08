@@ -2096,11 +2096,11 @@ table, th, td {
   width:240pt'>Can you explain the impact of your analysis on downstream
   processes? Are there any risks around these dependencies?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Understanding how your analysis would be used by the primary and
-  secondary users would help to ensure that the right quality and assurance
-  levels are in place. It would help you to assess the risks around the use of
-  analysis and if there are other stakeholders or users you need to
-  consult.<span style='mso-spacerun:yes'>            </span></td>
+  width:297pt'>Understanding how your analysis might be used would help ensure 
+  that the right quality and assurance levels are in place. It would help you 
+  assess the risks around the use of analysis and if there are other 
+  stakeholders or users you need to consult.<span style='mso-spacerun:yes'>            
+  </span></td>
  </tr>
  <tr height=50 style='height:37.5pt'>
   <td height=50 class=xl6619059 width=31 style='height:37.5pt;border-top:none;
@@ -2109,8 +2109,8 @@ table, th, td {
   width:240pt'>Is all or part of the analysis reliant on a single person?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Single points of failure carry significant business risk. If
-  there is only one person who understands how to carry out all or part of the
-  analysis then the process is extremely vulnerable.</td>
+  there is only one person who understands how to carry out all/part of the
+  analysis or maintain the code then the process is extremely vulnerable.</td>
  </tr>
  <tr height=67 style='height:50.0pt'>
   <td height=67 class=xl6619059 width=31 style='height:50.0pt;border-top:none;
@@ -2119,9 +2119,8 @@ table, th, td {
   width:240pt'>Is it clear why important decisions about the analysis were made, who made them and when?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>All analysis involves decisions. A comprehensive record of the
-  decisions made in specifying and conducting the analysis ensures that we have
-  a full audit trail of why decisions were made, who made them and signed them
-  off.</td>
+  decisions made in specifying and conducting the analysis ensures a full audit 
+  trail of why decisions were made, who made them and signed them off.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
@@ -2131,9 +2130,9 @@ table, th, td {
   easy to track who made the changes and when and why they were
   made?<span style='mso-spacerun:yes'> </span></td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>Good version control ensures that you have a full understanding
-  of when, why and how changes were made to your analysis process. If it is
-  hard to track changes, this makes it hard to retrace steps if there is a
+  width:297pt'>Good version control ensures a full understanding
+  of when, why, and how changes were made to your analysis process. If it is
+  hard to track changes, it will be hard to retrace steps if there is a
   problem and means you do not fully understand the process</td>
  </tr>
  <tr height=117 style='height:87.5pt'>
@@ -2144,11 +2143,11 @@ table, th, td {
   continue the work without talking to you first?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>Your analysis must be well documented and repeatable so that
-  somebody new can understand it, pick it up and produce the same output using
+  somebody new can understand it, use it, and produce the same output using
   the same inputs. Poor documentation means that other people will not
-  understand why the process is configured as it is, how the process works, how
-  to run the process safely and produce the same output- potentially leading to
-  errors.</td>
+  understand why the process is set up as it is, how the process works, how
+  to run the process safely and produce the same output. Poor documentation can
+  potentially lead to errors.</td>
  </tr>
  <tr height=117 style='height:87.5pt'>
   <td height=117 class=xl6619059 width=31 style='height:87.5pt;border-top:none;
@@ -2159,9 +2158,9 @@ table, th, td {
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>The team should independently review and validate the logical
   integrity of its analysis as well as the structure and functionality of the
-  code against the research question the analysis asks. A record of validation
+  code against the research question. A record of validation
   and verification activities undertaken, outstanding activities and remedial
-  actions is important to understand that the correct analysis has been
+  actions is important to confirm that the correct analysis has been
   performed for the purpose it is used for and the chosen approach minimises
   risk.</td>
  </tr>
@@ -2173,8 +2172,8 @@ table, th, td {
   your team or organisation?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>External peer review is one of the best ways to ensure that the
-  analysis and code are well made and fit for purpose. Without it, teams may
-  reinforce their own biases and will be unable to notice there is anything
+  analysis and code are well made and fit for purpose. Without it, teams can
+  reinforce their own biases and may not notice there is anything
   wrong.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
@@ -2199,21 +2198,20 @@ table, th, td {
   correct?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>If you check that results fit with your expectations
-  and you can explain any discrepancies this makes it
-  easier to mitigate risk appropriately. There are many ways to check if
-  analysis is carried out correctly. For example, sensitivity analysis can
-  help you to understand which inputs have the greatest effect on the
-  outputs, and which procesess in the analysis are the most critical.You can
-  also compare figures from the analysis with similar data from other sources or
-  from historical series.</td>
+  and you can explain discrepancies, this makes it easier to mitigate risk. 
+  There are many ways to check if analysis is carried out correctly. For 
+  example, sensitivity analysis can help you understand which inputs have the 
+  greatest effect on the outputs.You can also compare figures from the analysis 
+  with similar data from other sources or from historical series.</td>
  </tr>
  <tr height=83 style='height:62.5pt'>
   <td height=83 class=xl6619059 width=31 style='height:62.5pt;border-top:none;
   width:24pt'>Q50</td>
   <td class=xl6619059 width=319 style='border-top:none;border-left:none;
-  width:240pt'>Do the outputs of your analysis align with similar findings from elsewhere? If not, can you explain why?</td>
+  width:240pt'>Do the outputs of your analysis align with similar findings from 
+  elsewhere? If not, can you explain why?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
-  width:297pt'>if you can, check that your outputs align with
+  width:297pt'> If you can, check that your outputs align with
   findings from previous runs of the analysis, alternate data sources, and comparable
   studies. This gives you confidence that the analysis works as
   expected. You should be able to explain any inconsistencies that you see.</td>
@@ -2226,11 +2224,11 @@ table, th, td {
   do you take to investigate them?</td>
   <td class=xl6619059 width=396 style='border-top:none;border-left:none;
   width:297pt'>It is crucial to check unusual trends and values in the data and
-  understand why they are there. Not all outliers are
-  the same. Some have a strong influence, some not at all. Some are valid and
-  important data values. Others might be errors. Investigate outliers and unusual patterns
+  understand why they are there. Not all outliers are the same. Some have a 
+  strong influence, some not at all. Some are valid and important data values. 
+  Others might be errors. Investigate outliers and unusual patterns
   thoroughly and take reasonable steps to check their impact on your final output. 
-  If you choose to exclude unusual values you should explain why this is acceptable.</td>
+  If you choose to exclude unusual values, you should explain why this is acceptable.</td>
   </tr>
 </table>
 
@@ -3143,11 +3141,14 @@ table, th, td {
   <td class=xl665210 width=319 style='border-left:none;width:240pt'>Can you
   give a clear account of what can and cannot be inferred from the analysis?</td>
   <td class=xl665210 width=396 style='border-left:none;width:297pt'>Often the
-  aim of final output is to inform decison-making. Output might include predictions, involving lots of underlying
-  assumptions. It is critical that you support your users to make appropriate use of outputs and understand what can and cannot be
-  inferred. Without this, there is a major risk that users may misinterpret findings, make in appropriate comparisons, 
-  use the analysis for unsuitable purposes and arrive at the wrong conclusions. For example, a non-expert user may
-  wrongly interpret correlation as causation or use incomplete or disconnected data to make forecasts. </td>
+  aim of final output is to inform decison-making. Output might include 
+  predictions, involving lots of underlying assumptions. It is critical that 
+  you support your users to make appropriate use of outputs and understand what 
+  can and cannot be inferred. Without this, users may misinterpret findings, 
+  make in appropriate comparisons, use the analysis for unsuitable purposes 
+  and arrive at the wrong conclusions. For example, a non-expert user may 
+  wrongly interpret correlation as causation or use incomplete or disconnected 
+  data to make forecasts. </td>
  </tr>
  <tr height=100 style='height:75.0pt'>
   <td height=100 class=xl665210 width=31 style='height:75.0pt;border-top:none;
@@ -3169,8 +3170,9 @@ table, th, td {
   width:240pt'>Have you sense checked outputs with user groups and
   stakeholders?</td>
   <td class=xl665210 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You should work with users, experts and other relevant
-  stakeholders to verify the credibility of outputs and sense check that they are useful.</td>
+  width:297pt'>You should work with users, experts, and other relevant
+  stakeholders to verify the credibility of outputs and sense check that they 
+  are useful.</td>
  </tr>
  <tr height=117 style='height:87.5pt'>
   <td height=117 class=xl665210 width=31 style='height:87.5pt;border-top:none;
@@ -3193,7 +3195,7 @@ table, th, td {
   width:240pt'>Are the implications of unquantified uncertainties communicated
   to users?</td>
   <td class=xl665210 width=396 style='border-top:none;border-left:none;
-  width:297pt'>You must support your users so they have a sound understanding of relevant
+  width:297pt'>You must support your users to understand relevant
   uncertainties which are not captured in the analysis. When you can,
   make reasonable judgements about the likely size and
   direction of unquantified uncertainty. Provide a qualitative
@@ -3207,7 +3209,7 @@ table, th, td {
   width:240pt'>Is workflow documentation including technical guides and code repositories publicly available?</td>
   <td class=xl665210 width=396 style='border-top:none;border-left:none;
   width:297pt'>Transparency about your analysis supports proper scrutiny
-  and challenge, promotes public trust and encourages re-use of the resources
+  and challenge, promotes public trust, and encourages re-use of the resources
   you develop.</td>
  </tr>
  <tr height=100 style='height:75.0pt'>
