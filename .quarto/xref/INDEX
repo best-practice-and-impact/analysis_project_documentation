@@ -43,5 +43,8 @@
   },
   "test_quality_questions_embedded_html.qmd": {
     "test_quality_questions_embedded_html.html": "b931ffa7"
+  },
+  "assumptions_and_issues_log.qmd": {
+    "assumptions_and_issues_log.html": "eb9bc40b"
   }
 }
