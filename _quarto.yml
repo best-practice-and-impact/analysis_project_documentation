@@ -14,22 +14,21 @@ website:
         href: index.qmd
       - text: "Quality Questions"
         href: quality_questions.qmd
-      - text: "FAQs"
-        href: faqs.qmd
-      - text: "Feedback"
-        href: feedback.qmd
+      - text: "Download the quality questions HTML template"
+        href: quality_questions_html_template.html
       - text: "Download assumptions and decision log Excel template"
         href: "assumptions_and_decision_log_template.xlsx"
-      - text: "Assumptions log guide"
-        href: assumptions_log.qmd
-      - text: "Issues log guide"
-        href: issues_log.qmd
+      - text: "Assumptions and issues log guide"
+        href: assumptions_and_issues_log.qmd
       - text: "Sample assumptions log"
         href: sample_assumptions_log.qmd
       - text: "Download commissioning log Excel template"
         href: "commissioning_template.xlsx"
-      - text: "Download the quality questions HTML template"
-        href: quality_questions_html_template.html
+      - text: "FAQs"
+        href: faqs.qmd
+      - text: "Feedback"
+        href: feedback.qmd
+
 
 format:
   html:
