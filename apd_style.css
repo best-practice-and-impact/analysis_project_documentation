@@ -1,0 +1,31 @@
+table.simpleTable {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.simpleTable td, table.simpleTable th {
+    padding: 3px 2px;
+  }
+  table.simpleTable tbody td {
+  }
+  table.simpleTable thead {
+      border-bottom: 2px solid #666666;
+  }
+  table.simpleTable thead th {
+    font-weight: bold;
+    color: #000000;
+  }
+  table.simpleTable tfoot td {
+  }
+  table.simpleTable tfoot .links {
+    text-align: right;
+  }
+  table.simpleTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }

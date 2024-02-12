@@ -48,5 +48,65 @@
     "crumbs": [
       "Assumptions and issues log guide"
     ]
+  },
+  {
+    "objectID": "feedback.html",
+    "href": "feedback.html",
+    "title": "Feedback",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nThis guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.\nPlease get in touch with feedback to support the guidance by creating a GitHub Issue or emailing us.\n\n\n\n\nFeedback\nWe are keen to understand the challenges faced by analytical teams in ONS when complying with good practice. To evaluate the effectiveness of this guidance, we would be grateful if you could fill in a short survey.\nWe appreciate your feedback. It will help us to make additional tools and resources on good practice for producing quality analysis.\nIf you have questions about this guidance or the survey please email ASAP@ons.gov.uk with “analytical QA” in the subject header.",
+    "crumbs": [
+      "Feedback"
+    ]
+  },
+  {
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nThis guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.\nPlease get in touch with feedback to support the guidance by creating a GitHub Issue or emailing us.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#when-should-i-use-this-guidance",
+    "href": "faqs.html#when-should-i-use-this-guidance",
+    "title": "Frequently Asked Questions",
+    "section": "When should I use this guidance?",
+    "text": "When should I use this guidance?\nIf you are starting work on a new analysis project we recommend that you use this guidance right from the scoping stage. For teams who are in the middle of an analysis, you can still use the guidance and templates to think about the quality questions from the scoping and design stages and continue recording the answers up until the delivery stage.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#which-analysis-is-in-scope-of-the-guidance",
+    "href": "faqs.html#which-analysis-is-in-scope-of-the-guidance",
+    "title": "Frequently Asked Questions",
+    "section": "Which analysis is in scope of the guidance?",
+    "text": "Which analysis is in scope of the guidance?\nThe guidance applies to all analysis workflows, including analysis to support research, advice for other departments, ad-hoc and one-off outputs and regular outputs.\nRegular outputs often fulfil at least one of the criteria for what makes a business critical model:\n* Underpins essential financial and funding decisions;\n* Essential to the achievement of business plan actions and priorities;\n* Must be error free or else risk serious financial or legal penalties or reputational damage for the organisation.\nBusiness critical analysis requires the highest level of scrutiny and the governance arrangements must be appropriate for the level of risk.\nFor ad-hoc outputs with quick turnarounds and limited time and resources, analysis still needs sufficient quality assurance to ensure it is fit for purpose. Ad-hoc outputs are often used as part of the evidence when making important policy decisions, so getting them right is very important.\nWe strongly encourage senior responsible owners of both regular and ad-hoc analysis to answer all questions relevant to their role.\nCompleting the logs makes it much easier to understand the risks that the analysis carries and will help you plan to mitigate them. Having a proper audit trail and comprehensive logs also help when:\n* You need to explain why the analysis works as it does.\n* You need to raise quality and resourcing issues and push back against demands that are unrealistic.\n* You need to understand and communicate potential risks.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#how-should-i-identify-the-senior-responsible-owner-commissioner-analyst-and-analytical-assurer",
+    "href": "faqs.html#how-should-i-identify-the-senior-responsible-owner-commissioner-analyst-and-analytical-assurer",
+    "title": "Frequently Asked Questions",
+    "section": "How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?",
+    "text": "How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?\nThe AQuA Book sets out four roles responsible for the assurance of analysis:\n* Commissioner\n* Senior Responsible Owner (SRO) (usually leads the analyst team)\n* Analysts (who usually report to the SRO) and\n* Analytical Assurer.\nWhat matters here is that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.\nAs a project team, you should make sure that each role is in place and you understand how it will operate for you so that you have the right assurance.\nThe AQuA Book makes no expectations about levels of seniority or grade of each of the occupiers of the roles. It does not specify whether roles should be held by a person or could be held by a committee or other governance group (such as a senior leadership team).\nThe key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in an analysis workflow varies from project to project, depending on how the work is planned, managed and assured.\nWe suggest that if roles are taken by individuals, the SRO and commissioner should usually be at Grade 7 or above. If you are still unsure about how to allocate the roles among your team and governance groups, please email us with “analysis assurance” in the subject header and we will help you to make the decision.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-help-is-available-to-answer-the-quality-questions",
+    "href": "faqs.html#what-help-is-available-to-answer-the-quality-questions",
+    "title": "Frequently Asked Questions",
+    "section": "What help is available to answer the quality questions?",
+    "text": "What help is available to answer the quality questions?\nFor ONS staff, the ONS Quality Central wiki contains lots of useful guidance, templates and mandatory training to help you work through and answer the quality questions. It includes the ONS Quality Standard for Analysis.\nThese cross-government resources are also likely to be useful:\n* Government Data Quality Hub Quality Questions and Red Flags and Government Data Quality Framework\n* Office for Statistics Regulation Quality Assurance of Administrative Data toolkit and Quality and statistics: an OSR perspective.\n* The Uncertainty Toolkit for Analysts in Government",
+    "crumbs": [
+      "FAQs"
+    ]
   }
 ]
