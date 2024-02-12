@@ -10,13 +10,13 @@ table.simpleTable {
   }
   table.simpleTable tbody td {
   }
-  table.simpleTable thead {
-      border-bottom: 2px solid #666666;
-  }
   table.simpleTable thead th {
-    font-weight: bold;
-    color: #000000;
+      border-bottom: 2px solid #666666;
+      font-weight: bold;
+      color: #000000;
+      height: 70px;
   }
+ 
   table.simpleTable tfoot td {
   }
   table.simpleTable tfoot .links {
@@ -27,5 +27,5 @@ table.simpleTable {
     background: #FFFFFF;
     color: #000000;
     padding: 2px 8px;
-    border-radius: 5px;
+    border-radius: 2px;
   }
