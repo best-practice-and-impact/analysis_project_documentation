@@ -29,7 +29,6 @@ website:
       - text: "Feedback"
         href: feedback.qmd
 
-
 format:
   html:
     page-layout: full

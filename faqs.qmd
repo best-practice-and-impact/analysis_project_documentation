@@ -38,10 +38,10 @@ Completing the logs makes it much easier to understand the risks that the analys
 ## How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?
 
 The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out four roles responsible for the assurance of analysis:   
-* Commissioner    
-* Senior Responsible Owner (SRO) (usually leads the analyst team)
+* Commissioner       
+* Senior Responsible Owner (SRO) (usually leads the analyst team)    
 * Analysts (who usually report to the SRO) and    
-* Analytical Assurer.    
+* Analytical Assurer.       
 
 What matters here is that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.    
 
