@@ -289,8 +289,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 </tr>
 <tr>
  <td>Q1</td>
-  <td >What
-  question does the analysis try to answer?</td>
+  <td >What question does the analysis try to answer?</td>
   <td>Commissioner, analyst</td>
   <td>The commissioner sets out the commission. They work with the analyst team to ensure that everyone has a common understanding of the problem.
  </td>
@@ -299,8 +298,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q2</td>
   <td>Why do we need to answer this analysis question?</td>
   <td>Commissioner, analyst, analytical assurer</td>
-  <td>The analyst must document the purpose of the analysis and the
-  levels of quality and certainty that are needed to meet user requirements. The commissioner and analytical assurer make sure the analysis aligns with the stated purpose.</td>
+  <td>The analyst must document the purpose of the analysis and the levels of quality and certainty that are needed to meet user requirements. The commissioner and analytical assurer make sure the analysis aligns with the stated purpose.</td>
  </tr>
  <tr>
   <td>Q3</td>
@@ -318,17 +316,14 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q5</td>
   <td>Who needs the answer to the analysis question?</td>
   <td>Commissioner,analyst,analytical assurer</td>
-  <td>The commissioner makes sure that the right stakeholders have been
-  identified so that the scope and boundaries of the analysis can be
-  appropriately explored. The analyst team and analytical assurer should also contribute.</td>
+  <td>The commissioner makes sure that the right stakeholders have been identified so that the scope and boundaries of the analysis can be appropriately explored. The analyst team and analytical assurer should also contribute.</td>
  </tr>
  <tr>
   <td>Q6</td>
   <td>Who do you need to consult to make sure you meet the right user
   needs?</td>
   <td>Analyst, commissioner</td>
-  <td>Analysts should explore the analysis requirements and scope
-  with all relevant stakeholders to make sure a wide range of perspectives are sought. The commissioner should be aware and briefed.</td>
+  <td>Analysts should explore the analysis requirements and scope with all relevant stakeholders to make sure a wide range of perspectives are sought. The commissioner should be aware and briefed.</td>
  </tr>
  <tr>
   <td>Q7</td>
@@ -341,8 +336,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>What is the estimated time and resource required to answer this
   analysis question (in months and FTE)?</td>
   <td>Commissioner, senior responsible owner, analyst team</td>
-  <td>During commissioning and scoping, the commissioner and analyst will
-  need to make trade-offs between time, resources and quality. They should work together to agree and document the right balance across these constraints.</td>
+  <td>During commissioning and scoping, the commissioner and analyst will need to make trade-offs between time, resources and quality. They should work together to agree and document the right balance across these constraints.</td>
  </tr>
  <tr>
   <td>Q9</td>
@@ -355,10 +349,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q10</td>
   <td>What is the impact if the analysis is not done correctly?</td>
   <td>Commissioner, analyst</td>
-  <td>The commissioner makes sure the analyst team understands the
-  context for the analysis question. This helps the analyst to understand
-  and assess likely risks and determine the right analytical
-  and quality assurance response.</td>
+  <td>The commissioner makes sure the analyst team understands the context for the analysis question. This helps the analyst to understand and assess likely risks and determine the right analytical and quality assurance response.</td>
  </tr>
  <tr>
   <td>Q11</td>
@@ -384,8 +375,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>What are the anticipated risks of the analysis? Have you
   discussed these risks with customers and stakeholders?</td>
   <td>Analytical assurer, commissioner, analyst</td>
-  <td>The analystical assurer should challenge and test the understanding
-  of the problem. The commissioner and analyst should work with the analytical assurer to make sure that all share a common understanding.
+  <td>The analystical assurer should challenge and test the understanding of the problem. The commissioner and analyst work with the analytical assurer to make sure that all share a common understanding.
   </td>
  </tr>
  <tr>
@@ -404,16 +394,13 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q17</td>
   <td>What relevant questions are outside the scope of the analysis?</td>
   <td>Commissioner, analyst</td>
-  <td>The commissioner and the analyst work together at the scoping stage 
-  to get a clear understanding of analytical requirements. During scoping, the commissioner makes sure that the right aspects of the problem, scope and complexities, including programme constraints, are captured and clearly communicated.</td>
+  <td>The commissioner and the analyst work together at the scoping stage to get a clear understanding of analytical requirements. During scoping, the commissioner makes sure that the right aspects of the problem, scope and complexities, including programme constraints, are captured and clearly communicated.</td>
  </tr>
  <tr>
   <td>Q18</td>
   <td>How will you peer review and assure the analysis?</td>
   <td>Analytical assurer, commissioner, analyst</td>
-  <t>The analytical assurer makes sure quality assurance plans for
-  the analysis are appropriate for the decision it supports. All analysis
-  requires some level of quality assurance. Analyst and commissioner should be involved.</td>
+  <td>The analytical assurer makes sure quality assurance plans for the analysis are appropriate for the decision it supports. All analysis requires some level of quality assurance. Analyst and commissioner should be involved.</td>
  </tr>
  <tr>
   <td>Q19</td>
