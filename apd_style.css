@@ -7,7 +7,6 @@ table.simpleTable {
 
   table.simpleTable td {
     padding: 3px 2px;
-    border-bottom: 1px solid #333333;
   }
   
   table.simpleTable thead, table.simpleTable th {
@@ -18,5 +17,5 @@ table.simpleTable {
   }
  
   table.simpleTable tr:nth-child(even){
-    background: #DDDDDD;
+    background: #EEEEEE;
   }
