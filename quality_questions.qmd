@@ -438,7 +438,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Why do I need to know the answer to this?</th>
 </tr>
 <tr>
@@ -487,7 +487,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Which pillar and principle of the Code of Practice are most relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
@@ -544,7 +544,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
   <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
     <th> Why are these AQuA roles involved?</th>
 </tr>
@@ -605,7 +605,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Why do I need to know the answer to this?</th>
 
 </tr>
@@ -766,7 +766,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0" >
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Which pillar and principle of Code of Practice are relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
@@ -922,7 +922,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
     <th scope = "col"> Why are these AQuA roles involved?</th>
 </tr>
@@ -1102,7 +1102,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0">
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Why do I need to know the answer to this?</th>
 </tr>
 <tr>
@@ -1157,7 +1157,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0" >
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Questions</th>
+    <th scope = "col"> Question</th>
     <th scope = "col"> Which pillar and principle of Code of Practice matter here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
@@ -1217,7 +1217,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0" >
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Question</th>
+    <th scope = "col"> Quality Question</th>
     <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
     <th scope = "col"> Why are these AQuA roles involved?</th>
 </tr>
