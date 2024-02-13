@@ -791,7 +791,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q29</td>
-  <td>Is there a robust relationship between your team and data providers? Do data providers understand how and why you use their data?<br><br>Do you understand how data providers collect, process and quality assure the data you use?</td>
+  <td>Is there a robust relationship between your team and data providers?<br><br>Do data providers understand how and why you use their data?<br><br>Do you understand how data providers collect, process and quality assure the data you use?</td>
   <td>Q1.2 Statistics producers should establish and maintain constructive relationships with those involved in the collection, recording, supply, linking and quality assurance of data, wherever possible.</td>
  </tr>
  <tr>
@@ -837,7 +837,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q37</td>
   <td>Can you describe the assumptions of your analysis, when they
   were made and who made them and signed them off?</td>
-  <td>Transparency means being clear and open about the choices you make and not holding back or being opaque about decisions.<br> Q1.6 The causes of limitations in data sources should be identified and addressed where possible. Statistics producers should be open about the extent to which limitations can be overcome and the impact on the statistics.<br><br>Q2.4 Relevant limitations arising from the methods and their application, including bias and uncertainty, should be identified and explained to users. An indication of their likely scale and the steps taken to reduce their impact on the statistics should be included in the explanation.</td>
+  <td>Transparency means being clear and open about the choices you make and not holding back or being opaque about decisions.<br><br>Q1.6 The causes of limitations in data sources should be identified and addressed where possible. Statistics producers should be open about the extent to which limitations can be overcome and the impact on the statistics.<br><br>Q2.4 Relevant limitations arising from the methods and their application, including bias and uncertainty, should be identified and explained to users. An indication of their likely scale and the steps taken to reduce their impact on the statistics should be included in the explanation.</td>
  </tr>
  <tr>
   <td>Q38</td>
@@ -852,10 +852,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q40</td>
   <td>Have you considered the implications of relevant, unquantified uncertainties?</td>
-  <td>Q2.4 Relevant limitations arising from the methods and their
-  application, including bias and uncertainty, should be identified and
-  explained to users. An indication of their likely scale and the steps taken to reduce their impact on the statistics should be included in the
-  explanation.<br>Q3.3 The extent and nature of any uncertainty in the estimates should be clearly explained.</td>
+  <td>Q2.4 Relevant limitations arising from the methods and their application, including bias and uncertainty, should be identified and explained to users. An indication of their likely scale and the steps taken to reduce their impact on the statistics should be included in the explanation.<br><br>Q3.3 The extent and nature of any uncertainty in the estimates should be clearly explained.</td>
  </tr>
  <tr>
   <td>Q41</td>
@@ -888,7 +885,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q46</td>
   <td>Do you use internal peer review to check scripts and code, documentation, implementation of methods, processes and outputs?</td>
-  <td>Q3 Producers of statistics and data should explain clearly how they assure themselves that statistics and data are accurate, reliable, coherent and timely.<br>T4.6 Independent measures, such as internal and external audit, peer review and National Statistics Quality Reviews, should be used to evaluate the effectiveness of statistical processes. Statistics producers should be open about identified areas for improvement.</td>
+  <td>Q3 Producers of statistics and data should explain clearly how they assure themselves that statistics and data are accurate, reliable, coherent and timely.<br><br>T4.6 Independent measures, such as internal and external audit, peer review and National Statistics Quality Reviews, should be used to evaluate the effectiveness of statistical processes. Statistics producers should be open about identified areas for improvement.</td>
  </tr>
  <tr>
   <td>Q47</td>
@@ -949,8 +946,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q29</td>
-  <td>Is there a robust relationship between your team and data providers? 
-  Do data providers understand how and why you use their data? Do you understand how data providers collect, process and quality assure the data you use?<br>
+  <td>Is there a robust relationship between your team and data providers?<br><br>Do data providers understand how and why you use their data?<br><br>Do you understand how data providers collect, process and quality assure the data you use?<br>
   </td>
   <td>Analyst, analytical assurer</td>
   <td>The analytical assurer should expect to see evidence that there has been sufficient dialogue between analysts and the providers of data and other evidence sources.</td>
