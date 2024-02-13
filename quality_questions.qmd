@@ -766,7 +766,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0" >
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Questions</th>
+    <th scope = "col"> Question</th>
     <th scope = "col"> Which pillar and principle of Code of Practice are relevant here?  
     *Trustworthiness (T), Quality (Q), Value (V)</th>
 </tr>
@@ -1221,7 +1221,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <table class="simpleTable" cellspacing="0" cellpadding="0" >
 <TR VALIGN=TOP>
     <th scope = "col"> </th>
-    <th scope = "col"> Quality Question</th>
+    <th scope = "col"> Question</th>
     <th scope = "col"> Which AQuA role(s) would normally answer this?</th>
     <th scope = "col"> Why are these AQuA roles involved?</th>
 </tr>
