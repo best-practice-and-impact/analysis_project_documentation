@@ -32,7 +32,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q1</td>
   <td>What question does the analysis try to answer?</td>
   <td>A clear understanding of the analysis question is critical. It helps
-  your team to scope out requirements, understand the strengths and limitations of the analysis that is fit for purpose.<br><br>
+  your team to scope out requirements, understand the strengths and limitations of the analysis and make sure it is fit for purpose.<br><br>
   If the question is not clear, you risk designing and delivering analysis which does not meet user needs.</td>
  </tr>
  <tr>
