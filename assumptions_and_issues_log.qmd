@@ -6,9 +6,11 @@ Please get in touch with feedback to support the guidance by creating a GitHub I
 
 # Assumptions Log
 
-The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit better understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs. It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.
-Some examples of assumptions are as follows: 
+The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit shared understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs.    
 
+It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.    
+
+Here are some examples of assumptions: 
 * Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.
 * Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.
 * Data missingness: It is assumed that there is complete information for all the variables included in the analysis.
@@ -17,38 +19,55 @@ Some examples of assumptions are as follows:
 
 ## Definitions
 
-Start filling the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.
+Start filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.
 
 **Assumption ID:** Give each assumption a unique ID so that it can be tracked easily and cross referenced.  
-**Location in code/publication:** Write the name of the output report/methodology paper or the published document in which the assumption has been mentioned. If the assumption is related to code, identify where the assumption applies within the code by mentioning the line number.  
-**Plain English description of assumption:** Write a clear description of the assumption in plain English. For example, ‘it is assumed that data is representative for the population'.  
-**Basis for assumption:** Briefly summarise the basis of assumption to justify their suitability given the modelling scenario. For instance, the assumption could be based on historic data, theoretical literature, empirical evidence, quality assurance reports, data testing or robustness checks performed by the team. 
-Links to supporting analysis: Attach a link of the source where the assumption has been taken from or from where it can be verified.  
-**Documentation dependencies:** List down the name of project documents dealing with this assumption. Assumptions can have an impact on different stages of the modelling cycle. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.  
-**Internally reviewed by:** Enter the full name of individual within the analysis team responsible for ensuring that the assumption is validated appropriately.  
+**Location in code, documentation or publication:** Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number.  
+**Plain English description of assumption:** Write a clear description of the assumption in plain English. For example, "We assume that our sample of income data is representative for the whole population".  
+**Basis for assumption:** Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.
+**Numerical value of the assumption:** If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.
+**Range around the estimated value:** Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.
+**Links to supporting analysis:** Attach a link to the source where the assumption comes from or from where it can be verified and justified.  
+**Documentation dependencies:** List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.  
+**Internally reviewed by:** Enter the full name of individual or group who reviewed the assumption.  
 **Date of last review/update:** Enter the date the assumption was last reviewed or validated.   
-**Externally reviewed by:** Enter the name of organisation and the position of expert who has validated the assumption. It is not necessary to mention the individual's name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).     
-**Date of external review:**	Enter the date the assumption was reviewed by the external expert.  
-**Next review/update due on:** Enter the date the assumption needs to be reviewed or updated.  
+**Externally reviewed by:** Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual's name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).     
+**Date of external review:** Enter the date the assumption was reviewed by the external expert.  
+**Next review/update due on:** Enter the date the assumption next needs to be reviewed or updated.  
 **Quality Rating:** See the Quality Rating Key and fill it accordingly.   
 **Risk Score:**	See the Risk Score and fill it accordingly.  
 
-# Issues log
-
-The issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others.  It is therefore important to maintain an issues log to ensure that everybody knows about the issues that the analysis includes. The register helps teams to store problems and challenges that arise during analysis development for future review and mitigation. It aims to make the system of analysis development more efficient and more effective and prevent the retreading of old ground.
+# Decisions and issues logs
 
 ## Definitions
-
 Start filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis publications or output report) and financial year of interest.
 
+## Decisions log    
+
+The decisions log is a template to record all the important decisions that are made during the analysis lifecycle, as well as when they were made, who made them and why. Without documentation, decisions may be understood by one part of the team and unknown by others. The decisions log is there to make sure that everybody knows about the decisions that have been made about the analysis. It provides an audit trail of the decisions that were made.
+
+**Decision ID:** Give each decision a unique ID so that it can be tracked easily and cross referenced.    
+**Decision name:** Enter a name for the decision.   
+**Date of decision:** Enter the date the decision was made.    
+**Plain English description of decision** A brief summary of the decision in plain English explaining what it was about and how it applies in the analysis.    
+**Name of person or group signing off the decision:** Enter the name of the person or group who made the decision. If the decision was made by a committee, link to the minute where the decision is documented.  
+**Role of person or group signing off the decision:** Provide a short description of the person or group's role in the project. Decisions are often signed off by the project lead or Senior Responsible Owner, for example.    
+**Date of last review / update:** Date the decision was last considered. This is here so you know when the decision was last looked at. Projects evolve, and decisions might need to be reviewed.     
+**Reviewed by:** Name(s) of people or group who last reviewed the decision.           
+**Next review/update due on:** Enter the date the decision next needs to be reviewed or updated. 
+
+## Issues log
+
+The issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others.  It is therefore important to maintain an issues log to ensure that everybody knows about the issues that the analysis includes. The register helps teams to store problems and challenges that arise during analysis development for future review and mitigation. It provides an audit trail of past, live and untreated issues.
+
 **Issue ID:** Give each issue a unique ID so that it can be tracked easily and cross referenced.    
-**Issue:** Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.    
-**Date first identified:** Enter the date the issue was first identified.    
+**Issue name:** Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.    
+**Date identified:** Enter the date the issue was first identified.    
 **Plain English description of issue:** A brief summary of the underlying cause and nature of issue in plain English explaining what is creating problem.    
-**Impact of issue:** Brief summary of what is being impacted, for example, timeline, accuracy, cost of project.    
-**Status of issue:** From the dropdown menu, select ‘Resolved’ if the issue has been resolved or ‘Shelved’ if the issue has yet to be handled.    
-**Justification of status:** Brief summary of how the proposed solution has helped in overcoming the issue if the status is ‘Resolved’. For ‘Shelved’ issues, explain why it is decided to deal with later.     
-**Proof of resolution:** Write the name of the output report/methodology paper or the published document which the issue relates to and how the resolution has impacted it. If the issue was related to code, identify the location of revision made within the code by mentioning the line number.    
-**Date of last review/update:** Enter the date the issue was reviewed/updated.    
-**Reviewed by:** Enter the full name of individual(s) within the analysis team who have reviewed the decision made to resolve or shelve the issue.    
-**Next review/update due on:** Enter the date the issue needs to be reviewed or updated in future.    
+**Impact of issue:** Brief summary of how the issue affects the project, for example, timeline, accuracy, cost.    
+**Status of issue:** From the dropdown menu, select 'Live' if the issue is being handled, ‘Resolved’ if the issue has been resolved or ‘Untreated’ if the issue has yet to be handled.    
+**Justification of status:** Brief summary of how the solution has resolved the issue if the status is ‘Resolved’. For ‘Untreated’ issues, explain why the issue will be dealt with later.     
+**Proof of resolution:** Write the name of the output report/methodology paper or the published document where the issue is resolved. If the issue relates to code, identify the module and line number.    
+**Date of last review/update:** Enter the date the issue was last reviewed or updated.    
+**Reviewed by:** Enter the full name of individual(s) or group who reviewed  the issue.    
+**Next review/update due on:** Enter the date the issue next needs to be reviewed or updated.    
