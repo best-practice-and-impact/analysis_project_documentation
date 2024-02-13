@@ -21,6 +21,8 @@ Here are some examples of assumptions:
 
 Start filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.
 
+## Assumptions log
+
 **Assumption ID:** Give each assumption a unique ID so that it can be tracked easily and cross referenced.  
 **Location in code, documentation or publication:** Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number.  
 **Plain English description of assumption:** Write a clear description of the assumption in plain English. For example, "We assume that our sample of income data is representative for the whole population".  

@@ -13,8 +13,9 @@ The repository contains these folders:
 The main folder contains the following key files:
 
 **_quarto.yml** - YAML file containing configuration information for the Quarto engine to render the website. Includes page structure and source files.    
-**.gitignore** - List of files not to upload to git repository.    
-**assumptions_log.qmd** - Quarto markdown document about the assumptions log.    
+**.gitignore** - List of files not to upload to git repository.
+**apd_style.css** - HTML style sheet which sets up table rendering formatting. Edit this to change the way Quality Questions tables are rendered.   
+**assumptions_and_issues_log.qmd** - Quarto markdown document about the assumptions log.    
 **faqs.qmd** - Quarto markdown document containing frequently asked questions.    
 **feedback.qmd** - Quarto markdown document linking to feedback form.    
 **index.qmd** - Quarto markdown document setting up the landing page for the quality questions website.    
