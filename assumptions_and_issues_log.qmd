@@ -10,12 +10,12 @@ The assumptions log provides a standard template to record the assumptions made 
 
 It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.    
 
-Here are some examples of assumptions: 
-* Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.
-* Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.
-* Data missingness: It is assumed that there is complete information for all the variables included in the analysis.
-* Changes in input data: It is assumed that data collection process has not been changed over time.
-* Sampling: It is assumed that data is representative for the population.
+Here are some examples of assumptions:    
+* Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.    
+* Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.    
+* Data missingness: It is assumed that there is complete information for all the variables included in the analysis.    
+* Changes in input data: It is assumed that data collection process has not been changed over time.    
+* Sampling: It is assumed that data is representative for the population.    
 
 ## Definitions
 
@@ -58,7 +58,7 @@ The decisions log is a template to record all the important decisions that are m
 
 ## Issues log
 
-The issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others.  It is therefore important to maintain an issues log to ensure that everybody knows about the issues that the analysis includes. The register helps teams to store problems and challenges that arise during analysis development for future review and mitigation. It provides an audit trail of past, live and untreated issues.
+The issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others.  The issues log ensures that everybody knows about the issues that the analysis faces. The log helps teams to store problems and challenges for future review and mitigation. It provides an audit trail of past, live and untreated issues.
 
 **Issue ID:** Give each issue a unique ID so that it can be tracked easily and cross referenced.    
 **Issue name:** Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.    
