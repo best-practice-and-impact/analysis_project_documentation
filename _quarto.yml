@@ -32,7 +32,7 @@ website:
 format:
   html:
     page-layout: full
-    theme: spacelab
+    theme: flatly
     toc: true
     embed-resources: true
     
