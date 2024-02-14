@@ -1,0 +1,215 @@
+::: {.callout-note collapse="false"}
+This guidance is an ALPHA draft. It is in development and we are still working 
+to ensure that it meets user needs.
+
+Please get in touch with feedback to support the guidance by creating a GitHub 
+Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+:::
+
+---
+title: "Sample assumptions table"
+format:
+  html:
+    embed-resources: true
+    css: apd_style.css
+    html-table-processing: none
+---
+
+```{=html}
+<div style="overflow-x:auto;">
+<table class="simpleTable">
+<tr VALIGN=CENTER>
+    <th scope = "col"> Assumption ID</th>
+    <th scope = "col"> Location in code, documentation or publication</th>
+    <th scope = "col"> Plain English description of assumption</th>
+    <th scope = "col"> Basis for assumption</th>
+    <th scope = "col"> Numerical value of the assumption</th>
+    <th scope = "col"> Range around the estimated value</th>
+    <th scope = "col"> Estimated distribution</th>
+    <th scope = "col"> Links to supporting analysis</th>
+    <th scope = "col"> Documentation dependencies</th>
+    <th scope = "col"> Date of last review/update</th>
+    <th scope = "col"> Externally reviewed by</th>
+    <th scope = "col"> Date of external review</th>
+    <th scope = "col"> Next review/update due on</th>
+    <th scope = "col"> Quality rating</th>
+    <th scope = "col"> Sensitivity score</th>
+    <th scope = "col"> Risk score</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>No specific location</td>
+    <td>Data is representative of the population.</td>
+    <td>Team opinion</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Links tbc</td>
+    <td>Blank - tbc</td>
+    <td>14/02/2024</td>
+    <td>Initials</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>GREEN</td>
+    <td>High</td>
+    <td>High</td>
+
+</tr>
+<tr>
+    <td>2</td>
+    <td>No specific location</td>
+    <td>Data does not exclude any population groups based on their demographic 
+        and socio-economic characteristics.</td>
+    <td>Team opinion</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>14/02/2024</td>
+    <td>tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>GREEN</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Correspondence with data provider</td>
+    <td>All UK universities report data to the Higher Education Statistics 
+        Agency (HESA).</td>
+    <td>Validated from data provider.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>No specific location</td>
+    <td>All universities accurately report the number of students enrolled 
+        during the academic year.</td>
+    <td>Expert opinion.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>No specific location</td>
+    <td>All universities accurately report the number of students who dropped 
+        out during the academic year.</td>
+    <td>Expert opinion.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>14/02/2024</td>
+    <td>tbc</td>
+    <td>12/02/2024</td>
+    <td>12/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td>Correspondence with data providers.</td>
+    <td>The academic year is consistently measured across UK universities.</td>
+    <td>Validated from data provider.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+
+<tr>
+    <td>7</td>
+    <td>Correspondence with data providers.</td>
+    <td>Students who receive special education services are excluded from 
+        the calculation of dropout rates.</td>
+    <td>Validated from data provider.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+
+<tr>
+    <td>8</td>
+    <td> Exploratory data analysis notebook</td>
+    <td>There is complete information for all the variables in the analysis.</td>
+    <td>Robustness testing.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+
+<tr>
+    <td>9</td>
+    <td>No specific location</td>
+    <td>The data collection process has not changed at all over time.</td>
+    <td>Validated from data provider.</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>Blank - tbc</td>
+    <td>tbc</td>
+    <td>14/02/2024</td>
+    <td>14/05/2024</td>
+    <td>RED</td>
+    <td>High</td>
+    <td>High</td>
+</tr>
+</table>
+</div>
