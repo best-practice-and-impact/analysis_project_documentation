@@ -28,6 +28,8 @@ website:
         href: faqs.qmd
       - text: "Feedback"
         href: feedback.qmd
+      - text: "Sample assumptions table"
+        href: "sample_assumptions_table.qmd"
 
 format:
   html:
