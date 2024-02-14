@@ -17,8 +17,8 @@ format:
 
 ```{=html}
 <div style="overflow-x:auto;">
-<table class="simpleTable">
-<tr VALIGN=CENTER>
+<table class="simpleTable" cellspacing="0"cellpadding="10">
+<tr VALIGN=CENTER TEXT-ALIGN=LEFT>
     <th scope = "col"> Assumption ID</th>
     <th scope = "col"> Location in code, documentation or publication</th>
     <th scope = "col"> Plain English description of assumption</th>
