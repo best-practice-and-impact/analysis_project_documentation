@@ -452,7 +452,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q23</td>
   <td>Does any part of the analysis rely on manual processing? Have
   you considered the cost and benefits of fully automating the process?</td>
-  <td>Manual processes are inefficient and more risky than well-designed automated ones. Analysis with manual steps like copying and pasting data between files, manually updating cells in tables, or moving data between software package are hard to assure and carry extra quality risks.</td>
+  <td>Manual processes are inefficient and more risky than well-designed automated ones. Analysis with manual steps like copying and pasting data between files, manually updating cells in tables, or moving data between software package is harder to assure and carries extra quality risks.</td>
  </tr>
  <tr>
   <td>Q24</td>
