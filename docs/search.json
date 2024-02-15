@@ -26,7 +26,7 @@
     "section": "",
     "text": "Note\n\n\n\n\n\nThis guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.\nPlease get in touch with feedback to support the guidance by creating a GitHub Issue or emailing us.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "section": "Definitions",
     "text": "Definitions\nStart filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -46,7 +46,7 @@
     "section": "Definitions",
     "text": "Definitions\nStart filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis publications or output report) and financial year of interest.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -116,7 +116,7 @@
     "section": "Decisions log",
     "text": "Decisions log\nThe decisions log is a template to record all the important decisions that are made during the analysis lifecycle, as well as when they were made, who made them and why. Without documentation, decisions may be understood by one part of the team and unknown by others. The decisions log is there to make sure that everybody knows about the decisions that have been made about the analysis. It provides an audit trail of the decisions that were made.\nDecision ID: Give each decision a unique ID so that it can be tracked easily and cross referenced.\nDecision name: Enter a name for the decision.\nDate of decision: Enter the date the decision was made.\nPlain English description of decision A brief summary of the decision in plain English explaining what it was about and how it applies in the analysis.\nName of person or group signing off the decision: Enter the name of the person or group who made the decision. If the decision was made by a committee, link to the minute where the decision is documented.\nRole of person or group signing off the decision: Provide a short description of the person or group’s role in the project. Decisions are often signed off by the project lead or Senior Responsible Owner, for example.\nDate of last review / update: Date the decision was last considered. This is here so you know when the decision was last looked at. Projects evolve, and decisions might need to be reviewed.\nReviewed by: Name(s) of people or group who last reviewed the decision.\nNext review/update due on: Enter the date the decision next needs to be reviewed or updated.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -126,7 +126,7 @@
     "section": "Issues log",
     "text": "Issues log\nThe issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others. The issues log ensures that everybody knows about the issues that the analysis faces. The log helps teams to store problems and challenges for future review and mitigation. It provides an audit trail of past, live and untreated issues.\nIssue ID: Give each issue a unique ID so that it can be tracked easily and cross referenced.\nIssue name: Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.\nDate identified: Enter the date the issue was first identified.\nPlain English description of issue: A brief summary of the underlying cause and nature of issue in plain English explaining what is creating problem.\nImpact of issue: Brief summary of how the issue affects the project, for example, timeline, accuracy, cost.\nStatus of issue: From the dropdown menu, select ‘Live’ if the issue is being handled, ‘Resolved’ if the issue has been resolved or ‘Untreated’ if the issue has yet to be handled.\nJustification of status: Brief summary of how the solution has resolved the issue if the status is ‘Resolved’. For ‘Untreated’ issues, explain why the issue will be dealt with later.\nProof of resolution: Write the name of the output report/methodology paper or the published document where the issue is resolved. If the issue relates to code, identify the module and line number.\nDate of last review/update: Enter the date the issue was last reviewed or updated.\nReviewed by: Enter the full name of individual(s) or group who reviewed the issue.\nNext review/update due on: Enter the date the issue next needs to be reviewed or updated.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -136,7 +136,7 @@
     "section": "Assumptions log",
     "text": "Assumptions log\nAssumption ID: Give each assumption a unique ID so that it can be tracked easily and cross referenced.\nLocation in code, documentation or publication: Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number.\nPlain English description of assumption: Write a clear description of the assumption in plain English. For example, “We assume that our sample of income data is representative for the whole population”.\nBasis for assumption: Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.\nNumerical value of the assumption: If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.\nRange around the estimated value: Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.\nLinks to supporting analysis: Attach a link to the source where the assumption comes from or from where it can be verified and justified.\nDocumentation dependencies: List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.\nInternally reviewed by: Enter the full name of individual or group who reviewed the assumption.\nDate of last review/update: Enter the date the assumption was last reviewed or validated.\nExternally reviewed by: Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual’s name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).\nDate of external review: Enter the date the assumption was reviewed by the external expert.\nNext review/update due on: Enter the date the assumption next needs to be reviewed or updated.\nQuality Rating: See the Quality Rating Key and fill it accordingly.\nRisk Score: See the Risk Score and fill it accordingly.",
     "crumbs": [
-      "Assumptions and issues log guide"
+      "Assumptions and decision log guide"
     ]
   },
   {
@@ -177,6 +177,36 @@
     "text": "Structure of the guidance\nThere are 60 quality questions in total. They cover all the stages of the analytical cycle.\nAnswering 60 questions may seem a daunting task at first! The questions are designed to help you as you work your way through the analytical process, rather than to be answered all at once. Creating a log of answers as you move through the stages of the analysis workflow will help you to check that your work meets analytical standards, follows good practice and (if relevant) complies with the Code of Practice for Statistics.\nAnswering the questions will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce the critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and your users.\nThe AQuA book divides the analytical cycle into four stages:\n\nScoping\n\nDesign\n\nConducting and checking analysis\n\nDelivery\n\nYou can find the questions in the Quality Questions section of the website.\n\na) Quality Questions and why they matter\nThis tab lists the quality questions that are relevant for each stage of analytical cycle. Alongside each question we explain why it matters and explain the potential risks and benefits around it. We try to address the valid question of “why should I care about this?”.\nWe encourage commissioner, analyst team and analytical assurer to answer all the questions that are relevant to their responsibilities. We have made a downloadable, editable HTML template that you can use to record your answers to the questions, as well as key project information. Once you have recorded answers, save the HTML file in your project archive. You can update it as you work through the questions.\nUser needs and project aims often change as things evolve, so the HTML template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due.\nThe Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO or their designated representative needs to sign-off all the answers.\nIt is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl + S. To undo an action press Ctrl + Z. Pressing Ctrl + S will let you save a copy of the HTML template on your device.\n\n\nb) The questions and the Code of Practice for Statistics\nThis tab shows the pillars and principles of Code of Practice for Statistics each quality question relates to. The text in this column is copied from Code of Practice for Statistics. Even if your work does not directly feed into the production of official statistics, compliance with the principles and practices of the Code is a good way to strengthen the resilience of your work, increase transparency and clarity and reduce risk.\n\n\nc) Linking the questions to AQuA roles\nThis tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from the AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.\nThe AQuA book recommends the allocation of four roles to cover different areas of assurance responsibility: * Commissioner * Senior Responsible Owner (SRO) * Analyst * Analytical assurer\nResponsibilities of the Senior Responsible Owner\nThe Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose. * Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.\n* Delivers QUALITY OF CONTENT (“The analysis is well-designed and uses the right tools and methods to meet user needs”) alongside the analyst team.\nResponsibilities of the Commissioner\n* Ensures that context is understood so quality assurance is appropriate and proportionate.\n* Ensures that there is enough time and resource for required assurance and account for risk.\n* Must understand strengths and limitations including uncertainty so results are interpreted correctly.\n* Delivers QUALITY OF OUTCOME (“The analysis meets user needs and we understand its limitations”).\nResponsibilities of the Analyst\n* Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.\n* Manage external specialists.\n* Design, build, document and run the analysis.\n* Delivers QUALITY OF CONTENT (“The analysis is well-designed and uses the right tools and methods to meet user needs”).\nResponsibilities of the Analytical Assurer\n* Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.\n* Advises the Commissioner on whether appropriate QA has happened and about any outstanding risks.\n* Involved throughout from design through to use.\n* Delivers QUALITY OF PROCESS (“The analysis does what it is supposed to do and we can prove it”).",
     "crumbs": [
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "sample_assumptions_log.html",
+    "href": "sample_assumptions_log.html",
+    "title": "Assumptions Log",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nThis guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.\nPlease get in touch with feedback to support the guidance by creating a GitHub Issue or emailing us.",
+    "crumbs": [
+      "Example assumptions log"
+    ]
+  },
+  {
+    "objectID": "sample_assumptions_log.html#definitions",
+    "href": "sample_assumptions_log.html#definitions",
+    "title": "Assumptions Log",
+    "section": "Definitions",
+    "text": "Definitions\nAssumptions are ranked red, amber or green (a RAG score) depending on quality. The quality of an assumption measures both how certain and robust an assumption is and how appropriate it is for its intended use.\nFor example, we would usually consider a well documented assumption drawn from published evidence to be very robust, but if it needs to be transformed or adapted significantly to fit the analysis, the quality rating would probably need downgrading. You would normally lower the quality rating if it is not possible to get technical sign-off for the assumption (e.g. because of lack of technical knowledge). You will also want to lower the quality if the confidence interval is likely to be wide (i.e. you wouldn’t be surprised if the value was 50% different from what you measure because of uncertainty).\n\n\n\n\n\n\n\nRAG Rating\nAssumption quality\n\n\n\n\nGREEN\nBased on validated “actual” data; Methodology is robust; No or few transformations, or transformation methodology is fully verified and robust; Data is current and signed off by experts; Confidence intervals are narrow.\n\n\nAMBER\nThe methodology is robust but based on limited data; Data required significant transformation to fit the model; Confidence interval is quite wide; Data has not been reviewed recently.\n\n\nRED\nUnclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval is wide or quality is unknown.",
+    "crumbs": [
+      "Example assumptions log"
+    ]
+  },
+  {
+    "objectID": "sample_assumptions_log.html#assumptions---uk-universities-input-dataset",
+    "href": "sample_assumptions_log.html#assumptions---uk-universities-input-dataset",
+    "title": "Assumptions Log",
+    "section": "Assumptions - UK universities input dataset",
+    "text": "Assumptions - UK universities input dataset\nThis analysis makes the following assumptions\n\n\n\n\n\n\n\n\nAssumption Number\nAssumption description\nQuality Rating\n\n\n\n\n1\nData is representative of the population\nGREEN\n\n\n2\nData does not exclude any population groups based on their demographic and socio-economic characteristics\nGREEN\n\n\n3\nAll UK universities report data to the Higher Education Statistics Agency (HESA)\nRED\n\n\n4\nAll universities accurately report the number of students enrolled during the academic year\nRED\n\n\n5\nAll universities accurately report the number of students who dropped out during the academic year\nRED\n\n\n6\nThe academic year is consistently measured across UK universities\nRED\n\n\n7\nStudents who receive special education services are excluded from the calculation of dropout rates\nRED\n\n\n8\nThere is complete information for all the variables in the analysis\nRED\n\n\n9\nThe data collection process has not changed at all over time\nRED",
+    "crumbs": [
+      "Example assumptions log"
     ]
   }
 ]
