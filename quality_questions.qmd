@@ -495,10 +495,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>When do you expect to start and finish each stage of analysis:  
   data collection, processing, quality assurance, analysis and
   dissemination?</td>
-  <td>T3.5 Statistics and data should be released on a timely basis
-  and at intervals that meet the needs of users as far as practicable. The
-  statistics should be released as soon as they are considered ready, under the guidance of the Chief Statistician/Head of Profession for Statistics.<br><br>Q3.3 The quality of the statistics and data, including their accuracy and reliability, coherence and comparability, and timeliness and punctuality, should be monitored and
-  reported regularly.</td>
+  <td>T3.5 Statistics and data should be released on a timely basis and at intervals that meet the needs of users as far as practicable. The statistics should be released as soon as they are considered ready, under the guidance of the Chief Statistician/Head of Profession for Statistics.<br><br>Q3.3 The quality of the statistics and data, including their accuracy and reliability, coherence and comparability, and timeliness and punctuality, should be monitored and reported regularly.</td>
  </tr>
  <tr>
   <td>Q23</td>
@@ -655,10 +652,10 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q35</td>
   <td>Have reasonable alternative methods been explored and rejected for good reasons?</td>
   <td>There is often more than one way to answer a question with data.
-  When you have made choices about methods and approaches, explain how and why you considered and rejected other options. Unless there is evidence 
-  underpinning your choice, users cannot be sure that you have chosen the most suitable methods.</td>
+  When you have made choices about methods and approaches, explain how and why you considered and rejected other options. Unless there is evidence underpinning your choice, users cannot be sure that you have chosen the most suitable methods.</td>
  </tr>
- <tr>Q36</td>
+ <tr>
+  <td>Q36</td>
   <td>How do you know that your analysis is working correctly?</td>
   <td>You need to be sure that your analysis produces the outputs you think it should and the processes run as expected. If you cannot demonstrate that scripts and processes work correctly, you cannot  confirm the quality of the results.</td>
  </tr>
@@ -714,7 +711,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q46</td>
   <td>Do you use internal peer review to check scripts and code,
   documentation, implementation of methods, processes and outputs?</td>
-  <td>Youshould independently review and validate the logical integrity of you analysis as well as the structure and functionality of the code against the research question.<br><br>A record of validation and verification activities undertaken, outstanding tasks and remedial actions helps to confirm that the correct analysis has been performed for the required purpose and the chosen approach minimises risk.</td>
+  <td>You should independently review and validate the logical integrity of you analysis as well as the structure and functionality of the code against the research question.<br><br>A record of validation and verification activities undertaken, outstanding tasks and remedial actions helps to confirm that the correct analysis has been performed for the required purpose and the chosen approach minimises risk.</td>
  </tr>
  <tr>
   <td>Q47</td>
@@ -992,8 +989,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q38</td>
   <td>How are assumptions validated and assured before you apply them?</td>
   <td>Analyst, analytical assurer</td>
-  <td>If applicable, analyst should undertake parametric analysis to
-  understand the consequences of missing or uncertain assumptions. Analytical assurer should check that validation and assurance of assumptions is sufficient.</td>
+  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain assumptions. Analytical assurer should check that validation and assurance of assumptions is sufficient.</td>
  </tr>
  <tr>Q39</td>
   <td>How do you measure and report uncertainty in your analysis?</td>
@@ -1042,8 +1038,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Do you use internal peer review to check scripts and code,
   documentation, implementation of methods, processes and outputs?</td>
   <td>Analyst, analyical assurer</td>
-  <td>The analyst should provide proportionate documentation that
-  explains the verification and validation activities that the analysis is subjected to. Analysts must perform appropriate test to check the analysis. They should commission other verification and validation as required. Analytical assurer should confirm that planned validation and verification are sufficient.</td>
+  <td>The analyst should provide proportionate documentation that explains the verification and validation activities that the analysis is subjected to. Analysts must perform appropriate test to check the analysis. They should commission other verification and validation as required. Analytical assurer should confirm that planned validation and verification are sufficient.</td>
  </tr>
  <tr>
   <td>Q47</td>
