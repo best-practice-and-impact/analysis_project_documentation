@@ -991,7 +991,8 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Analyst, analytical assurer</td>
   <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain assumptions. Analytical assurer should check that validation and assurance of assumptions is sufficient.</td>
  </tr>
- <tr>Q39</td>
+ <tr>
+  <td>Q39</td>
   <td>How do you measure and report uncertainty in your analysis?</td>
   <td>Analyst, commissioner, analytical assurer</td>
   <td>Analyst should determine and communicate the uncertainty associated with outputs so that the commissioner can make informed decisions. The range of possible outcomes and their relative likelihoods should be described. The analytical assurer checks that measuring and reporting of uncertainty is sufficient to meet the needs of the commissioner.</td>
