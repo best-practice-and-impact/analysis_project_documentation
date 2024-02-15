@@ -104,11 +104,10 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q14</td>
-  <td>What are the anticipated risks of the analysis? Have you
+  <td>What are the anticipated risks of the analysis?<br><br>Have you
   discussed these risks with customers and stakeholders?</td>
-  <td>You must identify potential risks and their impact well in
-  advance to enable effective mitigation and quicker, confident
-  decision-making.<br><br>It is important that users understand risks to ensure that their expectations and requirements are met. You should document how you have identified and are monitoring and mitigating risks.</td>
+  <td>You must identify potential risks and their impact well in advance to enable effective mitigation and quicker, confident decision-making.<br><br>
+  It is important that users understand risks to ensure that their expectations and requirements are met. You should document how you have identified and are monitoring and mitigating risks.</td>
  </tr>
  <tr>
   <td>Q15</td>
@@ -235,7 +234,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q14</td>
-  <td>What are the anticipated risks of the analysis? Have you
+  <td>What are the anticipated risks of the analysis?<br><br>Have you
   discussed these risks with customers and stakeholders?</td>
   <td>Users of statistics and data should be at the centre of statistical production; their needs should be understood, their views sought and acted upon, and their use of statistics supported.<br><br>V4.3 Users should be involved in the ongoing development of statistics and data, exploring and testing statistical innovations, so that the statistics remain relevant and useful.<br><br>Q3.2 Quality assurance arrangements should be proportionate to the nature of the quality issues and the importance of the statistics in serving the public good. Statistics producers should be transparent about the quality assurance approach taken throughout the preparation of the statistics. The risk and impact of quality issues on statistics and data should be minimised to an acceptable level for the intended uses.</td>
  </tr>
@@ -372,7 +371,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q14</td>
-  <td>What are the anticipated risks of the analysis? Have you
+  <td>What are the anticipated risks of the analysis?<br><br>Have you
   discussed these risks with customers and stakeholders?</td>
   <td>Analytical assurer, commissioner, analyst</td>
   <td>The analystical assurer should challenge and test the understanding of the problem. The commissioner and analyst work with the analytical assurer to make sure that all share a common understanding.
@@ -776,7 +775,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Is there a robust relationship between your team and data providers?<br><br>Do data providers understand how and why you use their data?</td>
   <td>Q1.2 Statistics producers should establish and maintain constructive relationships with those involved in the collection, recording, supply, linking and quality assurance of data, wherever possible.</td>
  </tr>
-  <tr>
+<tr>
  <td>Q30</td>
  <td>Do you understand how data providers collect, process and quality assure the data you use?</td>
  <td>Q1.1 Statistics should be based on data sources that are appropriate for the intended uses. The data sources should be based on definitions and concepts that are suitable approximations of what the statistics aim to measure, or that can be processed to become suitable for producing the statistics.<br><br>
