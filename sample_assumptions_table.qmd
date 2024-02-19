@@ -15,39 +15,8 @@ format:
     html-table-processing: none
 ---
 
-
-<style>
-    .simpleTable {
-        background-color: #FFFFFF;
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        text-align: left;
-        border-collapse: collapse;
-    }
-    .simpleTable th,
-    .simpleTable td {
-        padding: 8px;
-        white-space: nowrap;  
-        overflow: hidden;  
-        text-overflow: ellipsis;  
-        }
-        .simpleTable th[col="Plain English description of assumption"],
-        .simpleTable td[col="Plain English description of assumption"] {
-            width: 15%;  
-            }
-            .simpleTable th[col="links to supporting analysis"],
-            .simpleTable td[col="links to supporting analysis"] {
-                width: 10%;  
-                }
-                .simpleTable th[col="Assumption ID"],
-                .simpleTable td[col="Assumption ID"] {
-                    width: 3%;
-                }
-                </style>
-
 <div style="overflow-x:auto; float=left;">
-<table class="simpleTable">
+<table class="assumptionTable">
 <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
     <th scope = "col"> Assumption ID</th>
     <th scope = "col"> Location in code, documentation or publication</th>
