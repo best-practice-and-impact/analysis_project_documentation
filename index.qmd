@@ -86,7 +86,7 @@ The AQuA book sets out four roles that cover different areas of assurance respon
 * Analyst    
 * Analytical assurer     
 
-Let's look at each of the roles in a bit more detail.
+Let's look at the roles in more detail.
 
 **Responsibilities of the Commissioner**    
 The commissioner is focused on making sure the analysis meets the required user needs.       
@@ -96,7 +96,9 @@ The commissioner is focused on making sure the analysis meets the required user 
 * Delivers QUALITY OF OUTCOME ("The analysis meets user needs and we understand its limitations").    
 
 **Responsibilities of the Senior Responsible Owner**    
-The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.    
+The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. 
+
+There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.    
 * Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.    
 * Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the analyst team.    
 
@@ -105,7 +107,7 @@ The analyst team usually work to the SRO. Analysts are responsible for setting u
 * Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.    
 * Manage external specialists.    
 * Design, build, document and run the analysis.      
-* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs").    
+* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the SRO.    
 
 **Responsibilities of the Analytical Assurer**    
 The analytical assurer is there to make sure that the analysis has the right level of assurance and that the assurance takes place.   
