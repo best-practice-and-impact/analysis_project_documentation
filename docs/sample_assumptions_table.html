@@ -4037,200 +4037,535 @@ Note
 </div>
 </div>
 </div>
-<div style="overflow-x:auto;">
 
-<table class="simpleTable" border-collapse: collapse; cellspacing="0" cellpadding="10">
-<tbody><tr valign="CENTER" text-align="LEFT">
-    <th scope="col"> Assumption ID</th>
-    <th scope="col"> Location in code, documentation or publication</th>
-    <th scope="col"> Plain English description of assumption</th>
-    <th scope="col"> Basis for assumption</th>
-    <th scope="col"> Numerical value of the assumption</th>
-    <th scope="col"> Range around the estimated value</th>
-    <th scope="col"> Estimated distribution</th>
-    <th scope="col"> Links to supporting analysis</th>
-    <th scope="col"> Documentation dependencies</th>
-    <th scope="col"> Date of last review/update</th>
-    <th scope="col"> Externally reviewed by</th>
-    <th scope="col"> Date of external review</th>
-    <th scope="col"> Next review/update due on</th>
-    <th scope="col"> Quality rating</th>
-    <th scope="col"> Sensitivity score</th>
-    <th scope="col"> Risk score</th>
-</tr>
-<tr>
-    <td>1</td>
-    <td>No specific location</td>
-    <td>We assume that the dataset is representative of the population.</td>
-    <td>Team opinion</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Descriptive statistics (link), comparison to existing data source/publication (link)</td>
-    <td>Final report: methods, caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>GREEN</td>
-    <td>High</td>
-    <td>High</td>
+<style>
+.simpleTable {
+background-color: #FFFFFF;
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+text-align: left;
+border-collapse: collapse;
+}
+.simpleTable th,
+.simpleTable td {
+padding: 8px;
+white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.simpleTable th[col="Plain English description of assumption"],
+.simpleTable td[col="Plain English description of assumption"] {
+width: 15%; }
+.simpleTable th[col="links to supporting analysis"],
+.simpleTable td[col="links to supporting analysis"] {
+width: 10%; }
+.simpleTable th[col="Assumption ID"],
+.simpleTable td[col="Assumption ID"] {
+width: 3%;
+}
+</style>
+<div style="overflow-x:auto; float=left;">
 
+<table class="simpleTable">
+<tbody><tr valign="BOTTOM" text-align="LEFT">
+<th scope="col">
+Assumption ID
+</th>
+<th scope="col">
+Location in code, documentation or publication
+</th>
+<th scope="col">
+Plain English description of assumption
+</th>
+<th scope="col">
+Basis for assumption
+</th>
+<th scope="col">
+Numerical value of the assumption
+</th>
+<th scope="col">
+Range around the estimated value
+</th>
+<th scope="col">
+Estimated distribution
+</th>
+<th scope="col">
+Links to supporting analysis
+</th>
+<th scope="col">
+Documentation dependencies
+</th>
+<th scope="col">
+Date of last review/update
+</th>
+<th scope="col">
+Externally reviewed by
+</th>
+<th scope="col">
+Date of external review
+</th>
+<th scope="col">
+Next review/update due on
+</th>
+<th scope="col">
+Quality rating
+</th>
+<th scope="col">
+Sensitivity score
+</th>
+<th scope="col">
+Risk score
+</th>
 </tr>
 <tr>
-    <td>2</td>
-    <td>No specific location</td>
-    <td>We assume that the data does not exclude any population groups based on their demographic 
-        and socio-economic characteristics.</td>
-    <td>Team opinion</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Descriptive statistics (link), comparison to existing data source/publication (link)</td>
-    <td>Final report: methods, descriptive statistics, caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>GREEN</td>
-    <td>High</td>
-    <td>High</td>
+<td>
+1
+</td>
+<td>
+No specific location
+</td>
+<td>
+We assume that the dataset is representative of the population.
+</td>
+<td>
+Team opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics (link), comparison to existing data source/publication (link)
+</td>
+<td>
+Final report: methods, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
 </tr>
 <tr>
-    <td>3</td>
-    <td>Correspondence with data provider</td>
-    <td>We assume that all UK universities report data to the Higher Education Statistics 
-        Agency (HESA).</td>
-    <td>Validated from data provider.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
+<td>
+2
+</td>
+<td>
+No specific location
+</td>
+<td>
+We assume that the data does not exclude any population groups based on their demographic and socio-economic characteristics.
+</td>
+<td>
+Team opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics (link), comparison to existing data source/publication (link)
+</td>
+<td>
+Final report: methods, descriptive statistics, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that all UK universities report data to the Higher Education Statistics Agency (HESA).
+</td>
+<td>
+Validated from data provider.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+No specific location
+</td>
+<td>
+We assume that all universities accurately report the number of students enrolled during the academic year.
+</td>
+<td>
+Expert opinion.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Final report: Caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+No specific location
+</td>
+<td>
+We assume that all universities accurately report the number of students who dropped out during the academic year.
+</td>
+<td>
+Expert opinion.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Publication on drop-out rates
+</td>
+<td>
+Final report: Caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+12/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+6
+</td>
+<td>
+Correspondence with data providers.
+</td>
+<td>
+We assume that the academic year is consistently measured across UK universities.
+</td>
+<td>
+Validated from data provider.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Quality assurance based on sampling universities from their websites
+</td>
+<td>
+Quality assurance log, final report: caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+Correspondence with data providers.
+</td>
+<td>
+We assume that students who receive special education services are excluded from the calculation of dropout rates.
+</td>
+<td>
+Validated from data provider.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Sensitivity analysis comparing dropout rates with and without this population included.
+</td>
+<td>
+Quality assurance log, final report: methods, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+Exploratory data analysis notebook
+</td>
+<td>
+We assume that there is complete information for all the variables in the analysis.
+</td>
+<td>
+Robustness testing.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics notebook link
+</td>
+<td>
+Desk instructions, final report: methods, summarising the sample
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that the data collection process has not changed at all over time.
+</td>
+<td>
+Validated from data provider.
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Methods documents from prior runs of this work
+</td>
+<td>
+Methods document
+</td>
+<td>
+Blank - tbc
+</td>
+<td>
+tbc
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td>
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
 </tr>
 
-<tr>
-    <td>4</td>
-    <td>No specific location</td>
-    <td>We assume that all universities accurately report the number of students enrolled 
-        during the academic year.</td>
-    <td>Expert opinion.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Final report: Caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>No specific location</td>
-    <td>We assume that all universities accurately report the number of students who dropped 
-        out during the academic year.</td>
-    <td>Expert opinion.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Publication on drop-out rates</td>
-    <td>Final report: Caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>12/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
-
-<tr>
-    <td>6</td>
-    <td>Correspondence with data providers.</td>
-    <td>We assume that the academic year is consistently measured across UK universities.</td>
-    <td>Validated from data provider.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Quality assurance based on sampling universities from their websites</td>
-    <td>Quality assurance log, final report: caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
-
-<tr>
-    <td>7</td>
-    <td>Correspondence with data providers.</td>
-    <td>We assume that students who receive special education services are excluded from 
-        the calculation of dropout rates.</td>
-    <td>Validated from data provider.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Sensitivity analysis comparing dropout rates with and without this population included.</td>
-    <td>Quality assurance log, final report: methods, caveats</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
-
-<tr>
-    <td>8</td>
-    <td> Exploratory data analysis notebook</td>
-    <td>We assume that there is complete information for all the variables in the analysis.</td>
-    <td>Robustness testing.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Descriptive statistics notebook link</td>
-    <td>Desk instructions, final report: methods, summarising the sample</td>
-    <td>14/02/2024</td>
-    <td>Beth Jones</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
-
-<tr>
-    <td>9</td>
-    <td>Correspondence with data provider</td>
-    <td>We assume that the data collection process has not changed at all over time.</td>
-    <td>Validated from data provider.</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>N/A</td>
-    <td>Methods documents from prior runs of this work</td>
-    <td>Methods document</td>
-    <td>Blank - tbc</td>
-    <td>tbc</td>
-    <td>14/02/2024</td>
-    <td>14/05/2024</td>
-    <td>RED</td>
-    <td>High</td>
-    <td>High</td>
-</tr>
 </tbody></table>
 </div>
 
