@@ -29,6 +29,10 @@ table.simpleTable {
       border-collapse: collapse;
   }
 
+  table.assumptionTable.RAGgreen {
+      color: darkgreen;
+      font-weight: bold;
+  }
   table.assumptionTable th, table.assumptionTable td {
       padding: 8px;
       white-space: nowrap;  
