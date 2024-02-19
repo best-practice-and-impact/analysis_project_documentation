@@ -44,9 +44,9 @@ Quality questions are also categorised by which responsible role from the AQuA b
 
 ## Structure of the guidance
 
-There are 60 quality questions in total. They cover all the stages of the analytical cycle. 
+There are 61 quality questions in total. They cover all the stages of the analytical cycle. 
 
-Answering 60 questions may seem a daunting task at first! The questions are designed to help you as you work your way through the analytical process, rather than to be answered all at once. Creating a log of answers as you move through the stages of the analysis workflow will help you to check that your work meets analytical standards, follows good practice and (if relevant) complies with the Code of Practice for Statistics. 
+Answering 61 questions probably seems like a daunting task at first! The questions are designed to help you as you work your way through the analytical process, rather than to be answered all at once. Creating a log of answers as you move through the stages of the analysis workflow will help you to check that your work meets analytical standards, follows good practice and (if relevant) complies with the Code of Practice for Statistics. 
 
 Answering the questions will also help you make sure that everybody working on the analysis has a clear understanding of how and why it works as it does, and to support your users when writing your outputs. Moreover, most of the answers will help you to produce the critical documents that mitigate risk like an assumptions log, decisions log, issues log, and technical guides for your team and your users. 
 
@@ -57,17 +57,17 @@ The AQuA book divides the analytical cycle into four stages:
 3) Conducting and checking analysis  
 4) Delivery   
 
-You can find the questions in the [Quality Questions](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions.html) section of the website.
+You can find the questions in the [Quality Questions](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions.html) section of the website, which is divided across three themes:
 
 ### a) Quality Questions and why they matter
 
-This tab lists the quality questions that are relevant for each stage of analytical cycle. Alongside each question we explain why it matters and explain the potential risks and benefits around it. We try to address the valid question of "why should I care about this?". 
+This tab lists the quality questions that are relevant for each stage of analytical cycle. Alongside each question we explain why it matters and explain the potential risks and benefits around it. We try to address the very sensible question of "why should I care about this?". 
 
 We encourage commissioner, analyst team and analytical assurer to answer all the questions that are relevant to their responsibilities. We have made a [downloadable, editable HTML template](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_html_template.html) that you can use to record your answers to the questions, as well as key project information. Once you have recorded answers, save the HTML file in your project archive. You can update it as you work through the questions.
 
 User needs and project aims often change as things evolve, so the HTML template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due. 
 
-The Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO or their designated representative needs to sign-off all the answers. 
+The Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO or their designated representative needs to sign-off all the answers at the top of the sheet. 
 
 It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl + S. To undo an action press Ctrl + Z. Pressing Ctrl + S will let you save a copy of the HTML template on your device. 
 
@@ -79,32 +79,39 @@ This tab shows the pillars and principles of Code of Practice for Statistics eac
 
 This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from the AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.  
 
-The AQuA book recommends the allocation of four roles to cover different areas of assurance responsibility:
-* Commissioner
-* Senior Responsible Owner (SRO)
-* Analyst
-* Analytical assurer 
+The AQuA book sets out four roles that cover different areas of assurance responsibility. Taken together, they provide a comprehensive set of assurance for an analytical project. The roles are:    
 
-**Responsibilities of the Senior Responsible Owner**  
-The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.
+* Commissioner    
+* Senior Responsible Owner (SRO)    
+* Analyst    
+* Analytical assurer     
+
+Let's look at each of the roles in a bit more detail.
+
+**Responsibilities of the Commissioner**    
+The commissioner is focused on making sure the analysis meets the required user needs.       
+* Ensures that context around the work is understood so quality assurance is appropriate and proportionate.    
+* Ensures that there is enough time and resource for required assurance and account for risk.    
+* Must understand strengths and limitations including uncertainty so results are interpreted correctly.      
+* Delivers QUALITY OF OUTCOME ("The analysis meets user needs and we understand its limitations").    
+
+**Responsibilities of the Senior Responsible Owner**    
+The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.    
 * Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.    
 * Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the analyst team.    
 
-**Responsibilities of the Commissioner**   
-* Ensures that context is understood so quality assurance is appropriate and proportionate.  
-* Ensures that there is enough time and resource for required assurance and account for risk.  
-* Must understand strengths and limitations including uncertainty so results are interpreted correctly.  
-* Delivers QUALITY OF OUTCOME ("The analysis meets user needs and we understand its limitations").
+**Responsibilities of the Analyst**    
+The analyst team usually work to the SRO. Analysts are responsible for setting up, running, checking and reporting on the analysis.    
+* Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.    
+* Manage external specialists.    
+* Design, build, document and run the analysis.      
+* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs").    
 
-**Responsibilities of the Analyst**  
-* Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.  
-* Manage external specialists.  
-* Design, build, document and run the analysis.  
-* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs").
+**Responsibilities of the Analytical Assurer**    
+The analytical assurer is there to make sure that the analysis has the right level of assurance and that the assurance takes place.   
+* Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.   
+* Advises the Commissioner on whether appropriate QA has happened and about any outstanding risks.    
+* Involved throughout from design through to use.    
+* Delivers QUALITY OF PROCESS ("The analysis does what it is supposed to do and we can prove it").    
 
-**Responsibilities of the Analytical Assurer**  
-* Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.  
-* Advises the Commissioner on whether appropriate QA has happened and about any outstanding risks.  
-* Involved throughout from design through to use.  
-* Delivers QUALITY OF PROCESS ("The analysis does what it is supposed to do and we can prove it").
-
+You can read more about the four roles in the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) and [Verification and Validation for the AQuA Book](https://www.gov.uk/government/publications/verification-and-validation-for-the-aqua-book).
