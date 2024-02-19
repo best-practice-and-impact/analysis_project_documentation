@@ -28,25 +28,14 @@ table.simpleTable {
       text-align: left;
       border-collapse: collapse;
   }
+
   table.assumptionTable th, table.assumptionTable td {
       padding: 8px;
       white-space: nowrap;  
       overflow: hidden;  
       text-overflow: ellipsis;  
   }
-  table.assumptionTable th[col="Plain English description of assumption"],
-  table.assumptionTable td[col="Plain English description of assumption"] {
-      width: 15%;  
-  }
-  table.assumptionTable th[col="Links to supporting analysis"],
-  table.assumptionTable td[col="Links to supporting analysis"] {
-      width: 10%;  
-  }
-  table.assumptionTable th[col="Assumption ID"],
-  table.assumptionTable td[col="Assumption ID"] {
-      width: 3%;
-  }
-
+  
   table.assumptionTable tr:nth-child(even){
     background: #EEEEEE;
   }
