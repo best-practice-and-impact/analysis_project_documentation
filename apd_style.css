@@ -1,5 +1,6 @@
 table.simpleTable {
     background-color: #FFFFFF;
+    color: #000000;
     width: 100%;
     text-align: left;
     border-collapse: collapse;
@@ -29,10 +30,21 @@ table.simpleTable {
       border-collapse: collapse;
   }
 
-  table.assumptionTable.RAGgreen {
-      color: darkgreen;
+td.RAGgreen {
+      color: #006400;
       font-weight: bold;
   }
+
+td.RAGred {
+    color: #8b0000;
+    font-weight: bold;
+  }
+
+td.RAGamber {
+    color: #a86501;
+    font-weight:bold;
+  }
+
   table.assumptionTable th, table.assumptionTable td {
       padding: 8px;
       white-space: nowrap;  
