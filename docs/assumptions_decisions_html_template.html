@@ -1,0 +1,911 @@
+
+<html lang="English">
+<head>
+    <style>table.blueTable {
+        border: 1px solid #1C6EA4;
+        background-color: #EEEEEE;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      table.blueTable td, table.blueTable th {
+        border: 1px solid #AAAAAA;
+        padding: 3px 2px;
+      }
+      table.blueTable tbody td {
+        font-size: 13px;
+      }
+      table.blueTable tr:nth-child(even) {
+        background: #D0E4F5;
+      }
+      table.blueTable thead {
+        background: #1C6EA4;
+        background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        border-bottom: 2px solid #444444;
+      }
+      table.blueTable thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+      }
+      table.blueTable thead th:first-child {
+        border-left: none;
+      }
+      
+      table.blueTable tfoot td {
+        font-size: 14px;
+      }
+      table.blueTable tfoot .links {
+        text-align: right;
+      }
+      table.blueTable tfoot .links a{
+        display: inline-block;
+        background: #1C6EA4;
+        color: #FFFFFF;
+        padding: 2px 8px;
+        border-radius: 5px;
+      }</style>
+
+  
+<style>table.verticalTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.verticalTable td, table.verticalTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.verticalTable tbody td {
+  font-size: 13px;
+}
+table.verticalTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.verticalTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.verticalTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.verticalTable thead th:first-child {
+  border-left: none;
+}
+
+table.verticalTable tfoot td {
+  font-size: 14px;
+}
+table.verticalTable tfoot .links {
+  text-align: right;
+}
+table.verticalTable tfoot .links a{
+  display: inline-block;
+  background: hsl(187, 33%, 35%);
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}</style>
+</head>
+
+<title>Assumptions and decisions log Editable Template</title>
+
+<h1>Introduction</h1>
+This set of templates supports analysis development and production by providing
+a structure for documentation. While most of the template should be self 
+explanatory, this section sets out the purpose of each of the templates. If you 
+have questions or suggestions for improvement, please use our Github repository
+to raise issues or <a href="mailto:ASAP@ons.gov.uk">emailing us</a>.</p> 
+These templates are in development and your feedback is welcomed.
+
+
+<h1>Template summaries</h1>
+
+<table class="blueTable">
+    <TR VALIGN=TOP>
+        <th style="text-align: center" scope="col">Template</th>
+        <th style="text-align: center" scope="col"> Summary</th>
+    </tr>
+     <tr>
+      <td>Analysis overview</td>
+      <td>A table with a series of boxes to be 
+      filled in by the owning team which sets out basic details about the 
+      analysis.</td>
+      </tr>
+
+    <tr>
+      <td>Analysis map</td>
+      <td>A graphical representation of all 
+        the inputs into the analysis, what processes they go through and the 
+        outputs created by the analysis. These outputs should then, ideally, 
+        be linked to planned or ongoing publications.</td>
+      </tr>
+
+    <tr>
+      <td>Roles and Responsibilities</td>
+      <td>Records when somebody took on a 
+        governance role and if they reviewed the documentation relevant to the 
+        responsibiltiies of the role. Also records past governance ownership 
+        to ensure that handovers are recorded.</td>
+      </tr>
+
+    <tr>
+      <td>R&R resources</td>
+      <td> Guidance about what each assurance 
+        role involves and templates to record agreement to carry out that role.</p></td>
+      </tr>
+    
+    <tr>
+      <td>QA log</td>
+      <td>A table which allows the Analytical 
+        Assurer to document planned Quality Assurance and confirm when it is 
+        completed. Also has space for a short summary of the issues the Quality 
+        Assurance raised. This information should be described more fully in 
+        the decisions and issues register</td>
+      </tr>
+
+    <tr>
+      <td>Decisions and issues register</td>
+      <td>As issues arise in development, 
+        decisions will have to be made about them. Issues can come from QA, or 
+        be raised from within the team or by stakeholders. For example, there 
+        may be concerns about the validity of one of the inputs used. This 
+        requires a decision by the individuals in senior governance positions, 
+        who will explain the evidence underpinning this decision. Often these 
+        decisions will become assumptions, which are stored in the assumptions 
+        log.</td>
+      </tr>
+
+    <tr>
+      <td>Assumptions Log</td>
+      <td> This table records the assumptions 
+        made about the analysis. Assumptions will often be decisions made 
+        because there is a need to simplify the real world so it can be analysed 
+        or modelled. Wherever possible, such assumptions should have a 
+        numerical value and an uncertainty range around the value. You should 
+        also give your assumptions a quality RAG rating. When this is combined 
+        with an assessment about how sensitive the analysis is to the assumption, 
+        you get an indicative risk score. Use the risk score to inform how 
+        resources are allocated to further research and improvement of the 
+        assumptions.</td>
+      </tr>
+    
+    <tr>
+      <td>Quality and sensitivity guide</td>
+      <td>An at-a-glance guide to quality 
+        scoring. If you are not sure about the quality or sensitivity score of 
+        an assumption, err on the side of caution and go for lower quality and 
+        higher sensitivity.</td>
+      </tr>
+
+    <tr>
+      <td> Risk scoring guide</td>
+      <td> Uses the quality score and the 
+        sensitivity analysis to estimate the risk of the assumption.</td>
+      </tr>
+</table>
+
+*  URL of the code repository on Gitlab or Github for the workflow. 
+For multiple repositories, include the URLs for all relevant ones. 
+Put each URL on a new line.
+
+<h1>Analysis overview</h1>
+<h2>Analysis basics</h2>
+
+    <table class="verticalTable">
+    <TR VALIGN=TOP>
+        <th style="text-align: center" scope="col"> Analysis name</th>
+        <th style="text-align: center" scope="col"> Analysis purpose</th>
+        <th style="text-align: center" scope="col"> Owning team(s)</th>
+        <th style="text-align: center" scope="col"> Code repository URL*</th>
+        <th style="text-align: center" scope="col"> List of stakeholders</th>
+    </tr>
+     <tr>
+      <td> <p id="content" contenteditable>Enter name here...                         </p></td>
+      <td> <p id="content" contenteditable>Enter name here...                         </p></td>
+      <td> <p id="content" contenteditable>Enter name here...                         </p></td>
+      <td> <p id="content" contenteditable>Enter name here...                         </p></td>
+      </tr>
+    </table>
+
+<h1>Signoff details</h1>
+
+<table class="blueTable">
+  <TR VALIGN=TOP>
+      <th style="text-align: center" scope="col"> Date of sign off</th>
+      <th style="text-align: center" scope="col"> Name of responsible person</th>
+      <th style="text-align: center" scope="col"> Role of responsible person</th>
+      <th style="text-align: center" scope="col"> Comments</th>
+  </tr>
+   <tr>
+    <td> <p id="content" contenteditable>Enter date here...                         </p></td>
+    <td> <p id="content" contenteditable>Enter name here...                         </p></td>
+    <td> <p id="content" contenteditable>Enter role here...                         </p></td>
+    <td> <p id="content" contenteditable>Enter notes here...                        </p></td>
+    </tr>
+  </table>
+
+<h1>I. Scoping the Analysis</h1>
+
+     <table class="blueTable">
+        <TR VALIGN=TOP>
+            <th> </th>
+            <th style="text-align: center;" scope="col">Quality Question</th>
+            <th style="text-align: center;" scope="col">Answer</th>
+            <th style="text-align: center" scope="col"> Answer added by</th>
+            <th style="text-align: center" scope="col"> Date of answer</th>
+            <th style="text-align: center" scope="col"> Answer signed off by SRO?</th>
+            <th style="text-align: center" scope="col"> Next review due on</th>
+            <th style="text-align: center" scope="col"> Any change since last review?</th> 
+        </tr>
+        <tr>
+        <td>Q1</td>
+          <td>What question does the analysis try to answer?</td>
+          <td> <p id="content" contenteditable>Enter your answer here... </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q2</td>
+          <td>Why do you need to answer this analysis question?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q3</td>
+          <td>Which organisational priorities does this analysis address?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q4</td>
+          <td>If you use a model, is it business critical?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q5</td>
+          <td>Who needs the answer to the analysis question?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q6</td>
+          <td>Who do you need to consult to make sure you meet the right user needs?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q7</td>
+          <td>How will you know you have answered the analysis question correctly?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q8</td>
+          <td>What is the estimated time and resource required to answer the analysis question (in months and FTE)?</td> 
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q9</td>
+          <td>What is the impact if the analysis is not done now?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q10</td>
+          <td>What is the impact if the analysis is not done correctly?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q11</td>
+          <td>Name the commissioner, senior responsible owner and analytical assurer of this
+          analysis?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q12</td>
+          <td>What tools and resources will you use in production? Are they the best for the job?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q13</td>
+          <td>Do you have the right internal and external resources and capability to deliver the analysis?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q14</td>
+          <td>What are the anticipated risks of the analysis? Have you discussed these risks with customers and stakeholders?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q15</td>
+          <td>Is there a contingency plan prepared if your mitigation plans fail?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q16</td>
+          <td>Do the data and analysis comply with ethical requirements?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q17</td>
+          <td>What relevant questions are outside the scope of the analysis?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q18</td>
+          <td>How will you peer review and assure the analysis?</td>
+          <td><p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td><p id="content" contenteditable> Enter full name</p></td>
+          <td><p id="content" contenteditable> Enter date </p></td>
+          <td><p id="content" contenteditable> Yes/No </p></td>
+          <td><p id="content" contenteditable> Enter next review date </p></td>
+          <td><p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q19</td>
+          <td>Will external experts be involved in development and scrutiny of analysis?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+</table>
+
+<h1>II. Design</h1>
+   
+    <table class="blueTable">
+    <TR VALIGN=TOP>
+        <th> </th>
+        <th style="text-align: center;" scope="col">Question</th>
+        <th style="text-align: center;" scope="col">Answer</th>
+        <th style="text-align: center" scope="col"> Answer added by</th>
+        <th style="text-align: center" scope="col"> Date of answer</th>
+        <th style="text-align: center" scope="col"> Answer signed off by SRO?</th>
+        <th style="text-align: center" scope="col"> Next review due on</th>
+        <th style="text-align: center" scope="col"> Any change since last review?</th>
+    </tr>
+     <tr>
+    <td>Q20</td>
+      <td>	Is there a simple, plain English description of what the analysis is for and what it does?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q21</td>
+      <td>Does the analysis have a logic flowchart which explains the end-to-end steps in the workflow?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q22</td>
+      <td>When do you expect to start and finish each stage of analysis: data collection, processing, quality assurance, analysis and dissemination?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q23</td>
+      <td>Does any part of the analysis rely on manual processing? Have you considered the cost and benefits of fully automating the process?	</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q24</td>
+      <td>What happens if team members, reviewers or users find a mistake in the analysis?<br><br>
+        Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q25</td>
+      <td>Have you assessed uncertainty?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+      </tr>
+</table>
+
+<h1>III. Doing and Checking the Analysis</h1>
+
+    <table class="blueTable">
+    <TR VALIGN=TOP>
+        <th> </th>
+        <th style="text-align: center;" scope="col">Question</th>
+        <th style="text-align: center;" scope="col">Answer</th>
+        <th style="text-align: center" scope="col"> Answer added by</th>
+        <th style="text-align: center" scope="col"> Date answer added</th>
+        <th style="text-align: center" scope="col"> Answer signed off by SRO?</th>
+        <th style="text-align: center" scope="col"> Next review due on</th>
+        <th style="text-align: center" scope="col"> Any change since last review?</th>
+    </tr>
+    <tr>
+    <td>Q26</td>
+      <td>How will the data in the analysis be processed before and during use?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q27</td>
+      <td>	Is the data appropriate given the methods selected?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q28</td>
+      <td>What are the strengths and limitations of the data you use?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q29</td>
+      <td>	Is there a robust relationship between your team and data providers? Do data providers understand how and why you use their data?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q30</td>
+      <td>Do you understand how data providers collect, process and quality assure the data you use?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q31</td>
+      <td>Is there a formal agreement to set out data content, when and how you will get the data? If not, why not?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q32</td>
+      <td>Do you know what quality checks are carried out on the data before you receive them?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q33</td>
+      <td>How will you work with your data provider when your data requirements change?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q34</td>
+      <td>	How do you know if your data provider makes a change to their systems or processes which could impact the data you receive or the analysis you produce?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+    
+     </tr>
+     <tr>
+      <td>Q35</td>
+      <td>How did you choose the methods for the analysis? How do you know the methods you use are appropriate? </td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q36</td>
+      <td>Have reasonable alternative methods been explored and rejected for good reasons?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q37</td>
+      <td>How do you know that your analysis is working correctly?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q38</td>
+      <td>Can you describe the assumptions of your analysis, when they were made and who made them and signed them off?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q39</td>
+      <td>How are assumptions validated and assured before you apply them?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q40</td>
+      <td>	How do you measure and report uncertainty in your analysis?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q41</td>
+      <td>	Have you considered the implications of relevant, unquantified uncertainties?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q42</td>
+      <td>Can you explain the impact of your analysis on downstream processes? Are there risks around these dependencies?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q43</td>
+      <td>Is all or part of the analysis reliant on a single person?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q44</td>
+      <td>	Is it clear why important decisions about the analysis were made, who made them and when?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q45</td>
+      <td>	If changes need to be made to code or datasets, is it easy to track who made the changes and when and why they were made? </td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr height=33 style='height:25.0pt'>
+      <td>Q46</td>
+      <td>Would another analyst be able to reproduce your analysis output or continue the work (without talking to you first)?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+      </tr>
+     <tr>
+      <td>Q47</td>
+      <td>Do you use internal peer review to check scripts and code, documentation, implementation of methods, processes and outputs? </td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+      </tr>
+     <tr>
+      <td>Q48</td>
+      <td>Is your code and analysis ever peer reviewed by someone outside your team or organisation?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q49</td>
+      <td>What is your assessment of the quality of your analytical outputs?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q50</td>
+      <td>How do you assure yourself that the analysis you do is correct?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q51</td>
+      <td>Do the outputs of your analysis align with similar findings from elsewhere? If not can you explain why?</td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+     </tr>
+     <tr>
+      <td>Q52</td>
+      <td>	If you find outliers or unusual trends in the data, what steps do you take to investigate them? </td>
+      <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+      <td> <p id="content" contenteditable> Enter full name</p></td>
+      <td> <p id="content" contenteditable> Enter date </p></td>
+      <td> <p id="content" contenteditable> Yes/No </p></td>
+      <td> <p id="content" contenteditable> Enter next review date </p></td>
+      <td> <p id="content" contenteditable> Enter text </p></td>
+      </tr>
+    </table>
+
+<h1>IV. Delivery</h1>
+      
+        <table class="blueTable">
+        <TR VALIGN=TOP>
+            <th> </th>
+            <th style="text-align: center;" scope="col">Question</th>
+            <th style="text-align: center;" scope="col">Answer</th>
+            <th style="text-align: center" scope="col"> Answer added by</th>
+            <th style="text-align: center" scope="col"> Date answer added</th>
+            <th style="text-align: center" scope="col"> Answer signed off by SRO?</th>
+            <th style="text-align: center" scope="col"> Next review due on</th>
+            <th style="text-align: center" scope="col"> Any change since last review?</th>
+        </tr>
+         <tr>
+        <td>Q53</td>
+          <td>Can you give a clear account of what can and cannot be inferred from the analysis?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q54</td>
+          <td>Have you assessed the limitations of the data and analysis and set out how they affect the quality and use of the outputs?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q55</td>
+          <td>	Have you sense checked outputs with user groups and stakeholders?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q56</td>
+          <td>Is uncertainty about data quality, assumptions and methodology clearly communicated to users?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q57</td>
+          <td> Are the implications of unquantified uncertainties communicated to users?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q58</td>
+          <td>Is workflow documentation including technical guides and code repositories publicly available?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q59</td>
+          <td>Does the technical guide and documentation explain how to run the analysis to obtain valid outputs?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q60</td>
+          <td>Have you fully documented the analysis code to comply with good practice?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+         </tr>
+         <tr>
+          <td>Q61</td>
+          <td>Is there a clear feedback mechanism so users can report back on the suitability of outputs?</td>
+          <td> <p id="content" contenteditable>Enter your answer here...                         </p></td>
+          <td> <p id="content" contenteditable> Enter full name</p></td>
+          <td> <p id="content" contenteditable> Enter date </p></td>
+          <td> <p id="content" contenteditable> Yes/No </p></td>
+          <td> <p id="content" contenteditable> Enter next review date </p></td>
+          <td> <p id="content" contenteditable> Enter text </p></td>
+          </tr>
+        </table>
+</html>
