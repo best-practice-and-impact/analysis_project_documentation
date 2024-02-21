@@ -6,8 +6,26 @@ Please get in touch with feedback to support the guidance by creating a GitHub
 Issue or [emailing us](mailto:ASAP@ons.gov.uk).
 :::
 
+# Sample Assumptions Log
+
+This log contains a list of assumptions used in an example analysis of data from UK universities. It also provides a score for each assumption.
+
+## Definitions
+
+Assumptions are scored as Red, Amber or Green (a RAG rating) depending on quality. In RAG, green denotes a favourable value, red unfavourable and amber neutral. The quality of an assumption measures both how certain and robust an assumption is and how appropriate it is for its intended use. 
+
+For example, we would usually consider a well documented assumption drawn from published evidence to be very robust, but if it needs to be transformed or adapted significantly to fit the analysis, the quality rating might need downgrading. 
+
+You would normally lower the quality rating of an assumption if you cannot get technical sign-off (for example because of lack of technical knowledge) or if the information on which it is based is incomplete or poor quality. You would also normally lower the quality if the confidence interval or uncertainty range is wide (i.e. you wouldn’t be surprised if the value was 50% different from what you measure because of uncertainty).
+
+| **RAG Rating** | **Assumption quality** |
+|----------------|------------------------|
+| **GREEN**      | Based on validated data; Methodology is robust; No or few transformations, or transformation methodology is fully verified and robust; Data is current and signed off by experts; Confidence intervals are narrow. |
+| **AMBER**      | The methodology is robust but based on limited data; Data required significant transformation to fit the model; Confidence interval is quite wide; Data has not been reviewed recently. |
+| **RED**        | Unclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval is wide or quality is unknown. |
+
 ---
-title: "Sample assumptions table"
+title: "Sample assumptions log"
 format:
   html:
     embed-resources: true

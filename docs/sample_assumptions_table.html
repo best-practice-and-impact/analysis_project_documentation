@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quality Questions - Sample assumptions table</title>
+<title>Quality Questions - Sample assumptions log</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4629,7 +4629,7 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sample_assumptions_table.html">Sample assumptions table</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sample_assumptions_table.html">Example assumptions table</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4686,8 +4686,8 @@ vertical-align: -.125em;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sample_assumptions_log.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Example assumptions log</span></a>
+  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Example assumptions table</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -4708,31 +4708,34 @@ vertical-align: -.125em;
  <span class="menu-text">Feedback</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Sample assumptions table</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sample-assumptions-log" id="toc-sample-assumptions-log" class="nav-link active" data-scroll-target="#sample-assumptions-log">Sample Assumptions Log</a>
+  <ul class="collapse">
+  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sample assumptions table</h1>
+<h1 class="title">Sample assumptions log</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -4761,6 +4764,40 @@ Note
 </div>
 </div>
 </div>
+<section id="sample-assumptions-log" class="level1">
+<h1>Sample Assumptions Log</h1>
+<p>This log contains a list of assumptions used in an example analysis of data from UK universities. It also provides a score for each assumption.</p>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<p>Assumptions are scored as Red, Amber or Green (a RAG rating) depending on quality. In RAG, green denotes a favourable value, red unfavourable and amber neutral. The quality of an assumption measures both how certain and robust an assumption is and how appropriate it is for its intended use.</p>
+<p>For example, we would usually consider a well documented assumption drawn from published evidence to be very robust, but if it needs to be transformed or adapted significantly to fit the analysis, the quality rating might need downgrading.</p>
+<p>You would normally lower the quality rating of an assumption if you cannot get technical sign-off (for example because of lack of technical knowledge) or if the information on which it is based is incomplete or poor quality. You would also normally lower the quality if the confidence interval or uncertainty range is wide (i.e. you wouldn’t be surprised if the value was 50% different from what you measure because of uncertainty).</p>
+<table class="table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>RAG Rating</strong></th>
+<th><strong>Assumption quality</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>GREEN</strong></td>
+<td>Based on validated data; Methodology is robust; No or few transformations, or transformation methodology is fully verified and robust; Data is current and signed off by experts; Confidence intervals are narrow.</td>
+</tr>
+<tr class="even">
+<td><strong>AMBER</strong></td>
+<td>The methodology is robust but based on limited data; Data required significant transformation to fit the model; Confidence interval is quite wide; Data has not been reviewed recently.</td>
+</tr>
+<tr class="odd">
+<td><strong>RED</strong></td>
+<td>Unclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval is wide or quality is unknown.</td>
+</tr>
+</tbody>
+</table>
 <div style="overflow-x:auto; float=left;">
 <table class="assumptionTable">
 <tbody><tr valign="BOTTOM" text-align="LEFT">
@@ -5349,6 +5386,8 @@ High
 </div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
