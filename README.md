@@ -21,7 +21,7 @@ The main folder contains the following key files:
 **index.qmd** - Quarto markdown document setting up the landing page for the quality questions website.    
 **issues_log.qmd** - Quarto markdown document about the issues log.    
 **quality_questions.qmd** - Quarto markdown document setting out the Quality Questions in table format.    
-**sample_assumptions_log.qmd** - Quarto markdown document containing an example of a RAG-rated assumption log.    
+**sample_assumptions_table.qmd** - Quarto markdown document containing an example of a RAG-rated assumption log.    
 **README.md** - Project README file.
 
 # Working with the project code
