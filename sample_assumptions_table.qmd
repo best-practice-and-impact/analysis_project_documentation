@@ -2,11 +2,9 @@
 This guidance is an ALPHA draft. It is in development and we are still working 
 to ensure that it meets user needs.
 
-Please get in touch with feedback to support the guidance by creating a GitHub 
-Issue or [emailing us](mailto:ASAP@ons.gov.uk).
+Please get in touch with feedback to support the guidance by creating a [GitHub 
+Issue](https://github.com/best-practice-and-impact/analysis_project_documentation/issues) or [emailing us](mailto:ASAP@ons.gov.uk).
 :::
-
-# Sample Assumptions Log
 
 This log contains a list of assumptions used in an example analysis of data from UK universities. It also provides a score for each assumption.
 
