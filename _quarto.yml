@@ -20,7 +20,7 @@ website:
         href: "assumptions_and_decision_log_template.xlsx"
       - text: "Assumptions and decision log guide"
         href: assumptions_and_issues_log.qmd
-      - text: "Example assumptions table"
+      - text: "Example assumptions log"
         href: sample_assumptions_table.qmd
       - text: "Download commissioning log Excel template"
         href: "commissioning_template.xlsx"

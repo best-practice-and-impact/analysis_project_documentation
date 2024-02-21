@@ -1,3 +1,12 @@
+---
+title: "Example assumptions log"
+format:
+  html:
+    embed-resources: true
+    css: apd_style.css
+    html-table-processing: none
+---
+
 ::: {.callout-note collapse="false"}
 This guidance is an ALPHA draft. It is in development and we are still working 
 to ensure that it meets user needs.
@@ -64,7 +73,7 @@ format:
     <td>Descriptive statistics (link), comparison to existing data source/publication (link)</td>
     <td>Final report: methods, caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>John Doe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGgreen">GREEN</td>
@@ -85,7 +94,7 @@ format:
     <td>Descriptive statistics (link), comparison to existing data source/publication (link)</td>
     <td>Final report: methods, descriptive statistics, caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGgreen">GREEN</td>
@@ -104,7 +113,7 @@ format:
     <td>N/A</td>
     <td>N/A</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGgreen">GREEN</td>
@@ -124,7 +133,7 @@ format:
     <td>N/A</td>
     <td>N/A</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGgreen">GREEN</td>
@@ -144,7 +153,7 @@ format:
     <td>N/A</td>
     <td>Final report: Caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGamber">AMBER</td>
@@ -163,7 +172,7 @@ format:
     <td>Publication on drop-out rates</td>
     <td>Final report: Caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>12/05/2024</td>
     <td class="RAGamber">AMBER</td>
@@ -183,7 +192,7 @@ format:
     <td>Quality assurance based on sampling universities from their websites</td>
     <td>Quality assurance log, final report: caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGred">RED</td>
@@ -203,7 +212,7 @@ format:
     <td>Sensitivity analysis comparing dropout rates with and without this population included.</td>
     <td>Quality assurance log, final report: methods, caveats</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGred">RED</td>
@@ -223,7 +232,7 @@ format:
     <td>Descriptive statistics notebook link</td>
     <td>Desk instructions, final report: methods, summarising the sample</td>
     <td>14/02/2024</td>
-    <td>Beth Jones</td>
+    <td>Jane Roe</td>
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGamber">AMBER</td>
@@ -254,7 +263,7 @@ format:
     <td>11</td>
     <td>2,3,4,5,6,7,8</td>
     <td>Assumption log</td>
-    <td>We assume that the correlation coefficient between the two variables is 0.7</td>
+    <td>We assume that the correlation coefficient between the dropout rate and social grade of local authority of origin is 0.7</td>
     <td>Statistical analysis of past data</td>
     <td>0.7</td>
     <td>+-0.1</td>
@@ -262,7 +271,7 @@ format:
     <td>Correlation analysis report m(link), comparison to domain knowledge (link)</td>
     <td>Data analysis documentation</td>
     <td>05/12/2023</td>
-    <td>Haashim Javaid</td>
+    <td>John Doe</td>
     <td>05/12/2023</td>
     <td>01/05/2024</td>
     <td class="RAGgreen">GREEN</td>
