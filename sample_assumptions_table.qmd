@@ -97,7 +97,7 @@ format:
     <td></td>
     <td>Correspondence with data provider</td>
     <td>We assume that all UK universities report data to the Higher Education Statistics Agency (HESA).</td>
-    <td>Validated from data provider, coverage check against university list.</td>
+    <td>Validated from data provider, coverage check against university list</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -128,7 +128,7 @@ format:
     <td>14/02/2024</td>
     <td>14/05/2024</td>
     <td class="RAGgreen">GREEN</td>
-    <td>High</td>
+    <td>Low</td>
     <td>Medium</td>
 </tr>
 
@@ -137,7 +137,7 @@ format:
     <td>2,3,4</td>
     <td>Assumption log</td>
     <td>We assume that all universities accurately report the number of students enrolled during the academic year.</td>
-    <td>Expert opinion.</td>
+    <td>Expert opinion</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -156,7 +156,7 @@ format:
     <td>3,4</td>
     <td>Assumption log</td>
     <td>We assume that all universities accurately report the number of students who dropped out during the academic year.</td>
-    <td>Expert opinion.</td>
+    <td>Expert opinion</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -176,7 +176,7 @@ format:
     <td>3</td>
     <td>Correspondence with data providers.</td>
     <td>We assume that the academic year is consistently measured across UK universities.</td>
-    <td>Validated from data provider.</td>
+    <td>Validated from data provider</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -196,7 +196,7 @@ format:
     <td>9</td>
     <td>Correspondence with data providers.</td>
     <td>We assume that students who receive special education services are excluded from the calculation of dropout rates.</td>
-    <td>Validated from data provider.</td>
+    <td>Validated from data provider</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -249,6 +249,25 @@ format:
     <td class="RAGred">RED</td>
     <td>High</td>
     <td>High</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>2,3,4,5,6,7,8</td>
+    <td>Assumption log</td>
+    <td>We assume that the correlation coefficient between the two variables is 0.7</td>
+    <td>Statistical analysis of past data</td>
+    <td>0.7</td>
+    <td>+-0.1</td>
+    <td>Normal</td>
+    <td>Correlation analysis report m(link), comparison to domain knowledge (link)</td>
+    <td>Data analysis documentation</td>
+    <td>05/12/2023</td>
+    <td>Haashim Javaid</td>
+    <td>05/12/2023</td>
+    <td>01/05/2024</td>
+    <td class="RAGgreen">GREEN</td>
+    <td>Medium</td>
+    <td>Low</td>
 </tr>
 </table>
 </div>

@@ -17,4 +17,4 @@ We are keen to understand the challenges faced by analytical teams in ONS when c
 
 We appreciate your feedback. It will help us to make additional tools and resources on good practice for producing quality analysis.
 
-If you have questions about this guidance or the survey please email ASAP@ons.gov.uk with "analytical QA" in the subject header.
+If you have questions about this guidance or the survey please email ASAP@ons.gov.uk "analytical QA" in the subject header.
