@@ -1399,24 +1399,30 @@ in the model where the error, issue or decision is taken.
   <h1> Quality and sensitivity guide</h1>
 
   <h2>Quality rating</h2>
+  The "quality" of an assumption measures both how certain and robust 
+          an assumption is and how appropriate it is for its intended use. <br>
+          We would consider a published
+           data source data as very robust,  but if it needs to be transformed 
+           significantly to fit the model, the quality rating would be downgraded.
+          You may want to lower the quality rating if it is not possible to get 
+          technical sign-off for the assumptions (e.g. lack of technical knowledge). <br>
+
+        You will also want to lower 
+        the quality if the confidence interval is likely to be wide (i.e., you 
+        wouldn't be surprised if the value was 50% different) - in this case, 
+        you should rank it as amber/red.
+
   <table class="verticalTable">
     <TR VALIGN=TOP>
-        <th style="text-align: center" scope="col">
-          The "quality" of an assumption measures both how certain and robust 
-          an assumption is and how appropriate it is for its intended use. </th>
-        <td> Green</td>
+        <th style="text-align: center" scope="col"> Green
+           </th>
         <td>Based on validated "actual" data. Methodology is robust. There are 
           no or few transformations, or transformation methodology is also fully 
           verified and robust. Data is current, and signed off by experts. 
           Small confidence interval.</td>
     </tr>
     <tr>
-        <th style="text-align: center" scope="col"> We would consider a published
-           data source data as very robust,  but if it needs to be transformed 
-           significantly to fit the model, the quality rating would be downgraded.
-          You may want to lower the quality rating if it is not possible to get 
-          technical sign-off for the assumptions (e.g. lack of technical knowledge).</th>
-        <td> Amber</td>
+        <th style="text-align: center" scope="col"> Amber</th>
         <td> Assumptions are amber if: <br>
           -the methodology  is robust but based on limited data; <br>
           -Data required significant transformation to fit the model; <br>
@@ -1424,11 +1430,7 @@ in the model where the error, issue or decision is taken.
           -Data has not been reviewed recently.</td>
     </tr>
     <tr>
-      <th style="text-align: center" scope="col"> You will also want to lower 
-        the quality if the confidence interval is likely to be wide (i.e., you 
-        wouldn't be surprised if the value was 50% different) - in this case, 
-        you should rank it as amber/red.</th>
-      <td> Red</td>
+      <th style="text-align: center" scope="col"> Red</th>
       <td> Unclear/unreliable data source or no data source provided. Based on 
         limited data and methodology not robust. Data is not current. 
         Confidence interval wide/unknown.</td>
@@ -1462,5 +1464,26 @@ changes the direction/commentary of the output.
       <td> A 1% Change in the tested input creates >0.1% changein the output(s)</td>
   </tr>
   </table>
+
+  <h1> Risk scoring guide</h1>
+  Risk should be understood as the product of quality and sensitivity. The 
+  riskiest assumptions and decisions are those with low evidence quality and 
+  high impact on final results. <br>
+  This table hopes to demonstrate how to calculate risk
+
+  <table class="verticalTable">
+    <TR VALIGN=TOP>
+        <th style="text-align: center" scope="col"> </th>
+        <th style="text-align: center" scope="col"> Green</th>
+        <th style="text-align: center" scope="col"> Amber</th>
+        <th style="text-align: center" scope="col"> Red</th>
+      </tr>
+
+      <tr>
+        <th style="text-align: center" scope="col"> Low</th>
+        <th style="text-align: center" scope="col"> Low</th>
+        <th style="text-align: center" scope="col"> Low</th>
+        <th style="text-align: center" scope="col"> Medium</th>
+      </tr>
 </html>
 
