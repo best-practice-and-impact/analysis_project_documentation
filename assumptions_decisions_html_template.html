@@ -56,7 +56,7 @@
   text-align: center;
   border-collapse: collapse;
 }
-table.verticalTable td, table.blueTable th {
+table.verticalTable td, table.verticalTable th {
   border: 1px solid #AAAAAA;
   padding: 3px 2px;
 }
@@ -307,11 +307,18 @@ These templates are in development and your feedback is welcomed.
   Most teams will create process maps or model maps during development. <br>
   Images, slides and other formats can be copy-pasted here for ease of reference. <br>
   Alternatively, teams can use the framework outlined below. <br>
-  Note: This example model demonstrates how a model map might be laid out, not a real ONS model. 
 
-
+  <img src="model_diagram.jpg" alt="Inputs: Census data, containing total 
+  population of UK and populatiom breakdown by local authority, and supermarket 
+  data, which is number of visits per person per month and chocolate per visit in grams. 
+  The first Model process is simple multiplication to calculate total chocolate 
+  for the UK and chocolate consumed per person in grams. The second model process 
+  is regression analysis to identify mean chocolate per local authority, broken 
+  down by local authority, by type of chocolate, and by month of year." width=75% height=300>
 
   <br>
+  Note: This example model demonstrates how a model map might be laid out, not a real ONS model. 
+
   <br>
   <br>
   Note: Ideally, all independant processes should use a different colour. <br>
@@ -344,10 +351,12 @@ When there is a handover, the new name must be added to a separate table with th
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
+    <td> <p id="content" contenteditable>Enter text here...  </p></td>
     </tr>
 
   <tr>
     <td>Commissioner</td>
+    <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
@@ -365,8 +374,164 @@ When there is a handover, the new name must be added to a separate table with th
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
     <td> <p id="content" contenteditable>Enter text here...  </p></td>
+    <td> <p id="content" contenteditable>Enter text here...  </p></td>
     </tr>
 
 </table>
+
+<h1>R and R resources</h1>
+<br>
+If a handover has occured and the individual owning the role has changed, 
+please save a new copy with your name in the sign off box. Do not overwrite the 
+existing name or delete the old copies.
+
+<h2> SRO Overview</h2>
+The SRO owns the model. This means it is the SRO's responsibility to ensure the 
+documentation here is kept up to date and is signed off <b>by them</b>. Furthermore, 
+they should act as the final decision maker on model design choices, lisasing 
+with the commissoner if the decisions are very complex or difficult. <b>They should 
+remember to document these decisions. </b> It is also their responsibility to make 
+sure that the limitations, uncertainties and assumptions of the model are well 
+communicated to the end user in the final product. 
+
+<h2>SRO signoff</h2>
+<table class="verticalTable">
+  <TR VALIGN=TOP>
+      <th style="text-align: center" scope="col"> Responsibility</th>
+      <th style="text-align: center" scope="col"> Signed by</th>
+      <th style="text-align: center" scope="col"> Date</th>
+    </tr>
+
+  <tr>
+    <td>I agree to review and sign off all key decisions to be made about the model.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to communicate model risks, limitations, major assumptions, and 
+      uncertainty associated with the outcomes to users of the model.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to quantify input error, major assumptions, limitations and 
+      uncertainty mathematically wherever possible.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to attempt to mitigate assumptions and limitations by improving 
+      model design wherever possible.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to ensure that the quality assurance process is compliant and 
+      appropriate, documenting the findings and reviewing them to inform the 
+      model development going forward.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to communicate the concerns of my modelling team to the 
+      commissioner. These concerns can include quality, timeline and feasability 
+      concerns. <b>It is not acceptable for me to ignore the concerns of the modelling team.</b></td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+  </table>
+
+  <br>
+  <br>
+
+
+<table class="verticalTable">
+  <TR VALIGN=TOP>
+      <th style="text-align: center" scope="col"> SRO Documents</th>
+    </tr>
+
+  <tr>
+    <td> <p id="content" contenteditable>Enter document list here...  </p></td>
+  </tr>
+</table>
+
+<h2> Commissioner Overview</h2>
+The commissioner acts as the liason between the end user and the analytical team. 
+They ensure that the model is being designed according to the end user need, 
+which involves transmitting needs from end users to analysts and also concerns 
+and limitations from analysts to end users. <b>The flow of information should be two-way. </b>
+
+<h2>Commissioner signoff</h2>
+<table class="verticalTable">
+  <TR VALIGN=TOP>
+      <th style="text-align: center" scope="col"> Responsibility</th>
+      <th style="text-align: center" scope="col"> Signed by</th>
+      <th style="text-align: center" scope="col"> Date</th>
+    </tr>
+
+  <tr>
+    <td>I agree to ensure that sufficent resources and time are allocated to reach the desired level of quality.</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to ensure a high level of understanding of the requirements, 
+      scope and context of the analysis, not just for myself, but for the SRO, 
+      the Analytical Assurer and the Analyst(s).</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to understand and stay informed of the the strengths, 
+      limitations and contexts of the analysis</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to transmit information regarding the strengths, limitations, 
+      context and uncertainties from the modelling team to the end users to 
+      ensure appropriate model development..</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  <tr>
+    <td>I agree to transmit information regarding user needs from end users to 
+      the modelling team, ensuring that the model is developed according to 
+      user needs</td>
+    <td> <p id="content" contenteditable>Enter signature here...  </p></td>
+    <td> <p id="content" contenteditable>Enter date here...  </p></td>
+  </tr>
+
+  </table>
+
+  <br>
+  <br>
+  
+<h3> Commissioner documents</h3>
+<table class="blueTable">
+  <TR VALIGN=TOP>
+      <th style="text-align: center" scope="col"> Document description</th>
+      <th style="text-align: center" scope="col"> Created by</th>
+    </tr>
+  <tr>
+    <td><b>Commissioning document </b><br>
+        Outlines the question the model is trying to answer and how this model 
+        will try to answer it. It should be completed before model production 
+        begins. It should be created in collaboration with end users and analysts. 
+        Should also include the broad specifications including accuracy 
+        requirements, delivery timeline and skill gaps that must be filled 
+        before completion. </td>
+      </tr>
+</table>
+
 
 </html>
