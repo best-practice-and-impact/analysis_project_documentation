@@ -4617,7 +4617,7 @@ vertical-align: -.125em;
 }</script>
 
 
-<style type="text/css">table.simpleTable {background-color: #FFFFFF;color: #000000;width: 100%;text-align: left;border-collapse: collapse;}table.simpleTable td {padding: 3px 2px;}table.simpleTable thead, table.simpleTable th {border-bottom: 2px solid #000000;font-weight: bold;color: #000000;height: 70px;}table.simpleTable tr:nth-child(even){background: #EEEEEE;}table.assumptionTable {background-color: #FFFFFF;width: 90%;max-width: 1200px;margin: 0 auto;text-align: left;font-family: "Open Sans";border-collapse: collapse;}td.RAGgreen {color: #006400;font-weight: bold;}td.RAGred {color: #8b0000;font-weight: bold;}td.RAGamber {color: #a86501;font-weight:bold;}table.assumptionTable th, table.assumptionTable td {padding: 8px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }table.assumptionTable tr:nth-child(even){background: #EEEEEE;}</style>
+<style type="text/css">table.simpleTable {background-color: #FFFFFF;color: #000000;width: 100%;text-align: left;border-collapse: collapse;}table.simpleTable td {padding: 3px 2px;}table.simpleTable thead, table.simpleTable th {border-bottom: 2px solid #000000;font-weight: bold;color: #000000;height: 70px;}table.simpleTable tr:nth-child(even){background: #EEEEEE;}table.assumptionTable {background-color: #FFFFFF;width: 95%;max-width: 1200px;margin: 0 auto;text-align: left;border-collapse: collapse;}td.RAGgreen {color: #006400;font-weight: bold;}td.RAGred {color: #8b0000;font-weight: bold;}td.RAGamber {color: #a86501;font-weight:bold;}table.assumptionTable th, table.assumptionTable td {padding: 8px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }table.assumptionTable tr:nth-child(even){background: #EEEEEE;}</style>
 </head>
 
 <body class="nav-sidebar docked">
@@ -4768,6 +4768,9 @@ Note
 Assumption ID
 </th>
 <th scope="col">
+Depends on Assumptions
+</th>
+<th scope="col">
 Location in code, documentation or publication
 </th>
 <th scope="col">
@@ -4816,6 +4819,9 @@ Risk score
 <tr>
 <td>
 1
+</td>
+<td>
+2,3,4,5,6,7,8,9,10
 </td>
 <td>
 Assumption log
@@ -4868,6 +4874,9 @@ High
 2
 </td>
 <td>
+3,4,5,6,8,9,10
+</td>
+<td>
 Assumption log
 </td>
 <td>
@@ -4918,13 +4927,15 @@ High
 3
 </td>
 <td>
+</td>
+<td>
 Correspondence with data provider
 </td>
 <td>
 We assume that all UK universities report data to the Higher Education Statistics Agency (HESA).
 </td>
 <td>
-Validated from data provider.
+Validated from data provider, coverage check against university list.
 </td>
 <td>
 N/A
@@ -4953,19 +4964,75 @@ Beth Jones
 <td>
 14/05/2024
 </td>
-<td class="RAGred">
-RED
+<td class="RAGgreen">
+GREEN
 </td>
 <td>
 High
 </td>
 <td>
-High
+Medium
 </td>
 </tr>
 <tr>
 <td>
 4
+</td>
+<td>
+3
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that our list of UK universities is correct, current and comprehensive.
+</td>
+<td>
+Team opinion, reliable source (HESA list)
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Beth Jones
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+Medium
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+2,3,4
 </td>
 <td>
 Assumption log
@@ -5003,8 +5070,8 @@ Beth Jones
 <td>
 14/05/2024
 </td>
-<td class="RAGred">
-RED
+<td class="RAGamber">
+AMBER
 </td>
 <td>
 High
@@ -5015,7 +5082,10 @@ High
 </tr>
 <tr>
 <td>
-5
+6
+</td>
+<td>
+3,4
 </td>
 <td>
 Assumption log
@@ -5053,8 +5123,8 @@ Beth Jones
 <td>
 12/05/2024
 </td>
-<td class="RAGred">
-RED
+<td class="RAGamber">
+AMBER
 </td>
 <td>
 High
@@ -5065,7 +5135,10 @@ High
 </tr>
 <tr>
 <td>
-6
+7
+</td>
+<td>
+3
 </td>
 <td>
 Correspondence with data providers.
@@ -5115,7 +5188,10 @@ High
 </tr>
 <tr>
 <td>
-7
+8
+</td>
+<td>
+9
 </td>
 <td>
 Correspondence with data providers.
@@ -5165,16 +5241,19 @@ High
 </tr>
 <tr>
 <td>
-8
+9
 </td>
 <td>
-Exploratory data analysis notebook
+2,3,4,10
+</td>
+<td>
+Exploratory data analysis notebook (link)
 </td>
 <td>
 We assume that there is complete information for all the variables in the analysis.
 </td>
 <td>
-Robustness testing.
+Robustness testing
 </td>
 <td>
 N/A
@@ -5215,7 +5294,10 @@ High
 </tr>
 <tr>
 <td>
-9
+10
+</td>
+<td>
+2,3,4,9
 </td>
 <td>
 Correspondence with data provider
@@ -5224,7 +5306,7 @@ Correspondence with data provider
 We assume that the data collection process has not changed at all over time.
 </td>
 <td>
-Validated from data provider.
+Validated from data provider (link)
 </td>
 <td>
 N/A
@@ -5236,10 +5318,10 @@ N/A
 N/A
 </td>
 <td>
-Methods documents from prior runs of this work
+Methods documents from prior runs of this work, supplier data specifications and quality reports
 </td>
 <td>
-Methods document
+Data supply specification, data quality report, methods document
 </td>
 <td>
 Not yet assigned
