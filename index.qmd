@@ -13,7 +13,9 @@ Please get in touch with feedback to support the guidance by creating a [GitHub 
 
 ## Aims
 
-This guidance provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the production cycle. The guidance is here to support teams in meeting the Office for National Statistics's (ONS) strategic objectives for improving statistical quality. You can find more information about our strategic objectives on statistical quality in the [ONS Statistical Quality Improvement Strategy](https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/qualityinofficialstatistics/onsstatisticalqualityimprovementstrategy). ONS manages quality through a [strategic risk approach](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/ONS_quality_management.aspx?csf=1&web=1&e=xyAJcG&cid=3da18120-8bb7-4e1f-ad34-e2793e555231).
+This guidance provides a set of questions to help analytical and statistical teams evaluate the quality of their analysis throughout the production cycle.
+
+The guidance is here to support teams in meeting the Office for National Statistics's (ONS) strategic objectives for improving statistical quality. You can find more information about our strategic objectives on statistical quality in the [ONS Statistical Quality Improvement Strategy](https://www.ons.gov.uk/methodology/methodologytopicsandstatisticalconcepts/qualityinofficialstatistics/onsstatisticalqualityimprovementstrategy). ONS manages quality through a [strategic risk approach](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/ONS_quality_management.aspx?csf=1&web=1&e=xyAJcG&cid=3da18120-8bb7-4e1f-ad34-e2793e555231).
 
 The guidance has five main aims:  
 
@@ -26,21 +28,21 @@ The guidance has five main aims:
 Reflecting on the questions asked in the template will help you to manage your analysis risks:
 
 1. You will be able to document the mitigation that is in place or planned.    
-2. You will know that the project is prepared to accept issues or risks and why this is.    
+2. You will know which issues and risks the project is prepared to accept and why.    
 3. You can identify potential quality issues and decide how to manage and prioritise them.    
 4. Having this information in once place provides a sound basis for regular reviews of assumptions, issues and risks associated with the workflow, in line with recommended good practice.    
 
 ## How the questions draw on other frameworks
 
-The [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out a standard framework for managing analytical quality in government. The AQuA framework is there to make sure that our work can be trusted to inform good decision making, while the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/) sets out the principles and practices that producers of official statistics should commit to.    
+The [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out a standard framework for managing analytical quality in HM Government. The AQuA framework is there to make sure that our work can be trusted to inform good decision making, while the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/) sets out the principles and practices that producers of official statistics should commit to.    
 
 Two other pieces of guidance have motivated us to produce this template. One is the [Analysis Function guidance on Quality Questions and Red Flags](https://analysisfunction.civilservice.gov.uk/policy-store/quality-questions-and-red-flags/#:~:text=The%20%27Quality%20Questions%20and%20Red,for%20National%20Statistics%20). The other is the Office for Statistics Regulation (OSR) guidance on [Thinking about quality when producing statistics](https://osr.statisticsauthority.gov.uk/publication/regulatory-guidance-thinking-about-quality-when-producing-statistics/). Both of these provide sets of questions that analysts can use to interrogate their work and assure its quality. 
 
-Building on these cross-government resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The quality questions are at their most effective if they are asked at the right stage. Once that stage is passed, experience suggests that it is normally difficult to go back and address the points the questions ask by retrofitting at a later stage of the analysis.  
+Building on these resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The quality questions are at their most effective if they are asked at the right stage. Once that stage is passed, experience suggests that it is normally difficult to go back and address the points the questions ask by retrofitting at a later stage of the analysis.  
 
 Each question is linked with the Code of Practice for Statistics pillars of [Trustworthiness](https://code.statisticsauthority.gov.uk/the-code/trustworthiness/), [Quality](https://code.statisticsauthority.gov.uk/the-code/quality/) and [Value](https://code.statisticsauthority.gov.uk/the-code/value/). We explain the importance and relevance of each question in light of the three pillars so teams can better understand and apply these principles through out the project life cycle.  
 
-Quality questions are also categorised by which responsible role from the AQuA book would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
+Quality questions are also linked to which responsible role from the AQuA book would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
 
 ## Structure of the guidance
 

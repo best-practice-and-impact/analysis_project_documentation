@@ -174,7 +174,7 @@ format:
     <td>8</td>
     <td> Exploratory data analysis notebook</td>
     <td>We assume that there is complete information for all the variables in the analysis.</td>
-    <td>Robustness testing.</td>
+    <td>Robustness testing</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
@@ -193,7 +193,7 @@ format:
     <td>9</td>
     <td>Correspondence with data provider</td>
     <td>We assume that the data collection process has not changed at all over time.</td>
-    <td>Validated from data provider.</td>
+    <td>Validated from data provider</td>
     <td>N/A</td>
     <td>N/A</td>
     <td>N/A</td>
