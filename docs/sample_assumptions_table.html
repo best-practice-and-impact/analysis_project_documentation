@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quality Questions - Feedback</title>
+<title>Quality Questions - Sample assumptions log</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4617,6 +4617,7 @@ vertical-align: -.125em;
 }</script>
 
 
+<style type="text/css">table.simpleTable {background-color: #FFFFFF;color: #000000;width: 100%;text-align: left;border-collapse: collapse;}table.simpleTable td {padding: 3px 2px;}table.simpleTable thead, table.simpleTable th {border-bottom: 2px solid #000000;font-weight: bold;color: #000000;height: 70px;}table.simpleTable tr:nth-child(even){background: #EEEEEE;}table.assumptionTable {background-color: #FFFFFF;width: 95%;max-width: 1200px;margin: 0 auto;text-align: left;border-collapse: collapse;}td.RAGgreen {color: #006400;font-weight: bold;}td.RAGred {color: #8b0000;font-weight: bold;}td.RAGamber {color: #a86501;font-weight:bold;}table.assumptionTable th, table.assumptionTable td {padding: 8px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }table.assumptionTable tr:nth-child(even){background: #EEEEEE;}</style>
 </head>
 
 <body class="nav-sidebar docked">
@@ -4628,7 +4629,7 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./feedback.html">Feedback</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sample_assumptions_table.html">Example assumptions log</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4685,8 +4686,8 @@ vertical-align: -.125em;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Example assumptions table</span></a>
+  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Example assumptions log</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -4703,7 +4704,7 @@ vertical-align: -.125em;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./feedback.html" class="sidebar-item-text sidebar-link active">
+  <a href="./feedback.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Feedback</span></a>
   </div>
 </li>
@@ -4717,7 +4718,7 @@ vertical-align: -.125em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#feedback" id="toc-feedback" class="nav-link active" data-scroll-target="#feedback">Feedback</a></li>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link active" data-scroll-target="#definitions">Definitions</a></li>
   </ul>
 </nav>
     </div>
@@ -4726,7 +4727,7 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Feedback</h1>
+<h1 class="title">Sample assumptions log</h1>
 </div>
 
 
@@ -4760,11 +4761,677 @@ Note
 </div>
 </div>
 </div>
-<section id="feedback" class="level1">
-<h1>Feedback</h1>
-<p>We are keen to understand the challenges faced by analytical teams in ONS when complying with good practice. To evaluate the effectiveness of this guidance, we would be grateful if you could fill in <a href="https://forms.office.com/e/ya2ZzRbGHM">a short survey</a>.</p>
-<p>We appreciate your feedback. It will help us to make additional tools and resources on good practice for producing quality analysis.</p>
-<p>If you have questions about this guidance or the survey please email ASAP@ons.gov.uk “analytical QA” in the subject header.</p>
+<p>This log contains a list of assumptions used in an example analysis of data from UK universities. It also provides a score for each assumption.</p>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<p>Assumptions are scored as Red, Amber or Green (a RAG rating) depending on quality. In RAG, green denotes a favourable value, red unfavourable and amber neutral. The quality of an assumption measures both how certain and robust an assumption is and how appropriate it is for its intended use.</p>
+<p>For example, we would usually consider a well documented assumption drawn from published evidence to be very robust, but if it needs to be transformed or adapted significantly to fit the analysis, the quality rating might need downgrading.</p>
+<p>You would normally lower the quality rating of an assumption if you cannot get technical sign-off (for example because of lack of technical knowledge) or if the information on which it is based is incomplete or poor quality. You would also normally lower the quality if the confidence interval or uncertainty range is wide (i.e. you wouldn’t be surprised if the value was 50% different from what you measure because of uncertainty).</p>
+<table class="table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>RAG Rating</strong></th>
+<th><strong>Assumption quality</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>GREEN</strong></td>
+<td>Based on validated data; Methodology is robust; No or few transformations, or transformation methodology is fully verified and robust; Data is current and signed off by experts; Confidence intervals are narrow.</td>
+</tr>
+<tr class="even">
+<td><strong>AMBER</strong></td>
+<td>The methodology is robust but based on limited data; Data required significant transformation to fit the model; Confidence interval is quite wide; Data has not been reviewed recently.</td>
+</tr>
+<tr class="odd">
+<td><strong>RED</strong></td>
+<td>Unclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval is wide or quality is unknown.</td>
+</tr>
+</tbody>
+</table>
+<div style="overflow-x:auto; float=left;">
+<table class="assumptionTable">
+<tbody><tr valign="BOTTOM" text-align="LEFT">
+<th scope="col">
+Assumption ID
+</th>
+<th scope="col">
+Depends on Assumptions
+</th>
+<th scope="col">
+Location in code, documentation or publication
+</th>
+<th scope="col">
+Plain English description of assumption
+</th>
+<th scope="col">
+Basis for assumption
+</th>
+<th scope="col">
+Numerical value of the assumption
+</th>
+<th scope="col">
+Range around the estimated value
+</th>
+<th scope="col">
+Estimated distribution
+</th>
+<th scope="col">
+Links to supporting analysis
+</th>
+<th scope="col">
+Documentation dependencies
+</th>
+<th scope="col">
+Date of last review/update
+</th>
+<th scope="col">
+Externally reviewed by
+</th>
+<th scope="col">
+Date of external review
+</th>
+<th scope="col">
+Next review/update due on
+</th>
+<th scope="col">
+Quality rating
+</th>
+<th scope="col">
+Sensitivity score
+</th>
+<th scope="col">
+Risk score
+</th>
+</tr>
+<tr>
+<td>
+1
+</td>
+<td>
+2,3,4,5,6,7,8,9,10
+</td>
+<td>
+Assumption log
+</td>
+<td>
+We assume that the dataset is representative of the population.
+</td>
+<td>
+Team opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics (link), comparison to existing data source/publication (link)
+</td>
+<td>
+Final report: methods, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+John Doe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+3,4,5,6,8,9,10
+</td>
+<td>
+Assumption log
+</td>
+<td>
+We assume that the data does not exclude any population groups based on their demographic and socio-economic characteristics.
+</td>
+<td>
+Team opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics (link), comparison to existing data source/publication (link)
+</td>
+<td>
+Final report: methods, descriptive statistics, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that all UK universities report data to the Higher Education Statistics Agency (HESA).
+</td>
+<td>
+Validated from data provider, coverage check against university list
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+High
+</td>
+<td>
+Medium
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+3
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that our list of UK universities is correct, current and comprehensive.
+</td>
+<td>
+Team opinion, reliable source (HESA list)
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+Low
+</td>
+<td>
+Medium
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+2,3,4
+</td>
+<td>
+Assumption log
+</td>
+<td>
+We assume that all universities accurately report the number of students enrolled during the academic year.
+</td>
+<td>
+Expert opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Final report: Caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGamber">
+AMBER
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+6
+</td>
+<td>
+3,4
+</td>
+<td>
+Assumption log
+</td>
+<td>
+We assume that all universities accurately report the number of students who dropped out during the academic year.
+</td>
+<td>
+Expert opinion
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Publication on drop-out rates
+</td>
+<td>
+Final report: Caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+12/05/2024
+</td>
+<td class="RAGamber">
+AMBER
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+3
+</td>
+<td>
+Correspondence with data providers.
+</td>
+<td>
+We assume that the academic year is consistently measured across UK universities.
+</td>
+<td>
+Validated from data provider
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Quality assurance based on sampling universities from their websites
+</td>
+<td>
+Quality assurance log, final report: caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGred">
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+9
+</td>
+<td>
+Correspondence with data providers.
+</td>
+<td>
+We assume that students who receive special education services are excluded from the calculation of dropout rates.
+</td>
+<td>
+Validated from data provider
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Sensitivity analysis comparing dropout rates with and without this population included.
+</td>
+<td>
+Quality assurance log, final report: methods, caveats
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGred">
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+2,3,4,10
+</td>
+<td>
+Exploratory data analysis notebook (link)
+</td>
+<td>
+We assume that there is complete information for all the variables in the analysis.
+</td>
+<td>
+Robustness testing
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Descriptive statistics notebook link
+</td>
+<td>
+Desk instructions, final report: methods, summarising the sample
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+Jane Roe
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGamber">
+AMBER
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+2,3,4,9
+</td>
+<td>
+Correspondence with data provider
+</td>
+<td>
+We assume that the data collection process has not changed at all over time.
+</td>
+<td>
+Validated from data provider (link)
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+N/A
+</td>
+<td>
+Methods documents from prior runs of this work, supplier data specifications and quality reports
+</td>
+<td>
+Data supply specification, data quality report, methods document
+</td>
+<td>
+Not yet assigned
+</td>
+<td>
+No external review
+</td>
+<td>
+14/02/2024
+</td>
+<td>
+14/05/2024
+</td>
+<td class="RAGred">
+RED
+</td>
+<td>
+High
+</td>
+<td>
+High
+</td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+2,3,4,5,6,7,8
+</td>
+<td>
+Assumption log
+</td>
+<td>
+We assume that the correlation coefficient between the dropout rate and social grade of local authority of origin is 0.7
+</td>
+<td>
+Statistical analysis of past data
+</td>
+<td>
+0.7
+</td>
+<td>
++-0.1
+</td>
+<td>
+Normal
+</td>
+<td>
+Correlation analysis report m(link), comparison to domain knowledge (link)
+</td>
+<td>
+Data analysis documentation
+</td>
+<td>
+05/12/2023
+</td>
+<td>
+John Doe
+</td>
+<td>
+05/12/2023
+</td>
+<td>
+01/05/2024
+</td>
+<td class="RAGgreen">
+GREEN
+</td>
+<td>
+Medium
+</td>
+<td>
+Low
+</td>
+</tr>
+</tbody></table>
+</div>
 
 
 </section>
