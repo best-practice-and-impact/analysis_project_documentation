@@ -97,6 +97,43 @@ table.verticalTable tfoot .links a{
   border-radius: 5px;
 }</style>
   
+  <style>td.RAGgreen {
+    color: #006400;
+    font-weight: bold;
+}
+</style>
+
+<style>td.RAGred {
+  color: #8b0000;
+  font-weight: bold;
+}</style>
+<style>td.RAGamber {
+  color: #a86501;
+  font-weight:bold;
+}</style>
+
+<style>  table.assumptionTable th, table.assumptionTable td {
+  padding: 8px;
+  white-space: nowrap;  
+  overflow: hidden;  
+  text-overflow: auto;  
+}
+
+table.assumptionTable tr:nth-child(even){
+background: #EEEEEE;
+}
+
+
+table.assumptionTable {
+      background-color: #FFFFFF;
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: left;
+      border-collapse: collapse;
+      overflow: scroll;
+  }
+</style>
 </head>
 
 <title>Assumptions and decisions log editable template</title>
@@ -107,7 +144,7 @@ This set of templates supports analysis development and production by providing
 a structure for documentation. While most of the template should be self 
 explanatory, this section sets out the purpose of each of the templates. If you 
 have questions or suggestions for improvement, please use our Github repository
-to raise issues or <a href="mailto:ASAP@ons.gov.uk">emailing us</a>.</p> 
+to <a href="https://github.com/best-practice-and-impact/analysis_project_documentation/issues">raise issues</a> or <a href="mailto:ASAP@ons.gov.uk">emailing us</a>.</p> 
 These templates are in development and your feedback is welcomed.
 
 
@@ -283,10 +320,13 @@ These templates are in development and your feedback is welcomed.
         <td> <p id="content" contenteditable>Enter text here...  </p></td>
     </tr>
     <tr>
-      <th style="text-align: center" scope="col"> Performing RAP</th>
+      <th style="text-align: center" scope="col"> Performing RAP *</th>
       <td> <p id="content" contenteditable>Enter text here...  </p></td>
   </tr>
     </table>
+
+  <br> 
+  * A link to the Duck Book (Quality assurance of code for analysis and research) is available <a href = "https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html"> here</a>.
 
     <h2>Further documentation</h2>
     <table class="verticalTable">
@@ -862,7 +902,7 @@ Issues can be sidelined. However, this must be justified clearly (ideally eviden
 If issues are resolved, they can be evidenced by linking to the relevant place 
 in the model where the error, issue or decision is taken.
 
-<div style="overflow-x:auto; float=left;">
+<div style="overflow-x:scroll; float=left;">
   <table class="blueTable">
   <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
       <th scope = "col"> Issue ID</th>
@@ -1013,8 +1053,8 @@ in the model where the error, issue or decision is taken.
   </table>
 
   <h1> Assumptions log</h1>
-  <div style="overflow-x:auto; float=left;">
-    <table class="blueTable">
+  <div style="overflow-x:scroll; float=left;">
+    <table class="assumptionTable">
     <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
         <th scope = "col"> Assumption ID</th>
         <th scope = "col"> Depends on Assumptions</th>
@@ -1478,7 +1518,7 @@ changes the direction/commentary of the output.
          <th style="text-align: center" scope="col" >Quality rating </th>
       </tr>
         <th style="text-align: center" scope="col">  </th>
-        <th style="text-align: center" scope="col"> Green</th>
+        <th style="text-align: center" scope="col" class="=RAGgreen"> Green</th>
         <th style="text-align: center" scope="col"> Amber</th>
         <th style="text-align: center" scope="col"> Red</th>
       </tr>
@@ -1515,7 +1555,7 @@ changes the direction/commentary of the output.
     The ethics working group have requested that their ethics log be always 
     linked to as a hyperlink rather than inserted into this spreadsheet. 
     As such, go to the following link: <br>
-    https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/
+    <a href="https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/"> https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/</a>
     <br>
     Then, when completed, store this correctly with all other documentation from this set of templates.
 </html>
