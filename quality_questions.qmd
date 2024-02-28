@@ -451,11 +451,11 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q23</td>
   <td>Does any part of the analysis rely on manual processing? Have
   you considered the cost and benefits of fully automating the process?</td>
-  <td>Manual processes are inefficient and more risky than well-designed automated ones. Analysis with manual steps like copying and pasting data between files, manually updating cells in tables, or moving data between software package is harder to assure and carries extra quality risks.</td>
+  <td>Manual processes are inefficient and more risky than well-designed automated ones. Analysis with manual steps like copying and pasting data between files, manually updating cells in tables, or moving data between software packages is harder to assure and carries extra quality risks.</td>
  </tr>
  <tr>
   <td>Q24</td>
-  <td>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
+  <td>What happens if team members, reviewers or users find a mistake in the analysis?<br><br>Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td>Mistakes happen in analysis. You should have a clear and efficient process for reporting, documenting and addressing errors. Being open and honest about problems and working together to solve them in a supportive way creates an atmosphere of openness in the team and is critical for upholding users' trust in your output.<br><br>Teams should take reasonable steps to understand and document how and why errors came about, and mitigate the risk of them happening again. Your mitigation approach should be consistent with your department's revision policies.</td>
   <tr>
   <td>Q25</td>
@@ -507,7 +507,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q24</td>
-  <td>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
+  <td>What happens if team members, reviewers or users find a mistake in the analysis?<br><br>Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td>Q3.4 Scheduled revisions, or unscheduled corrections that result
   from errors, should be explained alongside the statistics, being clear on
   the scale, nature, cause and impact.<br><br>V5 Statistics and data should be published in forms that enable their reuse. Producers should use existing data wherever possible and only ask for more where justified.</td>
@@ -563,7 +563,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q24</td>
-  <td>What happens if team members, reviewers or users find a mistake in the analysis? Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
+  <td>What happens if team members, reviewers or users find a mistake in the analysis?<br><br>Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
   <td>Analyst, analytical assurer</td>
   <td>The analyst should use a risk-based approach to highlight the
   areas of greatest potential error and focus assurance efforts on these areas.</td>
@@ -601,7 +601,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q27</td>
   <td>Is the data appropriate given the methods selected?</td>
   <td>A comprehensive understanding of data inputs is a prerequisite
-  to meeting user needs.</td>
+  for meeting user needs.</td>
  </tr>
  <tr>
   <td>Q28</td>
@@ -682,7 +682,7 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q42</td>
   <td>Can you explain the impact of your analysis on downstream processes? Are there any risks around these dependencies?</td>
   <td>Understanding how your analysis might be used would help ensure 
-  that the right quality and assurance levels are in place. It would help you assess the risks around the use of analysis and if there are other  stakeholders or users you need to consult.</td>
+  that the right quality and assurance levels are in place. It would help you assess the risks around the use of analysis and if there are other stakeholders or users you need to consult.</td>
  </tr>
  <tr>
   <td>Q43</td>
@@ -697,7 +697,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q45</td>
   <td>If changes need to be made to code or datasets, is it easy to track who made the changes and when and why they were made?</td>
-  <td>Good version control ensures a full understanding of when, why, and how changes were made to your analysis process. If it is hard to track changes, it will be hard to retrace steps if there is a problem and means you do not fully understand the process</td>
+  <td>Good version control ensures a full understanding of when, why, and how changes were made to your analysis process. If it is hard to track changes, it will be hard to retrace steps if there is a problem and means you do not fully understand the process.</td>
  </tr>
  <tr>
   <td>Q46</td>
