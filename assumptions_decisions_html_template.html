@@ -101,15 +101,51 @@ table.verticalTable tfoot .links a{
 
 <title>Assumptions and decisions log editable template</title>
 
+
+<div class="tabs-container">
+  <input type="radio" id="tab1" name="tabs" checked>
+  <label class="tab-label" for="tab1">Introduction</label>
+
+  <input type="radio" id="tab2" name="tabs">
+  <label class="tab-label" for="tab2">Analysis Overview</label>
+
+  <input type="radio" id="tab3" name="tabs">
+  <label class="tab-label" for="tab3">Model Map</label>
+
+  <input type="radio" id="tab4" name="tabs">
+  <label class="tab-label" for="tab4">Roles and Responsibilities</label>
+
+  <input type="radio" id="tab5" name="tabs">
+  <label class="tab-label" for="tab5">R and R resources</label>
+
+  <input type="radio" id="tab6" name="tabs">
+  <label class="tab-label" for="tab6">Quality assurance log</label>
+
+  <input type="radio" id="tab7" name="tabs">
+  <label class="tab-label" for="tab7">Decisions and issues register</label>
+
+  <input type="radio" id="tab8" name="tabs">
+  <label class="tab-label" for="tab8">Assumptions log</label>
+
+  <input type="radio" id="tab9" name="tabs">
+  <label class="tab-label" for="tab9">Quality and sensitivity guide</label>
+
+  <input type="radio" id="tab10" name="tabs">
+  <label class="tab-label" for="tab10">Risk scoring guide</label>
+
+  <input type="radio" id="tab11" name="tabs">
+  <label class="tab-label" for="tab11">Ethics log</label>
+</div
+
+<div class="tab-content">
 <h1>Introduction</h1>
-HJ test commit
 This set of templates supports analysis development and production by providing
 a structure for documentation. While most of the template should be self 
 explanatory, this section sets out the purpose of each of the templates. If you 
 have questions or suggestions for improvement, please use our Github repository
 to raise issues or <a href="mailto:ASAP@ons.gov.uk">emailing us</a>.</p> 
 These templates are in development and your feedback is welcomed.
-
+</div>
 
 <h1>Template summaries</h1>
 
@@ -197,6 +233,7 @@ These templates are in development and your feedback is welcomed.
       </tr>
 </table>
 
+<div class="tab-content">
 <h1>Analysis overview</h1>
 <h2>Analysis basics</h2>
 
@@ -230,7 +267,9 @@ These templates are in development and your feedback is welcomed.
     *  URL of the code repository on Gitlab or Github for the workflow. 
     For multiple repositories, include the URLs for all relevant ones. 
     Put each URL on a new line.
+</div>
 
+<div class="tab-content">
 <h2>Roles and responsibilities</h2>
 <table class="verticalTable">
   <TR VALIGN=TOP>
@@ -303,7 +342,9 @@ These templates are in development and your feedback is welcomed.
         <td> <p id="content" contenteditable>Enter link here...  </p></td>
     </tr>
       </table>
+</div>
 
+<div class="tab-content">
   <h1>Model map</h1>
   Most teams will create process maps or model maps during development. <br>
   Images, slides and other formats can be copy-pasted here for ease of reference. <br>
@@ -324,7 +365,9 @@ These templates are in development and your feedback is welcomed.
   <br>
   Note: Ideally, all independant processes should use a different colour. <br>
   Headline source of data should be presented, alongside the actual information extracted.
+</div>
 
+<div class="tab-content">
 <h1> Roles and responsibilities</h1>
 This sheet aims to record which individuals serve which role. <br>
 When there is a handover, the new name must be added to a separate table with the date of handover clearly recorded.
@@ -379,7 +422,9 @@ When there is a handover, the new name must be added to a separate table with th
     </tr>
 
 </table>
+</div>
 
+<div class="tab-content">
 <h1>R and R resources</h1>
 <br>
 If a handover has occured and the individual owning the role has changed, 
@@ -542,7 +587,9 @@ and limitations from analysts to end users. <b>The flow of information should be
 
 <br>
 <br>
+</div>
 
+<div class="tab-content">
 <h2> Analytical assurer overview</h2>
 The analytical assurer works to ensure that enough appropritate quality 
 assurance is occuring and will occur duing model development. It is important 
@@ -621,7 +668,9 @@ is reviewed and implemented into the model, where appropriate.
         date. </td>
       </tr>
 </table>
+</div>
 
+<div class="tab-content">
 <h1>Quality assurance log</h1>
 <h2><p id="content" contenteditable>QA log for [type model and year here]  </p></td></h2>
 <br>
@@ -635,7 +684,7 @@ c. The analytical assurer is sure that the modelling team have understood the fi
 
 <br>
 
-<div style="overflow-x:auto; float=left;">
+<div style="overflow-x:auto; float:left;">
   <table class="blueTable">
   <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
       <th scope = "col"> QA round</th>
@@ -851,9 +900,9 @@ c. The analytical assurer is sure that the modelling team have understood the fi
     <td> <p id="content" contenteditable>Enter text here... </p></td>
   </tr>
   </table>
-
+</div>
   
-
+<div class="tab-content">
 <h1>Decisions and issues register</h1>
 <h2><p id="content" contenteditable>Decisions and issues log for [type model and year here]  </p></td></h2>
 The decisions log and issues register records the decisions taken by the team 
@@ -862,7 +911,7 @@ Issues can be sidelined. However, this must be justified clearly (ideally eviden
 If issues are resolved, they can be evidenced by linking to the relevant place 
 in the model where the error, issue or decision is taken.
 
-<div style="overflow-x:auto; float=left;">
+<div style="overflow-x:auto; float:left;">
   <table class="blueTable">
   <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
       <th scope = "col"> Issue ID</th>
@@ -1011,9 +1060,11 @@ in the model where the error, issue or decision is taken.
     <td> <p id="content" contenteditable>Enter text here... </p></td>
   </tr>
   </table>
+</div>
 
+<div class="tab-content">
   <h1> Assumptions log</h1>
-  <div style="overflow-x:auto; float=left;">
+  <div style="overflow-x:auto; float:left;">
     <table class="blueTable">
     <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
         <th scope = "col"> Assumption ID</th>
@@ -1396,7 +1447,9 @@ in the model where the error, issue or decision is taken.
       <td> <p id="content" contenteditable>Enter text here... </p></td>
     </tr>
     </table>
+</div>
 
+<div class="tab-content">
   <h1> Quality and sensitivity guide</h1>
 
   <h2>Quality rating</h2>
@@ -1437,7 +1490,9 @@ in the model where the error, issue or decision is taken.
         Confidence interval wide/unknown.</td>
   </tr>
   </table>
-  
+  </div>
+
+  <div class="tab-content">
   <h2> Sensitivity rating </h2>
   Sensitivity is the measure of how a change in the input changes the 
   output. In the case of assumptions, if they are increased or decreased 
@@ -1510,7 +1565,9 @@ changes the direction/commentary of the output.
     If this is impossible, efforts should be made to reduce the risk by either 
     increasing the quality or reducing the model's sensitity by introducing 
     other independent methodologies.
+</div>
 
+<div class="tab-content"><
     <h1> Ethics log</h1>
     The ethics working group have requested that their ethics log be always 
     linked to as a hyperlink rather than inserted into this spreadsheet. 
@@ -1518,5 +1575,6 @@ changes the direction/commentary of the output.
     https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/
     <br>
     Then, when completed, store this correctly with all other documentation from this set of templates.
+</div>
 </html>
 
