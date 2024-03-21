@@ -56,3 +56,36 @@ td.RAGamber {
     background: #EEEEEE;
   }
   
+.sidebar {
+  height:100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+td.low {
+  background-color: green;
+  color: white;
+}
+td.medium {
+  background-color: yellow;
+  color: black;
+}
+td.high {
+  background-color: red;
+  color: white;
+}
