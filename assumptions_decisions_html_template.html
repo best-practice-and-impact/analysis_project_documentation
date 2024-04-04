@@ -153,7 +153,7 @@ table.assumptionTable {
   <label class="tab-label" for="tab4">Roles and Responsibilities</label>
 
   <input type="radio" id="tab5" name="tabs">
-  <label class="tab-label" for="tab5">R and R resources</label>
+  <label class="tab-label" for="tab5">Roles and responsibilities: resources</label>
 
   <input type="radio" id="tab6" name="tabs">
   <label class="tab-label" for="tab6">Quality assurance log</label>
@@ -215,7 +215,7 @@ These templates are in development and your feedback is welcomed.
       </tr>
 
     <tr>
-      <td>R&R resources</td>
+      <td>Roles and responsibilites:resources</td>
       <td> Guidance about what each assurance 
         role involves and templates to record agreement to carry out that role.</p></td>
       </tr>
@@ -272,6 +272,7 @@ These templates are in development and your feedback is welcomed.
 
 <div class="Analysis Overview">
 <h1>Analysis overview</h1>
+This is a series of tables which sets out basic details about the analysis.
 <h2>Analysis basics</h2>
 
     <table class="verticalTable">
@@ -387,13 +388,13 @@ These templates are in development and your feedback is welcomed.
   Images, slides and other formats can be copy-pasted here for ease of reference. <br>
   Alternatively, teams can use the framework outlined below. <br>
 
-  <img src="model_diagram.jpg" alt="Inputs: Census data, containing total 
+  <img src="/model_diagram.jpg" alt="Inputs: Census data, containing total 
   population of UK and population breakdown by local authority, and supermarket 
   data, which is number of visits per person per month and chocolate per visit in grams. 
   The first Model process is simple multiplication to calculate total chocolate 
   for the UK and chocolate consumed per person in grams. The second model process 
   is regression analysis to identify mean chocolate per local authority, broken 
-  down by local authority, by type of chocolate, and by month of year." width=75% height=300>
+  down by local authority, by type of chocolate, and by month of year." width="500" height="300">
 
   <br>
   Note: This example model demonstrates how a model map might be laid out, not a real ONS model. 
@@ -415,8 +416,8 @@ When there is a handover, the new name must be added to a separate table with th
       <th style="text-align: center" scope="col">Role</th>
       <th style="text-align: center" scope="col"> Started on (date)</th>
       <th style="text-align: center" scope="col"> Ended on (date)</th>
-      <th style="text-align: center" scope="col" width="10%"> Have you reviewed the responsibilities of your role (found in sheet R&R resources)?</th>
-      <th style="text-align: center" scope="col" width="10%"> Do you agree to uphold the roles and responsibilities outlined in the sheet R&R resources?</th>
+      <th style="text-align: center" scope="col" width="10%"> Have you reviewed the responsibilities of your role (found in "Roles and responsibilites:resources")?</th>
+      <th style="text-align: center" scope="col" width="10%"> Do you agree to uphold the roles and responsibilities outlined in "Roles and responsibilites:resources"?</th>
       <th style="text-align: center" scope="col"> Please record here which documents you have created to evidence your work in your role</th>
       <th style="text-align: center" scope="col"> Date of last review/update</th>
       <th style="text-align: center" scope="col"> Signed by</th>
@@ -461,9 +462,12 @@ When there is a handover, the new name must be added to a separate table with th
 </table>
 </div>
 
-<div class="R and R resources">
-<h1>R and R resources</h1>
+<div class="Roles and responsibilities: resources">
+<h1>Roles and responsibilities: resources</h1>
 <br>
+This section provides guidance for each assurance role and replates to record 
+agreement for each role's responsibilities.
+
 If a handover has occurred and the individual owning the role has changed, 
 please save a new copy with your name in the sign off box. Do not overwrite the 
 existing name or delete the old copies.
@@ -1101,6 +1105,14 @@ in the model where the error, issue or decision is taken.
 
 <div class="Assumptions log">
   <h1> Assumptions log</h1>
+  This table records the assumptions made about the analysis. Assumptions will 
+  often be decisions made because there is a need to simplify the real world 
+  so it can be analysed or modelled. Wherever possible, such assumptions should 
+  have a numerical value and an uncertainty range around the value. You should 
+  also give your assumptions a quality RAG rating. When this is combined with 
+  an assessment about how sensitive the analysis is to the assumption, you get 
+  an indicative risk score. Use the risk score to inform how resources are
+  allocated to further research and improvement of the assumptions.
   <div style="overflow-x:scroll; float=left;">
     <table class="assumptionTable">
     <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
@@ -1605,7 +1617,7 @@ changes the direction/commentary of the output.
     other independent methodologies.
 </div>
 
-<div class="Ethics log"><
+<div class="Ethics log">
     <h1> Ethics log</h1>
     The ethics working group have requested that their ethics log be always 
     linked to as a hyperlink rather than inserted into this spreadsheet. 
