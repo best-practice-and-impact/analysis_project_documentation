@@ -133,48 +133,80 @@ table.assumptionTable {
       border-collapse: collapse;
       overflow: scroll;
   }
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background-color: #dddbdb;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding: 10px;
+    box-shadow: 3px 0px 5px rgba(o,0,0,0.1);
+    z-index: 1000;
+  }
+
+  .sidebar a {
+    display: block;
+    padding:10px 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px
+  }
+
+  .sidebar a:hover {
+    background-color: #e9e9e9;
+    padding-left: 5px;
+  }
+
+  .main-content {
+    margin-left: 130px;
+    padding: 10px;
+  }
+
+  .low {
+    background-color: #90ee90;
+  }
+  .medium {
+    background-color: #ffd700;
+  }
+  .high {
+    background-color: #ff6347;
+  }
+
 </style>
 </head>
 
+<body>
+<div class="main-content">
+
+  <div class="alpha-warning">
+  <p><strong>Note:</strong> This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.</p>
+  <p>Please get in touch with feedback to support the guidance by creating a <a
+  href="https://github.com/best-practice-and-impact/analysis_project_documentation/issues"
+  target="_blank">GitHub Issue</a> or <a
+  href="mailto:ASAP@ons.gov.uk">emailing us</a>
+    </p></div>
+
+<div class="sidebar">
+  <a href="#introduction">Introduction</a>
+  <a href="#analysisOverview">Analysis Overview</a>
+  <a href="#modelMap">Model Map</a>
+  <a href="#rolesAndresponsibilities">Roles and Responsibilities</a>
+  <a href="#rAndrResources">R and R resources</a>
+  <a href="#qualityAssurancelog">Quality assurance log</a>
+  <a href="#decisionsAndissuesRegister">Decisions and issues register</a>
+  <a href="#assumptionsLog">Assumptions log</a>
+  <a href="#qualityAndsensitivityGuide">Quality and sensitivity guide</a>
+  <a href="#riskScoringguide">Risk scoring guide</a>
+  <a href="#ethicsLog">Ethics log</a>
+</div>
+
 <title>Assumptions and decisions log editable template</title>
 
-
-<div class="tabs-container">
-  <input type="radio" id="tab1" name="tabs" checked>
-  <label class="tab-label" for="tab1">Introduction</label>
-
-  <input type="radio" id="tab2" name="tabs">
-  <label class="tab-label" for="tab2">Analysis Overview</label>
-
-  <input type="radio" id="tab3" name="tabs">
-  <label class="tab-label" for="tab3">Model Map</label>
-
-  <input type="radio" id="tab4" name="tabs">
-  <label class="tab-label" for="tab4">Roles and Responsibilities</label>
-
-  <input type="radio" id="tab5" name="tabs">
-  <label class="tab-label" for="tab5">Roles and responsibilities: resources</label>
-
-  <input type="radio" id="tab6" name="tabs">
-  <label class="tab-label" for="tab6">Quality assurance log</label>
-
-  <input type="radio" id="tab7" name="tabs">
-  <label class="tab-label" for="tab7">Decisions and issues register</label>
-
-  <input type="radio" id="tab8" name="tabs">
-  <label class="tab-label" for="tab8">Assumptions log</label>
-
-  <input type="radio" id="tab9" name="tabs">
-  <label class="tab-label" for="tab9">Quality and sensitivity guide</label>
-
-  <input type="radio" id="tab10" name="tabs">
-  <label class="tab-label" for="tab10">Risk scoring guide</label>
-
-  <input type="radio" id="tab11" name="tabs">
-  <label class="tab-label" for="tab11">Ethics log</label>
-</div
-
-<div class="Introduction">
+<div id="introduction">
 <h1>Introduction</h1>
 This set of templates supports analysis development and production by providing
 a structure for documentation. While most of the template should be self 
@@ -182,7 +214,7 @@ explanatory, this section sets out the purpose of each of the templates. If you
 have questions or suggestions for improvement, please use our Github repository
 to <a href="https://github.com/best-practice-and-impact/analysis_project_documentation/issues">raise issues</a> or <a href="mailto:ASAP@ons.gov.uk">emailing us</a>.</p> 
 These templates are in development and your feedback is welcomed.
-</div>
+
 
 <h1>Template summaries</h1>
 
@@ -210,12 +242,12 @@ These templates are in development and your feedback is welcomed.
       <td>Roles and Responsibilities</td>
       <td>Records when somebody took on a 
         governance role and if they reviewed the documentation relevant to the 
-        responsibilities of the role. Also records past governance ownership 
+        responsibiltiies of the role. Also records past governance ownership 
         to ensure that handovers are recorded.</td>
       </tr>
 
     <tr>
-      <td>Roles and responsibilites:resources</td>
+      <td>R&R resources</td>
       <td> Guidance about what each assurance 
         role involves and templates to record agreement to carry out that role.</p></td>
       </tr>
@@ -269,11 +301,11 @@ These templates are in development and your feedback is welcomed.
         sensitivity analysis to estimate the risk of the assumption.</td>
       </tr>
 </table>
+</div>
 
-<div class="Analysis Overview">
+<div id="analysisOverview">
 <h1>Analysis overview</h1>
-This is a series of tables which sets out basic details about the analysis.
-<h2>Analysis basics</h2>
+  <h2>Analysis basics</h2>
 
     <table class="verticalTable">
     <TR VALIGN=TOP>
@@ -326,11 +358,11 @@ This is a series of tables which sets out basic details about the analysis.
   <h2>Model details</h2>
 <table class="verticalTable">
   <TR VALIGN=TOP>
-      <th style="text-align: center" scope="col" width="33%"> Is the model Business Critical?</th>
+      <th style="text-align: center" scope="col" width="33%"> Is the model business critical?</th>
       <td> <p id="content" contenteditable>Enter text here...  </p></td>
       <td width="33%">Business critical is defined as: <br>
         1. A model which informs essential decisions. <br>
-        2. A model which is essential to the achievement of business plans and priorities.<br>
+        2. A model which is essential to the achivement of business plans and priorities.<br>
         3. A model whose errors could cause serious financial, legal and reputational harm. </td>
   </tr>
   <tr>
@@ -381,31 +413,32 @@ This is a series of tables which sets out basic details about the analysis.
         <td> <p id="content" contenteditable>Enter link here...  </p></td>
     </tr>
       </table>
+</div>      
 
-<div class="Model Map">
+<div id="modelMap">
   <h1>Model map</h1>
   Most teams will create process maps or model maps during development. <br>
   Images, slides and other formats can be copy-pasted here for ease of reference. <br>
   Alternatively, teams can use the framework outlined below. <br>
 
-  <img src="/model_diagram.jpg" alt="Inputs: Census data, containing total 
-  population of UK and population breakdown by local authority, and supermarket 
+  <img src="model_diagram.jpg" alt="Inputs: Census data, containing total 
+  population of UK and populatiom breakdown by local authority, and supermarket 
   data, which is number of visits per person per month and chocolate per visit in grams. 
   The first Model process is simple multiplication to calculate total chocolate 
   for the UK and chocolate consumed per person in grams. The second model process 
   is regression analysis to identify mean chocolate per local authority, broken 
-  down by local authority, by type of chocolate, and by month of year." width="500" height="300">
+  down by local authority, by type of chocolate, and by month of year." width=75% height=300>
 
   <br>
   Note: This example model demonstrates how a model map might be laid out, not a real ONS model. 
 
   <br>
   <br>
-  Note: Ideally, all independent processes should use a different colour. <br>
+  Note: Ideally, all independant processes should use a different colour. <br>
   Headline source of data should be presented, alongside the actual information extracted.
 </div>
 
-<div class="Roles and Responsibilities">
+<div id="roleAndresponsibilities">
 <h1> Roles and responsibilities</h1>
 This sheet aims to record which individuals serve which role. <br>
 When there is a handover, the new name must be added to a separate table with the date of handover clearly recorded.
@@ -416,8 +449,8 @@ When there is a handover, the new name must be added to a separate table with th
       <th style="text-align: center" scope="col">Role</th>
       <th style="text-align: center" scope="col"> Started on (date)</th>
       <th style="text-align: center" scope="col"> Ended on (date)</th>
-      <th style="text-align: center" scope="col" width="10%"> Have you reviewed the responsibilities of your role (found in "Roles and responsibilites:resources")?</th>
-      <th style="text-align: center" scope="col" width="10%"> Do you agree to uphold the roles and responsibilities outlined in "Roles and responsibilites:resources"?</th>
+      <th style="text-align: center" scope="col" width="10%"> Have you reviewed the responsibilities of your role (found in sheet R&R resources)?</th>
+      <th style="text-align: center" scope="col" width="10%"> Do you agree to uphold the roles and responsibilties outlined in the sheet R&R resources?</th>
       <th style="text-align: center" scope="col"> Please record here which documents you have created to evidence your work in your role</th>
       <th style="text-align: center" scope="col"> Date of last review/update</th>
       <th style="text-align: center" scope="col"> Signed by</th>
@@ -462,21 +495,18 @@ When there is a handover, the new name must be added to a separate table with th
 </table>
 </div>
 
-<div class="Roles and responsibilities: resources">
-<h1>Roles and responsibilities: resources</h1>
+<div id="rAndrResources">
+<h1>R and R resources</h1>
 <br>
-This section provides guidance for each assurance role and replates to record 
-agreement for each role's responsibilities.
-
-If a handover has occurred and the individual owning the role has changed, 
+If a handover has occured and the individual owning the role has changed, 
 please save a new copy with your name in the sign off box. Do not overwrite the 
 existing name or delete the old copies.
 
 <h2> SRO Overview</h2>
 The SRO owns the model. This means it is the SRO's responsibility to ensure the 
 documentation here is kept up to date and is signed off <b>by them</b>. Furthermore, 
-they should act as the final decision maker on model design choices, liaising  
-with the commissioner if the decisions are very complex or difficult. <b>They should 
+they should act as the final decision maker on model design choices, lisasing 
+with the commissoner if the decisions are very complex or difficult. <b>They should 
 remember to document these decisions. </b> It is also their responsibility to make 
 sure that the limitations, uncertainties and assumptions of the model are well 
 communicated to the end user in the final product. 
@@ -526,7 +556,7 @@ communicated to the end user in the final product.
 
   <tr>
     <td>I agree to communicate the concerns of my modelling team to the 
-      commissioner. These concerns can include quality, timeline and feasibility  
+      commissioner. These concerns can include quality, timeline and feasability 
       concerns. <b>It is not acceptable for me to ignore the concerns of the modelling team.</b></td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
@@ -535,7 +565,6 @@ communicated to the end user in the final product.
 
   <br>
   <br>
-
 
 <table class="verticalTable">
   <TR VALIGN=TOP>
@@ -548,7 +577,7 @@ communicated to the end user in the final product.
 </table>
 
 <h2> Commissioner Overview</h2>
-The commissioner acts as the liaison between the end user and the analytical team. 
+The commissioner acts as the liason between the end user and the analytical team. 
 They ensure that the model is being designed according to the end user need, 
 which involves transmitting needs from end users to analysts and also concerns 
 and limitations from analysts to end users. <b>The flow of information should be two-way. </b>
@@ -562,7 +591,7 @@ and limitations from analysts to end users. <b>The flow of information should be
     </tr>
 
   <tr>
-    <td>I agree to ensure that sufficient resources and time are allocated to reach the desired level of quality.</td>
+    <td>I agree to ensure that sufficent resources and time are allocated to reach the desired level of quality.</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
   </tr>
@@ -576,7 +605,7 @@ and limitations from analysts to end users. <b>The flow of information should be
   </tr>
 
   <tr>
-    <td>I agree to understand and stay informed of the strengths, 
+    <td>I agree to understand and stay informed of the the strengths, 
       limitations and contexts of the analysis.</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
@@ -628,18 +657,16 @@ and limitations from analysts to end users. <b>The flow of information should be
 
 <br>
 <br>
-</div>
 
-<div class="Analytical assurer overview">
 <h2> Analytical assurer overview</h2>
-The analytical assurer works to ensure that enough appropriate quality 
-assurance is occurring and will occur during model development. It is important 
+The analytical assurer works to ensure that enough appropritate quality 
+assurance is occuring and will occur duing model development. It is important 
 to emphasise that <b>quality assurance does not only occur at the end of 
 development. </b>Most often this involves seeking out quality assurers, scheduling 
 time into the development to allow them to work and ensuring that their feedback 
 is reviewed and implemented into the model, where appropriate. 
 
-<h2>Analytical assurer responsibilities</h2>
+<h2>Analytical assurer responsibilites</h2>
 <table class="verticalTable">
   <TR VALIGN=TOP>
       <th style="text-align: center" scope="col"> Responsibility</th>
@@ -648,7 +675,7 @@ is reviewed and implemented into the model, where appropriate.
     </tr>
 
   <tr>
-    <td>I agree to ensure that sufficient quality assurance happens throughout model development.</td>
+    <td>I agree to ensure that sufficent quality assurance happens throughout model development.</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
   </tr>
@@ -656,7 +683,7 @@ is reviewed and implemented into the model, where appropriate.
   <tr>
     <td>I agree to ensure that the Quality Assurance that occurs is varied, 
       including code review, documentation review, methodological review and 
-      interviews with the modelling team to ensure development is occurring as
+      interviews with the modelling team to ensure development is occuring as
        planned.</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
@@ -670,7 +697,7 @@ is reviewed and implemented into the model, where appropriate.
   </tr>
 
   <tr>
-    <td>I agree to ensure that the limitations, uncertainties and caveats 
+    <td>I agree to ensure that the limitations, uncertanties and caveats 
       detected by Quality Assurance are communicated to end users, both before 
       and after publication.</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
@@ -681,7 +708,7 @@ is reviewed and implemented into the model, where appropriate.
     <td>I agree to honestly and openly communicate errors in the model before 
       and after publication to the end users. In particular, if an error is 
       detected post publication, I agree to not withhold information regarding 
-      the error from the public and the end users.</td>
+      the error from the public and the end userss</td>
     <td> <p id="content" contenteditable>Enter signature here...  </p></td>
     <td> <p id="content" contenteditable>Enter date here...  </p></td>
   </tr>
@@ -700,7 +727,7 @@ is reviewed and implemented into the model, where appropriate.
   <tr>
     <td><b>QA plan and log </b><br>
       This document outlines the planned quality assurance which should occur 
-      before the publication date of the model. This should include a broad 
+      before the publciation date of the model. This should include a broad 
       outline of the kind of review that will occur (e.g. code review, 
       documentation review, external peer review) as well as the expected 
       individuals who will perform the review. They should be contacted well in
@@ -711,15 +738,15 @@ is reviewed and implemented into the model, where appropriate.
 </table>
 </div>
 
-<div class="Quality assurance log">
+<div id="qualityAssurancelog">
 <h1>Quality assurance log</h1>
 <h2><p id="content" contenteditable>QA log for [type model and year here]  </p></td></h2>
 <br>
 <br>
 This sheet is a record of past performed quality assurance and future planned quality assurance.
-Each review should be signed off by the Analytical Assurer only after:<br>
+Each review should be signed off by the Analyitcal Assurer only after:<br>
 a. The review has been performed.<br>
-b. The modelling team have received the findings of the review.<br>
+b. The modelling team have recieved the findings of the review.<br>
 c. The analytical assurer is sure that the modelling team have understood the findings of the review and have planned  actions based on the review findings.
 <b> The first line of the quality assurance log is an example.</b>
 
@@ -942,12 +969,12 @@ c. The analytical assurer is sure that the modelling team have understood the fi
   </tr>
   </table>
 </div>
-  
-<div class="Decisions and issues register">
+
+<div id="decisionsAndissuesRegister">
 <h1>Decisions and issues register</h1>
 <h2><p id="content" contenteditable>Decisions and issues log for [type model and year here]  </p></td></h2>
 The decisions log and issues register records the decisions taken by the team 
-and the outstanding issues yet to be addressed.
+and the outstanding issues yet to be addresed.
 Issues can be sidelined. However, this must be justified clearly (ideally evidenced) and signed off.
 If issues are resolved, they can be evidenced by linking to the relevant place 
 in the model where the error, issue or decision is taken.
@@ -1103,16 +1130,8 @@ in the model where the error, issue or decision is taken.
   </table>
 </div>
 
-<div class="Assumptions log">
+<div id="assumptionsLog">
   <h1> Assumptions log</h1>
-  This table records the assumptions made about the analysis. Assumptions will 
-  often be decisions made because there is a need to simplify the real world 
-  so it can be analysed or modelled. Wherever possible, such assumptions should 
-  have a numerical value and an uncertainty range around the value. You should 
-  also give your assumptions a quality RAG rating. When this is combined with 
-  an assessment about how sensitive the analysis is to the assumption, you get 
-  an indicative risk score. Use the risk score to inform how resources are
-  allocated to further research and improvement of the assumptions.
   <div style="overflow-x:scroll; float=left;">
     <table class="assumptionTable">
     <tr VALIGN=BOTTOM TEXT-ALIGN=LEFT>
@@ -1498,7 +1517,7 @@ in the model where the error, issue or decision is taken.
     </table>
 </div>
 
-<div class="Quality and sensitivity guide">
+<div id="qualityAndsensitivityGuide">
   <h1> Quality and sensitivity guide</h1>
 
   <h2>Quality rating</h2>
@@ -1513,7 +1532,7 @@ in the model where the error, issue or decision is taken.
         You will also want to lower 
         the quality if the confidence interval is likely to be wide (i.e., you 
         wouldn't be surprised if the value was 50% different) - in this case, 
-        you should rank it as amber/red.
+        you should rank it as Amber/Red.
 
   <table class="verticalTable">
     <TR VALIGN=TOP>
@@ -1526,8 +1545,8 @@ in the model where the error, issue or decision is taken.
     </tr>
     <tr>
         <th style="text-align: center" scope="col"> Amber</th>
-        <td> Assumptions are amber if: <br>
-          -the methodology  is robust but based on limited data; <br>
+        <td> Assumptions are Amber if: <br>
+          -The methodology  is robust but based on limited data; <br>
           -Data required significant transformation to fit the model; <br>
           -Your confidence interval is quite wide; <br>
           -Data has not been reviewed recently.</td>
@@ -1539,9 +1558,7 @@ in the model where the error, issue or decision is taken.
         Confidence interval wide/unknown.</td>
   </tr>
   </table>
-  </div>
 
-  <div class="tab-content">
   <h2> Sensitivity rating </h2>
   Sensitivity is the measure of how a change in the input changes the 
   output. In the case of assumptions, if they are increased or decreased 
@@ -1566,10 +1583,12 @@ changes the direction/commentary of the output.
     </tr>
     <tr>
       <td> High</td>
-      <td> A 1% Change in the tested input creates >0.1% change in the output(s)</td>
+      <td> A 1% Change in the tested input creates >0.1% changein the output(s)</td>
   </tr>
   </table>
+</div>
 
+<div id="riskScoringguide">
   <h1> Risk scoring guide</h1>
   Risk should be understood as the product of quality and sensitivity. The 
   riskiest assumptions and decisions are those with low evidence quality and 
@@ -1578,46 +1597,45 @@ changes the direction/commentary of the output.
   <table class="verticalTable">
     <TR VALIGN=TOP>
       <tr>
-  
-        <th style="text-align: center" scope="col"> </th>
+        <th style="text-align: center" scope="col" > Sensitivity</th>
          <th style="text-align: center" scope="col" colspan="3" >Quality rating </th>
       </tr>
-        <th style="text-align: center" scope="col"> Sensitivity </th>
-        <th style="text-align: center" scope="col" class="=RAGgreen"> Green</th>
+        <th style="text-align: center" scope="col">  </th>
+        <th style="text-align: center" scope="col"> Green</th>
         <th style="text-align: center" scope="col"> Amber</th>
         <th style="text-align: center" scope="col"> Red</th>
       </tr>
 
       <tr>
         <th style="text-align: center" scope="col"> Low</th>
-        <td color: #006400>Low</td>>
-        <td>Low</td>>
-        <td>Medium</td>>
+        <td class="low">Low</td>>
+        <td class="low">Low</td>>
+        <td class="medium" >Medium</td>>
       </tr>
 
       <tr>
         <th style="text-align: center" scope="col"> Medium</th>
-        <td> Low</td>
-        <td>Medium</td>
-       <td>High</td>
+        <td class="low">Low</td>
+        <td class="medium">Medium</td>
+        <td class="high">High</td>
       </tr>
 
       <tr>
         <th style="text-align: center" scope="col"> High</th>
-        <td> Medium</td>
-        <td>High</td>
-       <td>High</td>
+        <td class="medium">Medium</td>
+        <td class="high">High</td>
+        <td class="high">High</td>
       </tr>
     </table>  
     <br>
     Once risk is calculated, it should be used by teams to ensure that the 
     riskiest assumptions / decisions have the best evidence justifying them.
     If this is impossible, efforts should be made to reduce the risk by either 
-    increasing the quality or reducing the model's sensitivity by introducing 
+    increasing the quality or reducing the model's sensitity by introducing 
     other independent methodologies.
 </div>
 
-<div class="Ethics log">
+<div id="ethicsLog">
     <h1> Ethics log</h1>
     The ethics working group have requested that their ethics log be always 
     linked to as a hyperlink rather than inserted into this spreadsheet. 
@@ -1626,5 +1644,8 @@ changes the direction/commentary of the output.
     <br>
     Then, when completed, store this correctly with all other documentation from this set of templates.
 </div>
+
+</div>
+</body>
 </html>
 
