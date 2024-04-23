@@ -4,6 +4,7 @@ project:
   resources:
       - "*.xlsx"
       - "*.html"
+      - "*.jpg"
 
 website:
   title: "Quality Questions"
