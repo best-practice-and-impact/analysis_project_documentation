@@ -1,0 +1,22 @@
+Package: pimir
+Type: Package
+Title: Apply the Perpetual Inventory Method to a time series of GFCF to obtain a
+    value for the gross/net/productive stock
+Version: 1.0.0
+Authors@R: person("Adnan", "Fiaz", email = "adnan.fiaz@ons.gov.uk",
+  role = c("aut", "cre"))
+Description: The Perpetual Inventory Method takes a retirement distribution,
+    an age-efficiency profile and/or an age-price profile and applies it to a time
+    series of GFCF. The result is a gross, net and productive stock.
+License: file LICENCE
+LazyData: TRUE
+Imports:
+    dplyr,
+    purrr,
+    assertr
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr

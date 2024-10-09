@@ -1,0 +1,24 @@
+Package: prepim
+Type: Package
+Title: Prepare Input Data for PIM
+Version: 1.1.0
+Authors@R: person("Graham", "Parsons", email = "graham.parsons@ons.gov.uk",
+  role = c("aut", "cre"))
+Description: Carries out the preparation steps on the input datasets required
+  for the Perpetual Inventory Method, including aggregating and consolidating
+  GFCF time series, standarising coding schemes and joining historic to
+  contemporary data.
+License: file LICENCE
+Depends:
+  futile.logger
+Imports:
+  assertr,
+  dplyr,
+  readr,
+  readxl,
+  tidyr,
+  zoo,
+  pimIO
+LazyData: TRUE
+Suggests: testthat
+RoxygenNote: 7.3.2

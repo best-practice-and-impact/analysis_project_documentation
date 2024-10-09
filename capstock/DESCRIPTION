@@ -1,0 +1,25 @@
+Package: capstock
+Type: Package
+Title: A collection of utility scripts
+Version: 1.0.0
+Authors@R: person("Adnan", "Fiaz", email = "adnan.fiaz@ons.gov.uk",
+  role = c("aut", "cre"))
+Description: This package contains functionalities that don't fit within other packages and are therefore collected in a package of their own.
+  unchain method updated by LeighP 28-11-18
+License: file LICENCE
+LazyData: TRUE
+Imports:
+  bench,
+  data.table,
+  doSNOW,
+  dplyr,
+  foreach,
+  forcats,
+  parallel,
+  purrr,
+  tidyr,
+  futile.logger,
+  magrittr
+Suggests: testthat
+RoxygenNote: 7.3.2
+Encoding: UTF-8

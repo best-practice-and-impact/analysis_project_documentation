@@ -1,0 +1,68 @@
+---
+title: "PIM pre- and post-processing"
+author: "Adnan Fiaz"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{PIM pre- and post-processing}
+  %\VignetteEngine{rmarkdown::render}
+  %\VignetteEncoding{UTF-8}
+---
+```{r, include=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+```
+
+The main purpose of the **pimIO** package is to perform pre-processing of the input to and post-processing of the results from the **pimir** package. The main entry point into the package is `run` function and in the following sections we will discuss the inputs and outputs for this function.
+
+## Input data
+The `run` function expects three inputs:
+
+* A data.frame with a time series of GFCF in Current Prices (CP), a Price Index (deflator), other changes in volume (K.1 - K.6) in CP, life length parameters (see **pimir** documentation), time series of tax adjustment factors and time series of productive stock utilization
+* A configuration object as returned by `pimir::pimConfig`
+* A reference year against which all prices are set
+
+The first parameter, the input data.frame, is the most important one. It may look as follows:
+```{r, echo=FALSE}
+inputData <- data.frame(gfcfCP = c(225, 167, 222, 140, 151, 320, 334, 444, 455),
+                        PriceIndex = c(0.691, 0.778, 0.856, 0.878, 0.851, 0.819, 0.878, 0.812, 0.899),
+                        Min = rep(2, 9), Max = rep(15, 9), Average = rep(7, 9),
+                        CoV = rep(3/7, 9), K1CP = c(2, 0, 0, 0, 0, 0, 0, 0, 0),
+                        K3CP = c(0, 0, 0, 5, 0, 0, 0, -50, 0), 
+                        K4CP = c(0, 0, 0, -2, 0, 0, 0, 5, 0), 
+                        K5CP = c(-20, -22, -10, -50, -5, -2, -10, -15, -13), 
+                        K61CP = c(0, 0, 0, 0, 0, 20, 0, 0, 0), 
+                        K62CP = rep(0, 9))
+kable(inputData)
+```
+
+## Internal computations
+The `run` function is the only function exposed to the user but it calls two other functions: `preProcess`  and `postProcess`. In between it also calls `pimir::run` but that is not part of this vignette.
+
+### Pre-processing
+The `preProcess` function calculates two things:
+
+* Convert all K.1 to K.6 values from CP to CVM using the provided PriceIndex
+* Sum the GFCF in CVM and the other changes in volume in CVM. It is this value that is passed on to `pimir::run`.
+
+The original data.frame is not changed, these calculations are appended to it as new columns.
+
+### Post-processing
+The `postProcess` function is mostly about calculating derived variables from the outputs of the PIM. These include the following:
+
+* Total changes in volume in CVM
+* Total other changes in volume in CVM
+* Total other changes in volume in CP
+* Consumption of fixed capital in CVM
+* Net fixed capital formation in CVM
+* Gross stock, net stock, productive stock, total changes in volume, consumption of fixed capital and net fixed capital formation in CP
+* Nominal holding gains & losses
+* Real holding gains & losses
+* Neutral holding gains & losses
+* Return to capital
+* Capital services in CP and CVM
+
+Again the input data.frame is not changed and these derived variables are appended to it as new columns.
+
+## Output
+No additional manipulations are performed after the post-processing so the output is a data.frame with both the input data, results from the PIM calculation and results from the post-processing.
+

@@ -1,0 +1,28 @@
+Package: pimIO
+Type: Package
+Title: Handles the pre- and postprocessing of inputs & outputs for the PIM
+Version: 1.0.0
+Authors@R: person("Adnan", "Fiaz", email = "adnan.fiaz@ons.gov.uk",
+    role = c("aut", "cre"))
+Description: The core functionality of the perpetual inventory method is
+    implemented in the pim package. The focus of this package is firstly to
+    preprocess all the inputs before feeding them to the pim package. Secondly some
+    postprocessing is performed on the outputs from the pim package.
+    15-11-2018 Leigh P - method calcPriceIndex.R updated
+License: file LICENCE
+Imports:
+    dplyr,
+    pimir,
+    assertr,
+    doSNOW,
+    doParallel,
+    parallel,
+    foreach
+LazyData: TRUE
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Encoding: UTF-8

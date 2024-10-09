@@ -1,0 +1,13 @@
+Package: postpim
+Type: Package
+Title: Utility functions to carry out additional calculations from PIM outputs.
+Version: 1.0.0
+Authors@R: person("Parsons", "Graham", email = "graham.parsons@ext.ons.gov.uk",
+  role = c("aut", "cre"))
+Description: Contains functions, such as calculation of endogenous user costs, that can be applied to PIM outputs.
+License: file LICENCE
+LazyData: TRUE
+Imports:
+  zoo
+Suggests: testthat
+RoxygenNote: 6.0.1

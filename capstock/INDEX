@@ -1,0 +1,33 @@
+OLDunchain              Unchain Current Price Series.
+aggregateAll            Aggregate all hierarchy tables.
+aggregateHierarchy      Aggregate up hierarchy.
+aggregateLevels         Aggregate levels of a categorical variable.
+aggregateWithHierarchyTable
+                        Aggregate up hierarchy table.
+aggregateWithHierarchyTableImp
+                        Aggregate up a hierarchy table
+                        (implementation).
+calcAnnualCVMFlow       Calculate the annual CVM where the input time
+                        series represent flow values
+calcAnnualCVMStock      Calculate the annual CVM where the input time
+                        series represent stock values
+calcScalingFactor       Calculate the scaling factor (a function of the
+                        current year and previous year prices). This is
+                        used to calculate the unconstrained CVM.
+calcUnconstrainedCVM    Calculates the unconstrained CVM which is a
+                        function of the current year prices, previous
+                        year prices and a scaling factor
+chain                   Calculate constrained chain volume measure.
+chainAll                Chain all PYP/CYP pairs.
+constrain               Constrain Series.
+constrainAll            Constrain All Series.
+prorateDown             Prorate the specified aggregated category down
+                        in to the specified sub-categories per the
+                        provided ratios
+prorateDownWithTimeSeries
+                        Prorate the specified aggregated category down
+                        in to the specified sub-categories per the
+                        provided ratios
+robustChain             Call chain with missing values present.
+unchain                 Unchain Current Price Series.
+unchainAll              Unchain all CP/CVM pairs.

@@ -1,0 +1,7 @@
+Sector,Industry,Asset,Prices,Period,Value,Expectation
+S.1PT,01,HARDWARE,CP,Y1997Q1,100,Split according to Industry 01
+S.1PT,01,HARDWARE,CP,Y1997Q2,100,Split according to Industry 01
+S.1PT,02,HARDWARE,CP,Y1997Q1,100,Split according to Industry 02
+S.1PT,01,TRANSPORT,CP,Y1997Q1,100,Split according to Industry 01/Asset TRANSPORT
+S.1PT,03,HARDWARE,CP,Y1997Q1,100,Split according to ALL/ALL
+S.11001,01,HARDWARE,CP,Y1997Q1,100,No split
