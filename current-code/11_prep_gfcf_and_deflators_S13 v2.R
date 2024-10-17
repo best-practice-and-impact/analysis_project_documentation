@@ -16,65 +16,49 @@ last_closed_quarter <- xms_last_closed_quarter
 
 for (a in c("CG","LG")){
   
-  # Added ability to keep gfcf the same for specified closed period - this is set in configurations
-  
   if (nchar(last_closed_quarter)!=7){
     
     # Reading in open dataset if entire post-1997 data is unconstrained
     
-    flog.info("Unconstrained\n")
-    cp <- gather(s13_gfcf_open, Period, Value, 4:ncol(s13_gfcf_open))
+    futile.logger::flog.info("Unconstrained\n")
+    cp <-s13_gfcf_open %>% tidyr::pivot_longer(4:ncol(s13_gfcf_open), 
+                                              names_to = "Period", 
+                                              values_to = "Value")
     
-    if (a=="CG"){
+    cp <- dplyr::filter(cp, Sector== ifelse(a=="CG", "S.1311", "S.1313"))
       
-      cp <- filter(cp,Sector=="S.1311")
-      
-    } else {
-      
-      cp <- filter(cp,Sector=="S.1313")
-      
-    }
+
     
   }
   
   if (nchar(last_closed_quarter)==7){
     
-    flog.info(paste0("Constrained to ", last_closed_quarter,"\n"))
+      futile.logger::flog.info(paste0("Constrained to ", last_closed_quarter,"\n"))
     
     # Constraining data to closed period gfcf when last_closed quarter is set.
     
-    # Whether to use new values or growth rates for new gfcf
-    
     method <- "value"
     
-    # Reading in open and closed dataset
-    
-    open_dataset <- gather(s13_gfcf_open,Period,Value, -Sector, -Asset, -Industry)
-    closed_dataset <- read.csv(paste0(last_run, "/Outputs/gfcf_ba_S13.csv"))
-    closed_dataset <- rename(closed_dataset, Asset = Asset...Product)
-    closed_dataset$Basis <- NULL
-    closed_dataset <- gather(closed_dataset,Period,Value, -Sector, -Asset, -Industry)  
-    
-    if (a=="CG"){
-      
-      open_dataset <- filter(open_dataset, Sector=="S.1311")
-      closed_dataset <- filter(closed_dataset, Sector=="S.1311")
-      
-    } else {
-      
-      open_dataset <- filter(open_dataset, Sector=="S.1313")
-      closed_dataset <- filter(closed_dataset, Sector=="S.1313")
-      
-    }
-    
-    open_dataset <- open_dataset %>% group_by(Period) %>% mutate(sum = sum(Value))
-    open_dataset <- filter(open_dataset, sum!=0)
+    open_dataset <- s13_gfcf_open %>% 
+        tidyr::pivot_longer(c(-Sector, -Asset, -Industry), names_to = "Period", values_to = "Value") %>% 
+        dplyr::filter(Sector == ifelse(a == "CG", "S.1311", "S.1313")) %>% 
+        dplyr::group_by(Period) %>% dplyr::mutate(sum = sum(Value)) %>%
+        dplyr::filter(sum!=0)
     open_dataset$sum <- NULL
     
-    last_qod <- unique(open_dataset$Period)
-    last_qod <- as.numeric(gsub("[a-zA-Z ]", "", last_qod))
-    last_qod <- max(last_qod)
-    
+    closed_dataset <- read.csv(paste0(last_run, "/Outputs/gfcf_ba_S13.csv")) %>%
+        dplyr::rename(Asset = Asset...Product)
+    closed_dataset$Basis <- NULL
+    closed_dataset <-  closed_dataset %>% 
+        tidyr::gather(Period, Value, -Sector, -Asset, -Industry) %>%
+        dplyr::filter(Sector == ifelse(a == "CG", "S.1311", "S.1313"))
+
+    last_qod <- open_dataset %>% 
+        dplyr::pull(Period) %>% 
+        gsub("[a-zA-Z]", "", .) %>% 
+        as.numeric() %>% 
+        max()
+
     if (as.numeric(gsub("[a-zA-Z ]", "", last_closed_quarter))>=last_qod){
       
       cp <- closed_dataset
@@ -88,9 +72,11 @@ for (a in c("CG","LG")){
       
       h_columns <- colnames(open_dataset[1:3])
       d_columns <- colnames(open_dataset[4:ncol(open_dataset)])
+      # Check if last closed quarter should be included
       open_quarters <- d_columns[substr(d_columns,2,5)>substr(last_closed_quarter,2,5) |
                                    substr(d_columns,2,5)==substr(last_closed_quarter,2,5) &
                                    substr(d_columns,7,7) >= substr(last_closed_quarter,7,7)]
+      
       open_dataset <- open_dataset[c(h_columns, open_quarters)]
       colnames(open_dataset)[colnames(open_dataset)==last_closed_quarter] <- "splicing_ratio"
       closed_quarters <- append(d_columns[!(d_columns %in% open_quarters)], last_closed_quarter)
