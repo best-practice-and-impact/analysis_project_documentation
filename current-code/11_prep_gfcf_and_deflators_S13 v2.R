@@ -7,8 +7,8 @@
 # Remove leading zeros from GFCF series
 
 # ============================ READ DATASETS ===================================
-flog.info("Processing GFCF and Deflators for S.13.\n")
-flog.info("Extracting Balanced Accounts (BA) GFCF.\n")
+futile.logger::flog.info("Processing GFCF and Deflators for S.13.\n")
+futile.logger::flog.info("Extracting Balanced Accounts (BA) GFCF.\n")
 
 # Added ability to keep gfcf the same for specified closed period - this is set in configurations
 
