@@ -16,6 +16,8 @@ website:
         href: quality_questions.qmd
       - text: "Download quality questions HTML template"
         href: quality_questions_html_template.html
+      - text: "Download quality questions Excel template"
+        href: quality_questions_template.xlsx
       - text: "Download assumptions and decision log Excel template"
         href: "assumptions_and_decision_log_template.xlsx"
       - text: "Assumptions and decision log guide"
