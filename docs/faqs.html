@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.163">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,6 +32,47 @@ vertical-align: middle;
 
 window.document.addEventListener("DOMContentLoaded", function () {
   let init = false;
+
+   // Manage the back to top button, if one is present.
+   let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const scrollDownBuffer = 5;
+  const scrollUpBuffer = 35;
+  const btn = document.getElementById("quarto-back-to-top");
+  const hideBackToTop = () => {
+    btn.style.display = "none";
+  };
+  const showBackToTop = () => {
+    btn.style.display = "inline-block";
+  };
+  if (btn) {
+    window.document.addEventListener(
+      "scroll",
+      function () {
+        const currentScrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        // Shows and hides the button 'intelligently' as the user scrolls
+        if (currentScrollTop - scrollDownBuffer > lastScrollTop) {
+          hideBackToTop();
+          lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+        } else if (currentScrollTop < lastScrollTop - scrollUpBuffer) {
+          showBackToTop();
+          lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+        }
+
+        // Show the button at the bottom, hides it at the top
+        if (currentScrollTop <= 0) {
+          hideBackToTop();
+        } else if (
+          window.innerHeight + currentScrollTop >=
+          document.body.offsetHeight
+        ) {
+          showBackToTop();
+        }
+      },
+      false
+    );
+  }
 
   function throttle(func, wait) {
     var timeout;
@@ -177,7 +218,7 @@ window.document.addEventListener("DOMContentLoaded", function () {
   const headerEl = window.document.querySelector("header.fixed-top");
   if (headerEl && window.ResizeObserver) {
     const observer = new window.ResizeObserver(
-      throttle(updateDocumentOffsetWithoutAnimation, 50)
+      throttle(updateDocumentOffsetWithoutAnimation, 0)
     );
     observer.observe(headerEl, {
       attributes: true,
@@ -187,9 +228,9 @@ window.document.addEventListener("DOMContentLoaded", function () {
   } else {
     window.addEventListener(
       "resize",
-      throttle(updateDocumentOffsetWithoutAnimation, 50)
+      throttle(updateDocumentOffsetWithoutAnimation, 25)
     );
-    setTimeout(updateDocumentOffsetWithoutAnimation, 500);
+    setTimeout(updateDocumentOffsetWithoutAnimation, 250);
   }
 
   // fixup index.html links if we aren't on the filesystem
@@ -355,11 +396,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   // the media query since we generate different HTML for sidebar overlays than we do
   // for sidebar input UI)
   const detachedMediaQuery =
-    quartoSearchOptions.type === "overlay"
-      ? "all"
-      : quartoSearchOptions.location === "navbar"
-      ? "(max-width: 991px)"
-      : "none";
+    quartoSearchOptions.type === "overlay" ? "all" : "(max-width: 991px)";
 
   // If configured, include the analytics client to send insights
   const plugins = configurePlugins(quartoSearchOptions);
@@ -691,15 +728,27 @@ function configurePlugins(quartoSearchOptions) {
         const algoliaInsightsPlugin = createAlgoliaInsightsPlugin({
           insightsClient: window.aa,
           onItemsChange({ insights, insightsEvents }) {
-            const events = insightsEvents.map((event) => {
-              const maxEvents = event.objectIDs.slice(0, 20);
-              return {
-                ...event,
-                objectIDs: maxEvents,
-              };
+            const events = insightsEvents.flatMap((event) => {
+              // This API limits the number of items per event to 20
+              const chunkSize = 20;
+              const itemChunks = [];
+              const eventItems = event.items;
+              for (let i = 0; i < eventItems.length; i += chunkSize) {
+                itemChunks.push(eventItems.slice(i, i + chunkSize));
+              }
+              // Split the items into multiple events that can be sent
+              const events = itemChunks.map((items) => {
+                return {
+                  ...event,
+                  items,
+                };
+              });
+              return events;
             });
 
-            insights.viewedObjectIDs(...events);
+            for (const event of events) {
+              insights.viewedObjectIDs(event);
+            }
           },
         });
         return algoliaInsightsPlugin;
@@ -1662,118 +1711,124 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
         return;
       }
 
-      // Find the last element of the TOC
-      const lastChildEl = el.lastElementChild;
+// Find the last element of the TOC
+const lastChildEl = el.lastElementChild;
 
-      if (lastChildEl) {
-        // Find the top and bottom o the element that is being managed
-        const elTop = el.offsetTop;
-        const elBottom =
-          elTop + lastChildEl.offsetTop + lastChildEl.offsetHeight;
+if (lastChildEl) {
+  // Converts the sidebar to a menu
+  const convertToMenu = () => {
+    for (const child of el.children) {
+      child.style.opacity = 0;
+      child.style.overflow = "hidden";
+    }
 
-        // Converts the sidebar to a menu
-        const convertToMenu = () => {
-          for (const child of el.children) {
-            child.style.opacity = 0;
-            child.style.overflow = "hidden";
-          }
+    nexttick(() => {
+      const toggleContainer = window.document.createElement("div");
+      toggleContainer.style.width = "100%";
+      toggleContainer.classList.add("zindex-over-content");
+      toggleContainer.classList.add("quarto-sidebar-toggle");
+      toggleContainer.classList.add("headroom-target"); // Marks this to be managed by headeroom
+      toggleContainer.id = placeholderDescriptor.id;
+      toggleContainer.style.position = "fixed";
 
-          const toggleContainer = window.document.createElement("div");
-          toggleContainer.style.width = "100%";
-          toggleContainer.classList.add("zindex-over-content");
-          toggleContainer.classList.add("quarto-sidebar-toggle");
-          toggleContainer.classList.add("headroom-target"); // Marks this to be managed by headeroom
-          toggleContainer.id = placeholderDescriptor.id;
-          toggleContainer.style.position = "fixed";
+      const toggleIcon = window.document.createElement("i");
+      toggleIcon.classList.add("quarto-sidebar-toggle-icon");
+      toggleIcon.classList.add("bi");
+      toggleIcon.classList.add("bi-caret-down-fill");
 
-          const toggleIcon = window.document.createElement("i");
-          toggleIcon.classList.add("quarto-sidebar-toggle-icon");
-          toggleIcon.classList.add("bi");
-          toggleIcon.classList.add("bi-caret-down-fill");
+      const toggleTitle = window.document.createElement("div");
+      const titleEl = window.document.body.querySelector(
+        placeholderDescriptor.titleSelector
+      );
+      if (titleEl) {
+        toggleTitle.append(
+          titleEl.textContent || titleEl.innerText,
+          toggleIcon
+        );
+      }
+      toggleTitle.classList.add("zindex-over-content");
+      toggleTitle.classList.add("quarto-sidebar-toggle-title");
+      toggleContainer.append(toggleTitle);
 
-          const toggleTitle = window.document.createElement("div");
-          const titleEl = window.document.body.querySelector(
-            placeholderDescriptor.titleSelector
-          );
-          if (titleEl) {
-            toggleTitle.append(titleEl.innerText, toggleIcon);
-          }
-          toggleTitle.classList.add("zindex-over-content");
-          toggleTitle.classList.add("quarto-sidebar-toggle-title");
-          toggleContainer.append(toggleTitle);
+      const toggleContents = window.document.createElement("div");
+      toggleContents.classList = el.classList;
+      toggleContents.classList.add("zindex-over-content");
+      toggleContents.classList.add("quarto-sidebar-toggle-contents");
+      for (const child of el.children) {
+        if (child.id === "toc-title") {
+          continue;
+        }
 
-          const toggleContents = window.document.createElement("div");
-          toggleContents.classList = el.classList;
-          toggleContents.classList.add("zindex-over-content");
-          toggleContents.classList.add("quarto-sidebar-toggle-contents");
-          for (const child of el.children) {
-            if (child.id === "toc-title") {
-              continue;
-            }
+        const clone = child.cloneNode(true);
+        clone.style.opacity = 1;
+        clone.style.display = null;
+        toggleContents.append(clone);
+      }
+      toggleContents.style.height = "0px";
+      const positionToggle = () => {
+        // position the element (top left of parent, same width as parent)
+        if (!elRect) {
+          elRect = el.getBoundingClientRect();
+        }
+        toggleContainer.style.left = `${elRect.left}px`;
+        toggleContainer.style.top = `${elRect.top}px`;
+        toggleContainer.style.width = `${elRect.width}px`;
+      };
+      positionToggle();
 
-            const clone = child.cloneNode(true);
-            clone.style.opacity = 1;
-            clone.style.display = null;
-            toggleContents.append(clone);
-          }
+      toggleContainer.append(toggleContents);
+      el.parentElement.prepend(toggleContainer);
+
+      // Process clicks
+      let tocShowing = false;
+      // Allow the caller to control whether this is dismissed
+      // when it is clicked (e.g. sidebar navigation supports
+      // opening and closing the nav tree, so don't dismiss on click)
+      const clickEl = placeholderDescriptor.dismissOnClick
+        ? toggleContainer
+        : toggleTitle;
+
+      const closeToggle = () => {
+        if (tocShowing) {
+          toggleContainer.classList.remove("expanded");
           toggleContents.style.height = "0px";
-          toggleContainer.append(toggleContents);
-          el.parentElement.prepend(toggleContainer);
+          tocShowing = false;
+        }
+      };
 
-          // Process clicks
-          let tocShowing = false;
-          // Allow the caller to control whether this is dismissed
-          // when it is clicked (e.g. sidebar navigation supports
-          // opening and closing the nav tree, so don't dismiss on click)
-          const clickEl = placeholderDescriptor.dismissOnClick
-            ? toggleContainer
-            : toggleTitle;
+      // Get rid of any expanded toggle if the user scrolls
+      window.document.addEventListener(
+        "scroll",
+        throttle(() => {
+          closeToggle();
+        }, 50)
+      );
 
-          const closeToggle = () => {
-            if (tocShowing) {
-              toggleContainer.classList.remove("expanded");
-              toggleContents.style.height = "0px";
-              tocShowing = false;
-            }
-          };
-
-          const positionToggle = () => {
-            // position the element (top left of parent, same width as parent)
-            const elRect = el.getBoundingClientRect();
-            toggleContainer.style.left = `${elRect.left}px`;
-            toggleContainer.style.top = `${elRect.top}px`;
-            toggleContainer.style.width = `${elRect.width}px`;
-          };
-
-          // Get rid of any expanded toggle if the user scrolls
-          window.document.addEventListener(
-            "scroll",
-            throttle(() => {
-              closeToggle();
-            }, 50)
-          );
-
-          // Handle positioning of the toggle
-          window.addEventListener(
-            "resize",
-            throttle(() => {
-              positionToggle();
-            }, 50)
-          );
+      // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
           positionToggle();
+        }, 50)
+      );
 
-          // Process the click
-          clickEl.onclick = () => {
-            if (!tocShowing) {
-              toggleContainer.classList.add("expanded");
-              toggleContents.style.height = null;
-              tocShowing = true;
-            } else {
-              closeToggle();
-            }
-          };
-        };
+      window.addEventListener("quarto-hrChanged", () => {
+        elRect = undefined;
+      });
 
+      // Process the click
+      clickEl.onclick = () => {
+        if (!tocShowing) {
+          toggleContainer.classList.add("expanded");
+          toggleContents.style.height = null;
+          tocShowing = true;
+        } else {
+          closeToggle();
+        }
+      };
+    });
+  };
         // Converts a sidebar from a menu back to a sidebar
         const convertToSidebar = () => {
           for (const child of el.children) {
@@ -3896,7 +3951,13 @@ vertical-align: -.125em;
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -3905,8 +3966,10 @@ vertical-align: -.125em;
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -3916,16 +3979,22 @@ vertical-align: -.125em;
 <body class="nav-sidebar docked">
 
 
-<div id="quarto-search-results"></div>
+  <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Frequently Asked Questions</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./faqs.html">FAQs</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
+
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
@@ -3954,17 +4023,6 @@ vertical-align: -.125em;
   </div>
 </li>
         <li class="sidebar-item">
-  <div class="sidebar-item-container">
-  <a href="./quality_questions_excel_template.xlsx" class="sidebar-item-text sidebar-link">
-  <span class="menu-text">Download quality questions Excel template</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./assumptions_and_decision_log_template.xlsx" class="sidebar-item-text sidebar-link">Download assumptions and decision log Excel template</a>
-  </div>
-</li>
-        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./assumptions_and_issues_log.html" class="sidebar-item-text sidebar-link">Assumptions and decision log guide</a>
   </div>
@@ -3972,11 +4030,6 @@ vertical-align: -.125em;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">Example assumptions table</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./commissioning_template.xlsx" class="sidebar-item-text sidebar-link">Download commissioning log Excel template</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -3989,9 +4042,44 @@ vertical-align: -.125em;
   <a href="./feedback.html" class="sidebar-item-text sidebar-link">Feedback</a>
   </div>
 </li>
+        <li
+        <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="">Downloads</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./quality_questions_excel_html_template.html" class="sidebar-item-text sidebar-link">
+  <span class="menu-text">Download quality questions HTML template</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./quality_questions_excel_template.xlsx" class="sidebar-item-text sidebar-link">
+  <span class="menu-text">Download quality questions Excel template</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assumptions_and_decision_log_template.xlsx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download assumptions and decision log Excel template</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./commissioning_template.xlsx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download commissioning log Excel template</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
+
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -4010,7 +4098,7 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Frequently Asked Questions</h1>
+<h1 class="title">Frequently Asked Questions</h1>
 </div>
 
 
