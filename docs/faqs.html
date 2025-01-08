@@ -2,11 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<<<<<<< Updated upstream
-<meta name="generator" content="quarto-1.4.549">
-=======
 <meta name="generator" content="quarto-1.6.36">
->>>>>>> Stashed changes
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -70,15 +66,10 @@ const announceRegister = () => {
 window.document.addEventListener("DOMContentLoaded", function () {
   let init = false;
 
-<<<<<<< Updated upstream
-   // Manage the back to top button, if one is present.
-   let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-=======
   announceRegister();
 
   // Manage the back to top button, if one is present.
   let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
->>>>>>> Stashed changes
   const scrollDownBuffer = 5;
   const scrollUpBuffer = 35;
   const btn = document.getElementById("quarto-back-to-top");
@@ -285,15 +276,9 @@ window.document.addEventListener("DOMContentLoaded", function () {
   // Observe size changed for the header
   const headerEl = window.document.querySelector("header.fixed-top");
   if (headerEl && window.ResizeObserver) {
-<<<<<<< Updated upstream
-    const observer = new window.ResizeObserver(
-      throttle(updateDocumentOffsetWithoutAnimation, 0)
-    );
-=======
     const observer = new window.ResizeObserver(() => {
       setTimeout(updateDocumentOffsetWithoutAnimation, 0);
     });
->>>>>>> Stashed changes
     observer.observe(headerEl, {
       attributes: true,
       childList: true,
@@ -302,12 +287,8 @@ window.document.addEventListener("DOMContentLoaded", function () {
   } else {
     window.addEventListener(
       "resize",
-      throttle(updateDocumentOffsetWithoutAnimation, 25)
+      throttle(updateDocumentOffsetWithoutAnimation, 50)
     );
-<<<<<<< Updated upstream
-    setTimeout(updateDocumentOffsetWithoutAnimation, 250);
-=======
->>>>>>> Stashed changes
   }
   setTimeout(updateDocumentOffsetWithoutAnimation, 250);
 
@@ -2002,113 +1983,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
         return;
       }
 
-<<<<<<< Updated upstream
-// Find the last element of the TOC
-const lastChildEl = el.lastElementChild;
-
-if (lastChildEl) {
-  // Converts the sidebar to a menu
-  const convertToMenu = () => {
-    for (const child of el.children) {
-      child.style.opacity = 0;
-      child.style.overflow = "hidden";
-    }
-
-    nexttick(() => {
-      const toggleContainer = window.document.createElement("div");
-      toggleContainer.style.width = "100%";
-      toggleContainer.classList.add("zindex-over-content");
-      toggleContainer.classList.add("quarto-sidebar-toggle");
-      toggleContainer.classList.add("headroom-target"); // Marks this to be managed by headeroom
-      toggleContainer.id = placeholderDescriptor.id;
-      toggleContainer.style.position = "fixed";
-
-      const toggleIcon = window.document.createElement("i");
-      toggleIcon.classList.add("quarto-sidebar-toggle-icon");
-      toggleIcon.classList.add("bi");
-      toggleIcon.classList.add("bi-caret-down-fill");
-
-      const toggleTitle = window.document.createElement("div");
-      const titleEl = window.document.body.querySelector(
-        placeholderDescriptor.titleSelector
-      );
-      if (titleEl) {
-        toggleTitle.append(
-          titleEl.textContent || titleEl.innerText,
-          toggleIcon
-        );
-      }
-      toggleTitle.classList.add("zindex-over-content");
-      toggleTitle.classList.add("quarto-sidebar-toggle-title");
-      toggleContainer.append(toggleTitle);
-
-      const toggleContents = window.document.createElement("div");
-      toggleContents.classList = el.classList;
-      toggleContents.classList.add("zindex-over-content");
-      toggleContents.classList.add("quarto-sidebar-toggle-contents");
-      for (const child of el.children) {
-        if (child.id === "toc-title") {
-          continue;
-        }
-
-        const clone = child.cloneNode(true);
-        clone.style.opacity = 1;
-        clone.style.display = null;
-        toggleContents.append(clone);
-      }
-      toggleContents.style.height = "0px";
-      const positionToggle = () => {
-        // position the element (top left of parent, same width as parent)
-        if (!elRect) {
-          elRect = el.getBoundingClientRect();
-        }
-        toggleContainer.style.left = `${elRect.left}px`;
-        toggleContainer.style.top = `${elRect.top}px`;
-        toggleContainer.style.width = `${elRect.width}px`;
-      };
-      positionToggle();
-
-      toggleContainer.append(toggleContents);
-      el.parentElement.prepend(toggleContainer);
-
-      // Process clicks
-      let tocShowing = false;
-      // Allow the caller to control whether this is dismissed
-      // when it is clicked (e.g. sidebar navigation supports
-      // opening and closing the nav tree, so don't dismiss on click)
-      const clickEl = placeholderDescriptor.dismissOnClick
-        ? toggleContainer
-        : toggleTitle;
-
-      const closeToggle = () => {
-        if (tocShowing) {
-          toggleContainer.classList.remove("expanded");
-          toggleContents.style.height = "0px";
-          tocShowing = false;
-        }
-      };
-
-      // Get rid of any expanded toggle if the user scrolls
-      window.document.addEventListener(
-        "scroll",
-        throttle(() => {
-          closeToggle();
-        }, 50)
-      );
-
-      // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          positionToggle();
-        }, 50)
-      );
-
-      window.addEventListener("quarto-hrChanged", () => {
-        elRect = undefined;
-      });
-=======
       // Find the last element of the TOC
       const lastChildEl = el.lastElementChild;
 
@@ -2229,20 +2103,7 @@ if (lastChildEl) {
             };
           });
         };
->>>>>>> Stashed changes
 
-      // Process the click
-      clickEl.onclick = () => {
-        if (!tocShowing) {
-          toggleContainer.classList.add("expanded");
-          toggleContents.style.height = null;
-          tocShowing = true;
-        } else {
-          closeToggle();
-        }
-      };
-    });
-  };
         // Converts a sidebar from a menu back to a sidebar
         const convertToSidebar = () => {
           for (const child of el.children) {
@@ -4852,20 +4713,6 @@ vertical-align: -.125em;
 
 <body class="nav-sidebar docked">
 
-<<<<<<< Updated upstream
-
-  <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./faqs.html">FAQs</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
-=======
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
@@ -4873,16 +4720,14 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./faqs.html">FAQs</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./faqs.html">Support and Feedback</a></li><li class="breadcrumb-item"><a href="./faqs.html">FAQs</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
->>>>>>> Stashed changes
         <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
-
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
@@ -4914,100 +4759,77 @@ vertical-align: -.125em;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
-  <a href="./assumptions_and_issues_log.html" class="sidebar-item-text sidebar-link">Assumptions and decision log guide</a>
-=======
-  <a href="./quality_questions_html_template.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Download quality questions HTML template</span></a>
->>>>>>> Stashed changes
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
-  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">Example assumptions table</a>
-=======
-  <a href="./assumptions_and_decision_log_template.xlsx" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Download assumptions and decision log Excel template</span></a>
->>>>>>> Stashed changes
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
-  <a href="./faqs.html" class="sidebar-item-text sidebar-link active">FAQs</a>
-=======
   <a href="./assumptions_and_issues_log.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assumptions and decision log guide</span></a>
->>>>>>> Stashed changes
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
-  <a href="./feedback.html" class="sidebar-item-text sidebar-link">Feedback</a>
-=======
   <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Example assumptions log</span></a>
->>>>>>> Stashed changes
   </div>
 </li>
-        <li
-        <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a>Downloads</a> 
-    </div>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Downloads</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
       </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-</li>
-        <li class="sidebar-item">
-<<<<<<< Updated upstream
-  <div class="sidebar-item-container">
-  <a href="./quality_questions_excel_html_template.html" class="sidebar-item-text sidebar-link">
-  <span class="menu-text">Download quality questions HTML template</span></a>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quality_questions_html_template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download quality questions HTML template</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container">
-  <a href="./quality_questions_excel_template.xlsx" class="sidebar-item-text sidebar-link">
-  <span class="menu-text">Download quality questions Excel template</span></a>
-=======
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./commissioning_template.xlsx" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Download commissioning log Excel template</span></a>
->>>>>>> Stashed changes
+  <a href="./quality_questions_template.xlsx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download quality questions Excel template</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
   <a href="./assumptions_and_decision_log_template.xlsx" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Download assumptions and decision log Excel template</span></a>
-=======
-  <a href="./faqs.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">FAQs</span></a>
->>>>>>> Stashed changes
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-<<<<<<< Updated upstream
   <a href="./commissioning_template.xlsx" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Download commissioning log Excel template</span></a>
-=======
-  <a href="./feedback.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Feedback</span></a>
->>>>>>> Stashed changes
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Support and Feedback</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./faqs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">FAQs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./feedback.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Feedback</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -5025,7 +4847,7 @@ vertical-align: -.125em;
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./faqs.html">Support and Feedback</a></li><li class="breadcrumb-item"><a href="./faqs.html">FAQs</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Frequently Asked Questions</h1>
 </div>
