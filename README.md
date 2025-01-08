@@ -46,7 +46,7 @@ The main folder is where all of the site pages are stored. It contains the follo
 
 # Working with the project code
 
-We recommend using Visual Studio Code to work with this project. Open the code workspace in VS Code to load the project. To render the website, open any of the .qmd documents and select the Preview button. Edits to qmd files will only be reflected in the project website after you have re-rendered using Preview.
+We recommend using Visual Studio Code to work with this project. Open the code workspace in VS Code to load the project. To render the website, open any of the .qmd documents and select the Preview button. Edits to qmd files will only be reflected in the project website after you have re-rendered using Preview or Quarto::render and pushed your changes to the project Github site.
 
 # Software requirements  
 Python 3.8 or later. For ONS users, Python can be installed from ONS Software Centre.   
