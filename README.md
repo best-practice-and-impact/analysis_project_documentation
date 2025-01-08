@@ -16,16 +16,16 @@ The repository uses [Quarto](https://quarto.org/) to construct and deploy an HTM
 
 The final HTML site is built using Quarto's render function. Rendering automatically creates HTML versions of the .qmd files in the main folder and deploys them to a /docs subfolder along with downloadable resources. The content of /docs then forms the HTML website. The website itself is hosted on Github pages and will automatically update following re-rendering.    
 
-**There should be no need to manually edit the /docs folder**. Edits to site content should be made to the Quarto markdown documents (.qmd) and the site re-rendered in Quarto.  This will automatically overwrite the content of docs. When the updated site is pushed to Github, the website will update automatically.
+**There should be no need to manually edit the /docs folder**. Edits to site content should be made to the Quarto markdown documents (.qmd) and the site re-rendered in Quarto.  This will automatically overwrite the content of `/docs`. When the updated site is pushed to Github, the website will update automatically.
 
 The repository contains these folders:  
 
 1) **.assumptions**: Contains a standard template to record the assumptions made about the analysis, justify their suitability given the modelling scenario, proof of internal and external verification and the quality rating of each assumption. The folder also contains a markdown document and a package that will search the current directory for assumptions and write the log to the same directory. At the moment these are not integrated into the main Quality Questions website.
 2) **.qa_report**: Contains an automated template which include some generic functions on data quality checks, for example, checking for any logical or arithmetic relationships in the data and check if values fall inside an acceptable/expected range. The idea is to produce a summary of the results of tests performed on the most recent data run.  At the moment the QA report is not integrated into the main Quality Questions website - this is a future step.
-4) **docs**: Rendered website created by Quarto when the .qmd files in the main folder are rendered out. This website is rendered automatically to Github.io. There should be no need to edit this folder manually as it is automatically updated during rendering. The html contents are not designed to be human-readable.
+4) **docs**: Rendered website created by Quarto when the .qmd files in the main folder are processed using the Quarto::render. There should be no need to edit this folder manually as it is automatically updated during rendering. The html contents are not designed to be human-readable.
 5) **data**: Example datasets about house prices and university dropouts. At the moment these are not used in Quality Questions. They will be deployed in a future update.
 
-The main folder contains the following key files:
+The main folder is where all of the site pages are stored. It contains the following key files:
 
 **_quarto.yml** - [YAML](https://yaml.org/spec/1.2.2/) configuration file containing configuration information for the Quarto engine to render the website. Includes page structure and source files.    
 **.gitignore** - List of files not to upload to git repository.    
@@ -37,7 +37,12 @@ The main folder contains the following key files:
 **issues_log.qmd** - Quarto markdown document setting up the the issues log.    
 **quality_questions.qmd** - Quarto markdown document setting out the Quality Questions in table format. This contains the main Quality Questions resource.    
 **sample_assumptions_table.qmd** - Quarto markdown document containing an example of a RAG-rated assumption log.    
-**README.md** - Project README file.
+**README.md** - Project README file.    
+**LICENSE** - MIT license file explaining how this code base and book are licensed for re-use.    
+**assumptions_and_decisions_log_template.xlsx** - An Excel template for recording assumptions and decisions. Automatically linked to the website for direct download during rendering.    
+**commissioning_template.xlsx** - An Excel template for recording commissioning decisions when designing analysis. Automatically linked to the website for direct download during rendering.
+**quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Automatically linked to the website for direct download during rendering.
+**quality_questions_markdown_version.qmd** A markdown version of quality_questions_html_template.html. Not currently used.
 
 # Working with the project code
 
