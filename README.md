@@ -50,8 +50,8 @@ We recommend using Visual Studio Code to work with this project. Open the code w
 
 # Software requirements  
 Python 3.8 or later. For ONS users, Python can be installed from ONS Software Centre.   
-[Visual Studio Code](https://code.visualstudio.com/Download) with the Quarto, Python and autopep8 extensions installed
-[Quarto](https://quarto.org/docs/get-started/)
+[Visual Studio Code](https://code.visualstudio.com/Download) with the Quarto, Python and autopep8 extensions installed    
+[Quarto](https://quarto.org/docs/get-started/)    
 Git. For ONS users, Git can be installed from ONS Software Centre.
 
 # Useful links
