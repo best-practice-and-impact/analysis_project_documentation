@@ -23,7 +23,7 @@ website:
           - text: "Download quality questions HTML template"
             href: quality_questions_html_template.html
           - text: "Download quality questions Excel template"
-            href: quality_questions_template.xlsx
+            href: quality_questions_excel_template.xlsx
           - text: "Download assumptions and decision log Excel template"
             href: "assumptions_and_decision_log_template.xlsx"
           - text: "Download commissioning log Excel template"
