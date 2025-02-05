@@ -6,7 +6,7 @@ Analysis and model documentation is crucial for the analytical lifecycle and a k
 This repository provides resources for analysts who need to assure and document their projects. It contains:    
 1. Quality Questions. A set of themed questions, structured according to the AQuA Book and the Code of Practice for Statistics, which are designed to help identify areas of risk in an analytical workflow.
 2. Downloadable templates for recording commissioning decisions and logging project decisions and assumptions.
-3. An HTML template for recording answers to the Quality Questions.
+3. An Excel and an HTML template for recording answers to the Quality Questions.
 
 The idea is to make it easier for teams to publish their QA results, to think carefully about assumptions going into their analysis, how these assumptions would impact their output and to document everything in one place. As development progresses, it will demonstrate how the [assumptions](https://github.com/best-practice-and-impact/assumptions) package can be used to log assumptions inline.
 
@@ -42,6 +42,8 @@ The main folder is where all of the site pages are stored. It contains the follo
 **assumptions_and_decisions_log_template.xlsx** - An Excel template for recording assumptions and decisions. Automatically linked to the website for direct download during rendering.    
 **commissioning_template.xlsx** - An Excel template for recording commissioning decisions when designing analysis. Automatically linked to the website for direct download during rendering.
 **quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Automatically linked to the website for direct download during rendering.
+**quality_questions_excel_template.xlsx** and Excel template for recording and saving answers to quality questions.
+Automatically linked to the website for direct download during rendering.
 **quality_questions_markdown_version.qmd** A markdown version of quality_questions_html_template.html. Not currently used.
 
 # Working with the project code
