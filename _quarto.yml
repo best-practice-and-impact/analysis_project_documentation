@@ -12,7 +12,7 @@ website:
     contents:
       - text: "Introduction"
         href: index.qmd
-      - text: "Quality Questions"
+      - text: "ONS Quality Questions"
         href: quality_questions.qmd
       - text: "Assumptions and decision log guide"
         href: assumptions_and_issues_log.qmd
@@ -20,9 +20,9 @@ website:
         href: sample_assumptions_table.qmd
       - section: "Downloads"
         contents:
-          - text: "Download quality questions HTML template"
+          - text: "Download ONS quality questions HTML template"
             href: quality_questions_html_template.html
-          - text: "Download quality questions Excel template"
+          - text: "Download ONS quality questions Excel template"
             href: quality_questions_excel_template.xlsx
           - text: "Download assumptions and decision log Excel template"
             href: "assumptions_and_decision_log_template.xlsx"

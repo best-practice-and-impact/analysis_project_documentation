@@ -1,5 +1,5 @@
 ---
-title: "Quality Questions Introduction"
+title: "ONS Quality Questions Introduction"
 format:
   html:
     embed-resources: true
@@ -36,6 +36,8 @@ Reflecting on the questions asked in the template will help you to manage your a
 3. You can identify potential quality issues and decide how to manage and prioritise them.    
 4. Having this information in once place provides a sound basis for regular reviews of assumptions, issues and risks associated with the workflow, in line with recommended good practice.    
 
+::: {.callout-caution collapse="true"}
+
 ## How the questions draw on other frameworks
 
 The [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out a standard framework for managing analytical quality in HM Government. AQuA is there to make sure that our work can be trusted to inform good decision making, while the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/) sets out the principles and practices that producers of official statistics should commit to.    
@@ -44,11 +46,10 @@ Two other pieces of guidance have motivated us to produce this template. One is 
 
 Building on these resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The quality questions are at their most effective if they are asked at the right stage. Once that stage is passed, experience suggests that it is normally difficult to go back and address the points the questions ask by retrofitting at a later stage of the analysis.  
 
-Each question is linked with the Code of Practice for Statistics pillars of [Trustworthiness](https://code.statisticsauthority.gov.uk/the-code/trustworthiness/), [Quality](https://code.statisticsauthority.gov.uk/the-code/quality/) and [Value](https://code.statisticsauthority.gov.uk/the-code/value/). We explain the importance and relevance of each question in light of the three pillars so teams can better understand and apply these principles through out the project life cycle.  
 
-Quality questions are also linked to which responsible role from the [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
+:::
 
-## Structure of the quality questions
+## Structure of the ONS Quality Questions
 
 There are 61 quality questions in total. They cover all the stages of the analytical cycle. 
 
@@ -63,27 +64,29 @@ The AQuA book divides the analytical cycle into four stages:
 3) Conducting and checking analysis  
 4) Delivery   
 
-You can find the questions in the [Quality Questions](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions.html) section of the website, which is divided across three themes:
+You can find the questions in the [ONS Quality Questions](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions.html) section of the website. The questions have tabs which relate to three themes:
 
-### a) Quality Questions and why they matter
+<details>
+  <summary>Theme1: ONS Quality Questions and why they matter</summary>
 
-This tab lists the quality questions that are relevant for each stage of analytical cycle. Alongside each question we explain why it matters and explain the potential risks and benefits around it. We try to address the very sensible question of "why should I care about this?". 
+Alongside each question we explain why it matters and explain the potential risks and benefits around it. We try to address the very sensible question of "why should I care about this?". 
 
-We encourage commissioner, analyst team and analytical assurer to answer all the questions that are relevant to their responsibilities. We have made a [downloadable, editable HTML template](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_html_template.html) that you can use to record your answers to the questions, as well as key project information. Once you have recorded answers, save the HTML file in your project archive. You can update it as you work through the questions.
 
-User needs and project aims often change as things evolve, so the HTML template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due. 
+</details>
 
-The Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO or their designated representative needs to sign-off all the answers at the top of the Quality Questions sheet. 
+<details>
+  <summary>Theme 2: The questions and the Code of Practice for Statistics</summary>
 
-It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl + S. To undo an action press Ctrl + Z. Pressing Ctrl + S will let you save a copy of the HTML template on your device. We recommend uploading the template to your main documentation area and reviewing and updating it as necessary.
+Each question is linked with the Code of Practice for Statistics pillars of [Trustworthiness](https://code.statisticsauthority.gov.uk/the-code/trustworthiness/), [Quality](https://code.statisticsauthority.gov.uk/the-code/quality/) and [Value](https://code.statisticsauthority.gov.uk/the-code/value/). We explain the importance and relevance of each question in light of the three pillars so teams can better understand and apply these principles through out the project life cycle. 
 
-### b) The questions and the Code of Practice for Statistics
+Even if your work does not directly feed into the production of official statistics, compliance with the principles and practices of the Code is a good way to strengthen the resilience of your work, increase transparency and clarity and reduce risk.
+</details>
 
-This tab shows the pillars and principles of Code of Practice for Statistics each quality question relates to. The text in this column is copied from Code of Practice for Statistics. Even if your work does not directly feed into the production of official statistics, compliance with the principles and practices of the Code is a good way to strengthen the resilience of your work, increase transparency and clarity and reduce risk.
+<details>
+  <summary>Theme 3: Linking the questions to AQuA roles</summary>
 
-### c) Linking the questions to AQuA roles
 
-This tab explains the responsibilities required to deliver analysis that is fit-for-purpose. The roles and responsibilities in this tab are reproduced from the AQuA book. The tab links the quality questions with the relevant AQuA Book responsibilities at each stage of analytical cycle.  
+Quality questions are also linked to which responsible role from the [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
 
 The AQuA book sets out four roles that cover different areas of assurance responsibility. Taken together, they provide a comprehensive set of assurance for an analytical project. The roles are:    
 
@@ -123,3 +126,15 @@ The analytical assurer is there to make sure that the analysis has the right lev
 * Delivers QUALITY OF PROCESS ("The analysis does what it is supposed to do and we can prove it").    
 
 You can read more about the four roles in the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) and [Verification and Validation for the AQuA Book](https://www.gov.uk/government/publications/verification-and-validation-for-the-aqua-book).
+
+</details>
+
+## Answering the ONS Quality Questions
+
+We encourage commissioner, analyst team and analytical assurer to answer all the questions that are relevant to their responsibilities. We have made a [downloadable, editable HTML template](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_html_template.html) that you can use to record your answers to the questions, as well as key project information. Once you have recorded answers, save the HTML file in your project archive. You can update it as your analytical work progresses.
+
+User needs and project aims often change as things evolve, so the HTML template allows you to edit answers by simply changing the text in the editable text boxes. To track these changes, the person writing the answer should include their full-name, the date they have added the answer, and the date the next review is due. 
+
+The Senior Responsible Owner (SRO) is the lead analyst responsible for the workflow (or relevant part of it). The SRO or their designated representative needs to sign-off all the answers at the top of the Quality Questions sheet. 
+
+It is best to complete and save the log of answers for each stage of analytical cycle. Answers can be saved by pressing Ctrl + S. To undo an action press Ctrl + Z. Pressing Ctrl + S will let you save a copy of the HTML template on your device. We recommend uploading the template to your main documentation area and reviewing and updating it as necessary.
