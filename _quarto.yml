@@ -14,7 +14,7 @@ website:
         href: index.qmd
       - text: "How to use the ONS Quality Questions"
         href: how_to_use.qmd
-      - text: "ONS Quality Questions"
+      - text: "ONS QUALITY QUESTIONS"
         href: quality_questions.qmd
       - text: "Assumptions and decision log guide"
         href: assumptions_and_issues_log.qmd
