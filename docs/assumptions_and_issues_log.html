@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>assumptions_and_issues_log – Quality Questions</title>
+<title>Assumptions and decision log guide – ONS Quality Questions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4732,7 +4732,7 @@ vertical-align: -.125em;
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Quality Questions</a> 
+      <a href="./">ONS Quality Questions</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -4757,19 +4757,13 @@ vertical-align: -.125em;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./quality_questions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ONS Quality Questions</span></a>
+ <span class="menu-text">ONS QUALITY QUESTIONS</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./assumptions_and_issues_log.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Assumptions and decision log guide</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Example assumptions log</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -4824,6 +4818,12 @@ vertical-align: -.125em;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./sample_assumptions_table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Example assumptions log</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./feedback.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Feedback</span></a>
   </div>
@@ -4840,24 +4840,32 @@ vertical-align: -.125em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assumptions-log" id="toc-assumptions-log" class="nav-link active" data-scroll-target="#assumptions-log">Assumptions Log</a>
-  <ul class="collapse">
-  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a></li>
-  <li><a href="#assumptions-log-1" id="toc-assumptions-log-1" class="nav-link" data-scroll-target="#assumptions-log-1">Assumptions log</a></li>
-  </ul></li>
-  <li><a href="#decisions-and-issues-logs" id="toc-decisions-and-issues-logs" class="nav-link" data-scroll-target="#decisions-and-issues-logs">Decisions and issues logs</a>
-  <ul class="collapse">
-  <li><a href="#definitions-1" id="toc-definitions-1" class="nav-link" data-scroll-target="#definitions-1">Definitions</a></li>
+  <li><a href="#assumptions-log" id="toc-assumptions-log" class="nav-link active" data-scroll-target="#assumptions-log">Assumptions Log</a></li>
   <li><a href="#decisions-log" id="toc-decisions-log" class="nav-link" data-scroll-target="#decisions-log">Decisions log</a></li>
   <li><a href="#issues-log" id="toc-issues-log" class="nav-link" data-scroll-target="#issues-log">Issues log</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Assumptions and decision log guide</h1>
+</div>
 
+
+
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <div class="callout callout-style-default callout-note callout-titled">
@@ -4877,75 +4885,283 @@ Note
 </div>
 </div>
 </div>
+<p>Analysis <strong>always</strong> involves assumptions and decisions. It always has limitations, which might mean that it is not fit for purpose for every use case.</p>
+<p>Keeping a formal record of assumptions, decisions and key limitations (such as the uncertainty involved in the analysis) and bringing them together in one place means that everybody involved in the work can find them quickly, see what they are and understand how they might affect the overall analysis.</p>
+<p>It also makes it much easier to:</p>
+<ul>
+<li>review and revisit them as the analysis evolves,</li>
+<li>to share them appropriately with users so they can work with the analytical results safely,</li>
+<li>to audit and assure your work.</li>
+</ul>
+<p>We have developed an <a href="https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decision_log_template.xlsx">assumptions and decisions log template</a> for you to download that provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). This template includes multiple worksheets to record fuller project information giving a more comprehensive understanding of your project</p>
+<p>Details for recording information in each log is as follows.</p>
 <section id="assumptions-log" class="level1">
 <h1>Assumptions Log</h1>
 <p>The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit shared understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs.</p>
 <p>It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.</p>
-<p>Here are some examples of assumptions:<br>
-* Accuracy of data: It is assumed that the laboratory testing procedure is consistent across labs within the UK.<br>
-* Biases in data: It is assumed that data does not exclude any groups of population based on their demographic characteristics.<br>
-* Data missingness: It is assumed that there is complete information for all the variables included in the analysis.<br>
-* Changes in input data: It is assumed that data collection process has not been changed over time.<br>
-* Sampling: It is assumed that data is representative for the population.</p>
-<section id="definitions" class="level2">
-<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
-<p>Start filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis output report) and financial year of interest.</p>
+<p>Here are some examples of assumptions:</p>
+<p><strong>Accuracy of data:</strong> It is assumed that the laboratory testing procedure is consistent across labs within the UK.<br>
+<strong>Biases in data:</strong> It is assumed that data does not exclude any groups of population based on their demographic characteristics.<br>
+<strong>Data missingness:</strong> It is assumed that there is complete information for all the variables included in the analysis.<br>
+<strong>Changes in input data:</strong> It is assumed that data collection process has not been changed over time.<br>
+<strong>Sampling:</strong> It is assumed that data is representative for the population.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to fill out the Assumptions log
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis output report) and financial year of interest.</p>
+<section id="field-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="field-definitions">Field definitions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Field</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Assumption ID:</strong></td>
+<td>Give each assumption a unique ID so that it can be tracked easily and cross referenced.</td>
+</tr>
+<tr class="even">
+<td><strong>This Assumption depends on other Assumptions:</strong></td>
+<td>Identify the IDs of dependencies</td>
+</tr>
+<tr class="odd">
+<td><strong>Location in code, documentation or publication:</strong></td>
+<td>Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number.</td>
+</tr>
+<tr class="even">
+<td><strong>Plain English description of assumption:</strong></td>
+<td>Write a clear description of the assumption in plain English. For example, “We assume that our sample of income data is representative for the whole population”.</td>
+</tr>
+<tr class="odd">
+<td><strong>Basis for assumption:</strong></td>
+<td>Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.</td>
+</tr>
+<tr class="even">
+<td><strong>Numerical value of the assumption:</strong></td>
+<td>If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.</td>
+</tr>
+<tr class="odd">
+<td><strong>Range around the estimated value:</strong></td>
+<td>Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.</td>
+</tr>
+<tr class="even">
+<td><strong>Links to supporting analysis:</strong></td>
+<td>Attach a link to the source where the assumption comes from or from where it can be verified and justified.</td>
+</tr>
+<tr class="odd">
+<td><strong>Documentation dependencies:</strong></td>
+<td>List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.</td>
+</tr>
+<tr class="even">
+<td><strong>Internally reviewed by:</strong></td>
+<td>Enter the full name of individual or group who reviewed the assumption.</td>
+</tr>
+<tr class="odd">
+<td><strong>Date of last review/update:</strong></td>
+<td>Enter the date the assumption was last reviewed or validated.</td>
+</tr>
+<tr class="even">
+<td><strong>Externally reviewed by:</strong></td>
+<td>Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual’s name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).</td>
+</tr>
+<tr class="odd">
+<td><strong>Date of external review:</strong></td>
+<td>Enter the date the assumption was reviewed by the external expert.</td>
+</tr>
+<tr class="even">
+<td><strong>Next review/update due on:</strong></td>
+<td>Enter the date the assumption next needs to be reviewed or updated.</td>
+</tr>
+<tr class="odd">
+<td><strong>Quality Rating:</strong></td>
+<td>Use the Quality Rating key (on the Quality and Sensitivity Guide worksheet) to assess quality of assumption as red, amber or green.</td>
+</tr>
+<tr class="even">
+<td><strong>Sensitivity Score:</strong></td>
+<td>Use the Sensitivity Rating key (on the Quality and Sensitivity Guide worksheet) to assess sensitivity as low, medium or high.</td>
+</tr>
+<tr class="odd">
+<td><strong>Risk Score:</strong></td>
+<td>Use the Risk Scoring Guide worksheet to assess the assumption risk as low, medium or high.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="assumptions-log-1" class="level2">
-<h2 class="anchored" data-anchor-id="assumptions-log-1">Assumptions log</h2>
-<p><strong>Assumption ID:</strong> Give each assumption a unique ID so that it can be tracked easily and cross referenced.<br>
-<strong>Location in code, documentation or publication:</strong> Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number.<br>
-<strong>Plain English description of assumption:</strong> Write a clear description of the assumption in plain English. For example, “We assume that our sample of income data is representative for the whole population”.<br>
-<strong>Basis for assumption:</strong> Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.<br>
-<strong>Numerical value of the assumption:</strong> If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.<br>
-<strong>Range around the estimated value:</strong> Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.<br>
-<strong>Links to supporting analysis:</strong> Attach a link to the source where the assumption comes from or from where it can be verified and justified.<br>
-<strong>Documentation dependencies:</strong> List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.<br>
-<strong>Internally reviewed by:</strong> Enter the full name of individual or group who reviewed the assumption.<br>
-<strong>Date of last review/update:</strong> Enter the date the assumption was last reviewed or validated.<br>
-<strong>Externally reviewed by:</strong> Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual’s name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).<br>
-<strong>Date of external review:</strong> Enter the date the assumption was reviewed by the external expert.<br>
-<strong>Next review/update due on:</strong> Enter the date the assumption next needs to be reviewed or updated.<br>
-<strong>Quality Rating:</strong> See the Quality Rating Key and fill it accordingly.<br>
-<strong>Risk Score:</strong> See the Risk Score and fill it accordingly.</p>
+</div>
+</div>
+</div>
 </section>
+<section id="decisions-log" class="level1">
+<h1>Decisions log</h1>
+<p>The decisions log (on the Decisions and Issues Log worksheet) is a template to record all the important decisions that are made during the analysis lifecycle, as well as when they were made, who made them and why. Without documentation, decisions may be understood by one part of the team and unknown by others. The decisions log is there to make sure that everybody knows about the decisions that have been made about the analysis. It provides an audit trail of the decisions that were made.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to fill out the Decisions log
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis publications or output report) and financial year of interest.</p>
+<section id="field-definitions-1" class="level2">
+<h2 class="anchored" data-anchor-id="field-definitions-1">Field definitions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Field</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Decision ID:</strong></td>
+<td>Give each decision a unique ID so that it can be tracked easily and cross referenced.</td>
+</tr>
+<tr class="even">
+<td><strong>Decision name:</strong></td>
+<td>Enter a name for the decision.</td>
+</tr>
+<tr class="odd">
+<td><strong>Date of decision:</strong></td>
+<td>Enter the date the decision was made.</td>
+</tr>
+<tr class="even">
+<td><strong>Plain English description of decision</strong></td>
+<td>A brief summary of the decision in plain English explaining what it was about and how it applies in the analysis.</td>
+</tr>
+<tr class="odd">
+<td><strong>Name of person or group signing off the decision:</strong></td>
+<td>Enter the name of the person or group who made the decision. If the decision was made by a committee, link to the minute where the decision is documented.</td>
+</tr>
+<tr class="even">
+<td><strong>Role of person or group signing off the decision:</strong></td>
+<td>Provide a short description of the person or group’s role in the project. Decisions are often signed off by the project lead or Senior Responsible Owner, for example.</td>
+</tr>
+<tr class="odd">
+<td><strong>Date of last review / update:</strong></td>
+<td>Date the decision was last considered. This is here so you know when the decision was last looked at. Projects evolve, and decisions might need to be reviewed.</td>
+</tr>
+<tr class="even">
+<td><strong>Reviewed by:</strong></td>
+<td>Name(s) of people or group who last reviewed the decision.</td>
+</tr>
+<tr class="odd">
+<td><strong>Next review/update due on:</strong></td>
+<td>Enter the date the decision next needs to be reviewed or updated.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="decisions-and-issues-logs" class="level1">
-<h1>Decisions and issues logs</h1>
-<section id="definitions-1" class="level2">
-<h2 class="anchored" data-anchor-id="definitions-1">Definitions</h2>
-<p>Start filling in the template by inserting the full name of the analysis (this should align with the name given on the analysis publications or output report) and financial year of interest.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="decisions-log" class="level2">
-<h2 class="anchored" data-anchor-id="decisions-log">Decisions log</h2>
-<p>The decisions log is a template to record all the important decisions that are made during the analysis lifecycle, as well as when they were made, who made them and why. Without documentation, decisions may be understood by one part of the team and unknown by others. The decisions log is there to make sure that everybody knows about the decisions that have been made about the analysis. It provides an audit trail of the decisions that were made.</p>
-<p><strong>Decision ID:</strong> Give each decision a unique ID so that it can be tracked easily and cross referenced.<br>
-<strong>Decision name:</strong> Enter a name for the decision.<br>
-<strong>Date of decision:</strong> Enter the date the decision was made.<br>
-<strong>Plain English description of decision</strong> A brief summary of the decision in plain English explaining what it was about and how it applies in the analysis.<br>
-<strong>Name of person or group signing off the decision:</strong> Enter the name of the person or group who made the decision. If the decision was made by a committee, link to the minute where the decision is documented.<br>
-<strong>Role of person or group signing off the decision:</strong> Provide a short description of the person or group’s role in the project. Decisions are often signed off by the project lead or Senior Responsible Owner, for example.<br>
-<strong>Date of last review / update:</strong> Date the decision was last considered. This is here so you know when the decision was last looked at. Projects evolve, and decisions might need to be reviewed.<br>
-<strong>Reviewed by:</strong> Name(s) of people or group who last reviewed the decision.<br>
-<strong>Next review/update due on:</strong> Enter the date the decision next needs to be reviewed or updated.</p>
+<section id="issues-log" class="level1">
+<h1>Issues log</h1>
+<p>The issues log (on the Decisions and Issues Log worksheet) provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others. The issues log ensures that everybody knows about the issues that the analysis faces. The log helps teams to store problems and challenges for future review and mitigation. It provides an audit trail of past, live and untreated issues.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to fill out the Issues log
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis publications or output report) and financial year of interest.</p>
+<section id="field-definitions-2" class="level2">
+<h2 class="anchored" data-anchor-id="field-definitions-2">Field definitions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Field</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Issue ID:</strong></td>
+<td>Give each issue a unique ID so that it can be tracked easily and cross referenced.</td>
+</tr>
+<tr class="even">
+<td><strong>Issue name:</strong></td>
+<td>Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.</td>
+</tr>
+<tr class="odd">
+<td><strong>Date identified:</strong></td>
+<td>Enter the date the issue was first identified.</td>
+</tr>
+<tr class="even">
+<td><strong>Plain English description of issue:</strong></td>
+<td>A brief summary of the underlying cause and nature of issue in plain English explaining what is creating problem.</td>
+</tr>
+<tr class="odd">
+<td><strong>Impact of issue:</strong></td>
+<td>Brief summary of how the issue affects the project, for example, timeline, accuracy, cost.</td>
+</tr>
+<tr class="even">
+<td><strong>Status of issue:</strong></td>
+<td>From the dropdown menu, select ‘Live’ if the issue is being handled, ‘Resolved’ if the issue has been resolved or ‘Untreated’ if the issue has yet to be handled.</td>
+</tr>
+<tr class="odd">
+<td><strong>Justification of status:</strong></td>
+<td>Brief summary of how the solution has resolved the issue if the status is ‘Resolved’. For ‘Untreated’ issues, explain why the issue will be dealt with later.</td>
+</tr>
+<tr class="even">
+<td><strong>Proof of resolution:</strong></td>
+<td>Write the name of the output report/methodology paper or the published document where the issue is resolved. If the issue relates to code, identify the module and line number.</td>
+</tr>
+<tr class="odd">
+<td><strong>Date of last review/update:</strong></td>
+<td>Enter the date the issue was last reviewed or updated.</td>
+</tr>
+<tr class="even">
+<td><strong>Reviewed by:</strong></td>
+<td>Enter the full name of individual(s) or group who reviewed the issue.</td>
+</tr>
+<tr class="odd">
+<td><strong>Next review/update due on:</strong></td>
+<td>Enter the date the issue next needs to be reviewed or updated.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="issues-log" class="level2">
-<h2 class="anchored" data-anchor-id="issues-log">Issues log</h2>
-<p>The issues log provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others. The issues log ensures that everybody knows about the issues that the analysis faces. The log helps teams to store problems and challenges for future review and mitigation. It provides an audit trail of past, live and untreated issues.</p>
-<p><strong>Issue ID:</strong> Give each issue a unique ID so that it can be tracked easily and cross referenced.<br>
-<strong>Issue name:</strong> Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.<br>
-<strong>Date identified:</strong> Enter the date the issue was first identified.<br>
-<strong>Plain English description of issue:</strong> A brief summary of the underlying cause and nature of issue in plain English explaining what is creating problem.<br>
-<strong>Impact of issue:</strong> Brief summary of how the issue affects the project, for example, timeline, accuracy, cost.<br>
-<strong>Status of issue:</strong> From the dropdown menu, select ‘Live’ if the issue is being handled, ‘Resolved’ if the issue has been resolved or ‘Untreated’ if the issue has yet to be handled.<br>
-<strong>Justification of status:</strong> Brief summary of how the solution has resolved the issue if the status is ‘Resolved’. For ‘Untreated’ issues, explain why the issue will be dealt with later.<br>
-<strong>Proof of resolution:</strong> Write the name of the output report/methodology paper or the published document where the issue is resolved. If the issue relates to code, identify the module and line number.<br>
-<strong>Date of last review/update:</strong> Enter the date the issue was last reviewed or updated.<br>
-<strong>Reviewed by:</strong> Enter the full name of individual(s) or group who reviewed the issue.<br>
-<strong>Next review/update due on:</strong> Enter the date the issue next needs to be reviewed or updated.</p>
+</div>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

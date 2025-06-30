@@ -1,5 +1,5 @@
 ---
-title: "Example assumptions log"
+title: "Assumptions log example"
 format:
   html:
     embed-resources: true
@@ -15,7 +15,7 @@ Please get in touch with feedback to support the guidance by creating a [GitHub
 Issue](https://github.com/best-practice-and-impact/analysis_project_documentation/issues) or [emailing us](mailto:ASAP@ons.gov.uk).
 :::
 
-This log contains a list of assumptions used in an example analysis of data from UK universities. It also provides a score for each assumption.
+This log contains a list of assumptions used in an analysis of data from UK universities. It also provides a score for each assumption.
 
 ## Definitions
 
@@ -32,7 +32,7 @@ You would normally lower the quality rating of an assumption if you cannot get t
 | **RED**        | Unclear/unreliable data source or no data source provided; Based on limited data and methodology not robust; Data is not current; Confidence interval is wide or quality is unknown. |
 
 ---
-title: "Sample assumptions log"
+title: "Example assumptions log"
 format:
   html:
     embed-resources: true

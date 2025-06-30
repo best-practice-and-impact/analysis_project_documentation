@@ -17,27 +17,51 @@ If you are starting work on a new analysis project we recommend that you use thi
 
 ## Which analysis is in scope of the guidance?
 
-The guidance applies to all analysis workflows, including analysis to support research, advice for other departments, ad-hoc and one-off outputs and regular outputs.  
+The guidance applies to **all** analysis workflows, including: 
+
+* analysis to support research, 
+* advice for other departments, 
+* ad-hoc and one-off outputs 
+* and regular outputs.  
+
+::: {.callout-note collapse="true"}
+
+## Regular outputs as business critical models
 
 Regular outputs often fulfil at least one of the criteria for what makes a business critical model:    
+ 
 * Underpins essential financial and funding decisions;    
 * Essential to the achievement of business plan actions and priorities;    
 * Must be error free or else risk serious financial or legal penalties or reputational damage for the organisation.    
     
 Business critical analysis requires the highest level of scrutiny and the governance arrangements must be appropriate for the level of risk.  
+:::
+
+::: {.callout-note collapse="true"}
+
+## How should the questions be used for ad-hoc analysis?
 
 For ad-hoc outputs with quick turnarounds and limited time and resources, analysis still needs sufficient quality assurance to ensure it is fit for purpose. Ad-hoc outputs are often used as part of the evidence when making important policy decisions, so getting them right is very important.  
 
 We strongly encourage senior responsible owners of both regular and ad-hoc analysis to answer all questions relevant to their role. 
+:::
 
-Completing the logs makes it much easier to understand the risks that the analysis carries and will help you plan to mitigate them. Having a proper audit trail and comprehensive logs also help when:    
+::: {.callout-note collapse="true"}
+
+## Why should these questions and assurance logs be completed?
+Completing the logs makes it much easier to understand the risks that the analysis carries and will help you plan to mitigate them. Having a proper audit trail and comprehensive logs also help when:
+
 * You need to explain why the analysis works as it does.    
 * You need to raise quality and resourcing issues and push back against demands that are unrealistic.    
 * You need to understand and communicate potential risks.    
+:::
+
+::: {.callout-note collapse="true"}
 
 ## How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?
 
-The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out four roles responsible for the assurance of analysis:   
+The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out four roles responsible for the assurance of analysis:
+
 * Commissioner       
 * Senior Responsible Owner (SRO) (usually leads the analyst team)    
 * Analysts (who usually report to the SRO) and    
@@ -52,6 +76,9 @@ The AQuA Book makes no expectations about levels of seniority or grade of each o
 The key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in an analysis workflow varies from project to project, depending on how the work is planned, managed and assured. 
 
 We suggest that if roles are taken by individuals, the SRO and commissioner should usually be at Grade 7 or above. If you are still unsure about how to allocate the roles among your team and governance groups, please [email us](mailto:ASAP@ons.gov.uk) with "analysis assurance" in the subject header and we will help you to make the decision. 
+:::
+
+::: {.callout-note collapse="true"}
 
 ## What help is available to answer the quality questions?
 
@@ -61,3 +88,4 @@ These cross-government resources are also likely to be useful:
 * [Government Data Quality Hub](https://www.gov.uk/government/organisations/government-data-quality-hub) [Quality Questions and Red Flags](https://dataqualityhub.github.io/resources-for-quality-analysis-external/) and [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework)    
 * [Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/) [Quality Assurance of Administrative Data toolkit](https://osr.statisticsauthority.gov.uk/publication/administrative-data-quality-assurance-toolkit/) and [Quality and statistics: an OSR perspective](https://osr.statisticsauthority.gov.uk/publication/quality-and-statistics-an-osr-perspective/).    
 * [The Uncertainty Toolkit for Analysts in Government](https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/index.html)
+:::

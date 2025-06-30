@@ -6,7 +6,7 @@ project:
       - "*.html"
 
 website:
-  title: "Quality Questions"
+  title: "ONS Quality Questions"
   sidebar:
     style: docked
     contents:
@@ -14,12 +14,10 @@ website:
         href: index.qmd
       - text: "How to use the ONS Quality Questions"
         href: how_to_use.qmd
-      - text: "ONS Quality Questions"
+      - text: "ONS QUALITY QUESTIONS"
         href: quality_questions.qmd
       - text: "Assumptions and decision log guide"
         href: assumptions_and_issues_log.qmd
-      - text: "Example assumptions log"
-        href: sample_assumptions_table.qmd
       - section: "Downloads"
         contents:
           - text: "Download ONS quality questions HTML template"
@@ -34,6 +32,8 @@ website:
         contents:
           - text: "FAQs"
             href: faqs.qmd
+          - text: "Example assumptions log"
+            href: sample_assumptions_table.qmd
           - text: "Feedback"
             href: feedback.qmd
 
