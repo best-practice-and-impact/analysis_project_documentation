@@ -13,7 +13,7 @@ This guidance is an ALPHA draft. It is in development and we are still working t
 Please get in touch with feedback to support the guidance by creating a [GitHub Issue](https://github.com/best-practice-and-impact/analysis_project_documentation/issues) or [emailing us](mailto:ASAP@ons.gov.uk).
 :::
 
-To get the most out of the template, we strongly recommend that teams identify who will take the key quality assurance roles of Commissioner, Senior Responsible Owner and Analytical Assurer and name the analytical team at the start of the analytical cycle. This is crucial because together these roles help to make sure that the analysis you do is fit-for-purpose.
+To get the most out of the template, we strongly recommend that teams identify who will take the key quality assurance roles of Commissioner, Approver and Assurer and name the analytical team at the start of the analytical cycle. This is crucial because together these roles help to make sure that the analysis you do is fit-for-purpose.
 
 # I. Scoping
 
@@ -87,7 +87,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q11</td>
-  <td>Name the commissioner, senior responsible owner and analytical assurer of this analysis?</td>
+  <td>Name the Commissioner, Approver and Assurer of this analysis?</td>
   <td>Clear accountability makes sure that important decisions are 
   signed off by the right people. There should be a clear understanding of who is responsible for managing, producing and quality assuring the analysis in the team.</td>
  </tr>
@@ -214,7 +214,7 @@ To get the most out of the template, we strongly recommend that teams identify w
  </tr>
  <tr>
   <td>Q11</td>
-  <td>Name the commissioner, senior responsible owner and analytical assurer of the analysis?</td>
+  <td>Name the Commissioner, Approver and Assurer of the analysis?</td>
   <td>T5.2 The roles and responsibilities of those involved in the
   production of statistics and data should be clearly defined with supporting guidance provided to help staff carry out their roles.</td>
  </tr>
@@ -289,15 +289,15 @@ To get the most out of the template, we strongly recommend that teams identify w
 <tr>
  <td>Q1</td>
   <td >What question does the analysis try to answer?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>The commissioner sets out the commission. They work with the analyst team to ensure that everyone has a common understanding of the problem.
  </td>
 </tr>
  <tr>
   <td>Q2</td>
   <td>Why do we need to answer this analysis question?</td>
-  <td>Commissioner, analyst, analytical assurer</td>
-  <td>The analyst must document the purpose of the analysis and the levels of quality and certainty that are needed to meet user requirements. The commissioner and analytical assurer make sure the analysis aligns with the stated purpose.</td>
+  <td>Commissioner, Analyst, Assurer</td>
+  <td>The analyst must document the purpose of the analysis and the levels of quality and certainty that are needed to meet user requirements. The commissioner and assurer make sure the analysis aligns with the stated purpose.</td>
  </tr>
  <tr>
   <td>Q3</td>
@@ -308,33 +308,33 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q4</td>
   <td>If you use a model, is it business critical?</td>
-  <td>Commissioner, Senior Responsible Owner</td>
-  <td>Business critical models must be managed appropriately so that the right specialists are responsible for developing, using and assuring them.<br><br>Decision-makers need sufficient assurance from an appropriate level in the organisation that the model is fit for purpose before using it to inform a decision. For business critical analysis and modelling, the commissioner should be satisfied with the seniority of the analytical assurer.</td>
+  <td>Commissioner, Approver</td>
+  <td>Business critical models must be managed appropriately so that the right specialists are responsible for developing, using and assuring them.<br><br>Decision-makers need sufficient assurance from an appropriate level in the organisation that the model is fit for purpose before using it to inform a decision. For business critical analysis and modelling, the commissioner should be satisfied with the seniority of the assurer.</td>
  </tr>
  <tr>
   <td>Q5</td>
   <td>Who needs the answer to the analysis question?</td>
-  <td>Commissioner,analyst,analytical assurer</td>
-  <td>The commissioner makes sure that the right stakeholders have been identified so that the scope and boundaries of the analysis can be appropriately explored. The analyst team and analytical assurer should also contribute.</td>
+  <td>Commissioner, Analyst, Assurer</td>
+  <td>The commissioner makes sure that the right stakeholders have been identified so that the scope and boundaries of the analysis can be appropriately explored. The analyst team and assurer should also contribute.</td>
  </tr>
  <tr>
   <td>Q6</td>
   <td>Who do you need to consult to make sure you meet the right user
   needs?</td>
-  <td>Analyst, commissioner</td>
+  <td>Analyst, Commissioner</td>
   <td>Analysts should explore the analysis requirements and scope with all relevant stakeholders to make sure a wide range of perspectives are sought. The commissioner should be aware and briefed.</td>
  </tr>
  <tr>
   <td>Q7</td>
   <td>How will you know you have answered the analysis question correctly?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>During the design and conduct of analysis, the commissioner should set out details like the level of precision, accuracy and uncertainty that are needed.</td>
  </tr>
  <tr>
   <td>Q8</td>
   <td>What is the estimated time and resource required to answer this
   analysis question (in months and FTE)?</td>
-  <td>Commissioner, senior responsible owner, analyst team</td>
+  <td>Commissioner, Approver, Analyst team</td>
   <td>During commissioning and scoping, the commissioner and analyst will need to make trade-offs between time, resources and quality. They should work together to agree and document the right balance across these constraints.</td>
  </tr>
  <tr>
@@ -347,12 +347,12 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q10</td>
   <td>What is the impact if the analysis is not done correctly?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>The commissioner makes sure the analyst team understands the context for the analysis question. This helps the analyst to understand and assess likely risks and determine the right analytical and quality assurance response.</td>
  </tr>
  <tr>
   <td>Q11</td>
-  <td>Name the commissioner, senior responsible owner and analytical assurer of this analysis?</td>
+  <td>Name the Commissioner, Approver and Assurer of this analysis?</td>
   <td>Commissioner</td>
   <td>During scoping of the analysis, the commissioner makes sure there is proportionate governance in place to support the analysis and its role in the wider project or programme.</td>
  </tr>
@@ -373,40 +373,40 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q14</td>
   <td>What are the anticipated risks of the analysis?<br><br>Have you
   discussed these risks with customers and stakeholders?</td>
-  <td>Analytical assurer, commissioner, analyst</td>
-  <td>The analystical assurer should challenge and test the understanding of the problem. The commissioner and analyst work with the analytical assurer to make sure that all share a common understanding.
+  <td>Assurer, Commissioner, Analyst</td>
+  <td>The analystical assurer should challenge and test the understanding of the problem. The commissioner and analyst work with the assurer to make sure that all share a common understanding.
   </td>
  </tr>
  <tr>
   <td>Q15</td>
   <td>Is there a contingency plan prepared if your mitigation plans fail?</td>
-  <td>Commissioner, analytical assurer</td>
-  <td>The commissioner makes sure that there is enough time and resource for the required level of assurance to be delivered. They must be confident that they understand the risks when time and resource pressures are unavoidable.<br><br>If there is a need for urgent action, such as mitigation of unacceptable but uncertain risks, the commissioner may ask for further analysis. They might also commission extra evidence-gathering in parallel to inform the policy response when uncertainty is reduced. The analytical assurer must advise the commissioner on whether sufficient analytical quality assurance has happened and inform them about any outstanding risks.</td>
+  <td>Commissioner, Assurer</td>
+  <td>The commissioner makes sure that there is enough time and resource for the required level of assurance to be delivered. They must be confident that they understand the risks when time and resource pressures are unavoidable.<br><br>If there is a need for urgent action, such as mitigation of unacceptable but uncertain risks, the commissioner may ask for further analysis. They might also commission extra evidence-gathering in parallel to inform the policy response when uncertainty is reduced. The assurer must advise the commissioner on whether sufficient analytical quality assurance has happened and inform them about any outstanding risks.</td>
  </tr>
  <tr>
   <td>Q16</td>
   <td>Do the data and analysis comply with ethical requirements?</td>
-  <td>Analyst, commissioner, analytical assurer</td>
-  <td>The analyst should make sure that there is appropriate ethical approval for the analysis. The commissioner and analytical assurer should be informed.</td>
+  <td>Analyst, Commissioner, Assurer</td>
+  <td>The analyst should make sure that there is appropriate ethical approval for the analysis. The commissioner and assurer should be informed.</td>
  </tr>
  <tr>
   <td>Q17</td>
   <td>What relevant questions are outside the scope of the analysis?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>The commissioner and the analyst work together at the scoping stage to get a clear understanding of analytical requirements. During scoping, the commissioner makes sure that the right aspects of the problem, scope and complexities, including programme constraints, are captured and clearly communicated.</td>
  </tr>
  <tr>
   <td>Q18</td>
   <td>How will you peer review and assure the analysis?</td>
-  <td>Analytical assurer, commissioner, analyst</td>
-  <td>The analytical assurer makes sure quality assurance plans for the analysis are appropriate for the decision it supports. All analysis requires some level of quality assurance. Analyst and commissioner should be involved.</td>
+  <td>Assurer, Commissioner, Analyst</td>
+  <td>The assurer makes sure quality assurance plans for the analysis are appropriate for the decision it supports. All analysis requires some level of quality assurance. Analyst and commissioner should be involved.</td>
  </tr>
  <tr>
   <td>Q19</td>
   <td>Will external experts be involved in development and scrutiny of
   analysis?</td>
-  <td>Analytical assurer, commissioner, analyst</td>
-  <td>The analytical assurer should challenge the proposed approach. Check
+  <td>Assurer, Commissioner, Analyst</td>
+  <td>The assurer should challenge the proposed approach. Check
   that it delivers as intended and meets customer needs. It is good
   practice to engage subject matter experts in this review. Analyst and
   commissioner should be involved.</td>
@@ -480,7 +480,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 <tr>
 <td>Q20</td>
   <td>Is there a simple description in plain English of what the analysis is for and what it does?</td>
-  <td>V3 Statistics and data should be presented clearly, explained meaningfully and provide authoritative insights that serve the public good.</td>
+  <td>V3 Statisics and data should be presented clearly, explained meaningfully and provide authoritative insights that serve the public good.</td>
  </tr>
  <tr>
   <td>Q21</td>
@@ -534,22 +534,22 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
  <td>Q20</td>
   <td>Is there a simple, plain English description of what the analysis is for and what it does?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The analytical assurer should give feedback to make sure documentation is fit for purpose.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The assurer should give feedback to make sure documentation is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q21</td>
   <td>Does the analysis have a logic flowchart which explains the
   end-to-end steps in the workflow?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The analytical assurer should give feedback to make sure documentation is fit for purpose.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The assurer should give feedback to make sure documentation is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q22</td>
   <td>When do you expect to start and finish each stage of analysis: 
   data collection, processing, quality assurance, analysis and
   dissemination?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>The analyst and commissioner should work together during scoping
   to set out and agree trade-offs between time, resources and quality and  establish the optimal balance of these constraints.</td>
  </tr>
@@ -557,21 +557,21 @@ To get the most out of the template, we strongly recommend that teams identify w
   <td>Q23</td>
   <td>Does any part of the analysis rely on manual processing? Have
   you considered the cost and benefits of fully automating the process?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>The analyst should use a risk-based approach to understand the
   areas of greatest potential error and focus assurance efforts on these areas. The analyst should brief the commissioner so they understand the impact of any reduction in the thoroughness of analytical quality assurance activities.</td>
  </tr>
  <tr>
   <td>Q24</td>
   <td>What happens if team members, reviewers or users find a mistake in the analysis?<br><br>Do you have a clear and efficient process for addressing issues and preventing them from happening again?</td>
-  <td>Analyst, analytical assurer</td>
+  <td>Analyst, Assurer</td>
   <td>The analyst should use a risk-based approach to highlight the
   areas of greatest potential error and focus assurance efforts on these areas.</td>
  </tr>
  <tr>
   <td>Q25</td>
   <td>Have you assessed uncertainty?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>Commissioners should expect and require information about
   uncertainty from analysts. They should challenge them when it is absent, inadequate or ambiguous.<br><br>Commissioners may have identified sources of uncertainty as part of their wider considerations and should share them with the analyst. If the commissioner can explain in advance the impact on decision-making of different degrees of uncertainty, this can help the analyst to design and carry out the analysis at a proportionate level.</td>
   </tr>
@@ -579,7 +579,7 @@ To get the most out of the template, we strongly recommend that teams identify w
 
 :::
 
-# III. Doing and Checking Analysis
+# III.  Analysis
 
 ::: {.panel-tabset}
 
@@ -916,170 +916,170 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
  <td>Q26</td>
   <td>How will the data used in the analysis be processed before and during use?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should collect and manage the data. They must understand data accuracy and uncertainties and capture, manage and understand assumptions. Analytical assurer should check that data processing is sufficient to ensure fitness for purpose.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should collect and manage the data. They must understand data accuracy and uncertainties and capture, manage and understand assumptions. Assurer should check that data processing is sufficient to ensure fitness for purpose.</td>
  </tr>
  <tr >
   <td>Q27</td>
   <td>Is the data appropriate given the methods selected?</td>
-  <td>Analyst, analytical assurer, commissioner</td>
-  <td>The analyst should understand data accuracy and uncertainties and capture, manage and understand assumptions made. The analyst should engage appropriate subject matter experts at the appropriate time. The commissioner may be a subject matter expert. The analytical assurer should check that there is sufficient assurance around the choice of data.</td>
+  <td>Analyst, Assurer, Commissioner</td>
+  <td>The analyst should understand data accuracy and uncertainties and capture, manage and understand assumptions made. The analyst should engage appropriate subject matter experts at the appropriate time. The commissioner may be a subject matter expert. The assurer should check that there is sufficient assurance around the choice of data.</td>
  </tr>
  <tr>
   <td>Q28</td>
   <td>What are the strengths and limitations of the data you use?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain data and assumptions. Analytical assurer should make sure there is sufficient consideration of strengths and limitations of data.</td>
+  <td>Analyst, Assurer</td>
+  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain data and assumptions. Assurer should make sure there is sufficient consideration of strengths and limitations of data.</td>
  </tr>
  <tr>
   <td>Q29</td>
   <td>Is there a robust relationship between your team and data providers?<br><br>Do data providers understand how and why you use their data?<br><br>Do you understand how data providers collect, process and quality assure the data you use?<br>
   </td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analytical assurer should expect to see evidence that there has been sufficient dialogue between analysts and the providers of data and other evidence sources.</td>
+  <td>Analyst, Assurer</td>
+  <td>The assurer should expect to see evidence that there has been sufficient dialogue between analysts and the providers of data and other evidence sources.</td>
  </tr>
   <tr>
   <td>Q30</td>
   <td>Do you understand how data providers collect, process and quality assure the data you use?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should ensure data formats, units, and  context are properly understood and handled. They should design and implement quality checks to validate data inputs as required. Analytical assurer should verify that the right assurance is in place.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should ensure data formats, units, and  context are properly understood and handled. They should design and implement quality checks to validate data inputs as required. Assurer should verify that the right assurance is in place.</td>
  </tr>
  <tr>
   <td>Q31</td>
   <td>Is there a formal agreement to set out data content, when and how you will get the data? If not, why not?</td>
-  <td>Commissioner, analyst, analytical assurer</td>
-  <td>The commissioner may need to provide the analyst with agreement to  use specific data. The analyst should ensure data formats, units, and  context are properly understood and handled. Analytical assurer should verify that assurance is in place.</td>
+  <td>Commissioner, Analyst, Assurer</td>
+  <td>The commissioner may need to provide the analyst with agreement to  use specific data. The analyst should ensure data formats, units, and  context are properly understood and handled. Assurer should verify that assurance is in place.</td>
  </tr>
  <tr>
   <td>Q32</td>
   <td>Do you know what quality checks are carried out on the data before you receive them?</td>
   <td>Analyst</td>
-  <td>The analyst should understand data accuracy and uncertainties and capture, manage and understand implicit assumptions made. The analytical assurer should assess whether assurance is sufficient.</td>
+  <td>The analyst should understand data accuracy and uncertainties and capture, manage and understand implicit assumptions made. The assurer should assess whether assurance is sufficient.</td>
  </tr>
  <tr>
   <td>Q33</td>
   <td>How will you work with your data providers when your data requirements change?</td>
-  <td>Commissioner, analyst, analytical assurer</td>
-  <td>During the design and conduct of analysis, the commissioner may need to provide the analyst with information, agreement to use resources or confirmation of assumptions or approach. The analyst should understand data accuracy and uncertainties and capture, manage and understand implicit assumptions made. The analytical assurer checks that assurance and mitigation are sufficient.</td>
+  <td>Commissioner, Analyst, Assurer</td>
+  <td>During the design and conduct of analysis, the commissioner may need to provide the analyst with information, agreement to use resources or confirmation of assumptions or approach. The analyst should understand data accuracy and uncertainties and capture, manage and understand implicit assumptions made. The assurer checks that assurance and mitigation are sufficient.</td>
  </tr>
  <tr>
   <td>Q34</td>
   <td>How do you know if your data provider changes their systems or processes in a way that could impact the data you receive or the analysis you produce?</td>
-  <td>Commissioner, analyst, analytical assurer</td>
+  <td>Commissioner, Analyst, Assurer</td>
   <td>During the design and conduct of analysis, the commissioner provides the analyst with the information they need for the analysis to proceed. This could include agreement to use datasets, setting out of key assumptions and signing off assumptions developed during the project.
-  Analyst should understand data accuracy and uncertainties and capture, manage and understand assumptions made. The analytical assurer checks that assurance and mitigation are sufficient.
+  Analyst should understand data accuracy and uncertainties and capture, manage and understand assumptions made. The assurer checks that assurance and mitigation are sufficient.
   </td>
  </tr>
  <tr>
   <td>Q35</td>
   <td>How did you choose the methods for the analysis? How do you know the methods you use are appropriate?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>During the design phase, the analyst will convert the commission into an analytical plan and will consider inputs, analytical methods and processes, and expected outputs. The analytical assurer should check that the proposed design meets the commissioner’s requirements and is sufficiently assured.</td>
+  <td>Analyst, Assurer</td>
+  <td>During the design phase, the analyst will convert the commission into an analytical plan and will consider inputs, analytical methods and processes, and expected outputs. The assurer should check that the proposed design meets the commissioner’s requirements and is sufficiently assured.</td>
  </tr>
  <tr>
   <td>Q36</td>
   <td>Have reasonable alternative methods been explored and rejected for good reasons?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should review the analysis as a whole and consider carefully whether there are other, better ways in which it could be done. The analytical assurer should check that the investigation of methods was sufficiently thorough and proportionate.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should review the analysis as a whole and consider carefully whether there are other, better ways in which it could be done. The assurer should check that the investigation of methods was sufficiently thorough and proportionate.</td>
  </tr>
  <tr>
   <td>Q37</td>
   <td>How do you know that your analysis is working correctly?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst should validate that the analysis as set up to answer the specification of the commissioner. The analytical assurer checks that assurance and mitigation are sufficient so the analysis is fit for purpose.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should validate that the analysis as set up to answer the specification of the commissioner. The assurer checks that assurance and mitigation are sufficient so the analysis is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q38</td>
   <td>Can you describe the assumptions of your analysis, when they were made and who made them and signed them off?</td>
-  <td>Analyst, analytical assurer, commissioner</td>
-  <td>The analyst should capture, manage and understand explicit and implicit assumptions made. The analytical assurer should assess whether these are sufficient. The commissioner should be made aware of key assumptions and confirm that they are happy that the assumptions are applied.</td>
+  <td>Analyst, Assurer, Commissioner</td>
+  <td>The analyst should capture, manage and understand explicit and implicit assumptions made. The assurer should assess whether these are sufficient. The commissioner should be made aware of key assumptions and confirm that they are happy that the assumptions are applied.</td>
  </tr>
  <tr>
   <td>Q39</td>
   <td>How are assumptions validated and assured before you apply them?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain assumptions. Analytical assurer should check that validation and assurance of assumptions is sufficient.</td>
+  <td>Analyst, Assurer</td>
+  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain assumptions. Assurer should check that validation and assurance of assumptions is sufficient.</td>
  </tr>
  <tr>
   <td>Q40</td>
   <td>How do you measure and report uncertainty in your analysis?</td>
-  <td>Analyst, commissioner, analytical assurer</td>
-  <td>Analyst should determine and communicate the uncertainty associated with outputs so that the commissioner can make informed decisions. The range of possible outcomes and their relative likelihoods should be described. The analytical assurer checks that measuring and reporting of uncertainty is sufficient to meet the needs of the commissioner.</td>
+  <td>Analyst, Commissioner, Assurer</td>
+  <td>Analyst should determine and communicate the uncertainty associated with outputs so that the commissioner can make informed decisions. The range of possible outcomes and their relative likelihoods should be described. The assurer checks that measuring and reporting of uncertainty is sufficient to meet the needs of the commissioner.</td>
  </tr>
  <tr>
   <td>Q41</td>
   <td>Have you considered the implications of relevant, unquantified uncertainties?</td>
-  <td>Analyst, commissioner</td>
+  <td>Analyst, Commissioner</td>
   <td>If uncertainties are too complex for analysts to quantify, even approximately, the analysts should say so in order that the commissioner can take this into account.</td>
  </tr>
  <tr>
   <td>Q42</td>
   <td>Can you explain the impact of your analysis on downstream processes? Are there risks around these dependencies?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>Analyst should make sure that the implications of data dependencies or relationships to other analysis and methods are understood. Analytical assurer should check that dependencies have been properly considered.</td>
+  <td>Analyst, Assurer</td>
+  <td>Analyst should make sure that the implications of data dependencies or relationships to other analysis and methods are understood. Assurer should check that dependencies have been properly considered.</td>
  </tr>
  <tr>
   <td>Q43</td>
   <td>Is all or part of the analysis reliant on a single person?</td>
-  <td>Analytical assurer, analyst, commissioner</td>
-  <td>Analysis should be peer reviewed at an appropriate and proportionate level by a competent person. Comissioner, analyst and analytical assurer should all be involved in each stage of the analytical cycle.</td>
+  <td>Assurer, Analyst, Commissioner</td>
+  <td>Analysis should be peer reviewed at an appropriate and proportionate level by a competent person. Comissioner, analyst and assurer should all be involved in each stage of the analytical cycle.</td>
  </tr>
  <tr>
   <td>Q44</td>
   <td>Is it clear why important decisions about the analysis were made, who made them and when?</td>
-  <td>Analytical assurer, analyst</td>
-  <td>The analytical assurer should make sure that a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis. Best practice includes the production of validation log books. Analyst should build this audit trail.</td>
+  <td>Assurer, Analyst</td>
+  <td>The assurer should make sure that a suitable audit trail is in place that clarifies the level of validation, scope, and risks associated with the analysis. Best practice includes the production of validation log books. Analyst should build this audit trail.</td>
  </tr>
  <tr>
   <td>Q45</td>
   <td>If changes need to be made to code or datasets, is it easy to track who made the changes and when and why they were made?</td>
-  <td>Analytical assurer, analyst</td>
-  <td>To make analytical audit easy, you should set up a version control system for the analysis as a whole and for code, supporting data and assumptions. Best practice includes the production of validation log books. Analyst should build this audit trail.The Analytical assurer should ensure that the audit trail clarifies the level of validation, scope, and risks associated with the analysis. </td>
+  <td>Assurer, analyst</td>
+  <td>To make analytical audit easy, you should set up a version control system for the analysis as a whole and for code, supporting data and assumptions. Best practice includes the production of validation log books. Analyst should build this audit trail.The assurer should ensure that the audit trail clarifies the level of validation, scope, and risks associated with the analysis. </td>
  </tr>
  <tr>
   <td>Q46</td>
   <td>Would another analyst be able to reproduce your analysis output or
   continue the work without talking to you first?</td>
-  <td>Analyst, analytical assurer</td>
+  <td>Analyst, Assurer</td>
   <td>Good quality analysis is reproducible. Analyst should check that the analytical process reflects the principles of RIGOUR (Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, Robust)</td>
  </tr>
  <tr >
   <td>Q47</td>
   <td>Do you use internal peer review to check scripts and code,
   documentation, implementation of methods, processes and outputs?</td>
-  <td>Analyst, analyical assurer</td>
-  <td>The analyst should provide proportionate documentation that explains the verification and validation activities that the analysis is subjected to. Analysts must perform appropriate test to check the analysis. They should commission other verification and validation as required. Analytical assurer should confirm that planned validation and verification are sufficient.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst should provide proportionate documentation that explains the verification and validation activities that the analysis is subjected to. Analysts must perform appropriate test to check the analysis. They should commission other verification and validation as required. Assurer should confirm that planned validation and verification are sufficient.</td>
  </tr>
  <tr>
   <td>Q48</td>
   <td>Is your code and analysis ever peer reviewed by someone outside  your team or organisation?</td>
-  <td>Analyst, analytical assurer</td>
+  <td>Analyst, Assurer</td>
   <td>Analysts should work with the commissioner to set out the analysis question so that appropriate analysis is done. Some analysis may require external specialists, so analysts may have responsibilities as part of the procurement process. Analysts, including 3rd parties providing analysis, should provide proportionate documentatiob describing the
-  verification and validation activities undertaken and associated conclusions. The analytical assurer advises the commissioner on whether appropriate analytical quality assurance has taken place.</td>
+  verification and validation activities undertaken and associated conclusions. The assurer advises the commissioner on whether appropriate analytical quality assurance has taken place.</td>
  </tr>
  <tr >
   <td>Q49</td>
   <td>What is your assessment of the quality of your analytical outputs?</td>
-  <td>Commissioner, analytical assurer</td>
-  <td>As part of the delivery phase, the commissioner should ensure there is an assessment of the level of analytical quality assurance of the analysis, noting where there have been trade-offs between time, resources and quality. The analytical assurer advises the commissioner on whether appropriate analytical quality assurance has taken place.</td>
+  <td>Commissioner, Assurer</td>
+  <td>As part of the delivery phase, the commissioner should ensure there is an assessment of the level of analytical quality assurance of the analysis, noting where there have been trade-offs between time, resources and quality. The assurer advises the commissioner on whether appropriate analytical quality assurance has taken place.</td>
  </tr>
  <tr>
   <td>Q50</td>
   <td>How do you assure yourself that the analysis you do is correct?</td>
-  <td>Commissioner, analyst, analytical assurer</td>
-  <td>The analyst must build in checks and processes to ensure that the analysis is correct. During the delivery phase, the commissioner should give feedback to assist in the correct interpretation of results and determine if the analysis has addressed the commission. The analyst should work with the analytical assurer while doing the analysis so that they can comment on whether the analysis meets the needs of the commission to ensure best use of the results</td>
+  <td>Commissioner, Analyst, Assurer</td>
+  <td>The analyst must build in checks and processes to ensure that the analysis is correct. During the delivery phase, the commissioner should give feedback to assist in the correct interpretation of results and determine if the analysis has addressed the commission. The analyst should work with the assurer while doing the analysis so that they can comment on whether the analysis meets the needs of the commission to ensure best use of the results</td>
  </tr>
  <tr>
   <td>Q51</td>
   <td>Do the outputs of your analysis align with similar findings from elsewhere? If not, can you explain why?</td>
-  <td>Commissioner, analyst</td>
+  <td>Commissioner, Analyst</td>
   <td>When interpreting the results of a piece of analysis, the commissioner provides constructive challenge. They work with the analyst to explore whether further analysis is needed.</td>
  </tr>
  <tr>
   <td>Q52</td>
   <td>If you find outliers or unusual trends in the data, what steps do you take to investigate them?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain data and assumptions. The analysis plan should include treatment of unusual values and outliers. Analytical assurer should be involved.</td>
+  <td>Analyst, Assurer</td>
+  <td>If applicable, analyst should undertake parametric analysis to understand the consequences of missing or uncertain data and assumptions. The analysis plan should include treatment of unusual values and outliers. Assurer should be involved.</td>
   </tr>
 </table>
 
@@ -1222,14 +1222,14 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr >
   <td>Q54</td>
   <td>Have you assessed the limitations of the data and analysis and set out how they affect the quality and use of the outputs?</td>
-  <td>Commissioner, analytical assurer, analyst</td>
-  <td>The commissioner must be confident in the quality of the outputs. They should understand the strengths, limitations and context of the analysis so that the results are correctly interpreted. Analytical assurer sign-off provides confidence that analysis risks, limitations and major assumptions are understood by the users of the analysis. Analysts make sure that the commissioner and analytical assurer have the evidence they need.</td>
+  <td>Commissioner, Assurer, Analyst</td>
+  <td>The commissioner must be confident in the quality of the outputs. They should understand the strengths, limitations and context of the analysis so that the results are correctly interpreted. Assurer sign-off provides confidence that analysis risks, limitations and major assumptions are understood by the users of the analysis. Analysts make sure that the commissioner and assurer have the evidence they need.</td>
  </tr>
  <tr>
   <td>Q55</td>
   <td>Have you sense checked outputs with user groups and stakeholders?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst and analytical assurer should enable and encourage peer review. Peer reviews provide useful critical challenge about the analytical approach, application of methods and interpretation of the analysis. Verification and peer review of work should be done by analysts who had no involvemen in the work <br> so their views are independent.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst and assurer should enable and encourage peer review. Peer reviews provide useful critical challenge about the analytical approach, application of methods and interpretation of the analysis. Verification and peer review of work should be done by analysts who had no involvemen in the work <br> so their views are independent.</td>
  </tr>
  <tr >
   <td>Q56</td>
@@ -1246,25 +1246,25 @@ To get the most out of the template, we strongly recommend that teams identify w
  <tr>
   <td>Q58</td>
   <td>Is documentation including technical guides and code repositories publicly available?</td>
-  <td>Analyst, analytical assurer</td>
+  <td>Analyst, Assurer</td>
   <td>The analyst must produce appropriate design documentation. Best practice includes maintaining a record of the analysis workflow in a technical report, including a concept of analysis, user requirements, design specification, functional specification, data dictionary, and test plan. Code should be properly documented.</td>
  </tr>
  <tr>
   <td>Q59</td>
   <td>Does the technical guide and documentation explain how to run the analysis to obtain valid outputs?</td>
-  <td>Analyst, analytical assurer</td>
-  <td>The analyst must produce appropriate documentation. Best practice includes maintaining a record of the work that has been done in a technical report, including a full description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The analytical assurer makes sure that the documentation is fit for purpose.</td>
+  <td>Analyst, Assurer</td>
+  <td>The analyst must produce appropriate documentation. Best practice includes maintaining a record of the work that has been done in a technical report, including a full description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The assurer makes sure that the documentation is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q60</td>
   <td>Have you fully documented the analysis code to comply with good practice?</td>
-  <td>Analyst, analytical assurer</td>
+  <td>Analyst, Assurer</td>
   <td>Analysts should develop and maintain analysis code in line with best practice. Code must comply with relevant policies and standards.</td>
  </tr>
  <tr>
   <td>Q61</td>
   <td>Is there a clear feedback mechanism so users can report back on the suitability of outputs?</td>
-  <td>Analyst, senior responsible owner</td>
+  <td>Analyst, Approver</td>
   <td>You can assess the usefulness of the analysis by getting feedback from users, stakeholders and other experts. Quality analysis should be free of prejudice or bias. The SRO and analysts should check that the analysis follows the principles of RIGOUR (Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, Robust)</td>
   </tr>
 </table>

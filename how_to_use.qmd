@@ -48,44 +48,60 @@ Even if your work does not directly feed into the production of official statist
   <summary>Theme 3: Linking the questions to AQuA roles</summary>
 
 
-Quality questions are also linked to which responsible role from the [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the three key assurance roles of commissioner, senior responsible owner (and their analysis team) and analytical assurer are covered in their own workflows.  
+Quality questions are also linked to which responsible role from the [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) would usually answer them. The idea is to highlight the clear line of accountability set out in the AQuA book in an easy-to-understand manner. We want to make it easier for teams to decide how the four key assurance roles of Commissioner, Approver, Analyst and Assurer are covered in their own workflows.  
 
 The AQuA book sets out four roles that cover different areas of assurance responsibility. Taken together, they provide a comprehensive set of assurance for an analytical project. The roles are:    
 
-* Commissioner    
-* Senior Responsible Owner (SRO)    
-* Analyst    
-* Analytical assurer     
+* Commissioner (may be known as customer)   
+* Analyst   
+* Assurer  (may be known as the analytical assurer or assuring analyst)
+* Approver (may be known as senior analyst or senior responsible officer)   
 
 Let's look at the roles more detail.
 
 **Responsibilities of the Commissioner**    
-The commissioner is focused on making sure the analysis meets the required user needs.       
-* Ensures that context around the work is understood so quality assurance is appropriate and proportionate.    
-* Ensures that there is enough time and resource for required assurance and account for risk.    
-* Must understand strengths and limitations including uncertainty so results are interpreted correctly.      
-* Delivers QUALITY OF OUTCOME ("The analysis meets user needs and we understand its limitations").    
+The commissioner is focused on making sure the analysis meets the required user needs.
 
-**Responsibilities of the Senior Responsible Owner**    
-The Senior Responsible Owner (SRO) is accountable for the analytical workflow throughout its lifecycle. The Senior Responsible Owner is usually a senior member of the analytical team, and works closely with (or manages) the analyst team. 
+Ensures that the context around the work is understood, so quality assurance is appropriate and proportionate.
+Ensures that there is enough time and resource for required assurance, and accounts for risk.
+Must understand strengths and limitations including uncertainty, so results are interpreted correctly.
+Delivers QUALITY OF OUTCOME — “The analysis meets user needs and we understand its limitations.”
+Requests the analysis and sets out their requirements.
+Agrees that what the analyst is going to do will satisfy the need.
+Accepts the analysis and assurance as fit for purpose.    
 
-There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well designed, complies with relevant standards, works as intended and is fit for purpose.    
-* Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose, prior to use.    
-* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the analyst team.    
+**Responsibilities of the Approver**    
+The Approver is accountable for the analytical workflow throughout its lifecycle. Usually a senior member of the analytical team, they work closely with (or manage) the analyst team.
+
+Signs off all important decisions made about the analysis to ensure that it is fit-for-purpose prior to use.
+Scrutinises the work of the analyst and the assurer.
+Confirms (if necessary) to the analyst, assurer, and commissioner that the work has been appropriately assured.
+There is no minimum grade for the SRO role, but they should have the expertise, resources and accountability to ensure that the analysis is well-designed, complies with relevant standards, works as intended and is fit for purpose.
+Delivers QUALITY OF CONTENT — “The analysis is well-designed and uses the right tools and methods to meet user needs.” — alongside the analyst team.
 
 **Responsibilities of the Analyst**    
-The analyst team usually work to the SRO. Analysts are responsible for setting up, running, checking and reporting on the analysis.    
-* Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.    
-* Manage external specialists.    
-* Design, build, document and run the analysis.      
-* Delivers QUALITY OF CONTENT ("The analysis is well-designed and uses the right tools and methods to meet user needs") alongside the SRO.    
+The analyst team usually works to the SRO. Analysts are responsible for setting up, running, checking and reporting on the analysis.
 
-**Responsibilities of the Analytical Assurer**    
-The analytical assurer is there to make sure that the analysis has the right level of assurance and that the assurance takes place.   
-* Ensures that the evidence is there to demonstrate that appropriate quality assurance has happened and that uncertainty is communicated appropriately.   
-* Advises the Commissioner on whether appropriate QA has happened and about any outstanding risks.    
-* Involved throughout from design through to use.    
-* Delivers QUALITY OF PROCESS ("The analysis does what it is supposed to do and we can prove it").    
+Assist the Commissioner and SRO in framing the question to ensure the right analysis is done.
+Manage external specialists.
+Design, build, document, and run analyses.
+Carries out their own assurance.
+Acts on findings from the assurer.
+Can be a group of analysts, in which case the lead analyst is responsible.
+Delivers QUALITY OF CONTENT — “The analysis is well-designed and uses the right tools and methods to meet user needs.” — alongside the SRO.  
+
+**Responsibilities of the Assurer**    
+The assurer is there to make sure high-level assurance takes place.
+
+Assurance takes place throughout the lifecycle — from design through to use.
+Reviews the assurance completed by the analyst.
+Carries out any further validation and verification they may see as appropriate.
+Reports errors and areas for improvement to the analyst.
+Undertakes repeated reviews as required.
+Confirms to the approver that the work has been appropriately scoped, executed, validated, verified, and documented.
+Must be independent from the analyst.
+Can be a group of assurers, in which case the leader of the group is responsible.
+Delivers QUALITY OF PROCESS — “The analysis does what it’s supposed to do — and we can prove it.”
 
 You can read more about the four roles in the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) and [Verification and Validation for the AQuA Book](https://www.gov.uk/government/publications/verification-and-validation-for-the-aqua-book).
 
