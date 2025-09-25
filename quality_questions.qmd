@@ -535,14 +535,14 @@ To get the most out of the template, we strongly recommend that teams identify w
  <td>Q20</td>
   <td>Is there a simple, plain English description of what the analysis is for and what it does?</td>
   <td>Analyst, Assurer</td>
-  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The analytical assurer should give feedback to make sure documentation is fit for purpose.</td>
+  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The assurer should give feedback to make sure documentation is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q21</td>
   <td>Does the analysis have a logic flowchart which explains the
   end-to-end steps in the workflow?</td>
   <td>Analyst, Assurer</td>
-  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The analytical assurer should give feedback to make sure documentation is fit for purpose.</td>
+  <td>The analyst should produce sufficient design documentation. Best practice can include a description of the analysis, user requirements, design specification, functional specification, data dictionary, and test plan. The assurer should give feedback to make sure documentation is fit for purpose.</td>
  </tr>
  <tr>
   <td>Q22</td>

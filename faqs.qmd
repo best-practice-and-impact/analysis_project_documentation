@@ -58,7 +58,7 @@ Completing the logs makes it much easier to understand the risks that the analys
 
 ::: {.callout-note collapse="true"}
 
-## How should I identify the Senior Responsible Owner, Commissioner, Analyst and Analytical Assurer?
+## How should I identify the Approver, Commissioner, Analyst and Assurer?
 
 The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out four roles responsible for the assurance of analysis:
 
@@ -88,4 +88,33 @@ These cross-government resources are also likely to be useful:
 * [Government Data Quality Hub](https://www.gov.uk/government/organisations/government-data-quality-hub) [Quality Questions and Red Flags](https://dataqualityhub.github.io/resources-for-quality-analysis-external/) and [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework)    
 * [Office for Statistics Regulation](https://osr.statisticsauthority.gov.uk/) [Quality Assurance of Administrative Data toolkit](https://osr.statisticsauthority.gov.uk/publication/administrative-data-quality-assurance-toolkit/) and [Quality and statistics: an OSR perspective](https://osr.statisticsauthority.gov.uk/publication/quality-and-statistics-an-osr-perspective/).    
 * [The Uncertainty Toolkit for Analysts in Government](https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/index.html)
+::: 
+
+::: {.callout-note collapse="true"}
+
+## What are Black Box Models in AI, and why do they matter for quality assurance?
+
+Black box models are AI systems whose internal workings are not easily understood or explained, even by their developers. These models—often based on complex algorithms like deep learning—can produce highly accurate results, but their decision-making processes are opaque.
+
+Why is this a quality concern?
+* Lack of transparency makes it difficult to verify how decisions are made.
+* Hard to audit for fairness, bias, or compliance with regulations.
+* Reduced trust from users and stakeholders who need clarity and accountability.
+
+How does AI assurance help?
+
+AI assurance provides tools and processes to evaluate and communicate the trustworthiness of black box models. This includes:
+
+* Explainability techniques to make outputs more understandable.
+* Audits and impact assessments to check for ethical and legal risks.
+* Testing and validation to ensure consistent and fair performance.
+
+What should I look for when reviewing black box models?
+
+* Is there a clear explanation of how the model works or why it made a decision?
+* Has the model been tested for bias, fairness, and robustness?
+* Are there documented assurance activities (e.g., audits, assessments)?
+* Is the model aligned with principles like transparency, accountability, and safety?
+
+You can find more guidance on AI assurance here. (https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance)
 :::
