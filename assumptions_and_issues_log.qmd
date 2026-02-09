@@ -13,31 +13,27 @@ Please get in touch with feedback to support the guidance by creating a [GitHub 
 
 Analysis **always** involves assumptions and decisions. It always has limitations, which might mean that it is not fit for purpose for every use case.
 
-Keeping a formal record of assumptions, decisions and key limitations (such as the uncertainty involved in the analysis) and bringing them together in one place means that everybody involved in the work can find them quickly, see what they are and understand how they might affect the overall analysis. 
- 
-It also makes it much easier to:
+Keeping a formal record of assumptions, decisions and key limitations (such as the uncertainty involved in the analysis) and bringing them together in one place means that everybody involved in the work can find them quickly, see what they are and understand how they might affect the overall analysis or the part they are working on. 
 
-* review and revisit them as the analysis evolves,
-* to share them appropriately with users so they can work with the analytical results safely,
-* to audit and assure your work.
+This really matters, because assumptions, decisions and limitations underpin fitness for purpose. They also change. They might become obsolete, or be replaced or adapted as you understand more. A log that brings all this together in one place will really help you to manage your analysis openly and transparently across everybody who works on the analysis. It helps everybody to have a clear, shared understanding of what is being done and why. It also makes it much easier to audit and assure your work, explain it to others, and to provide assurance that the analysis is fit for purpose. 
 
-We have developed an [assumptions and decisions log template](https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decision_log_template.xlsx) for you to download that provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). This template includes multiple worksheets to record fuller project information giving a more comprehensive understanding of your project
+We have developed an [assumptions and decisions log template](https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decision_log_template.xlsx) for you to download. It provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). The template includes multiple worksheets to record full project information.
  
 Details for recording information in each log is as follows.  
 
 # Assumptions Log
+   
+The assumptions log is a standard template to record those assumptions. Assumption logs permit shared understanding and mitigation of the uncertainties that are present in every analysis. If the record of assumptions is inadequate or important assumptions are left out, then these uncertainties can be unmanaged. In the worst case, they can drastically affect the analysis outputs without anybody realising it.    
 
-The assumptions log provides a standard template to record the assumptions made about the analysis. Assumption logs permit shared understanding and mitigation of the uncertainties present in every analysis. If assumptions are inadequate or absent, then these uncertainties often persist and can drastically impact the analysis outputs.    
-
-It is important to log all assumptions made about the input data and the methodology as well as testing their validity and relevance to the analysis output. Unless there is evidence underpinning assumptions they are of little use.    
+It is important to log all assumptions made about the input data, the analysis process and the methods used as well as testing the validity and relevance of the assumptions to the analysis output. Unless there is evidence underpinning assumptions they are of little use.    
 
 Here are some examples of assumptions: 
     
-**Accuracy of data:** It is assumed that the laboratory testing procedure is consistent across labs within the UK.    
-**Biases in data:** It is assumed that data does not exclude any groups of population based on their demographic characteristics.    
-**Data missingness:** It is assumed that there is complete information for all the variables included in the analysis.    
-**Changes in input data:** It is assumed that data collection process has not been changed over time.    
-**Sampling:** It is assumed that data is representative for the population.    
+**Accuracy of data:** "It is assumed that the laboratory testing procedure is consistent across labs within the UK".    
+**Biases in data:** "It is assumed that data does not exclude any groups of population based on their demographic characteristics".    
+**Data missingness:** "It is assumed that there is complete information for all the variables included in the analysis".    
+**Changes in input data:** "It is assumed that data collection process has not been changed over time".    
+**Sampling:** "I"t is assumed that data is representative for the population".    
 
 
 ::: {.callout-note collapse="true"}
@@ -58,8 +54,8 @@ First ensure that the full name of the analysis has been inserted at the top of 
 | **Basis for assumption:**      | Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.|
 | **Numerical value of the assumption:**      | If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.|
 | **Range around the estimated value:**      | Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.|  
-| **Links to supporting analysis:**      | Attach a link to the source where the assumption comes from or from where it can be verified and justified.          |  
-| **Documentation dependencies:**      | List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or in-valid could impact the model code, project timeline, robustness of the outputs produced by the model. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.          |      
+| **Links to supporting analysis:**      | Attach a link to where the assumption comes from or from where it can be verified and justified.          |  
+| **Documentation dependencies:**      | List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or invalid could impact the analysis code, project timeline and the robustness of the outputs produced by the analysis. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.          |      
 | **Internally reviewed by:**       | Enter the full name of individual or group who reviewed the assumption.          |     
 | **Date of last review/update:**     | Enter the date the assumption was last reviewed or validated.          |
 | **Externally reviewed by:**      | Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual's name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).          |
@@ -126,3 +122,7 @@ First ensure that the full name of the analysis has been inserted at the top of 
 |**Reviewed by:**| Enter the full name of individual(s) or group who reviewed  the issue.|    
 |**Next review/update due on:**| Enter the date the issue next needs to be reviewed or updated.|    
 :::
+
+Logs should be stored in a location accessible to everybody in the team and regularly reviewed and updated. This works best when you store the log somewhere central, where every member of the team will have access.  
+
+If your work is written in code, we recommend storing the log alongside the code base for the work in a Git repository as part of the Git project documentation. This is good practice because if you manage changes to the log using Git version control changes to the log will be stored automatically in the Git commit log, giving you a full audit trail, and there will only ever be one "version" of the log at any time. If this is not feasible, we recommend storing the log on a Sharepoint site that is accessible to everybody in the project.
