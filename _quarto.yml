@@ -20,14 +20,10 @@ website:
         href: assumptions_and_issues_log.qmd
       - section: "Downloads"
         contents:
-          - text: "Download ONS quality questions HTML template"
-            href: quality_questions_html_template.html
           - text: "Download ONS quality questions Excel template"
             href: quality_questions_excel_template.xlsx
           - text: "Download assumptions and decision log Excel template"
             href: "assumptions_and_decision_log_template.xlsx"
-          - text: "Download commissioning log Excel template"
-            href: "commissioning_template.xlsx"
       - section: "Support and Feedback"
         contents:
           - text: "FAQs"
