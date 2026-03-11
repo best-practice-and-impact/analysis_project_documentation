@@ -96,25 +96,25 @@ These cross-government resources are also likely to be useful:
 
 Black box models are AI systems whose internal workings are not easily understood or explained, even by their developers. These models are often based on complex algorithms like deep learning networks. They can produce highly accurate results, but their decision-making processes are opaque.
 
-Why is this a quality concern?
-* Lack of transparency makes it difficult to verify how decisions are made.
-* Hard to audit for fairness, bias, or compliance with regulations.
-* Reduced trust from users and stakeholders who need clarity and accountability.
+Why is this a quality concern?    
+* Lack of transparency makes it difficult to verify how decisions are made.    
+* Hard to audit for fairness, bias, or compliance with regulations.    
+* Reduced trust from users and stakeholders who need clarity and accountability.    
 
 How does AI assurance help?
 
 AI assurance provides tools and processes to evaluate and communicate the trustworthiness of black box models. This includes:
 
-* Explainability techniques to make outputs more understandable.
-* Audits and impact assessments to check for ethical and legal risks.
-* Testing and validation to ensure consistent and fair performance.
+* Explainability techniques to make outputs more understandable.    
+* Audits and impact assessments to check for ethical and legal risks.    
+* Testing and validation to ensure consistent and fair performance.    
 
 What should I look for when reviewing black box models?
 
-* Is there a clear explanation of how the model works or why it made a decision?
-* Has the model been tested for bias, fairness, and robustness?
-* Are there documented assurance activities (e.g., audits, assessments)?
-* Is the model aligned with principles like transparency, accountability, and safety?
+* Is there a clear explanation of how the model works or why it made a decision?    
+* Has the model been tested for bias, fairness, and robustness?    
+* Are there documented assurance activities (e.g., audits, assessments)?    
+* Is the model aligned with principles like transparency, accountability, and safety?    
 
 You can find more guidance on AI assurance here. (https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance)
 :::
