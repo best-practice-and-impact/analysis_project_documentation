@@ -67,15 +67,15 @@ The [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidanc
 * Assurer    
 * Approver (usually leads the analyst team)      
 
-What matters here is that each assurance role is covered in your workflow and that individuals know about and accept their responsibilities, not the name of the role.    
+What matters here is that each assurance role is covered in your workflow and that individuals or groups in those roles understand and accept their responsibilities.    
 
 As a project team, you should make sure that each role is in place and you understand how it will operate for you so that you have the right assurance. 
 
-The AQuA Book makes no expectations about levels of seniority or grade of each of the occupiers of the roles. It does not specify whether roles should be held by a person or could be held by a committee or other governance group (such as a senior leadership team). 
+The AQuA Book makes no expectations about the level of seniority or grade of the occupiers of individuals in the named roles. It does not specify whether roles must be held by a person or could be held by a committee or other governance group (such as a senior leadership team). 
 
-The key consideration is whether or not the person or group that undertakes the assurance role have the skills and resources they need to meet the requirements of the role. How the roles are covered in an analysis workflow varies from project to project, depending on how the work is planned, managed and assured. 
+The key consideration is that the person or group that undertakes the assurance role has the skills and resources they need to meet the requirements of the role. How the roles are covered in an analysis workflow will vary from project to project, depending on how the work is planned, managed and assured. 
 
-We suggest that if roles are taken by individuals, the SRO and commissioner should usually be at Grade 7 or above. If you are still unsure about how to allocate the roles among your team and governance groups, please [email us](mailto:ASAP@ons.gov.uk) with "analysis assurance" in the subject header and we will help you to make the decision. 
+We suggest that if roles are taken by individuals, the SRO and commissioner should usually be at Grade 7 or above. If you are unsure about how to allocate the roles in your team and governance groups, please [email us](mailto:ASAP@ons.gov.uk) with "analysis assurance" in the subject header and we will help you to make the decision. 
 :::
 
 ::: {.callout-note collapse="true"}
@@ -94,27 +94,27 @@ These cross-government resources are also likely to be useful:
 
 ## What are Black Box Models in AI, and why do they matter for quality assurance?
 
-Black box models are AI systems whose internal workings are not easily understood or explained, even by their developers. These models—often based on complex algorithms like deep learning—can produce highly accurate results, but their decision-making processes are opaque.
+Black box models are AI systems whose internal workings are not easily understood or explained, even by their developers. These models are often based on complex algorithms like deep learning networks. They can produce highly accurate results, but their decision-making processes are opaque.
 
-Why is this a quality concern?
-* Lack of transparency makes it difficult to verify how decisions are made.
-* Hard to audit for fairness, bias, or compliance with regulations.
-* Reduced trust from users and stakeholders who need clarity and accountability.
+Why is this a quality concern?    
+* Lack of transparency makes it difficult to verify how decisions are made.    
+* Hard to audit for fairness, bias, or compliance with regulations.    
+* Reduced trust from users and stakeholders who need clarity and accountability.    
 
 How does AI assurance help?
 
 AI assurance provides tools and processes to evaluate and communicate the trustworthiness of black box models. This includes:
 
-* Explainability techniques to make outputs more understandable.
-* Audits and impact assessments to check for ethical and legal risks.
-* Testing and validation to ensure consistent and fair performance.
+* Explainability techniques to make outputs more understandable.    
+* Audits and impact assessments to check for ethical and legal risks.    
+* Testing and validation to ensure consistent and fair performance.    
 
 What should I look for when reviewing black box models?
 
-* Is there a clear explanation of how the model works or why it made a decision?
-* Has the model been tested for bias, fairness, and robustness?
-* Are there documented assurance activities (e.g., audits, assessments)?
-* Is the model aligned with principles like transparency, accountability, and safety?
+* Is there a clear explanation of how the model works or why it made a decision?    
+* Has the model been tested for bias, fairness, and robustness?    
+* Are there documented assurance activities (e.g., audits, assessments)?    
+* Is the model aligned with principles like transparency, accountability, and safety?    
 
 You can find more guidance on AI assurance here. (https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance)
 :::
