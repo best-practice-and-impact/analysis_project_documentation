@@ -109,7 +109,7 @@ You can read more about the four roles in the [AQuA Book](https://www.gov.uk/gov
 
 ## Answering the ONS Quality Questions
 
-We have made templates for you to download and use to record your answers to the questions, as well as key project information. There is an [Excel template](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_excel_template.xlsx) and an [editable HTML](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_html_template.html) template.
+We have made an [Excel template](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions_excel_template.xlsx) for you to download and use to record your answers to the questions, as well as key project information. 
 
 Save the template in your project repository or on Sharepoint so that changes can be tracked through version control. You can update it as your analytical work progresses. 
 
