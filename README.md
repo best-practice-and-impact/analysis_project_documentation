@@ -38,12 +38,12 @@ The main folder is where all of the site pages are stored. It contains the follo
 **sample_assumptions_table.qmd** - Quarto markdown document containing an example of a RAG-rated assumption log.    
 **README.md** - Project README file.    
 **LICENSE** - MIT license file explaining how this code base and book are licensed for re-use.    
-**assumptions_and_decisions_log_template.xlsx** - An Excel template for recording assumptions and decisions. Automatically linked to the website for direct download during rendering.    
-**commissioning_template.xlsx** - An Excel template for recording commissioning decisions when designing analysis. Automatically linked to the website for direct download during rendering.
-**quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Not currently used.
+**assumptions_and_decisions_log_template.xlsx** - An Excel template for recording assumptions and decisions. Automatically linked to the website for direct download during rendering.   
 **quality_questions_excel_template.xlsx** an Excel template for recording and saving answers to quality questions.
-Automatically linked to the website for direct download during rendering.
-**quality_questions_markdown_version.qmd** A markdown version of quality_questions_html_template.html. Not currently used.
+Automatically linked to the website for direct download during rendering. 
+**commissioning_template.xlsx** - An Excel template for recording commissioning decisions when designing analysis. Not currently used. 
+**quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Not currently used. 
+**quality_questions_markdown_version.qmd** A markdown version of quality_questions_html_template.html. Not currently used. 
 
 # Working with the project code
 
