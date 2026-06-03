@@ -17,7 +17,7 @@ Keeping a formal record of assumptions, decisions and key limitations (such as t
 
 This really matters, because assumptions, decisions and limitations underpin fitness for purpose. They also change. They might become obsolete, or be replaced or adapted as you understand more. A log that brings all this together in one place will really help you to manage your analysis openly and transparently across everybody who works on the analysis. It helps everybody to have a clear, shared understanding of what is being done and why. It also makes it much easier to audit and assure your work, explain it to others, and to provide assurance that the analysis is fit for purpose. 
 
-We have developed an [assumptions and decisions log template](https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decision_log_template.xlsx) for you to download. It provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). The template includes multiple worksheets to record full project information.
+We have developed an [assumptions and decisions log template](https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decisions_log_template.xlsx) for you to download. It provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). The template includes multiple worksheets to record full project information.
  
 Details for recording information in each log is as follows.  
 
