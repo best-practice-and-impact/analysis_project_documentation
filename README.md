@@ -30,19 +30,18 @@ The main folder is where all of the site pages are stored. It contains the follo
 **_quarto.yml** - [YAML](https://yaml.org/spec/1.2.2/) configuration file containing configuration information for the Quarto engine to render the website. Includes page structure and source files.    
 **.gitignore** - List of files not to upload to git repository.    
 **apd_style.css** - HTML [CSS style sheet](https://www.w3schools.com/html/html_css.asp) which sets up table rendering formatting. Edit this to change the way Quality Questions tables are rendered.   
-**assumptions_and_issues_log.qmd** - Quarto markdown document setting out the assumptions and decisions log.    
+**assumptions_and_decisions_log.qmd** - Quarto markdown document setting out the assumptions and decisions log.    
 **faqs.qmd** - Quarto markdown document setting out frequently asked questions.    
 **feedback.qmd** - Quarto markdown document linking to a feedback form.    
 **index.qmd** - Quarto markdown document setting up the landing page for the quality questions website.    
-**issues_log.qmd** - Quarto markdown document setting up the the issues log.    
 **quality_questions.qmd** - Quarto markdown document setting out the Quality Questions in table format. This contains the main Quality Questions resource.    
 **sample_assumptions_table.qmd** - Quarto markdown document containing an example of a RAG-rated assumption log.    
 **README.md** - Project README file.    
 **LICENSE** - MIT license file explaining how this code base and book are licensed for re-use.    
 **assumptions_and_decisions_log_template.xlsx** - An Excel template for recording assumptions and decisions. Automatically linked to the website for direct download during rendering.    
 **commissioning_template.xlsx** - An Excel template for recording commissioning decisions when designing analysis. Automatically linked to the website for direct download during rendering.
-**quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Automatically linked to the website for direct download during rendering.
-**quality_questions_excel_template.xlsx** and Excel template for recording and saving answers to quality questions.
+**quality_questions_html_template.html** An html template for recording and saving answers to quality questions. Not currently used.
+**quality_questions_excel_template.xlsx** an Excel template for recording and saving answers to quality questions.
 Automatically linked to the website for direct download during rendering.
 **quality_questions_markdown_version.qmd** A markdown version of quality_questions_html_template.html. Not currently used.
 
