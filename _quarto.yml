@@ -16,14 +16,14 @@ website:
         href: how_to_use.qmd
       - text: "ONS QUALITY QUESTIONS"
         href: quality_questions.qmd
-      - text: "Assumptions and decision log guide"
+      - text: "Assumptions, quality assurance and decision log guide"
         href: assumptions_and_issues_log.qmd
       - section: "Downloads"
         contents:
           - text: "Download ONS quality questions Excel template"
             href: quality_questions_excel_template.xlsx
-          - text: "Download assumptions and decision log Excel template"
-            href: "assumptions_and_decision_log_template.xlsx"
+          - text: "Download assumptions, quality assurance and decision log Excel template"
+            href: "assumptions_qa_decision_log_template.xlsx"
       - section: "Support and Feedback"
         contents:
           - text: "FAQs"
