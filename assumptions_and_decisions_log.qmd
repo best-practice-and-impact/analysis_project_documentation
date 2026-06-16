@@ -5,124 +5,55 @@ format:
     embed-resources: true
 ---
 
-::: {.callout-note collapse="false"}
-This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
+# Introduction
 
-Please get in touch with feedback to support the guidance by creating a [GitHub Issue](https://github.com/best-practice-and-impact/analysis_project_documentation/issues) or [emailing us](mailto:ASAP@ons.gov.uk).
-:::
+Analysis **always** involves assumptions, risks and issues and decisions. It always has limitations, which might mean that it is not fit for purpose for every use case.
 
-Analysis **always** involves assumptions and decisions. It always has limitations, which might mean that it is not fit for purpose for every use case.
+Keeping a formal record of important information about the analysis (such as the uncertainty involved in the analysis) and bringing this together in one place means that everybody involved in the work can find key information quickly and understand how it might affect the overall analysis or the part they are working on. 
 
-Keeping a formal record of assumptions, decisions and key limitations (such as the uncertainty involved in the analysis) and bringing them together in one place means that everybody involved in the work can find them quickly, see what they are and understand how they might affect the overall analysis or the part they are working on. 
+This really matters, because assumptions, decisions and risks underpin fitness for purpose. They also change. They might become obsolete, or be replaced or adapted as you understand more. A log that brings all this together in one place will really help you to manage your analysis openly and transparently across everybody who works on the analysis. It helps everybody to have a clear, shared understanding of what is being done and why. It also makes it much easier to audit and assure your work, explain it to others, and to provide assurance that the analysis is fit for purpose. 
 
 This really matters, because assumptions, decisions and limitations underpin fitness for purpose. They also change. They might become obsolete, or be replaced or adapted as you understand more. A log that brings all this together in one place will really help you to manage your analysis openly and transparently across everybody who works on the analysis. It helps everybody to have a clear, shared understanding of what is being done and why. It also makes it much easier to audit and assure your work, explain it to others, and to provide assurance that the analysis is fit for purpose. 
 
 We have developed an [assumptions and decisions log template](https://best-practice-and-impact.github.io/analysis_project_documentation/assumptions_and_decisions_log_template.xlsx) for you to download. It provides the basis for recording your assumptions, decisions and limitations (identified as risks and issues). The template includes multiple worksheets to record full project information.
  
-Details for recording information in each log is as follows.  
+# How to use the template
 
-# Assumptions Log
-   
-The assumptions log is a standard template to record those assumptions. Assumption logs permit shared understanding and mitigation of the uncertainties that are present in every analysis. If the record of assumptions is inadequate or important assumptions are left out, then these uncertainties can be unmanaged. In the worst case, they can drastically affect the analysis outputs without anybody realising it.    
+The template is colour coded.   
 
-It is important to log all assumptions made about the input data, the analysis process and the methods used as well as testing the validity and relevance of the assumptions to the analysis output. Unless there is evidence underpinning assumptions they are of little use.    
+* Blue tabs provide guidance that support the documentation tabs, or contain metadata about the template.    
+* Green tabs are individual templates for pieces of quality assurance documentation.
 
-Here are some examples of assumptions: 
-    
-**Accuracy of data:** "It is assumed that the laboratory testing procedure is consistent across labs within the UK".    
-**Biases in data:** "It is assumed that data does not exclude any groups of population based on their demographic characteristics".    
-**Data missingness:** "It is assumed that there is complete information for all the variables included in the analysis".    
-**Changes in input data:** "It is assumed that data collection process has not been changed over time".    
-**Sampling:** "I"t is assumed that data is representative for the population".    
+The template includes some example entries including fictitious names, risks and assumptions. Remove these when using the template for your own projects.
 
+## Guide to worksheets
 
-::: {.callout-note collapse="true"}
+| **Sheet Name** | **Summary** | **Details** |
+|----------------|-------------|-------------|
+| **README**      | Version history and other information about the template | |
+| **How to Use**      | General guidance about how to use the template | |
+| **Analysis Overview** | Basic details about the analysis and key responsibilities. This page should be filled out by the team which is responsible for the analysis. | The project name given here will cascade throughout the spreadsheet |
+| **Documentation Links**      | Links to important documents that are not part of this QA template. This page should be filled out by the team which is responsible for the analysis. ||
+| **Process Map**      | A diagram or document that sets out the end to end process for the work, including inputs, intermediate steps, outputs and upstream and downstream dependencies. | We would expect to see a URL link to the process map and any supporting documentation on this page. |
+| **Roles and responsibilities** | Use this tab to record when somebody took on a governance role and accepted the responsibiltiies of the role. The template also records past governance owners so that handovers are recorded. | Guidance about what each assurance role involves and templates to record agreement to carry out that role are on the sheet labelled 'Role Details' |
+| **Role Details** | Guidance about specific AQUA Book QA roles and responsibilities and how they contribute to quality assurance. Used with the Roles and Responsibilities tab. | [AQuA Book Roles](https://www.gov.uk/guidance/the-aqua-book#roles) |
+| **QA Log** | The QA log sets out QA checks made during the work, their outcomes and impact. The log is a living document, maintained and reviewed throughout the lifetime of the project.    
+The QA log tab provides a table which allows team and the Assurer to document planned Quality Assurance and confirm when it is completed. It also has space for a short summary of any issues Quality Assurance raises.    QA outcomes that feed into project risks and issues should be described in the decisions and issues logs together with mitigation plans when appropriate. | |
+| **Decision Log** | Decisions are made during project scoping, development, setup, running and reporting.    
+As issues and risks arise in development they can also lead to new decisions.  For example, there may be concerns about the validity of one of the inputs used. This might lead to a decision by the individuals in senior governance positions about how that input should be used, based on evidence about the quality of the input data. That decision is then recorded in the Decision Log.    
+Often decisions can result in updates to project assumptions or new assumptions, which are then stored in the assumptions log. | |
+| **Risks and Issues Log** | A log of risks and issues associated with the work and how they are scored and managed. The log is a living document, and must be maintained and reviewed throughout the lifetime of the project.     
+Issues and risks can come from QA, or be raised from within the team or by stakeholders. Risks and issues that are logged on the corporate risk tool can just be linked here, there is no need to enter the details of these again. | [Risk Management at ONS](https://intranet.ons.statistics.gov.uk/task/risk-management/) |
+| **Assumptions Log** | A log of important assumptions made by the work. The log should record when the assumptions were made, who made them, what they are and how they affect the work.    
+The log is a living document, maintained and reviewed throughout the lifetime of the project.    
+Wherever possible, assumptions should have a numerical value and an uncertainty range around the value. You should also give your assumptions a quality RAG rating and a sensitivity rating to give a sense of how important they are likely to be for the successful outcome of the analysis and how reliable you assess them to be. | |
+| **Quality and Impact Guide for Assumptions** | An at-a-glance guide to how to rate the quality and impact of your assumptions. Used with the Assumptions Log tab.    If you are not sure about the quality or impact score of an assumption, err on the side of caution and go for lower quality and / or higher impact. | |
+| **Ethics Assessment** | Ethical issues relating to the analysis are documented in an ethics self assessment. This should be linked to this tab. | [UK Statistics Authority Ethics Self Assessment Tool](https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/) |
 
-## How to fill out the Assumptions log
+# Storing and maintaining the QA log
 
-First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis output report) and financial year of interest.
+Quality assurance logs should be stored in a location accessible to everybody in the team. They are living documents and should be regularly reviewed and updated. This works best when you store the log somewhere central, where every member of the team has access.    
 
-## Field definitions
-
-
-| **Field** | **Definition** |
-|----------------|------------------------|
-| **Assumption ID:**      | Give each assumption a unique ID so that it can be tracked easily and cross referenced.|
-| **This Assumption depends on other Assumptions:**      | Identify the IDs of dependencies |
-| **Location in code, documentation or publication:**        | Write the name of the document or publication where the assumption is applied. If the assumption is applied in your code, identify where the assumption applies by citing the module and line number. |
-| **Plain English description of assumption:**      | Write a clear description of the assumption in plain English. For example, "We assume that our sample of income data is representative for the whole population".|
-| **Basis for assumption:**      | Briefly summarise why the assumption matters for the analysis and why it is reasonable. For example, the assumption could be based on historical data, theoretical requirements of the method, empirical evidence, quality assurance, common practice or data testing.|
-| **Numerical value of the assumption:**      | If you can, attach a numerical value to the assumption. This will depend on what the assumption is and how it is applied in your work. For example, you might make an assumption that counts in your data are accurate to within 5 units, so you would record +/- 5 as the numerical value. Thinking about the value of the assumption in numeric terms is a useful way to work through its impact on your work.|
-| **Range around the estimated value:**      | Assumptions are rarely certain. If you can, assign a range to the central value of the assumption.|  
-| **Links to supporting analysis:**      | Attach a link to where the assumption comes from or from where it can be verified and justified.          |  
-| **Documentation dependencies:**      | List the project documents dealing with this assumption. Assumptions can have an impact on different stages of the analysis. For example, an assumption about input data if valid or invalid could impact the analysis code, project timeline and the robustness of the outputs produced by the analysis. Logging these dependencies will ensure that the relevant plans and documents are updated once an assumption is validated.          |      
-| **Internally reviewed by:**       | Enter the full name of individual or group who reviewed the assumption.          |     
-| **Date of last review/update:**     | Enter the date the assumption was last reviewed or validated.          |
-| **Externally reviewed by:**      | Enter the name of organisation and the position of the expert who validated the assumption. It is not necessary to mention the individual's name. For example, Lighthouse Laboratory (Senior Scientist), University of Oxford (Professor of Statistics).          |
-| **Date of external review:**      | Enter the date the assumption was reviewed by the external expert.          |
-| **Next review/update due on:**      | Enter the date the assumption next needs to be reviewed or updated.          |
-| **Quality Rating:**      | Use the Quality Rating key (on the Quality and Sensitivity Guide worksheet) to assess quality of assumption as red, amber or green.          |
-| **Sensitivity Score:**  | Use the Sensitivity Rating key (on the Quality and Sensitivity Guide worksheet) to assess sensitivity as low, medium or high.   |
-| **Risk Score:** | Use the Risk Scoring Guide worksheet to assess the assumption risk as low, medium or high. |
-
-
-:::
-
-
-
-# Decisions log
-
-The decisions log (on the Decisions and Issues Log worksheet) is a template to record all the important decisions that are made during the analysis lifecycle, as well as when they were made, who made them and why. Without documentation, decisions may be understood by one part of the team and unknown by others. The decisions log is there to make sure that everybody knows about the decisions that have been made about the analysis. It provides an audit trail of the decisions that were made.
-
-::: {.callout-note collapse="true"}
-
-## How to fill out the Decisions log
-
-First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis publications or output report) and financial year of interest.
-
-## Field definitions    
-
-| **Field** | **Definition** |
-|----------------|------------------------|
-|**Decision ID:**| Give each decision a unique ID so that it can be tracked easily and cross referenced.|    
-|**Decision name:**| Enter a name for the decision.|   
-|**Date of decision:**| Enter the date the decision was made.|    
-|**Plain English description of decision**| A brief summary of the decision in plain English explaining what it was about and how it applies in the analysis.|    
-|**Name of person or group signing off the decision:**| Enter the name of the person or group who made the decision. If the decision was made by a committee, link to the minute where the decision is documented.|  
-|**Role of person or group signing off the decision:**| Provide a short description of the person or group's role in the project. Decisions are often signed off by the project lead or Senior Responsible Owner, for example.|    
-|**Date of last review / update:**| Date the decision was last considered. This is here so you know when the decision was last looked at. Projects evolve, and decisions might need to be reviewed.|     
-|**Reviewed by:**| Name(s) of people or group who last reviewed the decision.|           
-|**Next review/update due on:**| Enter the date the decision next needs to be reviewed or updated.| 
-:::
-
-
-# Issues log
-
-The issues log (on the Decisions and Issues Log worksheet) provides a standard template to record all the issues incurred during the analysis lifecycle. Without documentation, risks and issues may be well understood by one part of the team and totally unknown by others.  The issues log ensures that everybody knows about the issues that the analysis faces. The log helps teams to store problems and challenges for future review and mitigation. It provides an audit trail of past, live and untreated issues.
-
-::: {.callout-note collapse="true"}
-
-## How to fill out the Issues log
-
-First ensure that the full name of the analysis has been inserted at the top of the worksheet (this should align with the name given on the analysis publications or output report) and financial year of interest.
-
-## Field definitions
-
-| **Field** | **Definition** |
-|----------------|------------------------|
-|**Issue ID:**| Give each issue a unique ID so that it can be tracked easily and cross referenced.|    
-|**Issue name:**| Enter a name for the issue. It could be anything raised by the team, anything raised during quality assurance by the team members or external reviewers. Include the location of the issue, for example, line number of code, error in publication, where it arises in the workflow, resource constraint.|    
-|**Date identified:**| Enter the date the issue was first identified.|    
-|**Plain English description of issue:**| A brief summary of the underlying cause and nature of issue in plain English explaining what is creating problem.|    
-|**Impact of issue:**| Brief summary of how the issue affects the project, for example, timeline, accuracy, cost.|    
-|**Status of issue:**| From the dropdown menu, select 'Live' if the issue is being handled, ‘Resolved’ if the issue has been resolved or ‘Untreated’ if the issue has yet to be handled.|    
-|**Justification of status:**| Brief summary of how the solution has resolved the issue if the status is ‘Resolved’. For ‘Untreated’ issues, explain why the issue will be dealt with later.|     
-|**Proof of resolution:**| Write the name of the output report/methodology paper or the published document where the issue is resolved. If the issue relates to code, identify the module and line number.|    
-|**Date of last review/update:**| Enter the date the issue was last reviewed or updated.|    
-|**Reviewed by:**| Enter the full name of individual(s) or group who reviewed  the issue.|    
-|**Next review/update due on:**| Enter the date the issue next needs to be reviewed or updated.|    
-:::
-
-Logs should be stored in a location accessible to everybody in the team and regularly reviewed and updated. This works best when you store the log somewhere central, where every member of the team will have access.  
+Where possible, store your QA logs in a place that is visible to and readable by your wider organisation, not just your own team.
 
 If your work is written in code, we recommend storing the log alongside the code base for the work in a Git repository as part of the Git project documentation. This is good practice because if you manage changes to the log using Git version control changes to the log will be stored automatically in the Git commit log, giving you a full audit trail, and there will only ever be one "version" of the log at any time. If this is not feasible, we recommend storing the log on a Sharepoint site that is accessible to everybody in the project.

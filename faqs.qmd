@@ -5,12 +5,6 @@ format:
     embed-resources: true
 ---
 
-::: {.callout-note collapse="false"}
-This guidance is an ALPHA draft. It is in development and we are still working to ensure that it meets user needs.
-
-Please get in touch with feedback to support the guidance by creating a [GitHub Issue](https://github.com/best-practice-and-impact/analysis_project_documentation/issues) or [emailing us](mailto:ASAP@ons.gov.uk).
-:::
-
 ## When should I use this guidance?
 
 If you are starting work on a new analysis project we recommend that you use this guidance right from the scoping stage. For teams who are in the middle of an analysis, you can still use the guidance and templates to think about the quality questions from the scoping and design stages and continue recording the answers up until the delivery stage. 
@@ -116,5 +110,5 @@ What should I look for when reviewing black box models?
 * Are there documented assurance activities (e.g., audits, assessments)?    
 * Is the model aligned with principles like transparency, accountability, and safety?    
 
-You can find more guidance on AI assurance here. (https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance)
+You can find [more guidance on AI assurance](https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance).
 :::
