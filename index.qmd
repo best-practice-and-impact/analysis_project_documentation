@@ -21,24 +21,26 @@ The guidance has five main aims:
 2. To ensure there is a consistent end-to-end QA approach across ONS.  
 3. To make it easier to comply with good practice guidance and standards including the [ONS Quality Practices](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality-Principles.aspx?csf=1&web=1&e=FB4Q14&cid=3cc849ba-f68b-4fc2-af5c-935b82703414), [ONS Quality Standard for Analysis](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Quality_Standards.aspx), the government [AQUA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) and the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/), the [Analysis Function](https://analysisfunction.civilservice.gov.uk/) [Functional Standard for Analysis](https://www.gov.uk/government/publications/government-analysis-functional-standard--2) and the [Government Service Manual](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs) which explains how to research, document and validate user needs.  
 4. To ensure there is a consistent understanding of roles and responsibilities when producing high quality analysis and statistics.  
-5. To make it easier to create critical project documentation including an [assumptions and decisions log](assumptions_and_decision_log_template.xlsx), issue and decisions log, risk register and divisional [Quality Improvement Plan](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Managing_Quality_Mechanisms.aspx).  
+5. To make it easier to create critical [project documentation](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Documentation.aspx) and divisional [Quality Improvement Plan](https://officenationalstatistics.sharepoint.com/sites/onswiki/SitePages/Managing_Quality_Mechanisms.aspx) through a [key documentation template](assumptions_and_decisions_log_template.xlsx).  
 
-Reflecting on the questions asked in the template will help you to manage your analysis risks:
+Reflecting on the questions asked in the template will help you to identify and manage quality risks to your analysis:
 
 1. You will be able to document the mitigation that is in place or planned.    
 2. You will know which issues and risks the project is prepared to accept and why.    
-3. You can identify potential quality issues and decide how to manage and prioritise them.    
-4. Having this information in once place provides a sound basis for regular reviews of assumptions, issues and risks associated with the workflow, in line with recommended good practice.    
+3. You will be able to identify potential quality issues and decide how to manage and prioritise them.    
+4. Having this information in once place provides a sound basis for regular reviews of assumptions, decisions, issues and risks associated with the workflow, in line with recommended good practice.    
 
 ::: {.callout-note collapse="true"}
 
 ## How the questions draw on other frameworks
 
-The [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out a standard framework for managing analytical quality in HM Government. AQuA is there to make sure that our work can be trusted to inform good decision making, while the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/) sets out the principles and practices that producers of official statistics should commit to.    
+The [AQuA book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) sets out a standard framework for managing analytical quality in HM Government. AQuA is there to make sure that our work can be trusted to inform good decision making, while the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/) sets out the principles and practices that producers of official statistics must adhere to when producing government statistics.    
 
-Two other pieces of guidance have motivated us to produce this template. One is the [Analysis Function guidance on Quality Questions and Red Flags](https://analysisfunction.civilservice.gov.uk/policy-store/quality-questions-and-red-flags/#:~:text=The%20%27Quality%20Questions%20and%20Red,for%20National%20Statistics%20). The other is the Office for Statistics Regulation (OSR) guidance on [Thinking about quality when producing statistics](https://osr.statisticsauthority.gov.uk/guidance/regulatory-guidance-thinking-about-quality-when-producing-statistics/). Both of these provide sets of questions that analysts can use to interrogate their work and assure its quality. 
+Two other pieces of guidance have motivated us to produce this template. One is the [Analysis Function guidance on Quality Questions and Red Flags](https://analysisfunction.civilservice.gov.uk/policy-store/quality-questions-and-red-flags/#:~:text=The%20%27Quality%20Questions%20and%20Red,for%20National%20Statistics%20) which includes a subset of the questions set out here. The other is the Office for Statistics Regulation (OSR) guidance on [Thinking about quality when producing statistics](https://osr.statisticsauthority.gov.uk/guidance/regulatory-guidance-thinking-about-quality-when-producing-statistics/). Both of these provide sets of questions that analysts can use to interrogate their work and assure its quality. 
 
-Building on these resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The quality questions are at their most effective if they are asked at the right stage. Once that stage is passed, experience suggests that it is normally difficult to go back and address the points the questions ask by retrofitting at a later stage of the analysis.  
+Building on these resources, this guidance sets out quality questions that are relevant for each stage of analytical cycle. The questions are most effective if you ask them while you are working on the corresponding stage of the analysis process. For example, if you are at the scoping stage the [quality questions about scoping work](https://best-practice-and-impact.github.io/analysis_project_documentation/quality_questions.html#i.-scoping) are there to help you.   
+
+Once a stage is passed, experience suggests that it can be quite difficult to go back and address the points the questions ask by retrofitting at a later stage of the analysis.  
 
 
 :::
